@@ -56,10 +56,10 @@ website:
             text: Syllabus
           #- href: in-class.qmd
           #  text: Technology (in and out of class)
-          #- href: course-support.qmd
-          #  text: Support
-          #- href: index.qmd
-          #  text: Schedule
+          - href: course-support.qmd
+            text: Support
+          - href: index.qmd
+            text: Schedule
           #- href: course-links.qmd
           #  text: Useful links
           #- href: course-faq.qmd

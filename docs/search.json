@@ -4,7 +4,11 @@
     "href": "index.html",
     "title": "ST 511: Statistical Methods For Researchers I",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nideas\nlab\nae_sa\nhw\nhw_sa\nq_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\nBook https://r4ds.hadley.nz/intro.html https://openintro-ims.netlify.app/data-hello.html https://git-scm.com/book/en/v2\nby week-2, you should have R + Rstudio downloaded on your own computer by week-4, you will have demonstrated to our TA that you can clone a repo\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 295! Why are you here?\n\n\nGet video from my Masters student on how he uses AI, but it's sloppy without a common understanding of coding\nNA\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n26 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n27 August\nObjects + Vectors + Lists\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n2 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n23 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n30 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n7 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n13 October\nGrammar of data wrangling I\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling II\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n21 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling III\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n4 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n18 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc)?\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n3 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n9 December\n\n\n\nNA\nNA"
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nideas\nlab\nae_sa\nhw\nhw_sa\nq_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\nBook https://r4ds.hadley.nz/intro.html https://openintro-ims.netlify.app/data-hello.html https://git-scm.com/book/en/v2\nby week-2, you should have R + Rstudio downloaded on your own computer by week-4, you will have demonstrated to our TA that you can clone a repo\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 295! Why are you here?\n\n\nGet video from my Masters student on how he uses AI, but it's sloppy without a common understanding of coding\nNA\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n26 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n27 August\nObjects + Vectors + Lists\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n2 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n23 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n30 September\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n7 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n13 October\nGrammar of data wrangling I\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling II\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n21 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling III\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n4 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n18 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 311)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc)?\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTr\n3 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\nNA\nNA\n\n\n\n\n\n\n\n\n\nW\n9 December\n\n\n\nNA\nNA",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
   },
   {
     "objectID": "course-overview.html",
@@ -70,6 +74,94 @@
     "crumbs": [
       "Course information",
       "Overview"
+    ]
+  },
+  {
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Course support",
+    "section": "",
+    "text": "It is both okay and expected for you to have questions as you learn data science for the first time. Here are some resources that you are encouraged to please take advantage of.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#lectures",
+    "href": "course-support.html#lectures",
+    "title": "Course support",
+    "section": "Lectures",
+    "text": "Lectures\nIf you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#office-hours",
+    "href": "course-support.html#office-hours",
+    "title": "Course support",
+    "section": "Office hours",
+    "text": "Office hours\nThe TAs and I are here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class. If you truly have no questions to ask, just stop by and say hi and introduce yourself.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#email",
+    "href": "course-support.html#email",
+    "title": "Course support",
+    "section": "Email",
+    "text": "Email\nMy email should mainly be used for questions about personal matters that may not be appropriate for the public course forum. If you do email me a content question, I will be happy to answer it, but also may ask you to post the question in Slack so other students can see the response. For such matters, you may email me, Dr. Elijah Meyer at esmeyer2@ncsu.edu.\nIf you email me, please include “ST115” in the subject line. Barring extenuating circumstances, I will respond to ST511 emails within 24 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#academic-support",
+    "href": "course-support.html#academic-support",
+    "title": "Course support",
+    "section": "Academic support",
+    "text": "Academic support\nThe Academic Success Center can offer additional support for this course, other courses, as well as academic advising and career counseling.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#mental-health-and-wellness",
+    "href": "course-support.html#mental-health-and-wellness",
+    "title": "Course support",
+    "section": "Mental health and wellness",
+    "text": "Mental health and wellness\nIf your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. NC State encourages all students to access these resources.\n\nCounseling Center provides mental health services and resources to NC State students. The Counseling Center’s trained and compassionate counselors work hard to help you get connected to services that can help provide the relief you’re seeking. The Counseling Center uses a stepped-care model. The goals of stepped care are to:\n\n– Provide timely access to mental health services.\n– Create individualized plans addressing the needs of each student.\n– Find the balance between providing the best care options for each student and ensuring that there is still room in our system for the thousands of students served each year.\n\nWolfpack Wellness: There are dozens of resources available at NC State to help you take charge of your wellness, tackle mental health challenges or simply find community on campus.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#course-costs",
+    "href": "course-support.html#course-costs",
+    "title": "Course support",
+    "section": "Course costs",
+    "text": "Course costs\n\nTextbooks: Any textbooks used for this course are freely available on the web.\nLaptops: Each student is expected to have a laptop they can bring to each lecture. If you need a laptop, please see the lending guidelines here. If you can not bring a laptop to class, please follow along with individuals next to you, and complete all assessments using desktops in the library.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#assistance-with-zoom-or-moodle",
+    "href": "course-support.html#assistance-with-zoom-or-moodle",
+    "title": "Course support",
+    "section": "Assistance with Zoom or Moodle",
+    "text": "Assistance with Zoom or Moodle\nFor technical help with Moodle or Zoom, contact the NC State OIT Service Desk at oit.ncsu.edu/help-support/.\nWe will primarily use Moodle in this course for quizzes, assignment turn-in, and grade book.\nZoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
+    "crumbs": [
+      "Course information",
+      "Support"
     ]
   }
 ]

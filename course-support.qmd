@@ -1,0 +1,51 @@
+---
+title: "Course support"
+---
+
+It is both **okay and expected** for you to have questions as you learn data science for the first time. Here are some resources that you are encouraged to please take advantage of.
+
+## Lectures
+
+If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
+
+## Office hours
+
+The TAs and I are here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class. If you truly have no questions to ask, just stop by and say hi and introduce yourself.
+
+## Email
+
+My email should mainly be used for questions about personal matters that may not be appropriate for the public course forum. If you do email me a content question, I will be happy to answer it, but also may ask you to post the question in Slack so other students can see the response. For such matters, you may email me, Dr. Elijah Meyer at [esmeyer2\@ncsu.edu](mailto:esmeyer2@ncsu.edu).
+
+**If you email me, please include "ST115" in the subject line.** Barring extenuating circumstances, I will respond to ST511 emails within 24 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.
+
+
+## Academic support
+
+[The Academic Success Center](https://asc.dasa.ncsu.edu/home/) can offer additional support for this course, other courses, as well as academic advising and career counseling.
+
+## Mental health and wellness
+
+If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. NC State encourages all students to access these resources.
+
+-   [Counseling Center](https://counseling.dasa.ncsu.edu/) provides mental health services and resources to NC State students. The Counseling Center’s trained and compassionate counselors work hard to help you get connected to services that can help provide the relief you’re seeking. The Counseling Center uses a stepped-care model. The goals of stepped care are to:
+
+-- Provide timely access to mental health services.
+
+-- Create individualized plans addressing the needs of each student.
+
+-- Find the balance between providing the best care options for each student and ensuring that there is still room in our system for the thousands of students served each year.
+
+-   [Wolfpack Wellness](https://wellness.ncsu.edu/resources/): There are dozens of resources available at NC State to help you take charge of your wellness, tackle mental health challenges or simply find community on campus.
+
+## Course costs
+
+-   **Textbooks:** Any textbooks used for this course are freely available on the web.
+-   **Laptops:** Each student is expected to have a laptop they can bring to each lecture. If you need a laptop, please see the lending guidelines [here](https://www.lib.ncsu.edu/borrow/techlending). If you can not bring a laptop to class, please follow along with individuals next to you, and complete all assessments using desktops in the library.
+
+## **Assistance with Zoom or Moodle**
+
+For technical help with Moodle or Zoom, contact the NC State OIT Service Desk at [oit.ncsu.edu/help-support/](https://oit.ncsu.edu/help-support/).
+
+We will primarily use Moodle in this course for quizzes, assignment turn-in, and grade book.
+
+Zoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.
