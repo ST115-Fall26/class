@@ -1,1 +1,1 @@
-Sitemap: https://st511-f25.github.io/st511/sitemap.xml
+Sitemap: https://st115-fall26.github.io/class/sitemap.xml
