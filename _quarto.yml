@@ -52,8 +52,8 @@ website:
         contents:
           - href: course-overview.qmd
             text: Overview
-          #- href: course-syllabus.qmd
-          #  text: Syllabus
+          - href: Elijah-ST115-Syllabus.pdf
+            text: Syllabus
           #- href: in-class.qmd
           #  text: Technology (in and out of class)
           #- href: course-support.qmd
