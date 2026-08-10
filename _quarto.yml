@@ -12,9 +12,9 @@ website:
   page-navigation: true
   title: "ST 115"
   description: "Homepage for ST-115: Introduction to a Data Science Toolkit with R and GitHub at NC State University, Fall 2026."
-  site-url: "https://st511-f25.github.io/st511/" #update
+  site-url: "https://st115-fall26.github.io/class/" #update
 
-  repo-url: https://github.com/ST511-F25
+  repo-url: https://github.com/orgs/ST115-Fall26/repositories
   repo-actions: [edit, issue]
 
   open-graph: true
@@ -31,7 +31,7 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://st511-f25.github.io/st511/ #update
+        href: https://st115-fall26.github.io/class/ #update
         text: "GitHub organization"
       #- icon: code-square
       #  href: https://cmgr.oit.duke.edu/containers
