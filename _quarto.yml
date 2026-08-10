@@ -1,0 +1,117 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - Elijah-ST115-Syllabus.pdf #need to update with syllabus
+    - "/class" # this makes sure the qmds in the class folder appear in the docs so students can grab them with download.file
+  render:
+    - "*qmd"
+    - "!/class"
+
+website:
+  page-navigation: true
+  title: "ST 115"
+  description: "Homepage for ST-115: Introduction to a Data Science Toolkit with R and GitHub at NC State University, Fall 2026."
+  site-url: "https://st511-f25.github.io/st511/" #update
+
+  repo-url: https://github.com/ST511-F25
+  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2026, Elijah Meyer"
+    background: "#FFFFFF" # Fall 2024
+
+  sidebar:
+    background: "#CC0000" # Fall 2024
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://st511-f25.github.io/st511/ #update
+        text: "GitHub organization"
+      #- icon: code-square
+      #  href: https://cmgr.oit.duke.edu/containers
+      #  text: "RStudio Containers"
+      #- icon: person-fill
+      #  text: "Sakai"
+      #  menu:
+      #    - text: Gradescope
+      #      url: https://sakai.duke.edu/portal/site/6aa8b320-6e95-44e0-8201-fd158ec7ed8d/page/8e95fd44-271d-495b-a7c6-347430a2ceec
+      #    - text: Gradebook
+      #      url: https://sakai.duke.edu/portal/site/6aa8b320-6e95-44e0-8201-fd158ec7ed8d/tool/f447f35a-264b-4b0e-a8d1-5af0b6670076/
+
+    style: docked
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Course information" 
+        contents:
+          #- href: course-overview.qmd
+          #  text: Overview
+          #- href: course-syllabus.qmd
+          #  text: Syllabus
+          #- href: in-class.qmd
+          #  text: Technology (in and out of class)
+          #- href: course-support.qmd
+          #  text: Support
+          #- href: index.qmd
+          #  text: Schedule
+          #- href: course-links.qmd
+          #  text: Useful links
+          #- href: course-faq.qmd
+          #  text: FAQ
+          #- href: funcs-walkthrough.qmd
+          #  text: Functions & Arguments
+          #- href: style.qmd
+          #  text: Tidyverse styling
+          #- href: rvs.qmd
+          #  text: Discrete Random Variables & Probability Dists
+        #  - href: hypo-foundations.qmd
+        #    text: Introduction to theory based hypothesis testing
+          #- href: latex.qmd
+          #  text: LaTeX demonstration
+        #  - href: diff-foundations.qmd
+        #    text: Theory based inference for difference in proportions
+        #  - href: formula_sheet.qmd
+        #    text: exam formula sheet
+        #  - href: diff-foundations-mean.qmd
+        #    text: Theory based inference for difference in means
+        #  - href: odds.qmd
+        #    text: Odds Ratio Walkthrough
+        #  - href: final_exam_sheet.qmd
+        #    text: final exam formula sheet
+      - section: "Computing"
+        contents:
+          #- href: computing-access.qmd
+          #  text: Access
+          #- href: computing-troubleshooting.qmd
+          #  text: Troubleshooting
+          #- href: computing-cheatsheets.qmd
+          #  text: Cheatsheets
+  #    - section: "Project"
+  #      contents:
+  #        - href: project-description-f24.qmd
+  #          text: Description
+
+
+
+format:
+  html:
+    theme:
+      light: [cosmo, style/sta199.scss]
+      dark: [cosmo, style/sta199.scss, style/dark.scss]
+    linkcolor: "#1F7349" # Pantone Amazon - Fall 2022
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    code-link: true
+    mainfont: "Atkinson Hyperlegible"
+
+execute:
+  freeze: auto
+
+editor: visual
