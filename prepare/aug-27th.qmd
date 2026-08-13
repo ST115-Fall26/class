@@ -1,0 +1,13 @@
+---
+title: "Prepare"
+subtitle: "Due: August 27th"
+categories: "prepare"
+---
+
+For Thursday
+
+[1.2 Assignment](https://dereksonderegger.github.io/570L/1-introduction.html#assignment)
+
+[2 Vectors](https://dereksonderegger.github.io/570L/2-vectors.html)
+
+[5.2 Data Frames](https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1)

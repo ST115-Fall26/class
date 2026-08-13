@@ -43,8 +43,10 @@ looking forward to meeting you all and having a great semester!
 
 | Time                     | Location                                                                                       |
 |-----------------|------------------------------------------------------|
-| TBD  | SAS Hall 5228 / [Zoom](https://ncsu.zoom.us/j/9304565996?pwd=cEcrZjVSSGV1dnFCb0NxUEUxMHBLdz09) |
-| TBD | SAS Hall 5228 / [Zoom](https://ncsu.zoom.us/j/9304565996?pwd=cEcrZjVSSGV1dnFCb0NxUEUxMHBLdz09) |
+| M 2:00 - 3:00pm   | SAS Hall 5228 / [Zoom](https://ncsu.zoom.us/j/9304565996?pwd=cEcrZjVSSGV1dnFCb0NxUEUxMHBLdz09) |
+| Thur 1:30 - 2:30pm | SAS Hall 5228 / [Zoom](https://ncsu.zoom.us/j/9304565996?pwd=cEcrZjVSSGV1dnFCb0NxUEUxMHBLdz09) |
+
+Note: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.
 
 \*\* or by appointment
 
@@ -54,7 +56,7 @@ looking forward to meeting you all and having a great semester!
 style="float:right;padding: 0 0 0 10px;"
 fig-alt="Headshot of Nick Mann"}
 
-Nick Mann - Hi I'm Nick and I'm a first year PhD student. I graduated
+Nick Mann - Hi I'm Nick and I'm a second year PhD student. I graduated
 from the University of North Carolina at Chapel Hill with a Bachelor's
 degree in Applied Math and Statistics. In my free time, I like to play
 music, work out, and watch TV. I think statistical methods and
@@ -64,8 +66,8 @@ programming are awesome, so I'm excited to work with you guys!
 
 | Time                | Location |
 |---------------------|----------|
-| TBD | SAS-1101 |
-| TBD | SAS-1101 |
+| Tue 3:15 - 4:15pm | SAS-1101 |
+| Fri 9:00 - 10:00am | SAS-1101 |
 
 ## Videos
 
@@ -92,4 +94,4 @@ communication of results, all in a reproducible format.
 
 | Class meeting | Location       | Time                 |
 |---------------|----------------|----------------------|
-| Lecture       | 01102 SAS Hall | T & Th 8:30 - 9:45 pm |
+| Lecture       | 00110  Cox Hall | T & Th 8:30 - 9:45 pm |
