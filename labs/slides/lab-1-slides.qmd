@@ -1,0 +1,22 @@
+---
+title: "Welcome to ST115"
+subtitle: "Lab-1"
+date: "August 18 2026"
+format: 
+  revealjs:
+    theme: 
+      - default
+      - ./style/dark.scss
+---
+
+## Introduction 
+
+## Goals for today 
+
+-- Install R & RStudio 
+
+-- Brief Tour (if time)
+
+## What is R & RStudio 
+
+# Installation 
