@@ -178,7 +178,11 @@ and **version control**.
 
 -- Why might this be useful for statisticians / data scientists?
 
-## Why GitHub
+## Why GitHub (and Quarto)
+
+![](images/transp.png){fig-align="center"}
+
+## Why GitHub (and Quarto)
 
 GitHub, Inc., is an Internet hosting service for software development
 and **version control**
