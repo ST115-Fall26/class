@@ -1,0 +1,13 @@
+---
+title: "Prepare"
+subtitle: "Due: August 25th"
+categories: "prepare"
+---
+
+Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!
+
+Note: The mp4 was to large to embed onto our GitHub website. 
+
+Please see the Moodle link [here](https://moodle-courses2527.wolfware.ncsu.edu/mod/page/view.php?id=1603737)
+
+[Dr. Mine Çetinkaya-Rundel](https://mine-cr.com/) is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio).

@@ -6,4 +6,4 @@ categories: "prepare"
 
 For Tuesday/Thursday
 
-[11.1 - 11.2 Statements & Loops](https://dereksonderegger.github.io/570L/11-flow-control.html#loops) 
+[11.1 - 11.2 Statements & Loops](https://dereksonderegger.github.io/570L/11-flow-control.html#loops)
