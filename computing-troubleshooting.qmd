@@ -1,0 +1,17 @@
+---
+title: "Error Making PDFs / Trouble Rendering"
+---
+
+
+
+## Tips for not rendering
+
+These are questions to ask yourself / check if you are having trouble rendering your document.
+
+-- Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running `tinytex::install_tinytex()` in your Console. 
+
+-- Are my code chunk labels weird? To create a code chunk label, you need the following `#| label:` at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.
+
+-- Does your code run? If you have errors in your code, you will also have errors when rendering the document.
+
+-- Did you put View() in a code chunk? We don't use View often, but we need to be aware that any function that calls for an external viewer will break the render.

@@ -1,0 +1,86 @@
+---
+title: "Quarto"
+author: "Jonah Douglass"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Quarto
+
+One of the unique features of R Studio, that was also discussed in the Week 1 Slides, is that it allows you to make documents or reports, such as what I use to make these guided walkthroughs, that can contain text, code, and show output all in one. One type of document that does this through R Studio is **Quarto**. We will be using Quarto to type code during in class activities, and this is what you will expected to use when it comes to the coding parts of your homeworks and later in the semester for the final project.
+
+This guided walkthrough will go through some of the basics about Quarto before your class this week, where your instructor will talk more about this type of document and use this for the first time in the activity this week.
+
+### Opening the Document
+
+To open up a Quarto document, go to the green plus button (where you would go to open up an R script) and click that drop down arrow. Then, click *Quarto Document* to open one of these documents up. After that, you will get taken to a screen that looks like this.
+
+```{r, echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("./quartotitle.png")
+```
+
+Once you get to this screen, you can make a title that's specific to what you are making the document for, include your first and last name in the author spot, change the output format to pdf (this is the format we will want for homework and project submissions later this semester), and for the engine, keep that as *knitr* since we are coding in R. After these changes, click the create button and it will create a template Quarto document with your title and name.
+
+### Format
+
+When you open a Quarto document for the first time, the template will look like this:
+
+```{r, echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("./quartotemplate.png")
+```
+
+You can see that they have already provided text as well as ran some code. This is to show you what a document is supposed to look like and you can already see that the white space seems to have text and there are gray blocks (these will be called code chunks) that seem to contain code as well.
+
+Normally, when making your own report, you will delete all of the template information and only leave the white box at the top that contains the header.
+
+The other thing to do with formatting is that it will automatically show you the Visual meaning how the document will look when you do render it to the pdf. There is also a Source tab and it may be easier to do the code and write the text on the source tab. During class, we will type everything in the Source tab and we can always switch to Visual to see how things look as we go,
+
+### Writing Text
+
+All text writing will be done in the white space. Notice how in this document, some of my text, such as for the headers are the sections, look bigger and bolder. This can be done by putting a hash tag, pressing space and then typing what you want in the header. We will use headers mainly in the course when we write what question we are working on during the activity.
+
+You can also create headers that are bigger than others. If you want the biggest possible header, you would only put one hash tag and then the text after that. This is called a level one section header since there is one hash tag. If you wanted to create sub headers, you can just add more hash tags. As shown in the picture below, **Quarto** and **Running Code** are both level two section headers because there are two hash tags before the header names.
+
+NOTE: **You will be expected to use level two section headers on your homework assignments**
+
+```{r, echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("./quartotext.png")
+```
+
+### Writing Code
+
+To differentiate between text and code, all code needs to be written inside of a code chunk. To open a code chunk, you can either go to the Code tab at the top of your page and then click *Insert Code Chunk*, clicking the C icon to the left of the white arrows by the run or with the keyboard shortcut `Ctrl + Option + i` (or `CMD + Option + i`).
+
+To run a chunk of, you can click the green arrow on the top right of the code chunk or in the top right of the page, there is a run button. If you click that arrow, you can click run current chunk (it will run whatever chunk your cursor is on). You also have options to run only one line or the entire document as well. 
+
+```{r, echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("./quartocode.png")
+```
+
+When you run a code chunk, it will show the output below the code chunk. This is purely to show you what the output will look like when you render it. Sometimes, it may be helpful to keep that output shown for future questions, but other times, it may be a hindrance, annoying, and just be in the way, so you can always hit the x in the top right to close the output. 
+
+```{r, echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("./quartooutput.png")
+```
+
+### Rendering
+
+To have R Studio make a pdf of a Quarto document, all you have to do is click the render button. If you haven't saved your document yet, it will make you do that first before you it will render to a PDF. You are saving this document as a **.qmd** file. 
+
+When rendering, it may take a few seconds depending on how long the document is as it will rerun every thing, make sure there are no errors in the code, or anything wrong in the text, before it finishes up. It will pop open a pdf either in another window on your computer or as a tab on your Google Chrome or Safari depending on what's open. 
+
+It will also automatically save the pdf and put it in the same folder or area where you saved your .qmd file to automatically. 
+
+```{r, echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics("./quartorender.png")
+```
+
+### Conclusion
+
+Throughout the semester, we will start to use this and it may take a few class periods and/or homework assignments to really understand how to make Quarto documents. 
+
+We will do some hands on practice with these documents for the first time this week!

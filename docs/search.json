@@ -1,31 +1,372 @@
 [
   {
-    "objectID": "prepare/sep1.html",
-    "href": "prepare/sep1.html",
+    "objectID": "slides/01-welcome-to-st115.html#welcome",
+    "href": "slides/01-welcome-to-st115.html#welcome",
+    "title": "Welcome to ST115",
+    "section": "Welcome",
+    "text": "Welcome"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#goals-for-day-1",
+    "href": "slides/01-welcome-to-st115.html#goals-for-day-1",
+    "title": "Welcome to ST115",
+    "section": "Goals for Day 1",
+    "text": "Goals for Day 1\nGet organized + review\n\nGet to know the professor\nGet to know each other\nCourse overview\nCoding/Tech conversations (what, why, how)\nCreating a GitHub account"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#who-am-i",
+    "href": "slides/01-welcome-to-st115.html#who-am-i",
+    "title": "Welcome to ST115",
+    "section": "Who Am I?",
+    "text": "Who Am I?"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#at-nc-state",
+    "href": "slides/01-welcome-to-st115.html#at-nc-state",
+    "title": "Welcome to ST115",
+    "section": "At NC State",
+    "text": "At NC State"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#at-nc-state-1",
+    "href": "slides/01-welcome-to-st115.html#at-nc-state-1",
+    "title": "Welcome to ST115",
+    "section": "At NC State",
+    "text": "At NC State\nProject COMPASS (Community Partnership and Assessment for School Safety). This is a three-year, federally funded initiative focused on developing and piloting a data-driven framework to strengthen collaboration between schools and community partners.\nNC State undergraduate curriculum committee."
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#who-are-you",
+    "href": "slides/01-welcome-to-st115.html#who-are-you",
+    "title": "Welcome to ST115",
+    "section": "Who Are You?",
+    "text": "Who Are You?\nPlease share with the class\n\nName\nMajor\nYear (Freshman, Sophomore, etc.)\nWhy you are taking this course\nAnything else"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#how-class-runs",
+    "href": "slides/01-welcome-to-st115.html#how-class-runs",
+    "title": "Welcome to ST115",
+    "section": "How class runs",
+    "text": "How class runs\nBuild a community of learners\n– Communication\n– Respect"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#st-115",
+    "href": "slides/01-welcome-to-st115.html#st-115",
+    "title": "Welcome to ST115",
+    "section": "ST-115",
+    "text": "ST-115\n– learn how to program: read, write, and explain the steps and purpose of code using R programs\n– efficiently read in and manipulate data in R\n– build effective data visualizations\n– connect coding topics to concepts in ST-120\nQuestion: Why?"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#why-code",
+    "href": "slides/01-welcome-to-st115.html#why-code",
+    "title": "Welcome to ST115",
+    "section": "Why code",
+    "text": "Why code\nIn the world of big data…We can try and make meaning with it!\nWe can tell a story through graphs"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#why-code-1",
+    "href": "slides/01-welcome-to-st115.html#why-code-1",
+    "title": "Welcome to ST115",
+    "section": "Why code",
+    "text": "Why code\n– Public Health & Disease Tracking\n– Financial Risk Management\n– Environmental Forecasting\n– Legal and Policy Decision Making\n– etc!"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#st-115-1",
+    "href": "slides/01-welcome-to-st115.html#st-115-1",
+    "title": "Welcome to ST115",
+    "section": "ST-115",
+    "text": "ST-115\n– learn how to program: read, write, and explain the steps and purpose of code using R programs\n– efficiently read in and manipulate data in R\n– build effective data visualizations\n– connect coding topics to concepts in ST-120\nQuestion: AI can do this for us… why are we learning this?"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#ai-in-st-115",
+    "href": "slides/01-welcome-to-st115.html#ai-in-st-115",
+    "title": "Welcome to ST115",
+    "section": "AI in ST-115",
+    "text": "AI in ST-115\nThere is nothing stopping you from using AI (such as ChatGPT) as an additional resource to help build up your mastery of the material. However, please use it responsibly.\n– It is suggested that you use AI as a generator for additional practice problems\n– A tool to help uncover a misunderstanding you may have with ST 115 content"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#ai-in-st-115-1",
+    "href": "slides/01-welcome-to-st115.html#ai-in-st-115-1",
+    "title": "Welcome to ST115",
+    "section": "AI in ST-115",
+    "text": "AI in ST-115\nIrresponsible uses of AI\n– Having it think for you\n– Only asking AI questions\nAny work you turn in must be created by you! I’m interested in your fundamental understandings"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#ai-in-st-115-2",
+    "href": "slides/01-welcome-to-st115.html#ai-in-st-115-2",
+    "title": "Welcome to ST115",
+    "section": "AI in ST-115",
+    "text": "AI in ST-115\nDialogues with AI Reduce Beliefs in Misinformation but Build No Lasting Discernment Skills\nYour brain on ChatGPT\nHow AI is reshaping human skills and thinking\n– I believe it’s disingenuous for people to tell you to jump into using AI\n– I believe it’s disingenuous for people to tell you to never use AI\n– I try to be as transparent as possible with all of my in-class decisions, so please do not hesitate to ask questions!"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#create-a-github-account-why",
+    "href": "slides/01-welcome-to-st115.html#create-a-github-account-why",
+    "title": "Welcome to ST115",
+    "section": "Create a GitHub account (Why?)",
+    "text": "Create a GitHub account (Why?)\n\nGitHub, Inc., is an Internet hosting service for software development and version control.\n– remote collaboration\n– project management\n– keep track of changes to code / documents"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#github",
+    "href": "slides/01-welcome-to-st115.html#github",
+    "title": "Welcome to ST115",
+    "section": "GitHub",
+    "text": "GitHub"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#why-github",
+    "href": "slides/01-welcome-to-st115.html#why-github",
+    "title": "Welcome to ST115",
+    "section": "Why GitHub",
+    "text": "Why GitHub\n– Why might this be useful for statisticians / data scientists?"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#why-github-1",
+    "href": "slides/01-welcome-to-st115.html#why-github-1",
+    "title": "Welcome to ST115",
+    "section": "Why GitHub",
+    "text": "Why GitHub\nGitHub, Inc., is an Internet hosting service for software development and version control"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#what-do-students-get-out-of-using-github",
+    "href": "slides/01-welcome-to-st115.html#what-do-students-get-out-of-using-github",
+    "title": "Welcome to ST115",
+    "section": "What do students get out of using GitHub?",
+    "text": "What do students get out of using GitHub?\nBesides saving the world….\n– develop good habits as researchers\n– emphasize the importance of reproducibility in science\n– get experience using professional computing tools"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#avoid-this",
+    "href": "slides/01-welcome-to-st115.html#avoid-this",
+    "title": "Welcome to ST115",
+    "section": "Avoid this",
+    "text": "Avoid this"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#gain-this",
+    "href": "slides/01-welcome-to-st115.html#gain-this",
+    "title": "Welcome to ST115",
+    "section": "Gain this",
+    "text": "Gain this"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#where-to-get-help",
+    "href": "slides/01-welcome-to-st115.html#where-to-get-help",
+    "title": "Welcome to ST115",
+    "section": "Where to get help",
+    "text": "Where to get help\n\n\n\n\n\n\n\n\nWho\nWhen\nWhere\n\n\n\n\nDr. Meyer\nMonday: 2:00-3:00pm | Thursday: 1:30 - 2:30pm\nSAS 5228 or Zoom\n\n\nNick Mann\nTuesday: 3:15 - 4:15pm | Friday 9:00 - 10:00am\nSAS 1101"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#videos",
+    "href": "slides/01-welcome-to-st115.html#videos",
+    "title": "Welcome to ST115",
+    "section": "Videos",
+    "text": "Videos\nI will also post class videos for you to review (reminder: attendance is graded)"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#grades",
+    "href": "slides/01-welcome-to-st115.html#grades",
+    "title": "Welcome to ST115",
+    "section": "Grades",
+    "text": "Grades\n\n\n\nCategory\nPercentage\n\n\n\n\nProficiency Test\n15%\n\n\nProgramming/Statistics Experience\n5%\n\n\nAttendance\n7.5%%\n\n\nGitHub Teamwork Assignment\n2.5%\n\n\nHomework\n15%\n\n\nMidterm-1\n15%\n\n\nQuizzes\n15%\n\n\nFinal Exam\n25%"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#proficiency-test",
+    "href": "slides/01-welcome-to-st115.html#proficiency-test",
+    "title": "Welcome to ST115",
+    "section": "Proficiency Test",
+    "text": "Proficiency Test\nTimed programming assignments to demonstrate basic efficiency and master the first half of the course.\nThese will be completed during lab times. Please see our schedule for dates\nNote: based on the pacing of the course, the scheduled dates may change"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#programmingstatistics-experience",
+    "href": "slides/01-welcome-to-st115.html#programmingstatistics-experience",
+    "title": "Welcome to ST115",
+    "section": "Programming/Statistics Experience",
+    "text": "Programming/Statistics Experience\nThe goal of the programming/statistics experience assignments is to help you engage with the statistics, data science, and programming communities outside of the classroom!\n\nHave an experience\nMake connections between our class, and the experience\nMake a slide (poster) summarizing your experience\n\nConnections can be topics of regression, coding, working with data, etc."
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#student-example",
+    "href": "slides/01-welcome-to-st115.html#student-example",
+    "title": "Welcome to ST115",
+    "section": "Student Example",
+    "text": "Student Example"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#student-example-1",
+    "href": "slides/01-welcome-to-st115.html#student-example-1",
+    "title": "Welcome to ST115",
+    "section": "Student Example",
+    "text": "Student Example"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#attendance",
+    "href": "slides/01-welcome-to-st115.html#attendance",
+    "title": "Welcome to ST115",
+    "section": "Attendance",
+    "text": "Attendance\n– 2.5% for showing up to class\n– 2.5% for showing up to lab\n– 2.5% for completion of lab assignments"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#github-teamwork-assignment",
+    "href": "slides/01-welcome-to-st115.html#github-teamwork-assignment",
+    "title": "Welcome to ST115",
+    "section": "GitHub Teamwork Assignment",
+    "text": "GitHub Teamwork Assignment\nIn pairs, you will demonstrate an understanding of how to use GitHub as a collaborative tool. This will happen in the second half of the semester."
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#homework",
+    "href": "slides/01-welcome-to-st115.html#homework",
+    "title": "Welcome to ST115",
+    "section": "Homework",
+    "text": "Homework\n– Combination of handwritten assignments and coding assignments\n– Turned in via Gradescope"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#quizzes",
+    "href": "slides/01-welcome-to-st115.html#quizzes",
+    "title": "Welcome to ST115",
+    "section": "Quizzes",
+    "text": "Quizzes\n– Combination of Moodle quizzes or short in-class quizzes. In-class quizzes will be announced in advance."
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#midterm-and-final-exam",
+    "href": "slides/01-welcome-to-st115.html#midterm-and-final-exam",
+    "title": "Welcome to ST115",
+    "section": "Midterm and Final exam",
+    "text": "Midterm and Final exam\nIn-class assessment (no live coding) to demonstrate your mastery of the material"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#moodle-and-our-website",
+    "href": "slides/01-welcome-to-st115.html#moodle-and-our-website",
+    "title": "Welcome to ST115",
+    "section": "Moodle and our website",
+    "text": "Moodle and our website\nWe will only use Moodle for…\n– announcements\n– quizzes\n– gradebook\nYour course material is organized on a website I have made for the course\nLet’s tour both together"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#todos",
+    "href": "slides/01-welcome-to-st115.html#todos",
+    "title": "Welcome to ST115",
+    "section": "ToDos",
+    "text": "ToDos\n– Bring your laptop to class\n– Bring your laptop to lab\n– Complete the Getting to know you survey with a GitHub username\n– Always feel like you can ask questions"
+  },
+  {
+    "objectID": "slides/01-welcome-to-st115.html#create-a-github-account",
+    "href": "slides/01-welcome-to-st115.html#create-a-github-account",
+    "title": "Welcome to ST115",
+    "section": "Create a GitHub account",
+    "text": "Create a GitHub account\nGo to https://github.com/, and create an account (unless you already have one).\nSome tips from Happy Git with R.\n– Incorporate your actual name!\n– Reuse your username from other contexts if you can, e. g., Twitter or Slack.\n– Pick a username you will be comfortable revealing to your future boss.\n– Be as unique as possible in as few characters as possible. Shorter is better than longer.\n– Avoid words with special meaning in programming (e.g. NA)."
+  },
+  {
+    "objectID": "prepare/aug-27th.html",
+    "href": "prepare/aug-27th.html",
     "title": "Prepare",
     "section": "",
-    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
+    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#introduction",
-    "href": "labs/slides/lab-1-slides.html#introduction",
-    "title": "Welcome to ST115",
-    "section": "Introduction",
-    "text": "Introduction"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nObjects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00pm) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
-    "href": "labs/slides/lab-1-slides.html#goals-for-today",
-    "title": "Welcome to ST115",
-    "section": "Goals for today",
-    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Instructor + course overview",
+    "section": "",
+    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "title": "Welcome to ST115",
-    "section": "What is R & RStudio",
-    "text": "What is R & RStudio"
+    "objectID": "course-overview.html#instructor-office-hours",
+    "href": "course-overview.html#instructor-office-hours",
+    "title": "Instructor + course overview",
+    "section": "Instructor Office Hours",
+    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta",
+    "href": "course-overview.html#ta",
+    "title": "Instructor + course overview",
+    "section": "TA",
+    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta-office-hours",
+    "href": "course-overview.html#ta-office-hours",
+    "title": "Instructor + course overview",
+    "section": "TA Office Hours",
+    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#videos",
+    "href": "course-overview.html#videos",
+    "title": "Instructor + course overview",
+    "section": "Videos",
+    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#course",
+    "href": "course-overview.html#course",
+    "title": "Instructor + course overview",
+    "section": "Course",
+    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "computing-cheatsheets.html",
+    "href": "computing-cheatsheets.html",
+    "title": "R cheatsheets",
+    "section": "",
+    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
+    "crumbs": [
+      "Computing",
+      "Cheatsheets"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html",
+    "href": "computing-troubleshooting.html",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
+    "href": "computing-troubleshooting.html#tips-for-not-rendering",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
   },
   {
     "objectID": "course-support.html",
@@ -116,87 +457,31 @@
     ]
   },
   {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Instructor + course overview",
-    "section": "",
-    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
+    "objectID": "labs/slides/lab-1-slides.html#introduction",
+    "href": "labs/slides/lab-1-slides.html#introduction",
+    "title": "Welcome to ST115",
+    "section": "Introduction",
+    "text": "Introduction"
   },
   {
-    "objectID": "course-overview.html#instructor-office-hours",
-    "href": "course-overview.html#instructor-office-hours",
-    "title": "Instructor + course overview",
-    "section": "Instructor Office Hours",
-    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
+    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
+    "href": "labs/slides/lab-1-slides.html#goals-for-today",
+    "title": "Welcome to ST115",
+    "section": "Goals for today",
+    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
   },
   {
-    "objectID": "course-overview.html#ta",
-    "href": "course-overview.html#ta",
-    "title": "Instructor + course overview",
-    "section": "TA",
-    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
+    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "title": "Welcome to ST115",
+    "section": "What is R & RStudio",
+    "text": "What is R & RStudio"
   },
   {
-    "objectID": "course-overview.html#ta-office-hours",
-    "href": "course-overview.html#ta-office-hours",
-    "title": "Instructor + course overview",
-    "section": "TA Office Hours",
-    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#videos",
-    "href": "course-overview.html#videos",
-    "title": "Instructor + course overview",
-    "section": "Videos",
-    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#course",
-    "href": "course-overview.html#course",
-    "title": "Instructor + course overview",
-    "section": "Course",
-    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
-    "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nObjects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\n\n\n\n\n\n\n\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 311)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00pm) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
-    "crumbs": [
-      "Course information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "prepare/aug-27th.html",
-    "href": "prepare/aug-27th.html",
+    "objectID": "prepare/sep1.html",
+    "href": "prepare/sep1.html",
     "title": "Prepare",
     "section": "",
-    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
+    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
   }
 ]

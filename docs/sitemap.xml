@@ -1,27 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://st115-fall26.github.io/class/prepare/sep1.html</loc>
-    <lastmod>2026-08-13T19:19:18.116Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/slides/01-welcome-to-st115.html</loc>
+    <lastmod>2026-08-17T00:57:36.617Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/labs/slides/lab-1-slides.html</loc>
-    <lastmod>2026-08-14T18:13:17.002Z</lastmod>
-  </url>
-  <url>
-    <loc>https://st115-fall26.github.io/class/course-support.html</loc>
-    <lastmod>2026-08-10T16:30:46.383Z</lastmod>
-  </url>
-  <url>
-    <loc>https://st115-fall26.github.io/class/course-overview.html</loc>
-    <lastmod>2026-08-13T18:11:42.122Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/prepare/aug-27th.html</loc>
+    <lastmod>2026-08-13T19:25:15.293Z</lastmod>
   </url>
   <url>
     <loc>https://st115-fall26.github.io/class/index.html</loc>
     <lastmod>2026-08-14T17:58:37.528Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/prepare/aug-27th.html</loc>
-    <lastmod>2026-08-13T19:25:15.293Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/course-overview.html</loc>
+    <lastmod>2026-08-13T18:11:42.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://st115-fall26.github.io/class/computing-cheatsheets.html</loc>
+    <lastmod>2026-08-16T17:13:17.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://st115-fall26.github.io/class/computing-troubleshooting.html</loc>
+    <lastmod>2026-08-16T17:15:54.801Z</lastmod>
+  </url>
+  <url>
+    <loc>https://st115-fall26.github.io/class/course-support.html</loc>
+    <lastmod>2026-08-10T16:30:46.383Z</lastmod>
+  </url>
+  <url>
+    <loc>https://st115-fall26.github.io/class/labs/slides/lab-1-slides.html</loc>
+    <lastmod>2026-08-14T18:13:17.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://st115-fall26.github.io/class/prepare/sep1.html</loc>
+    <lastmod>2026-08-13T19:19:18.116Z</lastmod>
   </url>
 </urlset>
