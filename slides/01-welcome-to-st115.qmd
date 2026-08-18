@@ -240,15 +240,14 @@ graded)
 
 ## Proficiency Test
 
-Timed programming assignments to demonstrate basic efficiency and master
-the first half of the course.
+Timed programming assignments to demonstrate basic efficiency and mastery of ST 115 content
 
 These will be completed during lab times. Please see our schedule for
 dates
 
 Note: based on the pacing of the course, the scheduled dates may change
 
-Your lowest score will be dropped.
+Your lowest score will be dropped
 
 ## Programming/Statistics Experience
 
