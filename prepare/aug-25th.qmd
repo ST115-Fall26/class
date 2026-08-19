@@ -10,4 +10,11 @@ Note: The mp4 was to large to embed onto our GitHub website.
 
 Please see the Moodle link [here](https://moodle-courses2527.wolfware.ncsu.edu/mod/page/view.php?id=1603737)
 
-[Dr. Mine Çetinkaya-Rundel](https://mine-cr.com/) is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio).
+
+To be able to compile PDFs, you will also need to download TinyTex. You can do so by running the following code in your Console.
+
+```         
+tinytex::install_tinytex()
+```
+
+Note: If you are on a Mac, you already have this!
