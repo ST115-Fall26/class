@@ -1,0 +1,45 @@
+---
+title: "Welcome to ST115"
+subtitle: "Lecture 2"
+date: "August 20, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist 
+
+-- Did you engage with the prepare material?
+
+-- Did you install R + RStudio?
+
+-- Do you know how to get help in ST115?
+
+-- Have you filled out the *Getting to know you survey*? 
+
+      --- due Friday at 11:59pm 
+      
+      --- need to have made a GitHub account to receive full credit 
+      
+
+## Goals for today 
+
+-- Articulate the difference between R & Rstudio 
+
+-- Start writing R code + using the RStudio platform
+
+-- Introduction to GitHub, and how we will use it this semester 
+
+## What is R and RStudio?
+
+-- R is a statistical programming language
+
+-- RStudio is a convenient interface for R
+
+![](images/car.png){width="500" height="200" fig-align="center"}
+
