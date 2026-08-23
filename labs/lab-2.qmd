@@ -1,0 +1,51 @@
+---
+title: "Lab-2"
+format: pdf
+---
+
+This lab is due Wednesday (8/28) by 11:59pm on Gradescope. Note: Labs will typically be due the following Wednesday. This deadline is extended to handle any initial rendering issues we may run into. 
+
+1. Create a new quarto document (.qmd). You can leave your document type as `html` for now. 
+
+2. Title your document "Lab-2: ST-115". Next, visit the following link: https://quarto-tdg.org/yaml.html. Include the YAML options `author` and `format`. Put your name after author and put html after format. We will change this later. 
+
+::: {.callout-note}
+## Note
+
+Now would be a good time to render!
+:::
+
+
+3. Create a level two section header and title it **Question 1**. Underneath this section header, create a vector named `b` that has 5 different values. You may choose these values. Then, include `b` in your code chunk so the output displays in your rendered document. 
+
+
+4. Create a level two section header and title it **cars**. For the next questions, we are going to use the `cars` data set in R. Pull up the help file for the cars data set. Next, explain why we should write the code to pull up a help in the console vs our .qmd file.
+
+::: {.callout-note}
+## Note
+
+Now would be a good time to render!
+:::
+
+5. Create a level four section header and title it **Question 2**. Underneath this section header, run `str(cars)` in a R code chunk. Next, write two-three sentences on what information `str()` is giving you about the `cars` data set in R. In addition, write a sentence explaining in what year(s) were these data collected. 
+
+6. Create a level four section header and title it **Question 3**. Run `plot(r)` in a R code chunk. 
+
+::: {.callout-note}
+## Note
+
+Now would be a good time to render!
+:::
+
+7. Underneath your plot output, using information from question 5, name the type of plot `plot(cars)` created, and why you think it created this plot. 
+
+
+8. In 1-2 sentences, describe any patterns you see in the plot you created. 
+
+::: {.callout-note}
+## Note
+
+Now would be a good time to render!
+:::
+
+Render this to a PDF and submit it on Gradescope!

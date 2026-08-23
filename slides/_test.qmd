@@ -1,0 +1,11 @@
+---
+title: "Untitled"
+---
+
+```{r}
+#| message: false
+2+2
+warning("Something might be wrong!")
+message("Here's some information for you.")
+```
+

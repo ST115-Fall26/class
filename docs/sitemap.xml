@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://st115-fall26.github.io/class/slides/02-toolkit.html</loc>
-    <lastmod>2026-08-19T21:18:41.951Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/slides/03-Quarto.html</loc>
+    <lastmod>2026-08-23T16:47:35.770Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/prepare/sep1.html</loc>
-    <lastmod>2026-08-17T15:52:38.248Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/slides/01-welcome-to-st115.html</loc>
+    <lastmod>2026-08-18T02:06:11.072Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/prepare/aug-25th.html</loc>
-    <lastmod>2026-08-19T21:18:41.913Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/prepare/aug-27th.html</loc>
+    <lastmod>2026-08-17T15:52:38.284Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/labs/slides/lab-1-slides.html</loc>
-    <lastmod>2026-08-17T15:48:44.783Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/prepare/aug-20th.html</loc>
+    <lastmod>2026-08-17T15:52:38.312Z</lastmod>
   </url>
   <url>
     <loc>https://st115-fall26.github.io/class/course-support.html</loc>
@@ -37,15 +37,19 @@
     <lastmod>2026-08-19T21:16:20.134Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/prepare/aug-20th.html</loc>
-    <lastmod>2026-08-17T15:52:38.312Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/labs/slides/lab-1-slides.html</loc>
+    <lastmod>2026-08-17T15:48:44.783Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/prepare/aug-27th.html</loc>
-    <lastmod>2026-08-17T15:52:38.284Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/prepare/aug-25th.html</loc>
+    <lastmod>2026-08-19T21:18:41.913Z</lastmod>
   </url>
   <url>
-    <loc>https://st115-fall26.github.io/class/slides/01-welcome-to-st115.html</loc>
-    <lastmod>2026-08-18T02:06:11.072Z</lastmod>
+    <loc>https://st115-fall26.github.io/class/prepare/sep1.html</loc>
+    <lastmod>2026-08-17T15:52:38.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://st115-fall26.github.io/class/slides/02-toolkit.html</loc>
+    <lastmod>2026-08-23T16:30:50.469Z</lastmod>
   </url>
 </urlset>

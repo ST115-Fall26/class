@@ -130,11 +130,6 @@ Extension: Use the following link to look up more functions that perform calcula
 
 -- Calculate the `mean` of the iris petal length. 
 
-## Challenge Question{.smaller} 
-
-Run `plot()` on the `iris` data set. 
-
-What did it do? Why? Is it appropriate? 
 
 ## Challenge Question
 

@@ -1,390 +1,157 @@
 [
   {
-    "objectID": "slides/02-toolkit.html#checklist",
-    "href": "slides/02-toolkit.html#checklist",
-    "title": "Meet the toolkit",
+    "objectID": "slides/03-Quarto.html#checklist",
+    "href": "slides/03-Quarto.html#checklist",
+    "title": "Intro to Quarto",
     "section": "Checklist",
-    "text": "Checklist\n– Did you engage with the prepare material?\n– Did you install R + RStudio?\n– Do you know how to get help in ST115?\n– Have you filled out the Getting to know you survey?\n  --- due Friday at 11:59pm \n  \n  --- need to have made a GitHub account to receive full credit \nIf you can’t access RStudio, you can use this link here and then please see me after class."
+    "text": "Checklist\n– Did you engage with the prepare material?\n– Do you have a plan for taking notes?\n– The attendance sheet will be passed around! Please sign-in.\n– Quiz released today (due Friday) on Moodle\n  --- lowest quiz-score dropped \n  --- no late policy on quizzes\n– Do you know how to get help in ST115?\n– Open up RStudio and have a .R file ready to go!"
   },
   {
-    "objectID": "slides/02-toolkit.html#goals-for-today",
-    "href": "slides/02-toolkit.html#goals-for-today",
-    "title": "Meet the toolkit",
-    "section": "Goals for today",
-    "text": "Goals for today\n– Articulate the difference between R & Rstudio\n– Start writing R code + using the RStudio platform\n– Introduction to GitHub, and how we will use it this semester (if time)"
+    "objectID": "slides/03-Quarto.html#warm-up",
+    "href": "slides/03-Quarto.html#warm-up",
+    "title": "Intro to Quarto",
+    "section": "Warm-up",
+    "text": "Warm-up\nWhat is the difference between R and RStudio?"
   },
   {
-    "objectID": "slides/02-toolkit.html#what-is-r-and-rstudio",
-    "href": "slides/02-toolkit.html#what-is-r-and-rstudio",
-    "title": "Meet the toolkit",
-    "section": "What is R and RStudio?",
-    "text": "What is R and RStudio?\n– R is a statistical programming language\n– RStudio is a convenient interface for R"
+    "objectID": "slides/03-Quarto.html#warm-up-1",
+    "href": "slides/03-Quarto.html#warm-up-1",
+    "title": "Intro to Quarto",
+    "section": "Warm-up",
+    "text": "Warm-up"
   },
   {
-    "objectID": "slides/02-toolkit.html#base-r",
-    "href": "slides/02-toolkit.html#base-r",
-    "title": "Meet the toolkit",
-    "section": "Base R",
-    "text": "Base R\nBase R means the R language and the built-in packages/functions that come with a standard R installation, without relying on additional packages. We will learn more about packages in a couple week!\nThe R Base Package\nAnd we are going to learn some code now!\nFirst, let’s explore the RStudio layout."
+    "objectID": "slides/03-Quarto.html#warm-up-2",
+    "href": "slides/03-Quarto.html#warm-up-2",
+    "title": "Intro to Quarto",
+    "section": "Warm-up",
+    "text": "Warm-up\nDescribe what each RStudio panel is for…"
   },
   {
-    "objectID": "slides/02-toolkit.html#r-layout",
-    "href": "slides/02-toolkit.html#r-layout",
-    "title": "Meet the toolkit",
-    "section": "R-layout",
-    "text": "R-layout\nIn summary"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#some-r-essentials",
-    "href": "slides/02-toolkit.html#some-r-essentials",
-    "title": "Meet the toolkit",
-    "section": "Some R essentials",
-    "text": "Some R essentials\n– Functions are (normally) verbs, followed by what they will be applied to in parentheses:"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#some-r-essentials-1",
-    "href": "slides/02-toolkit.html#some-r-essentials-1",
-    "title": "Meet the toolkit",
-    "section": "Some R essentials",
-    "text": "Some R essentials\n\nAn argument in R is a value that you give to a function to tell it what you want the function to do.\nNote: functions can have multiple arguments, and they are separated by commas."
-  },
-  {
-    "objectID": "slides/02-toolkit.html#ica",
-    "href": "slides/02-toolkit.html#ica",
-    "title": "Meet the toolkit",
-    "section": "ICA",
-    "text": "ICA\n– c()\n– str()\n– mean()\n– &lt;- assignment operator\n– iris data set in base R\n… and how to pull up help files!"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#c",
-    "href": "slides/02-toolkit.html#c",
-    "title": "Meet the toolkit",
-    "section": "c()",
-    "text": "c()\nThink about c() as combine\nWe can think about using when we want to take elements and put them together\nlet’s put together the number 1, 2, and 3!\nThis is called a vector. We will learn more about vectors next week!"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#section",
-    "href": "slides/02-toolkit.html#section",
-    "title": "Meet the toolkit",
-    "section": "<-",
-    "text": "&lt;-\nThis arrow is called the assignment operator.\nWe read this as “anything on the right is assigned to what the arrow points to on the left”\nName your vector the letter a."
-  },
-  {
-    "objectID": "slides/02-toolkit.html#mean",
-    "href": "slides/02-toolkit.html#mean",
-    "title": "Meet the toolkit",
-    "section": "mean()",
-    "text": "mean()\nNow, take the mean of your object a.\nExtension: Use the following link to look up more functions that perform calculations. Try them out on your object a!\nMore functions"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#challenge-question",
-    "href": "slides/02-toolkit.html#challenge-question",
-    "title": "Meet the toolkit",
-    "section": "Challenge Question",
-    "text": "Challenge Question\n– iris is the name of the data set in R. Pull up the help file for the iris data set to read more about it!\n– Next, use the str() function on the iris data set. What information is this telling us?\n– Next, run the code iris$Sepal.Length. What happens?\n– Next, run the code iris$sepal.width. What happens?\n– Calculate the mean of the iris petal length."
-  },
-  {
-    "objectID": "slides/02-toolkit.html#challenge-question-1",
-    "href": "slides/02-toolkit.html#challenge-question-1",
-    "title": "Meet the toolkit",
-    "section": "Challenge Question",
-    "text": "Challenge Question\nRun plot() on the iris data set.\nWhat did it do? Why? Is it appropriate?"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#challenge-question-2",
-    "href": "slides/02-toolkit.html#challenge-question-2",
-    "title": "Meet the toolkit",
+    "objectID": "slides/03-Quarto.html#challenge-question",
+    "href": "slides/03-Quarto.html#challenge-question",
+    "title": "Intro to Quarto",
     "section": "Challenge Question",
     "text": "Challenge Question\n– Create a R object named number that has the following values: 1, 3, 15, NA, 40\n– Try and take the mean and report the value. Note: you should get 14.75."
   },
   {
-    "objectID": "slides/02-toolkit.html#github-motivation",
-    "href": "slides/02-toolkit.html#github-motivation",
-    "title": "Meet the toolkit",
-    "section": "GitHub motivation",
-    "text": "GitHub motivation"
+    "objectID": "slides/03-Quarto.html#quarto-1",
+    "href": "slides/03-Quarto.html#quarto-1",
+    "title": "Intro to Quarto",
+    "section": "Quarto",
+    "text": "Quarto\nWays I’ve used Quarto…\n– Publications\n– Your ST-115 website\n– These slides…\n– … and more!"
   },
   {
-    "objectID": "slides/02-toolkit.html#git-vs-github",
-    "href": "slides/02-toolkit.html#git-vs-github",
-    "title": "Meet the toolkit",
-    "section": "Git vs GitHub",
-    "text": "Git vs GitHub\nVery very similar to R vs RStudio"
+    "objectID": "slides/03-Quarto.html#quarto-2",
+    "href": "slides/03-Quarto.html#quarto-2",
+    "title": "Intro to Quarto",
+    "section": "Quarto",
+    "text": "Quarto\nThe quarto file extension is .qmd\nFile -&gt; New File -&gt; Quarto Document"
   },
   {
-    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push",
-    "href": "slides/02-toolkit.html#github-commands-pull-commit-push",
-    "title": "Meet the toolkit",
-    "section": "GitHub Commands: Pull Commit Push",
-    "text": "GitHub Commands: Pull Commit Push"
+    "objectID": "slides/03-Quarto.html#source-vs-visual",
+    "href": "slides/03-Quarto.html#source-vs-visual",
+    "title": "Intro to Quarto",
+    "section": "Source vs Visual",
+    "text": "Source vs Visual\n– Source tab shows raw plain-text markdown and code\n– Visual tab provides a WYSIWYG (what-you-see-is-what-you-get) interface. This is useful for:\n  --- Those brand new to code (Microsoft Word feel) \n  --- Creating tables\n  --- Seeing (mostly) what your document will look like rendered\n  \nI’m going to suggest you work in the Source tab primarily, but feel free to work in both as we move throughout the semester."
   },
   {
-    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
-    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
-    "title": "Meet the toolkit",
-    "section": "GitHub Commands: Pull Commit Push",
-    "text": "GitHub Commands: Pull Commit Push"
+    "objectID": "slides/03-Quarto.html#quarto-document",
+    "href": "slides/03-Quarto.html#quarto-document",
+    "title": "Intro to Quarto",
+    "section": "Quarto Document",
+    "text": "Quarto Document\nThree pieces:\nYAML, R-code chunk, and where text goes!"
   },
   {
-    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
-    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
-    "title": "Meet the toolkit",
-    "section": "GitHub Commands: Pull Commit Push",
-    "text": "GitHub Commands: Pull Commit Push"
+    "objectID": "slides/03-Quarto.html#code-blockchunks",
+    "href": "slides/03-Quarto.html#code-blockchunks",
+    "title": "Intro to Quarto",
+    "section": "Code block/chunks",
+    "text": "Code block/chunks\nPC/Windows: Ctrl + Alt + I\nMac: Cmd + Option + I\n**I want you now to title your document, add a R code chunk that has the code 2+2 in it, and click Render!"
   },
   {
-    "objectID": "slides/02-toolkit.html#next-time",
-    "href": "slides/02-toolkit.html#next-time",
-    "title": "Meet the toolkit",
-    "section": "Next Time",
-    "text": "Next Time\n– How can we make professional documents?\n– Practice with more code\n– Don’t forget to fill out the getting to know you survey!\n– Don’t forget to save your work! You are building up your notes / resources."
+    "objectID": "slides/03-Quarto.html#code-blockchunk-options",
+    "href": "slides/03-Quarto.html#code-blockchunk-options",
+    "title": "Intro to Quarto",
+    "section": "Code block/chunk options",
+    "text": "Code block/chunk options\nCode block options are included in a special comment at the top of the block (lines at the top prefaced with #| are considered options).\nOptions available for customizing output include:\nCode chunk options"
   },
   {
-    "objectID": "prepare/sep1.html",
-    "href": "prepare/sep1.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
+    "objectID": "slides/03-Quarto.html#code-blockchunk-options-1",
+    "href": "slides/03-Quarto.html#code-blockchunk-options-1",
+    "title": "Intro to Quarto",
+    "section": "Code block/chunk options",
+    "text": "Code block/chunk options\nWe are going to explore the following:\n– echo:\n– eval:\n– message:\n– warning:"
   },
   {
-    "objectID": "prepare/aug-25th.html",
-    "href": "prepare/aug-25th.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nTo be able to compile PDFs, you will also need to download TinyTex. You can do so by running the following code in your Console.\ntinytex::install_tinytex()\nNote: If you are on a Mac, you already have this!"
+    "objectID": "slides/03-Quarto.html#challenge-question-1",
+    "href": "slides/03-Quarto.html#challenge-question-1",
+    "title": "Intro to Quarto",
+    "section": "Challenge Question",
+    "text": "Challenge Question\nAdd to your code chunk so that it looks like the following:\n2+2\nwarning(\"Something might be wrong!\")\nmessage(\"Here's some information for you.\")\nLet’s do echo together, and then you will do the other three on your own.\nIn your Quarto document, type out what each of these code chunk options do! Practice writing text underneath your code chunks."
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#introduction",
-    "href": "labs/slides/lab-1-slides.html#introduction",
-    "title": "Welcome to ST115",
-    "section": "Introduction",
-    "text": "Introduction"
+    "objectID": "slides/03-Quarto.html#important",
+    "href": "slides/03-Quarto.html#important",
+    "title": "Intro to Quarto",
+    "section": "Important",
+    "text": "Important\nWe will go through when/when not to use these. PLEASE do not hide your code when you turn in homework assignments….."
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
-    "href": "labs/slides/lab-1-slides.html#goals-for-today",
-    "title": "Welcome to ST115",
-    "section": "Goals for today",
-    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
+    "objectID": "slides/03-Quarto.html#question",
+    "href": "slides/03-Quarto.html#question",
+    "title": "Intro to Quarto",
+    "section": "Question",
+    "text": "Question\nWhat do you think happens if this is at the top of your document?\n---\ntitle: \"My Document\"\nexecute:\n  echo: false\n---"
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "title": "Welcome to ST115",
-    "section": "What is R & RStudio",
-    "text": "What is R & RStudio"
+    "objectID": "slides/03-Quarto.html#yaml",
+    "href": "slides/03-Quarto.html#yaml",
+    "title": "Intro to Quarto",
+    "section": "YAML",
+    "text": "YAML\nWe have mappings and keys!\nYou can think of the “map” as a YAML option. You can think of the “key” as the value the option takes on.\n---\ntitle: \"My Document\"\n---\ntitle is the “map” and “My Document” is the key!\nNote: When we are working with a simple string, the quotes are optional. When you are working with things likes numbers that you want to be treated as text, quotes are necessary.\nOptions"
   },
   {
-    "objectID": "course-support.html",
-    "href": "course-support.html",
-    "title": "Course support",
-    "section": "",
-    "text": "It is both okay and expected for you to have questions as you learn data science for the first time. Here are some resources that you are encouraged to please take advantage of.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
+    "objectID": "slides/03-Quarto.html#yaml-1",
+    "href": "slides/03-Quarto.html#yaml-1",
+    "title": "Intro to Quarto",
+    "section": "YAML",
+    "text": "YAML\nWhat’s the difference?\n\n\nExample 1\n---\ntitle: \"Test Document\"\nauthor:\nname: Elijah Meyer\naffiliation: NC State University\n---\nExample 2\n---\ntitle: \"Test Document\"\nauthor:\n- name: Elijah Meyer\naffiliation: NC State University\n---\n\nExample 3\n---\ntitle: \"Test Document\"\nauthor:\n  - name: Elijah Meyer\n    affiliation: NC State University\n---"
   },
   {
-    "objectID": "course-support.html#lectures",
-    "href": "course-support.html#lectures",
-    "title": "Course support",
-    "section": "Lectures",
-    "text": "Lectures\nIf you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
+    "objectID": "slides/03-Quarto.html#yaml-2",
+    "href": "slides/03-Quarto.html#yaml-2",
+    "title": "Intro to Quarto",
+    "section": "YAML",
+    "text": "YAML\nThe - is necessary when we have a list item (an item that we could have multiple of)\nauthor\n  └── list item\n        ├── name\n        └── affiliation\nMost (not all) YAML headings require indentation. This is a good habit to get into early."
   },
   {
-    "objectID": "course-support.html#office-hours",
-    "href": "course-support.html#office-hours",
-    "title": "Course support",
-    "section": "Office hours",
-    "text": "Office hours\nThe TAs and I are here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class. If you truly have no questions to ask, just stop by and say hi and introduce yourself.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
+    "objectID": "slides/03-Quarto.html#section-headers",
+    "href": "slides/03-Quarto.html#section-headers",
+    "title": "Intro to Quarto",
+    "section": "Section Headers",
+    "text": "Section Headers\n# Main Section/First Level heading\n## Subsection/Second Level heading\n### Sub-subsection/Third level heading\n#### Sub-sub-sub…? Fourth-level heading"
   },
   {
-    "objectID": "course-support.html#email",
-    "href": "course-support.html#email",
-    "title": "Course support",
-    "section": "Email",
-    "text": "Email\nMy email should mainly be used for questions about personal matters that may not be appropriate for the public course forum. If you do email me a content question, I will be happy to answer it, but also may ask you to post the question in Slack so other students can see the response. For such matters, you may email me, Dr. Elijah Meyer at esmeyer2@ncsu.edu.\nIf you email me, please include “ST115” in the subject line. Barring extenuating circumstances, I will respond to ST511 emails within 24 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
+    "objectID": "slides/03-Quarto.html#common-errors",
+    "href": "slides/03-Quarto.html#common-errors",
+    "title": "Intro to Quarto",
+    "section": "Common Errors",
+    "text": "Common Errors\n– Code chunks not closed\n– Incorrect code preventing rendering\nLet’s demo this together!"
   },
   {
-    "objectID": "course-support.html#academic-support",
-    "href": "course-support.html#academic-support",
-    "title": "Course support",
-    "section": "Academic support",
-    "text": "Academic support\nThe Academic Success Center can offer additional support for this course, other courses, as well as academic advising and career counseling.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
+    "objectID": "slides/03-Quarto.html#challenge-question-if-time",
+    "href": "slides/03-Quarto.html#challenge-question-if-time",
+    "title": "Intro to Quarto",
+    "section": "Challenge Question (if time)",
+    "text": "Challenge Question (if time)\n– Make a new quarto document\n– Title is “Iris-Practice” and put yourself as the author\n– Pull up the help file for the iris data set (and discuss if we should include the help file in the Quarto document or not)\n– Make a level-2 section header and title it “Description”\n– Copy the description text into your Quarto file\n– Answer the question: “Which species had the larger median petal length?”. Use code to justify your answer."
   },
   {
-    "objectID": "course-support.html#mental-health-and-wellness",
-    "href": "course-support.html#mental-health-and-wellness",
-    "title": "Course support",
-    "section": "Mental health and wellness",
-    "text": "Mental health and wellness\nIf your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. NC State encourages all students to access these resources.\n\nCounseling Center provides mental health services and resources to NC State students. The Counseling Center’s trained and compassionate counselors work hard to help you get connected to services that can help provide the relief you’re seeking. The Counseling Center uses a stepped-care model. The goals of stepped care are to:\n\n– Provide timely access to mental health services.\n– Create individualized plans addressing the needs of each student.\n– Find the balance between providing the best care options for each student and ensuring that there is still room in our system for the thousands of students served each year.\n\nWolfpack Wellness: There are dozens of resources available at NC State to help you take charge of your wellness, tackle mental health challenges or simply find community on campus.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#course-costs",
-    "href": "course-support.html#course-costs",
-    "title": "Course support",
-    "section": "Course costs",
-    "text": "Course costs\n\nTextbooks: Any textbooks used for this course are freely available on the web.\nLaptops: Each student is expected to have a laptop they can bring to each lecture. If you need a laptop, please see the lending guidelines here. If you can not bring a laptop to class, please follow along with individuals next to you, and complete all assessments using desktops in the library.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#assistance-with-zoom-or-moodle",
-    "href": "course-support.html#assistance-with-zoom-or-moodle",
-    "title": "Course support",
-    "section": "Assistance with Zoom or Moodle",
-    "text": "Assistance with Zoom or Moodle\nFor technical help with Moodle or Zoom, contact the NC State OIT Service Desk at oit.ncsu.edu/help-support/.\nWe will primarily use Moodle in this course for quizzes, assignment turn-in, and grade book.\nZoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html",
-    "href": "computing-troubleshooting.html",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
-    "href": "computing-troubleshooting.html#tips-for-not-rendering",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
-  },
-  {
-    "objectID": "computing-cheatsheets.html",
-    "href": "computing-cheatsheets.html",
-    "title": "R cheatsheets",
-    "section": "",
-    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
-    "crumbs": [
-      "Computing",
-      "Cheatsheets"
-    ]
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Instructor + course overview",
-    "section": "",
-    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#instructor-office-hours",
-    "href": "course-overview.html#instructor-office-hours",
-    "title": "Instructor + course overview",
-    "section": "Instructor Office Hours",
-    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta",
-    "href": "course-overview.html#ta",
-    "title": "Instructor + course overview",
-    "section": "TA",
-    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta-office-hours",
-    "href": "course-overview.html#ta-office-hours",
-    "title": "Instructor + course overview",
-    "section": "TA Office Hours",
-    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#videos",
-    "href": "course-overview.html#videos",
-    "title": "Instructor + course overview",
-    "section": "Videos",
-    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#course",
-    "href": "course-overview.html#course",
-    "title": "Instructor + course overview",
-    "section": "Course",
-    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
-    "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nObjects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00pm) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
-    "crumbs": [
-      "Course information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "prepare/aug-20th.html",
-    "href": "prepare/aug-20th.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nDr. Mine Çetinkaya-Rundel is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio)."
-  },
-  {
-    "objectID": "prepare/aug-27th.html",
-    "href": "prepare/aug-27th.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
+    "objectID": "slides/03-Quarto.html#in-lab",
+    "href": "slides/03-Quarto.html#in-lab",
+    "title": "Intro to Quarto",
+    "section": "In Lab",
+    "text": "In Lab\n– Review topics from today’s class\n– Install the necessary software to Render to a PDF"
   },
   {
     "objectID": "slides/01-welcome-to-st115.html#welcome",
@@ -651,5 +418,385 @@
     "title": "Welcome to ST115",
     "section": "Create a GitHub account",
     "text": "Create a GitHub account\nGo to https://github.com/, and create an account (unless you already have one).\nSome tips from Happy Git with R.\n– Incorporate your actual name!\n– Reuse your username from other contexts if you can, e. g., Twitter or Slack.\n– Pick a username you will be comfortable revealing to your future boss.\n– Be as unique as possible in as few characters as possible. Shorter is better than longer.\n– Avoid words with special meaning in programming (e.g. NA)."
+  },
+  {
+    "objectID": "prepare/aug-27th.html",
+    "href": "prepare/aug-27th.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
+  },
+  {
+    "objectID": "prepare/aug-20th.html",
+    "href": "prepare/aug-20th.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nDr. Mine Çetinkaya-Rundel is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio)."
+  },
+  {
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Course support",
+    "section": "",
+    "text": "It is both okay and expected for you to have questions as you learn data science for the first time. Here are some resources that you are encouraged to please take advantage of.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#lectures",
+    "href": "course-support.html#lectures",
+    "title": "Course support",
+    "section": "Lectures",
+    "text": "Lectures\nIf you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#office-hours",
+    "href": "course-support.html#office-hours",
+    "title": "Course support",
+    "section": "Office hours",
+    "text": "Office hours\nThe TAs and I are here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class. If you truly have no questions to ask, just stop by and say hi and introduce yourself.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#email",
+    "href": "course-support.html#email",
+    "title": "Course support",
+    "section": "Email",
+    "text": "Email\nMy email should mainly be used for questions about personal matters that may not be appropriate for the public course forum. If you do email me a content question, I will be happy to answer it, but also may ask you to post the question in Slack so other students can see the response. For such matters, you may email me, Dr. Elijah Meyer at esmeyer2@ncsu.edu.\nIf you email me, please include “ST115” in the subject line. Barring extenuating circumstances, I will respond to ST511 emails within 24 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#academic-support",
+    "href": "course-support.html#academic-support",
+    "title": "Course support",
+    "section": "Academic support",
+    "text": "Academic support\nThe Academic Success Center can offer additional support for this course, other courses, as well as academic advising and career counseling.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#mental-health-and-wellness",
+    "href": "course-support.html#mental-health-and-wellness",
+    "title": "Course support",
+    "section": "Mental health and wellness",
+    "text": "Mental health and wellness\nIf your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. NC State encourages all students to access these resources.\n\nCounseling Center provides mental health services and resources to NC State students. The Counseling Center’s trained and compassionate counselors work hard to help you get connected to services that can help provide the relief you’re seeking. The Counseling Center uses a stepped-care model. The goals of stepped care are to:\n\n– Provide timely access to mental health services.\n– Create individualized plans addressing the needs of each student.\n– Find the balance between providing the best care options for each student and ensuring that there is still room in our system for the thousands of students served each year.\n\nWolfpack Wellness: There are dozens of resources available at NC State to help you take charge of your wellness, tackle mental health challenges or simply find community on campus.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#course-costs",
+    "href": "course-support.html#course-costs",
+    "title": "Course support",
+    "section": "Course costs",
+    "text": "Course costs\n\nTextbooks: Any textbooks used for this course are freely available on the web.\nLaptops: Each student is expected to have a laptop they can bring to each lecture. If you need a laptop, please see the lending guidelines here. If you can not bring a laptop to class, please follow along with individuals next to you, and complete all assessments using desktops in the library.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#assistance-with-zoom-or-moodle",
+    "href": "course-support.html#assistance-with-zoom-or-moodle",
+    "title": "Course support",
+    "section": "Assistance with Zoom or Moodle",
+    "text": "Assistance with Zoom or Moodle\nFor technical help with Moodle or Zoom, contact the NC State OIT Service Desk at oit.ncsu.edu/help-support/.\nWe will primarily use Moodle in this course for quizzes, assignment turn-in, and grade book.\nZoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html",
+    "href": "computing-troubleshooting.html",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
+    "href": "computing-troubleshooting.html#tips-for-not-rendering",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-cheatsheets.html",
+    "href": "computing-cheatsheets.html",
+    "title": "R cheatsheets",
+    "section": "",
+    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
+    "crumbs": [
+      "Computing",
+      "Cheatsheets"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Instructor + course overview",
+    "section": "",
+    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#instructor-office-hours",
+    "href": "course-overview.html#instructor-office-hours",
+    "title": "Instructor + course overview",
+    "section": "Instructor Office Hours",
+    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta",
+    "href": "course-overview.html#ta",
+    "title": "Instructor + course overview",
+    "section": "TA",
+    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta-office-hours",
+    "href": "course-overview.html#ta-office-hours",
+    "title": "Instructor + course overview",
+    "section": "TA Office Hours",
+    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#videos",
+    "href": "course-overview.html#videos",
+    "title": "Instructor + course overview",
+    "section": "Videos",
+    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#course",
+    "href": "course-overview.html#course",
+    "title": "Instructor + course overview",
+    "section": "Course",
+    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\nQuiz-1 assigned (due Friday)\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nObjects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00am) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#introduction",
+    "href": "labs/slides/lab-1-slides.html#introduction",
+    "title": "Welcome to ST115",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
+    "href": "labs/slides/lab-1-slides.html#goals-for-today",
+    "title": "Welcome to ST115",
+    "section": "Goals for today",
+    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "title": "Welcome to ST115",
+    "section": "What is R & RStudio",
+    "text": "What is R & RStudio"
+  },
+  {
+    "objectID": "prepare/aug-25th.html",
+    "href": "prepare/aug-25th.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nTo be able to compile PDFs, you will also need to download TinyTex. You can do so by running the following code in your Console.\ntinytex::install_tinytex()\nNote: If you are on a Mac, you already have this!"
+  },
+  {
+    "objectID": "prepare/sep1.html",
+    "href": "prepare/sep1.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#checklist",
+    "href": "slides/02-toolkit.html#checklist",
+    "title": "Meet the toolkit",
+    "section": "Checklist",
+    "text": "Checklist\n– Did you engage with the prepare material?\n– Did you install R + RStudio?\n– Do you know how to get help in ST115?\n– Have you filled out the Getting to know you survey?\n  --- due Friday at 11:59pm \n  \n  --- need to have made a GitHub account to receive full credit \nIf you can’t access RStudio, you can use this link here and then please see me after class."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#goals-for-today",
+    "href": "slides/02-toolkit.html#goals-for-today",
+    "title": "Meet the toolkit",
+    "section": "Goals for today",
+    "text": "Goals for today\n– Articulate the difference between R & Rstudio\n– Start writing R code + using the RStudio platform\n– Introduction to GitHub, and how we will use it this semester (if time)"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#what-is-r-and-rstudio",
+    "href": "slides/02-toolkit.html#what-is-r-and-rstudio",
+    "title": "Meet the toolkit",
+    "section": "What is R and RStudio?",
+    "text": "What is R and RStudio?\n– R is a statistical programming language\n– RStudio is a convenient interface for R"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#base-r",
+    "href": "slides/02-toolkit.html#base-r",
+    "title": "Meet the toolkit",
+    "section": "Base R",
+    "text": "Base R\nBase R means the R language and the built-in packages/functions that come with a standard R installation, without relying on additional packages. We will learn more about packages in a couple week!\nThe R Base Package\nAnd we are going to learn some code now!\nFirst, let’s explore the RStudio layout."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#r-layout",
+    "href": "slides/02-toolkit.html#r-layout",
+    "title": "Meet the toolkit",
+    "section": "R-layout",
+    "text": "R-layout\nIn summary"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#some-r-essentials",
+    "href": "slides/02-toolkit.html#some-r-essentials",
+    "title": "Meet the toolkit",
+    "section": "Some R essentials",
+    "text": "Some R essentials\n– Functions are (normally) verbs, followed by what they will be applied to in parentheses:"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#some-r-essentials-1",
+    "href": "slides/02-toolkit.html#some-r-essentials-1",
+    "title": "Meet the toolkit",
+    "section": "Some R essentials",
+    "text": "Some R essentials\n\nAn argument in R is a value that you give to a function to tell it what you want the function to do.\nNote: functions can have multiple arguments, and they are separated by commas."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#ica",
+    "href": "slides/02-toolkit.html#ica",
+    "title": "Meet the toolkit",
+    "section": "ICA",
+    "text": "ICA\n– c()\n– str()\n– mean()\n– &lt;- assignment operator\n– iris data set in base R\n… and how to pull up help files!"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#c",
+    "href": "slides/02-toolkit.html#c",
+    "title": "Meet the toolkit",
+    "section": "c()",
+    "text": "c()\nThink about c() as combine\nWe can think about using when we want to take elements and put them together\nlet’s put together the number 1, 2, and 3!\nThis is called a vector. We will learn more about vectors next week!"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#section",
+    "href": "slides/02-toolkit.html#section",
+    "title": "Meet the toolkit",
+    "section": "<-",
+    "text": "&lt;-\nThis arrow is called the assignment operator.\nWe read this as “anything on the right is assigned to what the arrow points to on the left”\nName your vector the letter a."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#mean",
+    "href": "slides/02-toolkit.html#mean",
+    "title": "Meet the toolkit",
+    "section": "mean()",
+    "text": "mean()\nNow, take the mean of your object a.\nExtension: Use the following link to look up more functions that perform calculations. Try them out on your object a!\nMore functions"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#challenge-question",
+    "href": "slides/02-toolkit.html#challenge-question",
+    "title": "Meet the toolkit",
+    "section": "Challenge Question",
+    "text": "Challenge Question\n– iris is the name of the data set in R. Pull up the help file for the iris data set to read more about it!\n– Next, use the str() function on the iris data set. What information is this telling us?\n– Next, run the code iris$Sepal.Length. What happens?\n– Next, run the code iris$sepal.width. What happens?\n– Calculate the mean of the iris petal length."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#challenge-question-1",
+    "href": "slides/02-toolkit.html#challenge-question-1",
+    "title": "Meet the toolkit",
+    "section": "Challenge Question",
+    "text": "Challenge Question\n– Create a R object named number that has the following values: 1, 3, 15, NA, 40\n– Try and take the mean and report the value. Note: you should get 14.75."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#github-motivation",
+    "href": "slides/02-toolkit.html#github-motivation",
+    "title": "Meet the toolkit",
+    "section": "GitHub motivation",
+    "text": "GitHub motivation"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#git-vs-github",
+    "href": "slides/02-toolkit.html#git-vs-github",
+    "title": "Meet the toolkit",
+    "section": "Git vs GitHub",
+    "text": "Git vs GitHub\nVery very similar to R vs RStudio"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push",
+    "href": "slides/02-toolkit.html#github-commands-pull-commit-push",
+    "title": "Meet the toolkit",
+    "section": "GitHub Commands: Pull Commit Push",
+    "text": "GitHub Commands: Pull Commit Push"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
+    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
+    "title": "Meet the toolkit",
+    "section": "GitHub Commands: Pull Commit Push",
+    "text": "GitHub Commands: Pull Commit Push"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
+    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
+    "title": "Meet the toolkit",
+    "section": "GitHub Commands: Pull Commit Push",
+    "text": "GitHub Commands: Pull Commit Push"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#next-time",
+    "href": "slides/02-toolkit.html#next-time",
+    "title": "Meet the toolkit",
+    "section": "Next Time",
+    "text": "Next Time\n– How can we make professional documents?\n– Practice with more code\n– Don’t forget to fill out the getting to know you survey!\n– Don’t forget to save your work! You are building up your notes / resources."
   }
 ]
