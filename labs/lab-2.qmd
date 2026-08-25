@@ -29,7 +29,7 @@ Now would be a good time to render!
 
 5. Create a level four section header and title it **Question 2**. Underneath this section header, run `str(cars)` in a R code chunk. Next, write two-three sentences on what information `str()` is giving you about the `cars` data set in R. In addition, write a sentence explaining in what year(s) were these data collected. 
 
-6. Create a level four section header and title it **Question 3**. Run `plot(r)` in a R code chunk. 
+6. Create a level four section header and title it **Question 3**. Run `plot(cars)` in a R code chunk. 
 
 ::: {.callout-note}
 ## Note
