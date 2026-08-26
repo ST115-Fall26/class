@@ -1,0 +1,339 @@
+---
+title: "Quarto II & Objects/Vectors/Lists"
+subtitle: "Lecture 4"
+date: "August 27, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist {.smaller}
+
+-- Did you engage with the prepare material?
+
+-- The attendance sheet will be passed around! Please sign-in.
+
+-- Quiz released Tuesday (due Friday) on Moodle
+
+```         
+  --- lowest quiz-score dropped 
+  --- no late policy on quizzes
+```
+
+-- Do you know how to get help in ST115?
+
+-- Open up RStudio and have a .qmd file ready to go!
+
+-- I have uploaded a `CommonErrors.qmd` file to Moodle. Go ahead and download + open this as well! We will talk about common errors today.
+
+## Warm-up{.smaller} 
+
+What is the difference between 
+
+<pre><code>```{r}
+# this
+```</code></pre>
+
+<pre><code>```{r}
+#| echo: false
+```</code></pre>
+
+## Warm-up{.smaller}
+
+What do these do?
+
+-- echo:
+
+-- eval:
+
+-- message:
+
+-- warning:
+
+Hint: Create a r code chunk with the following, and try it for yourself!  
+
+```
+2+2
+warning("Something might be wrong!")
+message("Here's some information for you.")
+```
+
+## Note
+
+Spacing is important here! (and it reads nicer)
+
+#| eval: false
+
+# Questions
+
+# YAML
+
+## YAML {.smaller}
+
+We have mappings and keys!
+
+You can think of the "map" as a YAML option. You can think of the "key"
+as the value the option takes on.
+
+```         
+---
+title: "My Document"
+---
+```
+
+title is the "map" and "My Document" is the key!
+
+Note: When we are working with a simple string, the quotes are optional.
+When you are working with things likes numbers that you want to be
+treated as text, quotes are necessary.
+
+[Options](https://quarto-tdg.org/yaml.html)
+
+## YAML {.smaller}
+
+What's the difference?
+
+::: columns
+::: {.column width="50%"}
+**Example 1**
+
+```{=html}
+<pre><code>---
+title: "Test Document"
+author:
+name: Elijah Meyer
+affiliation: NC State University
+---</code></pre>
+```
+**Example 2**
+
+```{=html}
+<pre><code>---
+title: "Test Document"
+author:
+- name: Elijah Meyer
+affiliation: NC State University
+---</code></pre>
+```
+:::
+
+::: {.column width="50%"}
+**Example 3**
+
+```{=html}
+<pre><code>---
+title: "Test Document"
+author:
+  - name: Elijah Meyer
+    affiliation: NC State University
+---</code></pre>
+```
+:::
+:::
+
+## YAML
+
+The `-` is necessary when we have a list item (an item that we could
+have multiple of)
+
+```         
+author
+  └── list item
+        ├── name
+        └── affiliation
+```
+
+**Most** (not all) YAML headings require indentation. This is a good
+habit to get into early.
+
+# Questions
+
+## Common Errors
+
+Download the **CommonErrors.qmd** from Moodle, and open it up on your computer! 
+
+Try and fix the code so it renders a document. 
+
+# Don't cheat
+
+## Common Errors
+
+-- Code chunks not closed
+
+-- Incorrect code preventing rendering
+
+-- YAML 
+
+# Questions 
+
+## Challenge Question (if time) {.smaller}
+
+-- Make a new quarto document
+
+-- Title is "Iris-Practice" and put yourself as the author
+
+-- Pull up the help file for the `iris` data set (and discuss if we
+should include the help file in the Quarto document or not)
+
+-- Make a level-2 section header and title it "Description"
+
+-- Copy the description text into your Quarto file
+
+-- Answer the question: What is larger, the mean or median Petal Width?
+
+# Questions 
+
+# Objects, Vectors, and Lists 
+
+## R Objects
+
+When we create something in R, such as a number, a word, or a collection of values, R stores it as an object.
+
+```
+x <- 10
+
+x + 5
+```
+
+## Vectors
+
+A vector is a collection of values.
+
+`c` stands for combine (you can think about this as collection if you would like!)
+
+```
+scores <- c(85, 92, 78, 90, 88)
+```
+```{r}
+#| echo: false
+
+scores <- c(85, 92, 78, 90, 88)
+
+str(scores)
+```
+
+What type of vector is this? A numeric vector or a character vector?
+
+
+
+## Vectors 
+
+We will talk about character vs numeric now, and talk about more types of data types + data coercion later in the semester!
+
+```
+cities <- c("Raleigh", "Durham", "Chapel Hill")
+```
+
+We can think about characters as **Text** data. These data will have " " around them. 
+
+```{r}
+#| echo: false
+cities <- c("Raleigh", "Durham", "Chapel Hill")
+
+str(cities)
+```
+
+## Indexing{.smaller} 
+
+Sometimes, we want to only look at a subset of our vector. On your own, please run the following code, and take note of what we discover.
+
+```
+data <-  c(4,6,7,3,2,5,8)
+
+a) data[2]
+b) data[3:6]
+c) data[c(1,4,6)]
+d) data[-5]
+e) data[-c(2,3,5,7)]
+```
+
+# Questions 
+
+## Lists{.smaller} 
+
+A list is an object that can contain different kinds of objects! So far, we have discussed character vectors and numeric vectors. 
+
+```{r}
+#| eval: false
+
+student.temp <- c("Alice", 19, 92, 88, 95)
+  
+student <- list(
+  name = "Alice",
+  age = 19,
+  scores = c(92, 88, 95)
+)
+```
+
+Let's play around with this list using the `$`. Run the following code and see what we learn. 
+
+```{r}
+#| eval: false
+student$name
+student$gpa
+student$scores
+mean(student$scores)
+```
+
+
+
+
+## Lists{.smaller}
+
+So why are lists useful? 
+
+Let's compare our `student` list vs say the data frame `iris` 
+
+```{r}
+#| echo: false
+head(iris)
+```
+
+What's the same? What's different? 
+
+## Lists vs Data Frames
+```{r}
+#| eval: true
+student <- data.frame(
+  name = "Alice",
+  age = 19,
+  major = "Biology",
+  score = c(92, 88, 95))
+
+student
+```
+
+
+## Summary 
+
+The components (variables) of a data frame have to be the same length! Lists, they do not. 
+
+A data frame is designed for: Many observations of the same set of variables.
+
+A list is designed for: Putting different kinds of information together.
+
+Or: A list organizes objects; a data frame organizes observations into rows and variables into columns.
+
+# Questions?
+
+## Challenge Question (if time){.smaller}
+
+Compare the mean Petal Length of each of the three species of flowers 
+
+Hint: The iris dataset is broken down in groups rows of 50 (sequential) for each flower. 
+
+Next, create a list for one specific flower that has the following names, and include the appropriate values. 
+
+-- species 
+
+-- petal_information (mean value, median value)
+
+-- sepal_information (mean value, median value)
+
+
+
