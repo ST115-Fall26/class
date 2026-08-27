@@ -133,13 +133,6 @@
     "text": "Summary\nThe components (variables) of a data frame have to be the same length! Lists, they do not.\nA data frame is designed for: Many observations of the same set of variables.\nA list is designed for: Putting different kinds of information together.\nOr: A list organizes objects; a data frame organizes observations into rows and variables into columns."
   },
   {
-    "objectID": "slides/04-QuartoII.html#challenge-question-if-time-1",
-    "href": "slides/04-QuartoII.html#challenge-question-if-time-1",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Challenge Question (if time)",
-    "text": "Challenge Question (if time)\nCompare the mean Petal Length of each of the three species of flowers\nHint: The iris dataset is broken down in groups rows of 50 (sequential) for each flower.\nNext, create a list for one specific flower that has the following names, and include the appropriate values.\n– species\n– petal_information (mean value, median value)\n– sepal_information (mean value, median value)"
-  },
-  {
     "objectID": "slides/02-toolkit.html#checklist",
     "href": "slides/02-toolkit.html#checklist",
     "title": "Meet the toolkit",

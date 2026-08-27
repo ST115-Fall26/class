@@ -323,19 +323,7 @@ Or: A list organizes objects; a data frame organizes observations into rows and 
 
 # Questions?
 
-## Challenge Question (if time){.smaller}
 
-Compare the mean Petal Length of each of the three species of flowers 
-
-Hint: The iris dataset is broken down in groups rows of 50 (sequential) for each flower. 
-
-Next, create a list for one specific flower that has the following names, and include the appropriate values. 
-
--- species 
-
--- petal_information (mean value, median value)
-
--- sepal_information (mean value, median value)
 
 
 
