@@ -260,6 +260,7 @@ A list is an object that can contain different kinds of objects! So far, we have
 
 ```{r}
 #| eval: false
+#| echo: true
 
 student.temp <- c("Alice", 19, 92, 88, 95)
   
@@ -270,17 +271,18 @@ student <- list(
 )
 ```
 
+## Lists{.smaller}
+
 Let's play around with this list using the `$`. Run the following code and see what we learn. 
 
 ```{r}
 #| eval: false
+#| echo: true
 student$name
 student$gpa
 student$scores
 mean(student$scores)
 ```
-
-
 
 
 ## Lists{.smaller}
