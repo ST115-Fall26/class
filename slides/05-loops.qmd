@@ -1,0 +1,343 @@
+---
+title: "Finish Lists and Loops"
+subtitle: "Lecture 5"
+date: "September 1, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist {.smaller}
+
+-- Did you engage with the prepare material?
+
+-- We have a "Where is my file" resource. Check it out!
+
+-- The attendance sheet will be passed around! Please sign-in.
+
+-- Quiz released Tuesday (due Friday) on Moodle
+
+```         
+  --- lowest quiz-score dropped 
+  --- no late policy on quizzes
+```
+
+-- Do you know how to get help in ST115?
+
+-- Open up RStudio and have a .qmd file ready to go!
+
+-- **You have a proficiency test today**! Let's talk about it. 
+
+## Proficiency test{.smaller}
+
+Please see the Moodle announcement
+
+-- Individual assessment 
+
+-- Allowed 8x11 note-sheet 
+
+```         
+  --- exampls; definitions; when to use functions; how they work; etc. 
+```
+
+-- Drop the lowest (five total; four count)
+
+-- loops are **not** on this test
+
+Questions?
+
+## Warm-up 
+
+Describe characteristics of a data frame vs a list. How are they different?
+
+## Data frame 
+
+A data frame ...
+
+-- Has rows and columns
+
+-- Each column can have a different data type
+
+-- Every column must have the same number of rows
+
+## Data frame{.smaller}
+
+5 x 150
+
+```{r}
+head(iris)
+```
+
+## List 
+
+A list is a more flexible way to store data: 
+
+-- lists have *elements* (names in the list)
+
+-- elements do not have to be the same length 
+
+## Example{.smaller} 
+
+```{webr-r}
+#| eval: false
+#| echo: true
+
+student <- list(
+  name = "Alice",
+  age = 19,
+  scores = c(92, 88, 95)
+)
+
+student$name
+student$gpa
+student$scores
+mean(student$scores)
+```
+
+## Lists vs Data Frames
+
+```{r}
+#| eval: true
+#| echo: true
+student <- data.frame(
+  name = "Alice",
+  age = 19,
+  major = "Biology",
+  score = c(92, 88, 95))
+
+student
+```
+
+## Summary{.smaller} 
+
+-- data analysis usually asks questions about rows and variables, and a data frame is specifically designed around that structure
+
+-- lists are used a lot in coding behind a variety of functions
+
+`lm()`
+
+```
+model
+├── coefficients
+├── residuals
+├── fitted values
+├── degrees of freedom
+```
+and these are all stored in lists!
+
+# Questions 
+
+## Loops 
+
+-- For 
+
+-- while 
+
+## For Loop{.smaller}
+
+Define each piece of the for loop below, to help us uncover the definition
+
+```{webr-r}
+for (x in 1:3) {
+  print(x)
+}
+```
+
+for -
+
+x -
+
+in -
+
+1:3 -
+
+{ } -
+
+print(x) -
+
+
+## For Loop{.smaller}
+
+```{r}
+#| echo: true
+#| eval: false
+
+for (x in 1:3) {
+  print(x)
+}
+```
+
+for - tells R to repeat something
+
+x - the current number
+
+in - tells R where to get the numbers from
+
+1:3 - the numbers R goes through: 1, 2, 3
+
+{ } - contains what R should repeat
+
+print(x) - prints the current number
+
+## For Loop 
+
+Change x to something different and run the code. Does it work? What does this tell us?
+
+```{webr-r}
+for (x in 1:3) {
+  print(x)
+}
+```
+
+## For Loop 
+
+x is just a placeholder! 
+
+-- Try to use something informative 
+
+-- Don't use something that R already knows (ex. mean)
+
+
+## For loops
+
+When might this be useful?
+
+ 
+## Challenge Question{.smaller} 
+
+Print out each element using a for loop!
+
+```{r}
+#| eval: false
+#| echo: true
+student <- list(
+  name = "Alice",
+  age = 19,
+  scores = c(92, 88, 95)
+)
+
+student[[1]] #here is a hint! 
+
+## A for loop defaults to extract elements from a list as seen above
+```
+
+
+## Solution{.smaller} 
+
+```{r}
+#| echo: true
+student <- list(
+  name = "Alice",
+  age = 19,
+  scores = c(92, 88, 95)
+)
+
+for (x in student) {
+  print(x)
+}
+```
+
+
+## Iris{.smaller} 
+
+On your own. Copy this code into your .qmd file. 
+
+What is this code doing? Comment each line of code now. 
+
+```{r}
+#|  echo: true
+#|  eval: false
+iris2 <- iris
+
+for (i in 1:nrow(iris2)) {
+  iris2$Sepal.Length[i] <- iris2$Sepal.Length[i] * 2
+}
+
+iris2
+```
+
+# Questions
+
+## While Loop 
+
+Let's run this code, and try to make sense of the error. 
+
+Next, let's fix the code so it runs!
+
+```{webr-r}
+while( x < 100 ){
+  x <- 2*x
+  print(x)
+}
+```
+
+## While Loop 
+
+**run and replace**! 
+
+```{webr-r}
+
+x <- 10
+
+while( x < 100 ){
+  x <- 2*x
+  print(x)
+}
+```
+
+
+## For vs While 
+
+-- What is the difference?
+
+Now, let's practice on when we might use each! 
+
+## Questions{.smaller}
+
+Hint: You don't need to just start with a loop! Write the first iteration without the loop to make sure you know what's going on!
+
+1. Use a ___ loop to go through the first 10 rows of iris and print each flower's Petal.Length.
+
+2. Use a ___ loop to start at the first row of iris and print Sepal.Length values until you reach a flower with a Sepal.Length greater than 7.
+
+3. Use a ___ loop to go through the rows of iris and count how many flowers you encounter before reaching the first Virginica.
+
+
+4. Use a ___ loop to start at row 1 and keep adding the Sepal.Width values together until the running total exceeds 20. Print the total when the loop stops.
+
+## Hint
+
+Math operations
+
+| Operator | Meaning |
+|---|---|
+| **<** | less than |
+| **<=** | less than or equal to |
+| **>** | greater than |
+| **>=** | greater than or equal to |
+| **!=** | not equal to |
+| **==** | equal to |
+
+
+## Extension Question 
+
+Use a ___ loop to go through the Sepal.Length values and print "Large" if the value is greater than 6 and "Small" otherwise.
+
+## Reminders
+
+-- Proficiency test today
+
+-- Quiz due Friday
+
+-- See you Thursday!
+
+
+
+
+
+

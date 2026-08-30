@@ -1,0 +1,74 @@
+---
+title: "Proficiency test - 1 (20-points)"
+format: pdf
+---
+
+## Instructions
+
+As a reminder, this is an individual assessment. You are allowed the following resources to complete the tasks below: 
+
+-- Notesheet (front + back)
+
+-- Help files in RStudio 
+
+You are **not** allowed external resources, or a LLM. This is an assessment of your understanding. 
+
+Before the lab ends, please turn this in on Gradescope. 
+
+You may not work on the problems below after your 50-minutes is up. Turn in what you have, you are able to earn partial credit on proficiency tests.
+
+Your document should include text, all code used, and results generated from code you have created.
+
+You may ask questions. If your question gives you an advantage over other students, it will not be answered. If you receive an error that has been covered in-class, it is your responsibility to problem solve and fix the error. If you are running into a technical error beyond the scope of the course, a TA may assist you.
+
+I suggest rendering your document after each task. 
+
+Good luck!
+
+\newpage
+
+
+## Task-1 
+
+Create a new Quarto-document and include the following in the YAML: 
+
+-- A title that says "Proficiency Test 1" 
+
+-- A subtitle that says "ST-115"
+
+-- An author mapping with your name 
+
+You may use the following example code from the slides to help answer this question: 
+
+```
+title: "Test Document"
+author:
+  - name: Elijah Meyer
+    affiliation: NC State University
+```
+
+## Task 2 
+
+Delete all the text and examples that Quarto gives you by default when making a new document. Next... 
+
+-- Make a level-2 header that says Iris Dataset
+
+-- Pull up the help file for the `iris` dataset, by typing the code into your console, and copy the description of the `iris` dataset underneath your level-2 header
+
+
+## Task 3
+
+Make a level-2 header that says Flower.
+
+There are 3 species of flower. 
+
+-- Compare the mean Petal Length of each of the three species of flowers (setosa versicolor virginica). Report the mean of each of the three species' Petal Length, and write a sentence saying which one is the largest. 
+
+**Hint**: The iris dataset is broken down in groups rows of 50 (sequential) for each flower. The first 50 are setosa. The second 50 are versicolor. The third 50 and virginica.
+
+-- Next, create a list, named `flower`, for the setosa species that has the following variable names:  species, measurements. For the species variable, input the value setosa. For the measurements variable, input the mean and median value of Petal Length. Include the name `flower` in your code chunk so the results print in your rendered document. 
+
+Render your document for the final time, and turn in a PDF on Gradescope. 
+
+
+
