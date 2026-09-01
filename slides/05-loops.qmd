@@ -12,7 +12,7 @@ editor:
     wrap: 72
 ---
 
-## Checklist {.smaller}
+## Checklist {.smaller}  
 
 -- Did you engage with the prepare material?
 
