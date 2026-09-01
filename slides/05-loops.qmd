@@ -42,7 +42,7 @@ Please see the Moodle announcement
 -- Allowed 8x11 note-sheet 
 
 ```         
-  --- exampls; definitions; when to use functions; how they work; etc. 
+  --- examples; definitions; when to use functions; how they work; etc. 
 ```
 
 -- Drop the lowest (five total; four count)
@@ -50,6 +50,10 @@ Please see the Moodle announcement
 -- loops are **not** on this test
 
 Questions?
+
+## Quarto tip of the day
+
+Let's go into Quarto and make a table!
 
 ## Warm-up 
 
@@ -210,7 +214,7 @@ When might this be useful?
  
 ## Challenge Question{.smaller} 
 
-Print out each element using a for loop!
+In your own .qmd file, print out each element using a for loop!
 
 ```{r}
 #| eval: false
@@ -250,8 +254,8 @@ On your own. Copy this code into your .qmd file.
 What is this code doing? Comment each line of code now. 
 
 ```{r}
-#|  echo: true
-#|  eval: false
+#| echo: true
+#| eval: false
 iris2 <- iris
 
 for (i in 1:nrow(iris2)) {
@@ -260,6 +264,7 @@ for (i in 1:nrow(iris2)) {
 
 iris2
 ```
+
 
 # Questions
 

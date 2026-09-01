@@ -2061,10 +2061,14 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <p>Please see the Moodle announcement</p>
 <p>– Individual assessment</p>
 <p>– Allowed 8x11 note-sheet</p>
-<pre><code>  --- exampls; definitions; when to use functions; how they work; etc. </code></pre>
+<pre><code>  --- examples; definitions; when to use functions; how they work; etc. </code></pre>
 <p>– Drop the lowest (five total; four count)</p>
 <p>– loops are <strong>not</strong> on this test</p>
 <p>Questions?</p>
+</section>
+<section id="quarto-tip-of-the-day" class="slide level2">
+<h2>Quarto tip of the day</h2>
+<p>Let’s go into Quarto and make a table!</p>
 </section>
 <section id="warm-up" class="slide level2">
 <h2>Warm-up</h2>
@@ -2187,7 +2191,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </section>
 <section id="challenge-question" class="slide level2 smaller">
 <h2>Challenge Question</h2>
-<p>Print out each element using a for loop!</p>
+<p>In your own .qmd file, print out each element using a for loop!</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>student <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
 <span id="cb8-2"><a></a>  <span class="at">name =</span> <span class="st">"Alice"</span>,</span>
@@ -2224,159 +2228,13 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <p>On your own. Copy this code into your .qmd file.</p>
 <p>What is this code doing? Comment each line of code now.</p>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>    Sepal.Length Sepal.Width Petal.Length Petal.Width    Species
-1           10.2         3.5          1.4         0.2     setosa
-2            9.8         3.0          1.4         0.2     setosa
-3            9.4         3.2          1.3         0.2     setosa
-4            9.2         3.1          1.5         0.2     setosa
-5           10.0         3.6          1.4         0.2     setosa
-6           10.8         3.9          1.7         0.4     setosa
-7            9.2         3.4          1.4         0.3     setosa
-8           10.0         3.4          1.5         0.2     setosa
-9            8.8         2.9          1.4         0.2     setosa
-10           9.8         3.1          1.5         0.1     setosa
-11          10.8         3.7          1.5         0.2     setosa
-12           9.6         3.4          1.6         0.2     setosa
-13           9.6         3.0          1.4         0.1     setosa
-14           8.6         3.0          1.1         0.1     setosa
-15          11.6         4.0          1.2         0.2     setosa
-16          11.4         4.4          1.5         0.4     setosa
-17          10.8         3.9          1.3         0.4     setosa
-18          10.2         3.5          1.4         0.3     setosa
-19          11.4         3.8          1.7         0.3     setosa
-20          10.2         3.8          1.5         0.3     setosa
-21          10.8         3.4          1.7         0.2     setosa
-22          10.2         3.7          1.5         0.4     setosa
-23           9.2         3.6          1.0         0.2     setosa
-24          10.2         3.3          1.7         0.5     setosa
-25           9.6         3.4          1.9         0.2     setosa
-26          10.0         3.0          1.6         0.2     setosa
-27          10.0         3.4          1.6         0.4     setosa
-28          10.4         3.5          1.5         0.2     setosa
-29          10.4         3.4          1.4         0.2     setosa
-30           9.4         3.2          1.6         0.2     setosa
-31           9.6         3.1          1.6         0.2     setosa
-32          10.8         3.4          1.5         0.4     setosa
-33          10.4         4.1          1.5         0.1     setosa
-34          11.0         4.2          1.4         0.2     setosa
-35           9.8         3.1          1.5         0.2     setosa
-36          10.0         3.2          1.2         0.2     setosa
-37          11.0         3.5          1.3         0.2     setosa
-38           9.8         3.6          1.4         0.1     setosa
-39           8.8         3.0          1.3         0.2     setosa
-40          10.2         3.4          1.5         0.2     setosa
-41          10.0         3.5          1.3         0.3     setosa
-42           9.0         2.3          1.3         0.3     setosa
-43           8.8         3.2          1.3         0.2     setosa
-44          10.0         3.5          1.6         0.6     setosa
-45          10.2         3.8          1.9         0.4     setosa
-46           9.6         3.0          1.4         0.3     setosa
-47          10.2         3.8          1.6         0.2     setosa
-48           9.2         3.2          1.4         0.2     setosa
-49          10.6         3.7          1.5         0.2     setosa
-50          10.0         3.3          1.4         0.2     setosa
-51          14.0         3.2          4.7         1.4 versicolor
-52          12.8         3.2          4.5         1.5 versicolor
-53          13.8         3.1          4.9         1.5 versicolor
-54          11.0         2.3          4.0         1.3 versicolor
-55          13.0         2.8          4.6         1.5 versicolor
-56          11.4         2.8          4.5         1.3 versicolor
-57          12.6         3.3          4.7         1.6 versicolor
-58           9.8         2.4          3.3         1.0 versicolor
-59          13.2         2.9          4.6         1.3 versicolor
-60          10.4         2.7          3.9         1.4 versicolor
-61          10.0         2.0          3.5         1.0 versicolor
-62          11.8         3.0          4.2         1.5 versicolor
-63          12.0         2.2          4.0         1.0 versicolor
-64          12.2         2.9          4.7         1.4 versicolor
-65          11.2         2.9          3.6         1.3 versicolor
-66          13.4         3.1          4.4         1.4 versicolor
-67          11.2         3.0          4.5         1.5 versicolor
-68          11.6         2.7          4.1         1.0 versicolor
-69          12.4         2.2          4.5         1.5 versicolor
-70          11.2         2.5          3.9         1.1 versicolor
-71          11.8         3.2          4.8         1.8 versicolor
-72          12.2         2.8          4.0         1.3 versicolor
-73          12.6         2.5          4.9         1.5 versicolor
-74          12.2         2.8          4.7         1.2 versicolor
-75          12.8         2.9          4.3         1.3 versicolor
-76          13.2         3.0          4.4         1.4 versicolor
-77          13.6         2.8          4.8         1.4 versicolor
-78          13.4         3.0          5.0         1.7 versicolor
-79          12.0         2.9          4.5         1.5 versicolor
-80          11.4         2.6          3.5         1.0 versicolor
-81          11.0         2.4          3.8         1.1 versicolor
-82          11.0         2.4          3.7         1.0 versicolor
-83          11.6         2.7          3.9         1.2 versicolor
-84          12.0         2.7          5.1         1.6 versicolor
-85          10.8         3.0          4.5         1.5 versicolor
-86          12.0         3.4          4.5         1.6 versicolor
-87          13.4         3.1          4.7         1.5 versicolor
-88          12.6         2.3          4.4         1.3 versicolor
-89          11.2         3.0          4.1         1.3 versicolor
-90          11.0         2.5          4.0         1.3 versicolor
-91          11.0         2.6          4.4         1.2 versicolor
-92          12.2         3.0          4.6         1.4 versicolor
-93          11.6         2.6          4.0         1.2 versicolor
-94          10.0         2.3          3.3         1.0 versicolor
-95          11.2         2.7          4.2         1.3 versicolor
-96          11.4         3.0          4.2         1.2 versicolor
-97          11.4         2.9          4.2         1.3 versicolor
-98          12.4         2.9          4.3         1.3 versicolor
-99          10.2         2.5          3.0         1.1 versicolor
-100         11.4         2.8          4.1         1.3 versicolor
-101         12.6         3.3          6.0         2.5  virginica
-102         11.6         2.7          5.1         1.9  virginica
-103         14.2         3.0          5.9         2.1  virginica
-104         12.6         2.9          5.6         1.8  virginica
-105         13.0         3.0          5.8         2.2  virginica
-106         15.2         3.0          6.6         2.1  virginica
-107          9.8         2.5          4.5         1.7  virginica
-108         14.6         2.9          6.3         1.8  virginica
-109         13.4         2.5          5.8         1.8  virginica
-110         14.4         3.6          6.1         2.5  virginica
-111         13.0         3.2          5.1         2.0  virginica
-112         12.8         2.7          5.3         1.9  virginica
-113         13.6         3.0          5.5         2.1  virginica
-114         11.4         2.5          5.0         2.0  virginica
-115         11.6         2.8          5.1         2.4  virginica
-116         12.8         3.2          5.3         2.3  virginica
-117         13.0         3.0          5.5         1.8  virginica
-118         15.4         3.8          6.7         2.2  virginica
-119         15.4         2.6          6.9         2.3  virginica
-120         12.0         2.2          5.0         1.5  virginica
-121         13.8         3.2          5.7         2.3  virginica
-122         11.2         2.8          4.9         2.0  virginica
-123         15.4         2.8          6.7         2.0  virginica
-124         12.6         2.7          4.9         1.8  virginica
-125         13.4         3.3          5.7         2.1  virginica
-126         14.4         3.2          6.0         1.8  virginica
-127         12.4         2.8          4.8         1.8  virginica
-128         12.2         3.0          4.9         1.8  virginica
-129         12.8         2.8          5.6         2.1  virginica
-130         14.4         3.0          5.8         1.6  virginica
-131         14.8         2.8          6.1         1.9  virginica
-132         15.8         3.8          6.4         2.0  virginica
-133         12.8         2.8          5.6         2.2  virginica
-134         12.6         2.8          5.1         1.5  virginica
-135         12.2         2.6          5.6         1.4  virginica
-136         15.4         3.0          6.1         2.3  virginica
-137         12.6         3.4          5.6         2.4  virginica
-138         12.8         3.1          5.5         1.8  virginica
-139         12.0         3.0          4.8         1.8  virginica
-140         13.8         3.1          5.4         2.1  virginica
-141         13.4         3.1          5.6         2.4  virginica
-142         13.8         3.1          5.1         2.3  virginica
-143         11.6         2.7          5.1         1.9  virginica
-144         13.6         3.2          5.9         2.3  virginica
-145         13.4         3.3          5.7         2.5  virginica
-146         13.4         3.0          5.2         2.3  virginica
-147         12.6         2.5          5.0         1.9  virginica
-148         13.0         3.0          5.2         2.0  virginica
-149         12.4         3.4          5.4         2.3  virginica
-150         11.8         3.0          5.1         1.8  virginica</code></pre>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>iris2 <span class="ot">&lt;-</span> iris</span>
+<span id="cb11-2"><a></a></span>
+<span id="cb11-3"><a></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(iris2)) {</span>
+<span id="cb11-4"><a></a>  iris2<span class="sc">$</span>Sepal.Length[i] <span class="ot">&lt;-</span> iris2<span class="sc">$</span>Sepal.Length[i] <span class="sc">*</span> <span class="dv">2</span></span>
+<span id="cb11-5"><a></a>}</span>
+<span id="cb11-6"><a></a></span>
+<span id="cb11-7"><a></a>iris2</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section></section>
 <section>
