@@ -1,0 +1,38 @@
+---
+title: "Proficiency test - 1 (Solutions)"
+subtitle: "ST-115" 
+author:
+  - name: Elijah Meyer
+---
+
+## Iris Dataset 
+
+This famous (Fisher's or Anderson's) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+
+*We pull up a help file for a function/dataset that is in base R using the ?name in our console*
+
+*We make section headers using `##`*
+
+## Flower
+
+```{r}
+mean(iris$Petal.Length[1:50]) # setosa species 
+mean(iris$Petal.Length[51:100]) # versicolor 
+mean(iris$Petal.Length[101:150]) # virginica
+```
+
+
+Based on the results above, we can see that the virginica has the largest mean petal length.
+
+```{r}
+flower <- list(
+  species = "setosa",
+  measurements = c(mean(iris$Petal.Length[1:50]), median(iris$Petal.Length[1:50]))
+)
+
+flower
+```
+
+
+
+
