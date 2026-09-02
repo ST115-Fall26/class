@@ -329,9 +329,7 @@ Math operations
 | **==** | equal to |
 
 
-## Extension Question 
 
-Use a ___ loop to go through the Sepal.Length values and print "Large" if the value is greater than 6 and "Small" otherwise.
 
 ## Reminders
 
