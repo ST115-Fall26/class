@@ -28,7 +28,7 @@ while (iris$Species[i] != "virginica") {
 print(count)
 
 
-# 5. While loop: add Sepal.Width until the total exceeds 20
+# 4. While loop: add Sepal.Width until the total exceeds 20
 
 i <- 1
 total <- 0
@@ -39,13 +39,3 @@ while (total <= 20) {
 }
 
 print(total)
-
-###
-
-for (x in iris$Sepal.Length) {
-  if (x > 6) {
-    print("Large")
-  } else {
-    print("Small")
-  }
-}
