@@ -1,887 +1,577 @@
 [
   {
-    "objectID": "slides/06-ifelse.html#check-list",
-    "href": "slides/06-ifelse.html#check-list",
-    "title": "Finish Loops and if else logic",
-    "section": "Check list",
-    "text": "Check list\n– Did you engage with the prepare material?\n– Quiz-2 due Friday at 11:59pm\n– Homework-1: assigned Friday (11-4); due Friday (11-11)\n– Proficiency test II (11-22)"
+    "objectID": "slides/07-functions.html#checklist",
+    "href": "slides/07-functions.html#checklist",
+    "title": "Finish if else logic + function writing",
+    "section": "Checklist",
+    "text": "Checklist\n– Did you engage with the prepare material?\n– No quiz this week!\n– Homework-1: assigned Friday (11-4); due Friday (11-11) on Gradescope!\n– Proficiency test II (11-22)\n– I posted the for loop solutions from last class on Moodle"
   },
   {
-    "objectID": "slides/06-ifelse.html#quarto-tip-of-the-day",
-    "href": "slides/06-ifelse.html#quarto-tip-of-the-day",
-    "title": "Finish Loops and if else logic",
-    "section": "Quarto tip of the day!",
-    "text": "Quarto tip of the day!\nSometimes, you will use code to create data visualizations that are rendered in your document.\nOther times, you will want to display a still png or jpeg image in your .qmd file.\nThis is what we are going to learn today!"
+    "objectID": "slides/07-functions.html#lab-today",
+    "href": "slides/07-functions.html#lab-today",
+    "title": "Finish if else logic + function writing",
+    "section": "Lab today",
+    "text": "Lab today\nYour lab today is very important!\nYou are going to install Git and GitHub.\nWe can’t learn about these tools unless you have them on your computer."
   },
   {
-    "objectID": "slides/06-ifelse.html#images",
-    "href": "slides/06-ifelse.html#images",
-    "title": "Finish Loops and if else logic",
-    "section": "Images",
-    "text": "Images\n![Caption](name-of-picture.png)\n– ! tells quarto that this is an image\n– [] allows us to put a caption on our figure\n– () allows us to specify the name of the .png AND the necessary file path to access the png"
+    "objectID": "slides/07-functions.html#git-and-github",
+    "href": "slides/07-functions.html#git-and-github",
+    "title": "Finish if else logic + function writing",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\nNote: The installation process is a bit more involved than downloading R and RStudio\nPlease follow along with Nick, and we will handle any individual issues that arise on a case-by-case basis.\nLet’s demo what you should be able to do by the end of lab!"
   },
   {
-    "objectID": "slides/06-ifelse.html#suggested-file-path",
-    "href": "slides/06-ifelse.html#suggested-file-path",
-    "title": "Finish Loops and if else logic",
-    "section": "Suggested File Path",
-    "text": "Suggested File Path"
+    "objectID": "slides/07-functions.html#github-demo",
+    "href": "slides/07-functions.html#github-demo",
+    "title": "Finish if else logic + function writing",
+    "section": "GitHub Demo",
+    "text": "GitHub Demo\nPublic Repo\nThis would be a good time to check that you gave me your GitHub username in the excel spreadsheet for the Getting to know you quiz!"
   },
   {
-    "objectID": "slides/06-ifelse.html#suggested-file-path-1",
-    "href": "slides/06-ifelse.html#suggested-file-path-1",
-    "title": "Finish Loops and if else logic",
-    "section": "Suggested File Path",
-    "text": "Suggested File Path\n\nURL-style paths: use / to “move to the next level”\n![](images/my-picture.png)"
+    "objectID": "slides/07-functions.html#quarto-tip-of-the-day",
+    "href": "slides/07-functions.html#quarto-tip-of-the-day",
+    "title": "Finish if else logic + function writing",
+    "section": "Quarto tip of the day",
+    "text": "Quarto tip of the day\ninline code!\nCode results can be inserted directly into the text of a .qmd file by enclosing the code with r.\nWhy might we want to do that?"
   },
   {
-    "objectID": "slides/06-ifelse.html#on-your-own",
-    "href": "slides/06-ifelse.html#on-your-own",
-    "title": "Finish Loops and if else logic",
-    "section": "On your own",
-    "text": "On your own\n– Set up a file structure you are comfortable + confident in\n– Download the wolf png from Moodle\n– Embed it into your .qmd file\n– Render your document"
+    "objectID": "slides/07-functions.html#inline-code",
+    "href": "slides/07-functions.html#inline-code",
+    "title": "Finish if else logic + function writing",
+    "section": "inline code",
+    "text": "inline code\n– Find the max value of Petal Length in the iris data set\n– Write a sentence reporting the max value using inline code\nNote: You will only be able to see this after you render your document!"
   },
   {
-    "objectID": "slides/06-ifelse.html#customize-your-picture",
-    "href": "slides/06-ifelse.html#customize-your-picture",
-    "title": "Finish Loops and if else logic",
-    "section": "Customize your picture",
-    "text": "Customize your picture\nWe can customize the size and location of our image using {}\n![](images/my-picture.png){width = 300}\n![](images/my-picture.png){width = 80%}\n![](images/my-picture.png){width = 4in}\nThe default units for width and height are pixels. You can also specify sizes using a percentage or a conventional measurement like inches or millimetres.\nNote that if only width is specified then height is calculated automatically. If you need to modify the default behaviour just add an explicit height attribute."
+    "objectID": "slides/07-functions.html#if-else",
+    "href": "slides/07-functions.html#if-else",
+    "title": "Finish if else logic + function writing",
+    "section": "if else",
+    "text": "if else\nHow did we think about if else code last class?\nWhat problems does it help us solve?"
   },
   {
-    "objectID": "slides/06-ifelse.html#customize-your-picture-1",
-    "href": "slides/06-ifelse.html#customize-your-picture-1",
-    "title": "Finish Loops and if else logic",
-    "section": "Customize your picture",
-    "text": "Customize your picture\nFigures are center aligned by default. Add the fig-align attribute to the image to use a different alignment. For example:\n![](images/my-picture.png){fig-align=\"left\"}\nWe can use “left”, “right” or “center”"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#alt-text",
-    "href": "slides/06-ifelse.html#alt-text",
-    "title": "Finish Loops and if else logic",
-    "section": "Alt text",
-    "text": "Alt text\n![](images/my-picture.png){fig-alt=\"A drawing of something.\"}"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#all-together",
-    "href": "slides/06-ifelse.html#all-together",
-    "title": "Finish Loops and if else logic",
-    "section": "All together",
-    "text": "All together\nAttributes are separated by a space, not a comma:\n![Caption](images/my-picture.png){width=\"900\" fig-alt=\"A drawing of something.\" fig-align=\"right\"}"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#on-your-own-1",
-    "href": "slides/06-ifelse.html#on-your-own-1",
-    "title": "Finish Loops and if else logic",
-    "section": "On your own",
-    "text": "On your own\nWith your image of a wolf…\n– Change the width\n– Add alt text (and understand the difference between alt text and caption)\n– align your figure a certain direction"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#goals-for-today",
-    "href": "slides/06-ifelse.html#goals-for-today",
-    "title": "Finish Loops and if else logic",
-    "section": "Goals for today",
-    "text": "Goals for today\n– Practice with for loops\n– Practice with while loops\n– Understand if else logic in code"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#warm-up",
-    "href": "slides/06-ifelse.html#warm-up",
-    "title": "Finish Loops and if else logic",
-    "section": "Warm-up",
-    "text": "Warm-up\nWhat happened last time? Why don’t I have values in my first for loop, but I do in my second (next slide)?\n\nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)\n\nfor (x in student) {\n  print(x)\n}"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#warm-up-1",
-    "href": "slides/06-ifelse.html#warm-up-1",
-    "title": "Finish Loops and if else logic",
-    "section": "Warm up",
-    "text": "Warm up\n\niris2 &lt;- iris\n\nfor (i in 1:nrow(iris2)) {\n  iris2$Sepal.Length[i] &lt;- iris2$Sepal.Length[i] * 2\n}\n\niris2"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#types-of-iteration",
-    "href": "slides/06-ifelse.html#types-of-iteration",
-    "title": "Finish Loops and if else logic",
-    "section": "Types of iteration",
-    "text": "Types of iteration\nContainer or box iteration (collective)\n\nfor (x in student) {\n  print(x)\n}\n\nWe don’t care where the value is located. Just give me the value!"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#types-of-iteration-1",
-    "href": "slides/06-ifelse.html#types-of-iteration-1",
-    "title": "Finish Loops and if else logic",
-    "section": "Types of iteration",
-    "text": "Types of iteration\nIndexed iteration (position)\n\niris2 &lt;- iris\n\nfor (i in 1:nrow(iris2)) {\n  iris2$Sepal.Length[i] &lt;- iris2$Sepal.Length[i] * 2\n}\n\niris2 \n\nThe position matters! We need the i:nrow(iris2) to position us."
-  },
-  {
-    "objectID": "slides/06-ifelse.html#question",
-    "href": "slides/06-ifelse.html#question",
-    "title": "Finish Loops and if else logic",
-    "section": "Question",
-    "text": "Question\nWhat does the following code do?\n\nfor (x in iris) {\n  print(x)\n}"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#for-vs-while-warm-up",
-    "href": "slides/06-ifelse.html#for-vs-while-warm-up",
-    "title": "Finish Loops and if else logic",
-    "section": "For vs While (Warm up)",
-    "text": "For vs While (Warm up)\nWhat is the difference?"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#questions-1",
-    "href": "slides/06-ifelse.html#questions-1",
-    "title": "Finish Loops and if else logic",
-    "section": "Questions",
-    "text": "Questions\nNow, let’s practice on when we might use each!\nHint: You don’t need to just start with a loop! Write the first iteration without the loop to make sure you know what’s going on!\n\nUse a ___ loop to go through the first 10 rows of iris and print each flower’s Petal.Length.\nUse a ___ loop to start at the first row of iris and print Sepal.Length values until you reach a flower with a Sepal.Length greater than 7.\nUse a ___ loop to go through the rows of iris and count how many flowers you encounter before reaching the first Virginica.\nUse a ___ loop to start at row 1 and keep adding the Sepal.Width values together until the running total exceeds 20. Print the total when the loop stops."
-  },
-  {
-    "objectID": "slides/06-ifelse.html#hint",
-    "href": "slides/06-ifelse.html#hint",
-    "title": "Finish Loops and if else logic",
-    "section": "Hint",
-    "text": "Hint\nMath operations\n\n\n\nOperator\nMeaning\n\n\n\n\n&lt;\nless than\n\n\n&lt;=\nless than or equal to\n\n\n&gt;\ngreater than\n\n\n&gt;=\ngreater than or equal to\n\n\n!=\nnot equal to\n\n\n==\nequal to"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#if-else-motivation",
-    "href": "slides/06-ifelse.html#if-else-motivation",
-    "title": "Finish Loops and if else logic",
-    "section": "if else motivation",
-    "text": "if else motivation\nBased on the wording, what do we think if else logic is?\nOr, what could if else statements help us accomplish?"
-  },
-  {
-    "objectID": "slides/06-ifelse.html#if-else-motivation-1",
-    "href": "slides/06-ifelse.html#if-else-motivation-1",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#if-else-motivation",
+    "href": "slides/07-functions.html#if-else-motivation",
+    "title": "Finish if else logic + function writing",
     "section": "if else motivation",
     "text": "if else motivation\nif/else statements let your code make decisions (decisions that you pre-code)\n“If this condition is true, do this. Otherwise, do that.”"
   },
   {
-    "objectID": "slides/06-ifelse.html#if-statement",
-    "href": "slides/06-ifelse.html#if-statement",
-    "title": "Finish Loops and if else logic",
-    "section": "if statement",
-    "text": "if statement\nType this code into your .qmd file. Run it when your R object is equal to 10. What if it is less than 10?\n\nx &lt;- 10\n\nif (x &gt; 5) {\n  print(\"x is greater than 5\")\n}"
+    "objectID": "slides/07-functions.html#exercise",
+    "href": "slides/07-functions.html#exercise",
+    "title": "Finish if else logic + function writing",
+    "section": "Exercise",
+    "text": "Exercise\nWe can have multiple if else statements.\n– Create an R object called score and assign the value 71 to it for starters.\n– Create an if else statement that prints A if the score is at least 90\n– A B if the score is at least 80\n– A C if the score is at least 70\n– A F if the score is anything else"
   },
   {
-    "objectID": "slides/06-ifelse.html#if-else-statement",
-    "href": "slides/06-ifelse.html#if-else-statement",
-    "title": "Finish Loops and if else logic",
-    "section": "if else statement",
-    "text": "if else statement\nAdd to the code on the previous slide that will print the text “x is 5 or less” using an else statement.\nNote: an else statement opens and closes exactly like the if statement!"
+    "objectID": "slides/07-functions.html#hint",
+    "href": "slides/07-functions.html#hint",
+    "title": "Finish if else logic + function writing",
+    "section": "Hint",
+    "text": "Hint\nMath operations\n\n\n\nOperator\nMeaning\n\n\n\n\n&lt;\nless than\n\n\n&lt;=\nless than or equal to\n\n\n&gt;\ngreater than\n\n\n&gt;=\ngreater than or equal to\n\n\n!=\nnot equal to\n\n\n==\nequal to"
   },
   {
-    "objectID": "slides/06-ifelse.html#extension",
-    "href": "slides/06-ifelse.html#extension",
-    "title": "Finish Loops and if else logic",
-    "section": "Extension",
-    "text": "Extension\nWe can have multiple else statements.\n– Create an R object called score and assign the value 71 to it for starters.\n– Create an if else statement that prints A if the score is at least 90\n– A B if the score is at least 80\n– A C if the score is at least 70\n– A F if the score is anything else"
+    "objectID": "slides/07-functions.html#solution",
+    "href": "slides/07-functions.html#solution",
+    "title": "Finish if else logic + function writing",
+    "section": "Solution",
+    "text": "Solution\n\nscore &lt;- 71\n\nif (score &gt;= 90) {\n  print(\"A\")\n} else if (score &gt;= 80) {\n  print(\"B\")\n} else if (score &gt;= 70) {\n  print(\"C\")\n} else {\n  print(\"F\")\n}"
   },
   {
-    "objectID": "slides/06-ifelse.html#extension-1",
-    "href": "slides/06-ifelse.html#extension-1",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#extension",
+    "href": "slides/07-functions.html#extension",
+    "title": "Finish if else logic + function writing",
     "section": "Extension",
     "text": "Extension\nLet’s go back to the iris data set. Suppose that a flower with a Petal Length larger than 4 is considered a large flow.\nHere, we are going to learn how to create a new variable in base R, and fill the new variable with values from the if else statement!\nAs a reminder, what does the following code do?\n\niris$Petal.Length"
   },
   {
-    "objectID": "slides/06-ifelse.html#extension-2",
-    "href": "slides/06-ifelse.html#extension-2",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#extension-1",
+    "href": "slides/07-functions.html#extension-1",
+    "title": "Finish if else logic + function writing",
     "section": "Extension",
     "text": "Extension\nRun the following code. What happens?\n\niris$Petal.Size &lt;- 5\n\niris$Petal.Size &lt;- NA"
   },
   {
-    "objectID": "slides/06-ifelse.html#ive-got-this",
-    "href": "slides/06-ifelse.html#ive-got-this",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#ive-got-this",
+    "href": "slides/07-functions.html#ive-got-this",
+    "title": "Finish if else logic + function writing",
     "section": "I’ve got this",
     "text": "I’ve got this\nRun this, it works… I promise…\n\niris$Petal.Size &lt;- if (iris$Petal.Length &gt; 4) {\n  \"Large\"\n} else {\n  \"Small\"\n}\n\nWhat is happening?\nWhat might we need to do?"
   },
   {
-    "objectID": "slides/06-ifelse.html#extension-3",
-    "href": "slides/06-ifelse.html#extension-3",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#extension-2",
+    "href": "slides/07-functions.html#extension-2",
+    "title": "Finish if else logic + function writing",
     "section": "Extension",
     "text": "Extension\nNow, use this logic, and a for loop, to create a Petal.Size variable that has the value of “Large” if the Petal Length is larger than 4, and “Small” if Petal Length is 4 or smaller."
   },
   {
-    "objectID": "slides/06-ifelse.html#solution",
-    "href": "slides/06-ifelse.html#solution",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#solution-1",
+    "href": "slides/07-functions.html#solution-1",
+    "title": "Finish if else logic + function writing",
     "section": "Solution",
     "text": "Solution\n\niris$Petal.Size &lt;- NA\n\nfor (i in 1:nrow(iris)) {\n  if (iris$Petal.Length[i] &gt; 4) {\n    iris$Petal.Size[i] &lt;- \"Large\"\n  } else {\n    iris$Petal.Size[i] &lt;- \"Small\"\n  }\n}\n\niris"
   },
   {
-    "objectID": "slides/06-ifelse.html#vectorized-operations",
-    "href": "slides/06-ifelse.html#vectorized-operations",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#vectorized-operations",
+    "href": "slides/07-functions.html#vectorized-operations",
+    "title": "Finish if else logic + function writing",
     "section": "Vectorized operations",
     "text": "Vectorized operations\n– if / else - operate on one value (so we need to iterate with a for loop)\n– In R, vectorized means that a function can OPERATE on a whole vector of values at once, instead of requiring you to process each value individually with a loop (ifelse)"
   },
   {
-    "objectID": "slides/06-ifelse.html#example",
-    "href": "slides/06-ifelse.html#example",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#example",
+    "href": "slides/07-functions.html#example",
+    "title": "Finish if else logic + function writing",
     "section": "Example",
     "text": "Example\n– mean(): not vectorized. It takes a vector as an input and produces a value. It does not operate on the entire vector\n– round(): rounds each value in a vector. “Does something independently to each element”. This is consider vectorized!"
   },
   {
-    "objectID": "slides/06-ifelse.html#test-yourself",
-    "href": "slides/06-ifelse.html#test-yourself",
-    "title": "Finish Loops and if else logic",
+    "objectID": "slides/07-functions.html#test-yourself",
+    "href": "slides/07-functions.html#test-yourself",
+    "title": "Finish if else logic + function writing",
     "section": "Test yourself",
     "text": "Test yourself\nWhich functions are vectorized?\n\nx &lt;- c(2,4,6)\n\nlength(x)\n\nsqrt(x)\n\nunique(x)\n\nx &gt; 2"
   },
   {
-    "objectID": "slides/06-ifelse.html#ifelse",
-    "href": "slides/06-ifelse.html#ifelse",
-    "title": "Finish Loops and if else logic",
-    "section": "ifelse",
-    "text": "ifelse\nPull up the help file for ifelse\nNow, create a new variable in the iris data set for the Sepal.Size. Have it say “Large” if the value is above 5.5, and “Small” for anything else."
+    "objectID": "slides/07-functions.html#writing-your-own-function",
+    "href": "slides/07-functions.html#writing-your-own-function",
+    "title": "Finish if else logic + function writing",
+    "section": "Writing your own function",
+    "text": "Writing your own function\nR has a bunch of pre-packaged functions!\nWhy might we write our own?"
   },
   {
-    "objectID": "slides/06-ifelse.html#solution-1",
-    "href": "slides/06-ifelse.html#solution-1",
-    "title": "Finish Loops and if else logic",
-    "section": "Solution",
-    "text": "Solution\n\niris$Sepal.Size &lt;- ifelse(\n  iris$Sepal.Length &gt; 5.5,\n  \"Large\",\n  \"Small\"\n)"
+    "objectID": "slides/07-functions.html#writing-your-own-function-1",
+    "href": "slides/07-functions.html#writing-your-own-function-1",
+    "title": "Finish if else logic + function writing",
+    "section": "Writing your own function",
+    "text": "Writing your own function\n– A custom function is useful when you have a general procedure that you want to apply repeatedly to different inputs.\n– Make code easier to read\n– If you need to accomplish a task, and you don’t know the origins of the pre-packaged function"
   },
   {
-    "objectID": "slides/04-QuartoII.html#checklist",
-    "href": "slides/04-QuartoII.html#checklist",
-    "title": "Quarto II & Objects/Vectors/Lists",
+    "objectID": "slides/07-functions.html#writing-your-own-function-2",
+    "href": "slides/07-functions.html#writing-your-own-function-2",
+    "title": "Finish if else logic + function writing",
+    "section": "Writing your own function",
+    "text": "Writing your own function\nThings we need to note:\nYou need to pick a name for the function that makes sense!\nex. the mean() function takes a mean!"
+  },
+  {
+    "objectID": "slides/07-functions.html#writing-your-own-function-3",
+    "href": "slides/07-functions.html#writing-your-own-function-3",
+    "title": "Finish if else logic + function writing",
+    "section": "Writing your own function",
+    "text": "Writing your own function\nYou list the inputs, or arguments, to the function inside function"
+  },
+  {
+    "objectID": "slides/07-functions.html#writing-your-own-function-4",
+    "href": "slides/07-functions.html#writing-your-own-function-4",
+    "title": "Finish if else logic + function writing",
+    "section": "Writing your own function",
+    "text": "Writing your own function\nYou list the inputs, or arguments, to the function inside function\nfunction(inputs and arguments go here!)"
+  },
+  {
+    "objectID": "slides/07-functions.html#writing-your-own-function-5",
+    "href": "slides/07-functions.html#writing-your-own-function-5",
+    "title": "Finish if else logic + function writing",
+    "section": "Writing your own function",
+    "text": "Writing your own function\nThe code that you want the function to execute goes inside the curly braces { } after function(…).\nfunction(inputs and arguments go here!) {\n\ncode to execute goes here!\n}"
+  },
+  {
+    "objectID": "slides/07-functions.html#example-1",
+    "href": "slides/07-functions.html#example-1",
+    "title": "Finish if else logic + function writing",
+    "section": "Example",
+    "text": "Example\ndouble &lt;- function(x) {\n  x * 2\n}\n– What is the name of the function?\n– What is x called?\n– What is this function doing?"
+  },
+  {
+    "objectID": "slides/07-functions.html#extension-3",
+    "href": "slides/07-functions.html#extension-3",
+    "title": "Finish if else logic + function writing",
+    "section": "Extension",
+    "text": "Extension\nYou are working with a map divided into a square grid. Each square is identified by its row and column.\nThe grid has the following coordinate system:\nThe bottom-left corner of the grid is at latitude \\(35.00^\\circ\\) and longitude \\(-78.00^\\circ\\).\nEach grid square is 0.01° of latitude tall and 0.01° of longitude wide.\nMoving up one row increases latitude by \\(0.01^\\circ\\).\nMoving right one column increases longitude by \\(0.01^\\circ\\).\nI want a function that will allow me to pick a row and column, and git the latitude and longitude of the center of the square!"
+  },
+  {
+    "objectID": "slides/07-functions.html#example-2",
+    "href": "slides/07-functions.html#example-2",
+    "title": "Finish if else logic + function writing",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "slides/07-functions.html#equation",
+    "href": "slides/07-functions.html#equation",
+    "title": "Finish if else logic + function writing",
+    "section": "Equation",
+    "text": "Equation\nFor example, the center of the square in row 3, column 4 would be:\n\\[ \\text{Latitude}=35.00+(3-0.5)(0.01) \\] \\[ Longitude=−78.00+(4−0.5)(0.01) \\]"
+  },
+  {
+    "objectID": "slides/07-functions.html#input-output",
+    "href": "slides/07-functions.html#input-output",
+    "title": "Finish if else logic + function writing",
+    "section": "Input Output",
+    "text": "Input Output\ngrid_location(3, 4)\nLatitude: 35.025\nLongitude: -77.965"
+  },
+  {
+    "objectID": "slides/07-functions.html#motivation",
+    "href": "slides/07-functions.html#motivation",
+    "title": "Finish if else logic + function writing",
+    "section": "Motivation",
+    "text": "Motivation\nWithout a function, you’d have to repeatedly write the latitude and longitude calculations. With a function, you can simply provide the row and column, and R does the calculations for you.\nWrite the grid_location function below, and verify you are correct by checking grid_location(3, 4) with the previous slide"
+  },
+  {
+    "objectID": "slides/07-functions.html#more-practice",
+    "href": "slides/07-functions.html#more-practice",
+    "title": "Finish if else logic + function writing",
+    "section": "More practice",
+    "text": "More practice\nWrite a function that takes the bill amount and the tip percentage as inputs and returns the dollar amount of the tip."
+  },
+  {
+    "objectID": "slides/07-functions.html#more-practice-1",
+    "href": "slides/07-functions.html#more-practice-1",
+    "title": "Finish if else logic + function writing",
+    "section": "More practice",
+    "text": "More practice\nTask: Write a function called pick_homework() that uses sample() to randomly select n homework assignment(s) from the homework vector.\nhomework &lt;- c(\"Reading\", \"R Practice\", \"Problem Set\", \"Quiz\", \"Discussion\")\nHint: use the sample() function. Check out the help file!"
+  },
+  {
+    "objectID": "slides/07-functions.html#more-practice-2",
+    "href": "slides/07-functions.html#more-practice-2",
+    "title": "Finish if else logic + function writing",
+    "section": "More practice",
+    "text": "More practice\nA weather app gives you the probability of rain and the number of hours you’ll be outside. You want to create a simple measure of your overall “rain exposure.”\nDefine rain exposure as: \\(\\text{Rain Exposure} = \\text{Probability of Rain} \\times \\text{Hours Outside}\\)\nThen run the following code:\nrain_exposure(0.20, 5)\nrain_exposure(0.70, 2)\nrain_exposure(0.40, 8)"
+  },
+  {
+    "objectID": "slides/07-functions.html#did-we-need-to-do-that-1",
+    "href": "slides/07-functions.html#did-we-need-to-do-that-1",
+    "title": "Finish if else logic + function writing",
+    "section": "Did we need to do that?",
+    "text": "Did we need to do that?\nYep! Without a function…\n0.20 * 5 0.70 * 2 0.40 * 8\nA custom function is useful when you have a general procedure that you want to apply repeatedly to different inputs."
+  },
+  {
+    "objectID": "slides/05-loops.html#checklist",
+    "href": "slides/05-loops.html#checklist",
+    "title": "Finish Lists and Loops",
     "section": "Checklist",
-    "text": "Checklist\n– Did you engage with the prepare material?\n– The attendance sheet will be passed around! Please sign-in.\n– Quiz released Tuesday (due Friday) on Moodle\n  --- lowest quiz-score dropped \n  --- no late policy on quizzes\n– Do you know how to get help in ST115?\n– Open up RStudio and have a .qmd file ready to go!\n– I have uploaded a CommonErrors.qmd file to Moodle. Go ahead and download + open this as well! We will talk about common errors today."
+    "text": "Checklist\n– Did you engage with the prepare material?\n– We have a “Where is my file” resource. Check it out!\n– The attendance sheet will be passed around! Please sign-in.\n– Quiz released Tuesday (due Friday) on Moodle\n  --- lowest quiz-score dropped \n  --- no late policy on quizzes\n– Do you know how to get help in ST115?\n– Open up RStudio and have a .qmd file ready to go!\n– You have a proficiency test today! Let’s talk about it."
   },
   {
-    "objectID": "slides/04-QuartoII.html#warm-up",
-    "href": "slides/04-QuartoII.html#warm-up",
-    "title": "Quarto II & Objects/Vectors/Lists",
+    "objectID": "slides/05-loops.html#proficiency-test",
+    "href": "slides/05-loops.html#proficiency-test",
+    "title": "Finish Lists and Loops",
+    "section": "Proficiency test",
+    "text": "Proficiency test\nPlease see the Moodle announcement\n– Individual assessment\n– Allowed 8x11 note-sheet\n  --- examples; definitions; when to use functions; how they work; etc. \n– Drop the lowest (five total; four count)\n– loops are not on this test\nQuestions?"
+  },
+  {
+    "objectID": "slides/05-loops.html#quarto-tip-of-the-day",
+    "href": "slides/05-loops.html#quarto-tip-of-the-day",
+    "title": "Finish Lists and Loops",
+    "section": "Quarto tip of the day",
+    "text": "Quarto tip of the day\nLet’s go into Quarto and make a table!"
+  },
+  {
+    "objectID": "slides/05-loops.html#warm-up",
+    "href": "slides/05-loops.html#warm-up",
+    "title": "Finish Lists and Loops",
     "section": "Warm-up",
-    "text": "Warm-up\nWhat is the difference between\n```{r}\n# this\n```\n```{r}\n#| echo: false\n```"
+    "text": "Warm-up\nDescribe characteristics of a data frame vs a list. How are they different?"
   },
   {
-    "objectID": "slides/04-QuartoII.html#warm-up-1",
-    "href": "slides/04-QuartoII.html#warm-up-1",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Warm-up",
-    "text": "Warm-up\nWhat do these do?\n– echo:\n– eval:\n– message:\n– warning:\nHint: Create a r code chunk with the following, and try it for yourself!\n2+2\nwarning(\"Something might be wrong!\")\nmessage(\"Here's some information for you.\")"
+    "objectID": "slides/05-loops.html#data-frame",
+    "href": "slides/05-loops.html#data-frame",
+    "title": "Finish Lists and Loops",
+    "section": "Data frame",
+    "text": "Data frame\nA data frame …\n– Has rows and columns\n– Each column can have a different data type\n– Every column must have the same number of rows"
   },
   {
-    "objectID": "slides/04-QuartoII.html#note",
-    "href": "slides/04-QuartoII.html#note",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Note",
-    "text": "Note\nSpacing is important here! (and it reads nicer)\n#| eval: false"
+    "objectID": "slides/05-loops.html#data-frame-1",
+    "href": "slides/05-loops.html#data-frame-1",
+    "title": "Finish Lists and Loops",
+    "section": "Data frame",
+    "text": "Data frame\n5 x 150\n\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa"
   },
   {
-    "objectID": "slides/04-QuartoII.html#yaml-1",
-    "href": "slides/04-QuartoII.html#yaml-1",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "YAML",
-    "text": "YAML\nWe have mappings and keys!\nYou can think of the “map” as a YAML option. You can think of the “key” as the value the option takes on.\n---\ntitle: \"My Document\"\n---\ntitle is the “map” and “My Document” is the key!\nNote: When we are working with a simple string, the quotes are optional. When you are working with things likes numbers that you want to be treated as text, quotes are necessary.\nOptions"
+    "objectID": "slides/05-loops.html#list",
+    "href": "slides/05-loops.html#list",
+    "title": "Finish Lists and Loops",
+    "section": "List",
+    "text": "List\nA list is a more flexible way to store data:\n– lists have elements (names in the list)\n– elements do not have to be the same length"
   },
   {
-    "objectID": "slides/04-QuartoII.html#yaml-2",
-    "href": "slides/04-QuartoII.html#yaml-2",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "YAML",
-    "text": "YAML\nWhat’s the difference?\n\n\nExample 1\n---\ntitle: \"Test Document\"\nauthor:\nname: Elijah Meyer\naffiliation: NC State University\n---\nExample 2\n---\ntitle: \"Test Document\"\nauthor:\n- name: Elijah Meyer\naffiliation: NC State University\n---\n\nExample 3\n---\ntitle: \"Test Document\"\nauthor:\n  - name: Elijah Meyer\n    affiliation: NC State University\n---"
+    "objectID": "slides/05-loops.html#example",
+    "href": "slides/05-loops.html#example",
+    "title": "Finish Lists and Loops",
+    "section": "Example",
+    "text": "Example\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "slides/04-QuartoII.html#yaml-3",
-    "href": "slides/04-QuartoII.html#yaml-3",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "YAML",
-    "text": "YAML\nThe - is necessary when we have a list item (an item that we could have multiple of)\nauthor\n  └── list item\n        ├── name\n        └── affiliation\nMost (not all) YAML headings require indentation. This is a good habit to get into early."
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#common-errors",
-    "href": "slides/04-QuartoII.html#common-errors",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Common Errors",
-    "text": "Common Errors\nDownload the CommonErrors.qmd from Moodle, and open it up on your computer!\nTry and fix the code so it renders a document."
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#common-errors-1",
-    "href": "slides/04-QuartoII.html#common-errors-1",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Common Errors",
-    "text": "Common Errors\n– Code chunks not closed\n– Incorrect code preventing rendering\n– YAML"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#challenge-question-if-time",
-    "href": "slides/04-QuartoII.html#challenge-question-if-time",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Challenge Question (if time)",
-    "text": "Challenge Question (if time)\n– Make a new quarto document\n– Title is “Iris-Practice” and put yourself as the author\n– Pull up the help file for the iris data set (and discuss if we should include the help file in the Quarto document or not)\n– Make a level-2 section header and title it “Description”\n– Copy the description text into your Quarto file\n– Answer the question: What is larger, the mean or median Petal Width?"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#r-objects",
-    "href": "slides/04-QuartoII.html#r-objects",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "R Objects",
-    "text": "R Objects\nWhen we create something in R, such as a number, a word, or a collection of values, R stores it as an object.\nx &lt;- 10\n\nx + 5"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#vectors",
-    "href": "slides/04-QuartoII.html#vectors",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Vectors",
-    "text": "Vectors\nA vector is a collection of values.\nc stands for combine (you can think about this as collection if you would like!)\nscores &lt;- c(85, 92, 78, 90, 88)\n\n\n num [1:5] 85 92 78 90 88\n\n\nWhat type of vector is this? A numeric vector or a character vector?"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#vectors-1",
-    "href": "slides/04-QuartoII.html#vectors-1",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Vectors",
-    "text": "Vectors\nWe will talk about character vs numeric now, and talk about more types of data types + data coercion later in the semester!\ncities &lt;- c(\"Raleigh\", \"Durham\", \"Chapel Hill\")\nWe can think about characters as Text data. These data will have ” ” around them.\n\n\n chr [1:3] \"Raleigh\" \"Durham\" \"Chapel Hill\""
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#indexing",
-    "href": "slides/04-QuartoII.html#indexing",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Indexing",
-    "text": "Indexing\nSometimes, we want to only look at a subset of our vector. On your own, please run the following code, and take note of what we discover.\ndata &lt;-  c(4,6,7,3,2,5,8)\n\na) data[2]\nb) data[3:6]\nc) data[c(1,4,6)]\nd) data[-5]\ne) data[-c(2,3,5,7)]"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#lists",
-    "href": "slides/04-QuartoII.html#lists",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Lists",
-    "text": "Lists\nA list is an object that can contain different kinds of objects! So far, we have discussed character vectors and numeric vectors.\n\nstudent.temp &lt;- c(\"Alice\", 19, 92, 88, 95)\n  \nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#lists-1",
-    "href": "slides/04-QuartoII.html#lists-1",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Lists",
-    "text": "Lists\nLet’s play around with this list using the $. Run the following code and see what we learn.\n\nstudent$name\nstudent$gpa\nstudent$scores\nmean(student$scores)"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#lists-2",
-    "href": "slides/04-QuartoII.html#lists-2",
-    "title": "Quarto II & Objects/Vectors/Lists",
-    "section": "Lists",
-    "text": "Lists\nSo why are lists useful?\nLet’s compare our student list vs say the data frame iris\n\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa\n\n\nWhat’s the same? What’s different?"
-  },
-  {
-    "objectID": "slides/04-QuartoII.html#lists-vs-data-frames",
-    "href": "slides/04-QuartoII.html#lists-vs-data-frames",
-    "title": "Quarto II & Objects/Vectors/Lists",
+    "objectID": "slides/05-loops.html#lists-vs-data-frames",
+    "href": "slides/05-loops.html#lists-vs-data-frames",
+    "title": "Finish Lists and Loops",
     "section": "Lists vs Data Frames",
-    "text": "Lists vs Data Frames\n\n\n   name age   major score\n1 Alice  19 Biology    92\n2 Alice  19 Biology    88\n3 Alice  19 Biology    95"
+    "text": "Lists vs Data Frames\n\nstudent &lt;- data.frame(\n  name = \"Alice\",\n  age = 19,\n  major = \"Biology\",\n  score = c(92, 88, 95))\n\nstudent\n\n   name age   major score\n1 Alice  19 Biology    92\n2 Alice  19 Biology    88\n3 Alice  19 Biology    95"
   },
   {
-    "objectID": "slides/04-QuartoII.html#summary",
-    "href": "slides/04-QuartoII.html#summary",
-    "title": "Quarto II & Objects/Vectors/Lists",
+    "objectID": "slides/05-loops.html#summary",
+    "href": "slides/05-loops.html#summary",
+    "title": "Finish Lists and Loops",
     "section": "Summary",
-    "text": "Summary\nThe components (variables) of a data frame have to be the same length! Lists, they do not.\nA data frame is designed for: Many observations of the same set of variables.\nA list is designed for: Putting different kinds of information together.\nOr: A list organizes objects; a data frame organizes observations into rows and variables into columns."
+    "text": "Summary\n– data analysis usually asks questions about rows and variables, and a data frame is specifically designed around that structure\n– lists are used a lot in coding behind a variety of functions\nlm()\nmodel\n├── coefficients\n├── residuals\n├── fitted values\n├── degrees of freedom\nand these are all stored in lists!"
   },
   {
-    "objectID": "slides/02-toolkit.html#checklist",
-    "href": "slides/02-toolkit.html#checklist",
-    "title": "Meet the toolkit",
-    "section": "Checklist",
-    "text": "Checklist\n– Did you engage with the prepare material?\n– Did you install R + RStudio?\n– Do you know how to get help in ST115?\n– Have you filled out the Getting to know you survey?\n  --- due Friday at 11:59pm \n  \n  --- need to have made a GitHub account to receive full credit \nIf you can’t access RStudio, you can use this link here and then please see me after class."
+    "objectID": "slides/05-loops.html#loops",
+    "href": "slides/05-loops.html#loops",
+    "title": "Finish Lists and Loops",
+    "section": "Loops",
+    "text": "Loops\n– For\n– while"
   },
   {
-    "objectID": "slides/02-toolkit.html#goals-for-today",
-    "href": "slides/02-toolkit.html#goals-for-today",
-    "title": "Meet the toolkit",
-    "section": "Goals for today",
-    "text": "Goals for today\n– Articulate the difference between R & Rstudio\n– Start writing R code + using the RStudio platform\n– Introduction to GitHub, and how we will use it this semester (if time)"
+    "objectID": "slides/05-loops.html#for-loop",
+    "href": "slides/05-loops.html#for-loop",
+    "title": "Finish Lists and Loops",
+    "section": "For Loop",
+    "text": "For Loop\nDefine each piece of the for loop below, to help us uncover the definition\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nfor -\nx -\nin -\n1:3 -\n{ } -\nprint(x) -"
   },
   {
-    "objectID": "slides/02-toolkit.html#what-is-r-and-rstudio",
-    "href": "slides/02-toolkit.html#what-is-r-and-rstudio",
-    "title": "Meet the toolkit",
-    "section": "What is R and RStudio?",
-    "text": "What is R and RStudio?\n– R is a statistical programming language\n– RStudio is a convenient interface for R"
+    "objectID": "slides/05-loops.html#for-loop-1",
+    "href": "slides/05-loops.html#for-loop-1",
+    "title": "Finish Lists and Loops",
+    "section": "For Loop",
+    "text": "For Loop\n\nfor (x in 1:3) {\n  print(x)\n}\n\nfor - tells R to repeat something\nx - the current number\nin - tells R where to get the numbers from\n1:3 - the numbers R goes through: 1, 2, 3\n{ } - contains what R should repeat\nprint(x) - prints the current number"
   },
   {
-    "objectID": "slides/02-toolkit.html#base-r",
-    "href": "slides/02-toolkit.html#base-r",
-    "title": "Meet the toolkit",
-    "section": "Base R",
-    "text": "Base R\nBase R means the R language and the built-in packages/functions that come with a standard R installation, without relying on additional packages. We will learn more about packages in a couple week!\nThe R Base Package\nAnd we are going to learn some code now!\nFirst, let’s explore the RStudio layout."
+    "objectID": "slides/05-loops.html#for-loop-2",
+    "href": "slides/05-loops.html#for-loop-2",
+    "title": "Finish Lists and Loops",
+    "section": "For Loop",
+    "text": "For Loop\nChange x to something different and run the code. Does it work? What does this tell us?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "slides/02-toolkit.html#r-layout",
-    "href": "slides/02-toolkit.html#r-layout",
-    "title": "Meet the toolkit",
-    "section": "R-layout",
-    "text": "R-layout\nIn summary"
+    "objectID": "slides/05-loops.html#for-loop-3",
+    "href": "slides/05-loops.html#for-loop-3",
+    "title": "Finish Lists and Loops",
+    "section": "For Loop",
+    "text": "For Loop\nx is just a placeholder!\n– Try to use something informative\n– Don’t use something that R already knows (ex. mean)"
   },
   {
-    "objectID": "slides/02-toolkit.html#some-r-essentials",
-    "href": "slides/02-toolkit.html#some-r-essentials",
-    "title": "Meet the toolkit",
-    "section": "Some R essentials",
-    "text": "Some R essentials\n– Functions are (normally) verbs, followed by what they will be applied to in parentheses:"
+    "objectID": "slides/05-loops.html#for-loops",
+    "href": "slides/05-loops.html#for-loops",
+    "title": "Finish Lists and Loops",
+    "section": "For loops",
+    "text": "For loops\nWhen might this be useful?"
   },
   {
-    "objectID": "slides/02-toolkit.html#some-r-essentials-1",
-    "href": "slides/02-toolkit.html#some-r-essentials-1",
-    "title": "Meet the toolkit",
-    "section": "Some R essentials",
-    "text": "Some R essentials\n\nAn argument in R is a value that you give to a function to tell it what you want the function to do.\nNote: functions can have multiple arguments, and they are separated by commas."
-  },
-  {
-    "objectID": "slides/02-toolkit.html#ica",
-    "href": "slides/02-toolkit.html#ica",
-    "title": "Meet the toolkit",
-    "section": "ICA",
-    "text": "ICA\n– c()\n– str()\n– mean()\n– &lt;- assignment operator\n– iris data set in base R\n… and how to pull up help files!"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#c",
-    "href": "slides/02-toolkit.html#c",
-    "title": "Meet the toolkit",
-    "section": "c()",
-    "text": "c()\nThink about c() as combine\nWe can think about using when we want to take elements and put them together\nlet’s put together the number 1, 2, and 3!\nThis is called a vector. We will learn more about vectors next week!"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#section",
-    "href": "slides/02-toolkit.html#section",
-    "title": "Meet the toolkit",
-    "section": "<-",
-    "text": "&lt;-\nThis arrow is called the assignment operator.\nWe read this as “anything on the right is assigned to what the arrow points to on the left”\nName your vector the letter a."
-  },
-  {
-    "objectID": "slides/02-toolkit.html#mean",
-    "href": "slides/02-toolkit.html#mean",
-    "title": "Meet the toolkit",
-    "section": "mean()",
-    "text": "mean()\nNow, take the mean of your object a.\nExtension: Use the following link to look up more functions that perform calculations. Try them out on your object a!\nMore functions"
-  },
-  {
-    "objectID": "slides/02-toolkit.html#challenge-question",
-    "href": "slides/02-toolkit.html#challenge-question",
-    "title": "Meet the toolkit",
+    "objectID": "slides/05-loops.html#challenge-question",
+    "href": "slides/05-loops.html#challenge-question",
+    "title": "Finish Lists and Loops",
     "section": "Challenge Question",
-    "text": "Challenge Question\n– iris is the name of the data set in R. Pull up the help file for the iris data set to read more about it!\n– Next, use the str() function on the iris data set. What information is this telling us?\n– Next, run the code iris$Sepal.Length. What happens?\n– Next, run the code iris$sepal.width. What happens?\n– Calculate the mean of the iris petal length."
+    "text": "Challenge Question\nIn your own .qmd file, print out each element using a for loop!\n\nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)\n\nstudent[[1]] #here is a hint! \n\n## A for loop defaults to extract elements from a list as seen above"
   },
   {
-    "objectID": "slides/02-toolkit.html#challenge-question-1",
-    "href": "slides/02-toolkit.html#challenge-question-1",
-    "title": "Meet the toolkit",
+    "objectID": "slides/05-loops.html#solution",
+    "href": "slides/05-loops.html#solution",
+    "title": "Finish Lists and Loops",
+    "section": "Solution",
+    "text": "Solution\n\nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)\n\nfor (x in student) {\n  print(x)\n}\n\n[1] \"Alice\"\n[1] 19\n[1] 92 88 95"
+  },
+  {
+    "objectID": "slides/05-loops.html#iris",
+    "href": "slides/05-loops.html#iris",
+    "title": "Finish Lists and Loops",
+    "section": "Iris",
+    "text": "Iris\nOn your own. Copy this code into your .qmd file.\nWhat is this code doing? Comment each line of code now.\n\niris2 &lt;- iris\n\nfor (i in 1:nrow(iris2)) {\n  iris2$Sepal.Length[i] &lt;- iris2$Sepal.Length[i] * 2\n}\n\niris2"
+  },
+  {
+    "objectID": "slides/05-loops.html#while-loop",
+    "href": "slides/05-loops.html#while-loop",
+    "title": "Finish Lists and Loops",
+    "section": "While Loop",
+    "text": "While Loop\nLet’s run this code, and try to make sense of the error.\nNext, let’s fix the code so it runs!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "slides/05-loops.html#while-loop-1",
+    "href": "slides/05-loops.html#while-loop-1",
+    "title": "Finish Lists and Loops",
+    "section": "While Loop",
+    "text": "While Loop\nrun and replace!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "slides/05-loops.html#for-vs-while",
+    "href": "slides/05-loops.html#for-vs-while",
+    "title": "Finish Lists and Loops",
+    "section": "For vs While",
+    "text": "For vs While\n– What is the difference?\nNow, let’s practice on when we might use each!"
+  },
+  {
+    "objectID": "slides/05-loops.html#questions-2",
+    "href": "slides/05-loops.html#questions-2",
+    "title": "Finish Lists and Loops",
+    "section": "Questions",
+    "text": "Questions\nHint: You don’t need to just start with a loop! Write the first iteration without the loop to make sure you know what’s going on!\n\nUse a ___ loop to go through the first 10 rows of iris and print each flower’s Petal.Length.\nUse a ___ loop to start at the first row of iris and print Sepal.Length values until you reach a flower with a Sepal.Length greater than 7.\nUse a ___ loop to go through the rows of iris and count how many flowers you encounter before reaching the first Virginica.\nUse a ___ loop to start at row 1 and keep adding the Sepal.Width values together until the running total exceeds 20. Print the total when the loop stops."
+  },
+  {
+    "objectID": "slides/05-loops.html#hint",
+    "href": "slides/05-loops.html#hint",
+    "title": "Finish Lists and Loops",
+    "section": "Hint",
+    "text": "Hint\nMath operations\n\n\n\nOperator\nMeaning\n\n\n\n\n&lt;\nless than\n\n\n&lt;=\nless than or equal to\n\n\n&gt;\ngreater than\n\n\n&gt;=\ngreater than or equal to\n\n\n!=\nnot equal to\n\n\n==\nequal to"
+  },
+  {
+    "objectID": "slides/05-loops.html#reminders",
+    "href": "slides/05-loops.html#reminders",
+    "title": "Finish Lists and Loops",
+    "section": "Reminders",
+    "text": "Reminders\n– Proficiency test today\n– Quiz due Friday\n– See you Thursday!"
+  },
+  {
+    "objectID": "slides/03-Quarto.html#checklist",
+    "href": "slides/03-Quarto.html#checklist",
+    "title": "Intro to Quarto",
+    "section": "Checklist",
+    "text": "Checklist\n– Did you engage with the prepare material?\n– Do you have a plan for taking notes?\n– The attendance sheet will be passed around! Please sign-in.\n– Quiz released today (due Friday) on Moodle\n  --- lowest quiz-score dropped \n  --- no late policy on quizzes\n– Do you know how to get help in ST115?\n– Open up RStudio and have a .R file ready to go!"
+  },
+  {
+    "objectID": "slides/03-Quarto.html#warm-up",
+    "href": "slides/03-Quarto.html#warm-up",
+    "title": "Intro to Quarto",
+    "section": "Warm-up",
+    "text": "Warm-up\nWhat is the difference between R and RStudio?"
+  },
+  {
+    "objectID": "slides/03-Quarto.html#warm-up-1",
+    "href": "slides/03-Quarto.html#warm-up-1",
+    "title": "Intro to Quarto",
+    "section": "Warm-up",
+    "text": "Warm-up"
+  },
+  {
+    "objectID": "slides/03-Quarto.html#warm-up-2",
+    "href": "slides/03-Quarto.html#warm-up-2",
+    "title": "Intro to Quarto",
+    "section": "Warm-up",
+    "text": "Warm-up\nDescribe what each RStudio panel is for…"
+  },
+  {
+    "objectID": "slides/03-Quarto.html#challenge-question",
+    "href": "slides/03-Quarto.html#challenge-question",
+    "title": "Intro to Quarto",
     "section": "Challenge Question",
     "text": "Challenge Question\n– Create a R object named number that has the following values: 1, 3, 15, NA, 40\n– Try and take the mean and report the value. Note: you should get 14.75."
   },
   {
-    "objectID": "slides/02-toolkit.html#github-motivation",
-    "href": "slides/02-toolkit.html#github-motivation",
-    "title": "Meet the toolkit",
-    "section": "GitHub motivation",
-    "text": "GitHub motivation"
+    "objectID": "slides/03-Quarto.html#quarto-1",
+    "href": "slides/03-Quarto.html#quarto-1",
+    "title": "Intro to Quarto",
+    "section": "Quarto",
+    "text": "Quarto\nWays I’ve used Quarto…\n– Publications\n– Your ST-115 website\n– These slides…\n– … and more!"
   },
   {
-    "objectID": "slides/02-toolkit.html#git-vs-github",
-    "href": "slides/02-toolkit.html#git-vs-github",
-    "title": "Meet the toolkit",
-    "section": "Git vs GitHub",
-    "text": "Git vs GitHub\nVery very similar to R vs RStudio"
+    "objectID": "slides/03-Quarto.html#quarto-2",
+    "href": "slides/03-Quarto.html#quarto-2",
+    "title": "Intro to Quarto",
+    "section": "Quarto",
+    "text": "Quarto\nThe quarto file extension is .qmd\nFile -&gt; New File -&gt; Quarto Document"
   },
   {
-    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push",
-    "href": "slides/02-toolkit.html#github-commands-pull-commit-push",
-    "title": "Meet the toolkit",
-    "section": "GitHub Commands: Pull Commit Push",
-    "text": "GitHub Commands: Pull Commit Push"
+    "objectID": "slides/03-Quarto.html#source-vs-visual",
+    "href": "slides/03-Quarto.html#source-vs-visual",
+    "title": "Intro to Quarto",
+    "section": "Source vs Visual",
+    "text": "Source vs Visual\n– Source tab shows raw plain-text markdown and code\n– Visual tab provides a WYSIWYG (what-you-see-is-what-you-get) interface. This is useful for:\n  --- Those brand new to code (Microsoft Word feel) \n  --- Creating tables\n  --- Seeing (mostly) what your document will look like rendered\n  \nI’m going to suggest you work in the Source tab primarily, but feel free to work in both as we move throughout the semester."
   },
   {
-    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
-    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
-    "title": "Meet the toolkit",
-    "section": "GitHub Commands: Pull Commit Push",
-    "text": "GitHub Commands: Pull Commit Push"
+    "objectID": "slides/03-Quarto.html#quarto-document",
+    "href": "slides/03-Quarto.html#quarto-document",
+    "title": "Intro to Quarto",
+    "section": "Quarto Document",
+    "text": "Quarto Document\nThree pieces:\nYAML, R-code chunk, and where text goes!"
   },
   {
-    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
-    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
-    "title": "Meet the toolkit",
-    "section": "GitHub Commands: Pull Commit Push",
-    "text": "GitHub Commands: Pull Commit Push"
+    "objectID": "slides/03-Quarto.html#code-blockchunks",
+    "href": "slides/03-Quarto.html#code-blockchunks",
+    "title": "Intro to Quarto",
+    "section": "Code block/chunks",
+    "text": "Code block/chunks\nPC/Windows: Ctrl + Alt + I\nMac: Cmd + Option + I\n**I want you now to title your document, add a R code chunk that has the code 2+2 in it, and click Render!"
   },
   {
-    "objectID": "slides/02-toolkit.html#next-time",
-    "href": "slides/02-toolkit.html#next-time",
-    "title": "Meet the toolkit",
-    "section": "Next Time",
-    "text": "Next Time\n– How can we make professional documents?\n– Practice with more code\n– Don’t forget to fill out the getting to know you survey!\n– Don’t forget to save your work! You are building up your notes / resources."
+    "objectID": "slides/03-Quarto.html#code-blockchunk-options",
+    "href": "slides/03-Quarto.html#code-blockchunk-options",
+    "title": "Intro to Quarto",
+    "section": "Code block/chunk options",
+    "text": "Code block/chunk options\nCode block options are included in a special comment at the top of the block (lines at the top prefaced with #| are considered options).\nOptions available for customizing output include:\nCode chunk options"
   },
   {
-    "objectID": "prepare/sep8.html",
-    "href": "prepare/sep8.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "For Tuesday\n19 Functions\nNote: You may not have all the tools to understand the code used in the functions the author is writing. The goal of this reading is to understand how you can write your own functions, and when you should consider doing so."
+    "objectID": "slides/03-Quarto.html#code-blockchunk-options-1",
+    "href": "slides/03-Quarto.html#code-blockchunk-options-1",
+    "title": "Intro to Quarto",
+    "section": "Code block/chunk options",
+    "text": "Code block/chunk options\nWe are going to explore the following:\n– echo:\n– eval:\n– message:\n– warning:"
   },
   {
-    "objectID": "prepare/aug-27th.html",
-    "href": "prepare/aug-27th.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
+    "objectID": "slides/03-Quarto.html#challenge-question-1",
+    "href": "slides/03-Quarto.html#challenge-question-1",
+    "title": "Intro to Quarto",
+    "section": "Challenge Question",
+    "text": "Challenge Question\nAdd to your code chunk so that it looks like the following:\n2+2\nwarning(\"Something might be wrong!\")\nmessage(\"Here's some information for you.\")\nLet’s do echo together, and then you will do the other three on your own.\nIn your Quarto document, type out what each of these code chunk options do! Practice writing text underneath your code chunks."
   },
   {
-    "objectID": "prepare/aug-20th.html",
-    "href": "prepare/aug-20th.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nDr. Mine Çetinkaya-Rundel is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio)."
+    "objectID": "slides/03-Quarto.html#important",
+    "href": "slides/03-Quarto.html#important",
+    "title": "Intro to Quarto",
+    "section": "Important",
+    "text": "Important\nWe will go through when/when not to use these. PLEASE do not hide your code when you turn in homework assignments….."
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#introduction",
-    "href": "labs/slides/lab-1-slides.html#introduction",
-    "title": "Welcome to ST115",
-    "section": "Introduction",
-    "text": "Introduction"
+    "objectID": "slides/03-Quarto.html#question",
+    "href": "slides/03-Quarto.html#question",
+    "title": "Intro to Quarto",
+    "section": "Question",
+    "text": "Question\nWhat do you think happens if this is at the top of your document?\n---\ntitle: \"My Document\"\nexecute:\n  echo: false\n---"
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
-    "href": "labs/slides/lab-1-slides.html#goals-for-today",
-    "title": "Welcome to ST115",
-    "section": "Goals for today",
-    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
+    "objectID": "slides/03-Quarto.html#yaml",
+    "href": "slides/03-Quarto.html#yaml",
+    "title": "Intro to Quarto",
+    "section": "YAML",
+    "text": "YAML\nWe have mappings and keys!\nYou can think of the “map” as a YAML option. You can think of the “key” as the value the option takes on.\n---\ntitle: \"My Document\"\n---\ntitle is the “map” and “My Document” is the key!\nNote: When we are working with a simple string, the quotes are optional. When you are working with things likes numbers that you want to be treated as text, quotes are necessary.\nOptions"
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "title": "Welcome to ST115",
-    "section": "What is R & RStudio",
-    "text": "What is R & RStudio"
+    "objectID": "slides/03-Quarto.html#yaml-1",
+    "href": "slides/03-Quarto.html#yaml-1",
+    "title": "Intro to Quarto",
+    "section": "YAML",
+    "text": "YAML\nWhat’s the difference?\n\n\nExample 1\n---\ntitle: \"Test Document\"\nauthor:\nname: Elijah Meyer\naffiliation: NC State University\n---\nExample 2\n---\ntitle: \"Test Document\"\nauthor:\n- name: Elijah Meyer\naffiliation: NC State University\n---\n\nExample 3\n---\ntitle: \"Test Document\"\nauthor:\n  - name: Elijah Meyer\n    affiliation: NC State University\n---"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
-    "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz-1 assigned (due Friday)\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nFinish Quarto; Finish Objects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00am) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
-    "crumbs": [
-      "Course information",
-      "Schedule"
-    ]
+    "objectID": "slides/03-Quarto.html#yaml-2",
+    "href": "slides/03-Quarto.html#yaml-2",
+    "title": "Intro to Quarto",
+    "section": "YAML",
+    "text": "YAML\nThe - is necessary when we have a list item (an item that we could have multiple of)\nauthor\n  └── list item\n        ├── name\n        └── affiliation\nMost (not all) YAML headings require indentation. This is a good habit to get into early."
   },
   {
-    "objectID": "hw1.html",
-    "href": "hw1.html",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "",
-    "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
+    "objectID": "slides/03-Quarto.html#section-headers",
+    "href": "slides/03-Quarto.html#section-headers",
+    "title": "Intro to Quarto",
+    "section": "Section Headers",
+    "text": "Section Headers\n# Main Section/First Level heading\n## Subsection/Second Level heading\n### Sub-subsection/Third level heading\n#### Sub-sub-sub…? Fourth-level heading"
   },
   {
-    "objectID": "hw1.html#formatting",
-    "href": "hw1.html#formatting",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Formatting",
-    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
+    "objectID": "slides/03-Quarto.html#common-errors",
+    "href": "slides/03-Quarto.html#common-errors",
+    "title": "Intro to Quarto",
+    "section": "Common Errors",
+    "text": "Common Errors\n– Code chunks not closed\n– Incorrect code preventing rendering\nLet’s demo this together!"
   },
   {
-    "objectID": "hw1.html#question-1-10-points",
-    "href": "hw1.html#question-1-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 1 (10-points)",
-    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
+    "objectID": "slides/03-Quarto.html#challenge-question-if-time",
+    "href": "slides/03-Quarto.html#challenge-question-if-time",
+    "title": "Intro to Quarto",
+    "section": "Challenge Question (if time)",
+    "text": "Challenge Question (if time)\n– Make a new quarto document\n– Title is “Iris-Practice” and put yourself as the author\n– Pull up the help file for the iris data set (and discuss if we should include the help file in the Quarto document or not)\n– Make a level-2 section header and title it “Description”\n– Copy the description text into your Quarto file\n– Answer the question: “Which species had the larger median petal length?”. Use code to justify your answer."
   },
   {
-    "objectID": "hw1.html#question-2-15-points",
-    "href": "hw1.html#question-2-15-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 2 (15-points)",
-    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .qmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
-  },
-  {
-    "objectID": "hw1.html#question-3-10-points",
-    "href": "hw1.html#question-3-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 3 (10-points)",
-    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
-  },
-  {
-    "objectID": "hw1.html#question-4-10-points",
-    "href": "hw1.html#question-4-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 4 (10-points)",
-    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
-  },
-  {
-    "objectID": "hw1.html#question-5-15-points",
-    "href": "hw1.html#question-5-15-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 5 (15-points)",
-    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Instructor + course overview",
-    "section": "",
-    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#instructor-office-hours",
-    "href": "course-overview.html#instructor-office-hours",
-    "title": "Instructor + course overview",
-    "section": "Instructor Office Hours",
-    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta",
-    "href": "course-overview.html#ta",
-    "title": "Instructor + course overview",
-    "section": "TA",
-    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta-office-hours",
-    "href": "course-overview.html#ta-office-hours",
-    "title": "Instructor + course overview",
-    "section": "TA Office Hours",
-    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#videos",
-    "href": "course-overview.html#videos",
-    "title": "Instructor + course overview",
-    "section": "Videos",
-    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#course",
-    "href": "course-overview.html#course",
-    "title": "Instructor + course overview",
-    "section": "Course",
-    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "computing-cheatsheets.html",
-    "href": "computing-cheatsheets.html",
-    "title": "R cheatsheets",
-    "section": "",
-    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
-    "crumbs": [
-      "Computing",
-      "Cheatsheets"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html",
-    "href": "computing-troubleshooting.html",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
-    "href": "computing-troubleshooting.html#tips-for-not-rendering",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
-  },
-  {
-    "objectID": "course-support.html",
-    "href": "course-support.html",
-    "title": "Course support",
-    "section": "",
-    "text": "It is both okay and expected for you to have questions as you learn data science for the first time. Here are some resources that you are encouraged to please take advantage of.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#lectures",
-    "href": "course-support.html#lectures",
-    "title": "Course support",
-    "section": "Lectures",
-    "text": "Lectures\nIf you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#office-hours",
-    "href": "course-support.html#office-hours",
-    "title": "Course support",
-    "section": "Office hours",
-    "text": "Office hours\nThe TAs and I are here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class. If you truly have no questions to ask, just stop by and say hi and introduce yourself.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#email",
-    "href": "course-support.html#email",
-    "title": "Course support",
-    "section": "Email",
-    "text": "Email\nMy email should mainly be used for questions about personal matters that may not be appropriate for the public course forum. If you do email me a content question, I will be happy to answer it, but also may ask you to post the question in Slack so other students can see the response. For such matters, you may email me, Dr. Elijah Meyer at esmeyer2@ncsu.edu.\nIf you email me, please include “ST115” in the subject line. Barring extenuating circumstances, I will respond to ST511 emails within 24 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#academic-support",
-    "href": "course-support.html#academic-support",
-    "title": "Course support",
-    "section": "Academic support",
-    "text": "Academic support\nThe Academic Success Center can offer additional support for this course, other courses, as well as academic advising and career counseling.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#mental-health-and-wellness",
-    "href": "course-support.html#mental-health-and-wellness",
-    "title": "Course support",
-    "section": "Mental health and wellness",
-    "text": "Mental health and wellness\nIf your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. NC State encourages all students to access these resources.\n\nCounseling Center provides mental health services and resources to NC State students. The Counseling Center’s trained and compassionate counselors work hard to help you get connected to services that can help provide the relief you’re seeking. The Counseling Center uses a stepped-care model. The goals of stepped care are to:\n\n– Provide timely access to mental health services.\n– Create individualized plans addressing the needs of each student.\n– Find the balance between providing the best care options for each student and ensuring that there is still room in our system for the thousands of students served each year.\n\nWolfpack Wellness: There are dozens of resources available at NC State to help you take charge of your wellness, tackle mental health challenges or simply find community on campus.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#course-costs",
-    "href": "course-support.html#course-costs",
-    "title": "Course support",
-    "section": "Course costs",
-    "text": "Course costs\n\nTextbooks: Any textbooks used for this course are freely available on the web.\nLaptops: Each student is expected to have a laptop they can bring to each lecture. If you need a laptop, please see the lending guidelines here. If you can not bring a laptop to class, please follow along with individuals next to you, and complete all assessments using desktops in the library.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#assistance-with-zoom-or-moodle",
-    "href": "course-support.html#assistance-with-zoom-or-moodle",
-    "title": "Course support",
-    "section": "Assistance with Zoom or Moodle",
-    "text": "Assistance with Zoom or Moodle\nFor technical help with Moodle or Zoom, contact the NC State OIT Service Desk at oit.ncsu.edu/help-support/.\nWe will primarily use Moodle in this course for quizzes, assignment turn-in, and grade book.\nZoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "hw/hw1.html",
-    "href": "hw/hw1.html",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "",
-    "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
-  },
-  {
-    "objectID": "hw/hw1.html#formatting",
-    "href": "hw/hw1.html#formatting",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Formatting",
-    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
-  },
-  {
-    "objectID": "hw/hw1.html#question-1-10-points",
-    "href": "hw/hw1.html#question-1-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 1 (10-points)",
-    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
-  },
-  {
-    "objectID": "hw/hw1.html#question-2-15-points",
-    "href": "hw/hw1.html#question-2-15-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 2 (15-points)",
-    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .Rmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
-  },
-  {
-    "objectID": "hw/hw1.html#question-3-10-points",
-    "href": "hw/hw1.html#question-3-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 3 (10-points)",
-    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
-  },
-  {
-    "objectID": "hw/hw1.html#question-4-10-points",
-    "href": "hw/hw1.html#question-4-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 4 (10-points)",
-    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
-  },
-  {
-    "objectID": "hw/hw1.html#question-5-15-points",
-    "href": "hw/hw1.html#question-5-15-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 5 (15-points)",
-    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
-  },
-  {
-    "objectID": "labtest1_key.html",
-    "href": "labtest1_key.html",
-    "title": "Proficiency test - 1 (Solutions)",
-    "section": "",
-    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
-  },
-  {
-    "objectID": "labtest1_key.html#iris-dataset",
-    "href": "labtest1_key.html#iris-dataset",
-    "title": "Proficiency test - 1 (Solutions)",
-    "section": "",
-    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
-  },
-  {
-    "objectID": "labtest1_key.html#flower",
-    "href": "labtest1_key.html#flower",
-    "title": "Proficiency test - 1 (Solutions)",
-    "section": "Flower",
-    "text": "Flower\n\nmean(iris$Petal.Length[1:50]) # setosa species \n\n[1] 1.462\n\nmean(iris$Petal.Length[51:100]) # versicolor \n\n[1] 4.26\n\nmean(iris$Petal.Length[101:150]) # virginica\n\n[1] 5.552\n\n\nBased on the results above, we can see that the virginica has the largest mean petal length.\n\nflower &lt;- list(\n  species = \"setosa\",\n  measurements = c(mean(iris$Petal.Length[1:50]), median(iris$Petal.Length[1:50]))\n)\n\nflower\n\n$species\n[1] \"setosa\"\n\n$measurements\n[1] 1.462 1.500"
-  },
-  {
-    "objectID": "prepare/aug-25th.html",
-    "href": "prepare/aug-25th.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nTo be able to compile PDFs, you will also need to download TinyTex. You can do so by running the following code in your Console.\ntinytex::install_tinytex()\nNote: If you are on a Mac, you already have this!"
-  },
-  {
-    "objectID": "prepare/sep1.html",
-    "href": "prepare/sep1.html",
-    "title": "Prepare",
-    "section": "",
-    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
+    "objectID": "slides/03-Quarto.html#in-lab",
+    "href": "slides/03-Quarto.html#in-lab",
+    "title": "Intro to Quarto",
+    "section": "In Lab",
+    "text": "In Lab\n– Review topics from today’s class\n– Install the necessary software to Render to a PDF"
   },
   {
     "objectID": "slides/01-welcome-to-st115.html#welcome",
@@ -1150,332 +840,887 @@
     "text": "Create a GitHub account\nGo to https://github.com/, and create an account (unless you already have one).\nSome tips from Happy Git with R.\n– Incorporate your actual name!\n– Reuse your username from other contexts if you can, e. g., Twitter or Slack.\n– Pick a username you will be comfortable revealing to your future boss.\n– Be as unique as possible in as few characters as possible. Shorter is better than longer.\n– Avoid words with special meaning in programming (e.g. NA)."
   },
   {
-    "objectID": "slides/03-Quarto.html#checklist",
-    "href": "slides/03-Quarto.html#checklist",
-    "title": "Intro to Quarto",
+    "objectID": "prepare/sep1.html",
+    "href": "prepare/sep1.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
+  },
+  {
+    "objectID": "prepare/aug-25th.html",
+    "href": "prepare/aug-25th.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nTo be able to compile PDFs, you will also need to download TinyTex. You can do so by running the following code in your Console.\ntinytex::install_tinytex()\nNote: If you are on a Mac, you already have this!"
+  },
+  {
+    "objectID": "labtest1_key.html",
+    "href": "labtest1_key.html",
+    "title": "Proficiency test - 1 (Solutions)",
+    "section": "",
+    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
+  },
+  {
+    "objectID": "labtest1_key.html#iris-dataset",
+    "href": "labtest1_key.html#iris-dataset",
+    "title": "Proficiency test - 1 (Solutions)",
+    "section": "",
+    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
+  },
+  {
+    "objectID": "labtest1_key.html#flower",
+    "href": "labtest1_key.html#flower",
+    "title": "Proficiency test - 1 (Solutions)",
+    "section": "Flower",
+    "text": "Flower\n\nmean(iris$Petal.Length[1:50]) # setosa species \n\n[1] 1.462\n\nmean(iris$Petal.Length[51:100]) # versicolor \n\n[1] 4.26\n\nmean(iris$Petal.Length[101:150]) # virginica\n\n[1] 5.552\n\n\nBased on the results above, we can see that the virginica has the largest mean petal length.\n\nflower &lt;- list(\n  species = \"setosa\",\n  measurements = c(mean(iris$Petal.Length[1:50]), median(iris$Petal.Length[1:50]))\n)\n\nflower\n\n$species\n[1] \"setosa\"\n\n$measurements\n[1] 1.462 1.500"
+  },
+  {
+    "objectID": "hw/hw1.html",
+    "href": "hw/hw1.html",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "",
+    "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
+  },
+  {
+    "objectID": "hw/hw1.html#formatting",
+    "href": "hw/hw1.html#formatting",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Formatting",
+    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
+  },
+  {
+    "objectID": "hw/hw1.html#question-1-10-points",
+    "href": "hw/hw1.html#question-1-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 1 (10-points)",
+    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
+  },
+  {
+    "objectID": "hw/hw1.html#question-2-15-points",
+    "href": "hw/hw1.html#question-2-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 2 (15-points)",
+    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .Rmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
+  },
+  {
+    "objectID": "hw/hw1.html#question-3-10-points",
+    "href": "hw/hw1.html#question-3-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 3 (10-points)",
+    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
+  },
+  {
+    "objectID": "hw/hw1.html#question-4-10-points",
+    "href": "hw/hw1.html#question-4-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 4 (10-points)",
+    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
+  },
+  {
+    "objectID": "hw/hw1.html#question-5-15-points",
+    "href": "hw/hw1.html#question-5-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 5 (15-points)",
+    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
+  },
+  {
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Course support",
+    "section": "",
+    "text": "It is both okay and expected for you to have questions as you learn data science for the first time. Here are some resources that you are encouraged to please take advantage of.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#lectures",
+    "href": "course-support.html#lectures",
+    "title": "Course support",
+    "section": "Lectures",
+    "text": "Lectures\nIf you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#office-hours",
+    "href": "course-support.html#office-hours",
+    "title": "Course support",
+    "section": "Office hours",
+    "text": "Office hours\nThe TAs and I are here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class. If you truly have no questions to ask, just stop by and say hi and introduce yourself.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#email",
+    "href": "course-support.html#email",
+    "title": "Course support",
+    "section": "Email",
+    "text": "Email\nMy email should mainly be used for questions about personal matters that may not be appropriate for the public course forum. If you do email me a content question, I will be happy to answer it, but also may ask you to post the question in Slack so other students can see the response. For such matters, you may email me, Dr. Elijah Meyer at esmeyer2@ncsu.edu.\nIf you email me, please include “ST115” in the subject line. Barring extenuating circumstances, I will respond to ST511 emails within 24 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#academic-support",
+    "href": "course-support.html#academic-support",
+    "title": "Course support",
+    "section": "Academic support",
+    "text": "Academic support\nThe Academic Success Center can offer additional support for this course, other courses, as well as academic advising and career counseling.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#mental-health-and-wellness",
+    "href": "course-support.html#mental-health-and-wellness",
+    "title": "Course support",
+    "section": "Mental health and wellness",
+    "text": "Mental health and wellness\nIf your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. NC State encourages all students to access these resources.\n\nCounseling Center provides mental health services and resources to NC State students. The Counseling Center’s trained and compassionate counselors work hard to help you get connected to services that can help provide the relief you’re seeking. The Counseling Center uses a stepped-care model. The goals of stepped care are to:\n\n– Provide timely access to mental health services.\n– Create individualized plans addressing the needs of each student.\n– Find the balance between providing the best care options for each student and ensuring that there is still room in our system for the thousands of students served each year.\n\nWolfpack Wellness: There are dozens of resources available at NC State to help you take charge of your wellness, tackle mental health challenges or simply find community on campus.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#course-costs",
+    "href": "course-support.html#course-costs",
+    "title": "Course support",
+    "section": "Course costs",
+    "text": "Course costs\n\nTextbooks: Any textbooks used for this course are freely available on the web.\nLaptops: Each student is expected to have a laptop they can bring to each lecture. If you need a laptop, please see the lending guidelines here. If you can not bring a laptop to class, please follow along with individuals next to you, and complete all assessments using desktops in the library.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#assistance-with-zoom-or-moodle",
+    "href": "course-support.html#assistance-with-zoom-or-moodle",
+    "title": "Course support",
+    "section": "Assistance with Zoom or Moodle",
+    "text": "Assistance with Zoom or Moodle\nFor technical help with Moodle or Zoom, contact the NC State OIT Service Desk at oit.ncsu.edu/help-support/.\nWe will primarily use Moodle in this course for quizzes, assignment turn-in, and grade book.\nZoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html",
+    "href": "computing-troubleshooting.html",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
+    "href": "computing-troubleshooting.html#tips-for-not-rendering",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-cheatsheets.html",
+    "href": "computing-cheatsheets.html",
+    "title": "R cheatsheets",
+    "section": "",
+    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
+    "crumbs": [
+      "Computing",
+      "Cheatsheets"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Instructor + course overview",
+    "section": "",
+    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#instructor-office-hours",
+    "href": "course-overview.html#instructor-office-hours",
+    "title": "Instructor + course overview",
+    "section": "Instructor Office Hours",
+    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta",
+    "href": "course-overview.html#ta",
+    "title": "Instructor + course overview",
+    "section": "TA",
+    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta-office-hours",
+    "href": "course-overview.html#ta-office-hours",
+    "title": "Instructor + course overview",
+    "section": "TA Office Hours",
+    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#videos",
+    "href": "course-overview.html#videos",
+    "title": "Instructor + course overview",
+    "section": "Videos",
+    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#course",
+    "href": "course-overview.html#course",
+    "title": "Instructor + course overview",
+    "section": "Course",
+    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "hw1.html",
+    "href": "hw1.html",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "",
+    "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
+  },
+  {
+    "objectID": "hw1.html#formatting",
+    "href": "hw1.html#formatting",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Formatting",
+    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
+  },
+  {
+    "objectID": "hw1.html#question-1-10-points",
+    "href": "hw1.html#question-1-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 1 (10-points)",
+    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
+  },
+  {
+    "objectID": "hw1.html#question-2-15-points",
+    "href": "hw1.html#question-2-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 2 (15-points)",
+    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .qmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
+  },
+  {
+    "objectID": "hw1.html#question-3-10-points",
+    "href": "hw1.html#question-3-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 3 (10-points)",
+    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
+  },
+  {
+    "objectID": "hw1.html#question-4-10-points",
+    "href": "hw1.html#question-4-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 4 (10-points)",
+    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
+  },
+  {
+    "objectID": "hw1.html#question-5-15-points",
+    "href": "hw1.html#question-5-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 5 (15-points)",
+    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz-1 assigned (due Friday)\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nFinish Quarto; Finish Objects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nPackages + built in functions\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nSummary statistics\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00am) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#introduction",
+    "href": "labs/slides/lab-1-slides.html#introduction",
+    "title": "Welcome to ST115",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
+    "href": "labs/slides/lab-1-slides.html#goals-for-today",
+    "title": "Welcome to ST115",
+    "section": "Goals for today",
+    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "title": "Welcome to ST115",
+    "section": "What is R & RStudio",
+    "text": "What is R & RStudio"
+  },
+  {
+    "objectID": "prepare/aug-20th.html",
+    "href": "prepare/aug-20th.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nDr. Mine Çetinkaya-Rundel is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio)."
+  },
+  {
+    "objectID": "prepare/aug-27th.html",
+    "href": "prepare/aug-27th.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
+  },
+  {
+    "objectID": "prepare/sep8.html",
+    "href": "prepare/sep8.html",
+    "title": "Prepare",
+    "section": "",
+    "text": "For Tuesday\n19 Functions\nNote: You may not have all the tools to understand the code used in the functions the author is writing. The goal of this reading is to understand how you can write your own functions, and when you should consider doing so."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#checklist",
+    "href": "slides/02-toolkit.html#checklist",
+    "title": "Meet the toolkit",
     "section": "Checklist",
-    "text": "Checklist\n– Did you engage with the prepare material?\n– Do you have a plan for taking notes?\n– The attendance sheet will be passed around! Please sign-in.\n– Quiz released today (due Friday) on Moodle\n  --- lowest quiz-score dropped \n  --- no late policy on quizzes\n– Do you know how to get help in ST115?\n– Open up RStudio and have a .R file ready to go!"
+    "text": "Checklist\n– Did you engage with the prepare material?\n– Did you install R + RStudio?\n– Do you know how to get help in ST115?\n– Have you filled out the Getting to know you survey?\n  --- due Friday at 11:59pm \n  \n  --- need to have made a GitHub account to receive full credit \nIf you can’t access RStudio, you can use this link here and then please see me after class."
   },
   {
-    "objectID": "slides/03-Quarto.html#warm-up",
-    "href": "slides/03-Quarto.html#warm-up",
-    "title": "Intro to Quarto",
-    "section": "Warm-up",
-    "text": "Warm-up\nWhat is the difference between R and RStudio?"
+    "objectID": "slides/02-toolkit.html#goals-for-today",
+    "href": "slides/02-toolkit.html#goals-for-today",
+    "title": "Meet the toolkit",
+    "section": "Goals for today",
+    "text": "Goals for today\n– Articulate the difference between R & Rstudio\n– Start writing R code + using the RStudio platform\n– Introduction to GitHub, and how we will use it this semester (if time)"
   },
   {
-    "objectID": "slides/03-Quarto.html#warm-up-1",
-    "href": "slides/03-Quarto.html#warm-up-1",
-    "title": "Intro to Quarto",
-    "section": "Warm-up",
-    "text": "Warm-up"
+    "objectID": "slides/02-toolkit.html#what-is-r-and-rstudio",
+    "href": "slides/02-toolkit.html#what-is-r-and-rstudio",
+    "title": "Meet the toolkit",
+    "section": "What is R and RStudio?",
+    "text": "What is R and RStudio?\n– R is a statistical programming language\n– RStudio is a convenient interface for R"
   },
   {
-    "objectID": "slides/03-Quarto.html#warm-up-2",
-    "href": "slides/03-Quarto.html#warm-up-2",
-    "title": "Intro to Quarto",
-    "section": "Warm-up",
-    "text": "Warm-up\nDescribe what each RStudio panel is for…"
+    "objectID": "slides/02-toolkit.html#base-r",
+    "href": "slides/02-toolkit.html#base-r",
+    "title": "Meet the toolkit",
+    "section": "Base R",
+    "text": "Base R\nBase R means the R language and the built-in packages/functions that come with a standard R installation, without relying on additional packages. We will learn more about packages in a couple week!\nThe R Base Package\nAnd we are going to learn some code now!\nFirst, let’s explore the RStudio layout."
   },
   {
-    "objectID": "slides/03-Quarto.html#challenge-question",
-    "href": "slides/03-Quarto.html#challenge-question",
-    "title": "Intro to Quarto",
+    "objectID": "slides/02-toolkit.html#r-layout",
+    "href": "slides/02-toolkit.html#r-layout",
+    "title": "Meet the toolkit",
+    "section": "R-layout",
+    "text": "R-layout\nIn summary"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#some-r-essentials",
+    "href": "slides/02-toolkit.html#some-r-essentials",
+    "title": "Meet the toolkit",
+    "section": "Some R essentials",
+    "text": "Some R essentials\n– Functions are (normally) verbs, followed by what they will be applied to in parentheses:"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#some-r-essentials-1",
+    "href": "slides/02-toolkit.html#some-r-essentials-1",
+    "title": "Meet the toolkit",
+    "section": "Some R essentials",
+    "text": "Some R essentials\n\nAn argument in R is a value that you give to a function to tell it what you want the function to do.\nNote: functions can have multiple arguments, and they are separated by commas."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#ica",
+    "href": "slides/02-toolkit.html#ica",
+    "title": "Meet the toolkit",
+    "section": "ICA",
+    "text": "ICA\n– c()\n– str()\n– mean()\n– &lt;- assignment operator\n– iris data set in base R\n… and how to pull up help files!"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#c",
+    "href": "slides/02-toolkit.html#c",
+    "title": "Meet the toolkit",
+    "section": "c()",
+    "text": "c()\nThink about c() as combine\nWe can think about using when we want to take elements and put them together\nlet’s put together the number 1, 2, and 3!\nThis is called a vector. We will learn more about vectors next week!"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#section",
+    "href": "slides/02-toolkit.html#section",
+    "title": "Meet the toolkit",
+    "section": "<-",
+    "text": "&lt;-\nThis arrow is called the assignment operator.\nWe read this as “anything on the right is assigned to what the arrow points to on the left”\nName your vector the letter a."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#mean",
+    "href": "slides/02-toolkit.html#mean",
+    "title": "Meet the toolkit",
+    "section": "mean()",
+    "text": "mean()\nNow, take the mean of your object a.\nExtension: Use the following link to look up more functions that perform calculations. Try them out on your object a!\nMore functions"
+  },
+  {
+    "objectID": "slides/02-toolkit.html#challenge-question",
+    "href": "slides/02-toolkit.html#challenge-question",
+    "title": "Meet the toolkit",
+    "section": "Challenge Question",
+    "text": "Challenge Question\n– iris is the name of the data set in R. Pull up the help file for the iris data set to read more about it!\n– Next, use the str() function on the iris data set. What information is this telling us?\n– Next, run the code iris$Sepal.Length. What happens?\n– Next, run the code iris$sepal.width. What happens?\n– Calculate the mean of the iris petal length."
+  },
+  {
+    "objectID": "slides/02-toolkit.html#challenge-question-1",
+    "href": "slides/02-toolkit.html#challenge-question-1",
+    "title": "Meet the toolkit",
     "section": "Challenge Question",
     "text": "Challenge Question\n– Create a R object named number that has the following values: 1, 3, 15, NA, 40\n– Try and take the mean and report the value. Note: you should get 14.75."
   },
   {
-    "objectID": "slides/03-Quarto.html#quarto-1",
-    "href": "slides/03-Quarto.html#quarto-1",
-    "title": "Intro to Quarto",
-    "section": "Quarto",
-    "text": "Quarto\nWays I’ve used Quarto…\n– Publications\n– Your ST-115 website\n– These slides…\n– … and more!"
+    "objectID": "slides/02-toolkit.html#github-motivation",
+    "href": "slides/02-toolkit.html#github-motivation",
+    "title": "Meet the toolkit",
+    "section": "GitHub motivation",
+    "text": "GitHub motivation"
   },
   {
-    "objectID": "slides/03-Quarto.html#quarto-2",
-    "href": "slides/03-Quarto.html#quarto-2",
-    "title": "Intro to Quarto",
-    "section": "Quarto",
-    "text": "Quarto\nThe quarto file extension is .qmd\nFile -&gt; New File -&gt; Quarto Document"
+    "objectID": "slides/02-toolkit.html#git-vs-github",
+    "href": "slides/02-toolkit.html#git-vs-github",
+    "title": "Meet the toolkit",
+    "section": "Git vs GitHub",
+    "text": "Git vs GitHub\nVery very similar to R vs RStudio"
   },
   {
-    "objectID": "slides/03-Quarto.html#source-vs-visual",
-    "href": "slides/03-Quarto.html#source-vs-visual",
-    "title": "Intro to Quarto",
-    "section": "Source vs Visual",
-    "text": "Source vs Visual\n– Source tab shows raw plain-text markdown and code\n– Visual tab provides a WYSIWYG (what-you-see-is-what-you-get) interface. This is useful for:\n  --- Those brand new to code (Microsoft Word feel) \n  --- Creating tables\n  --- Seeing (mostly) what your document will look like rendered\n  \nI’m going to suggest you work in the Source tab primarily, but feel free to work in both as we move throughout the semester."
+    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push",
+    "href": "slides/02-toolkit.html#github-commands-pull-commit-push",
+    "title": "Meet the toolkit",
+    "section": "GitHub Commands: Pull Commit Push",
+    "text": "GitHub Commands: Pull Commit Push"
   },
   {
-    "objectID": "slides/03-Quarto.html#quarto-document",
-    "href": "slides/03-Quarto.html#quarto-document",
-    "title": "Intro to Quarto",
-    "section": "Quarto Document",
-    "text": "Quarto Document\nThree pieces:\nYAML, R-code chunk, and where text goes!"
+    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
+    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-1",
+    "title": "Meet the toolkit",
+    "section": "GitHub Commands: Pull Commit Push",
+    "text": "GitHub Commands: Pull Commit Push"
   },
   {
-    "objectID": "slides/03-Quarto.html#code-blockchunks",
-    "href": "slides/03-Quarto.html#code-blockchunks",
-    "title": "Intro to Quarto",
-    "section": "Code block/chunks",
-    "text": "Code block/chunks\nPC/Windows: Ctrl + Alt + I\nMac: Cmd + Option + I\n**I want you now to title your document, add a R code chunk that has the code 2+2 in it, and click Render!"
+    "objectID": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
+    "href": "slides/02-toolkit.html#github-commands-pull-commit-push-2",
+    "title": "Meet the toolkit",
+    "section": "GitHub Commands: Pull Commit Push",
+    "text": "GitHub Commands: Pull Commit Push"
   },
   {
-    "objectID": "slides/03-Quarto.html#code-blockchunk-options",
-    "href": "slides/03-Quarto.html#code-blockchunk-options",
-    "title": "Intro to Quarto",
-    "section": "Code block/chunk options",
-    "text": "Code block/chunk options\nCode block options are included in a special comment at the top of the block (lines at the top prefaced with #| are considered options).\nOptions available for customizing output include:\nCode chunk options"
+    "objectID": "slides/02-toolkit.html#next-time",
+    "href": "slides/02-toolkit.html#next-time",
+    "title": "Meet the toolkit",
+    "section": "Next Time",
+    "text": "Next Time\n– How can we make professional documents?\n– Practice with more code\n– Don’t forget to fill out the getting to know you survey!\n– Don’t forget to save your work! You are building up your notes / resources."
   },
   {
-    "objectID": "slides/03-Quarto.html#code-blockchunk-options-1",
-    "href": "slides/03-Quarto.html#code-blockchunk-options-1",
-    "title": "Intro to Quarto",
-    "section": "Code block/chunk options",
-    "text": "Code block/chunk options\nWe are going to explore the following:\n– echo:\n– eval:\n– message:\n– warning:"
+    "objectID": "slides/04-QuartoII.html#checklist",
+    "href": "slides/04-QuartoII.html#checklist",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Checklist",
+    "text": "Checklist\n– Did you engage with the prepare material?\n– The attendance sheet will be passed around! Please sign-in.\n– Quiz released Tuesday (due Friday) on Moodle\n  --- lowest quiz-score dropped \n  --- no late policy on quizzes\n– Do you know how to get help in ST115?\n– Open up RStudio and have a .qmd file ready to go!\n– I have uploaded a CommonErrors.qmd file to Moodle. Go ahead and download + open this as well! We will talk about common errors today."
   },
   {
-    "objectID": "slides/03-Quarto.html#challenge-question-1",
-    "href": "slides/03-Quarto.html#challenge-question-1",
-    "title": "Intro to Quarto",
-    "section": "Challenge Question",
-    "text": "Challenge Question\nAdd to your code chunk so that it looks like the following:\n2+2\nwarning(\"Something might be wrong!\")\nmessage(\"Here's some information for you.\")\nLet’s do echo together, and then you will do the other three on your own.\nIn your Quarto document, type out what each of these code chunk options do! Practice writing text underneath your code chunks."
+    "objectID": "slides/04-QuartoII.html#warm-up",
+    "href": "slides/04-QuartoII.html#warm-up",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Warm-up",
+    "text": "Warm-up\nWhat is the difference between\n```{r}\n# this\n```\n```{r}\n#| echo: false\n```"
   },
   {
-    "objectID": "slides/03-Quarto.html#important",
-    "href": "slides/03-Quarto.html#important",
-    "title": "Intro to Quarto",
-    "section": "Important",
-    "text": "Important\nWe will go through when/when not to use these. PLEASE do not hide your code when you turn in homework assignments….."
+    "objectID": "slides/04-QuartoII.html#warm-up-1",
+    "href": "slides/04-QuartoII.html#warm-up-1",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Warm-up",
+    "text": "Warm-up\nWhat do these do?\n– echo:\n– eval:\n– message:\n– warning:\nHint: Create a r code chunk with the following, and try it for yourself!\n2+2\nwarning(\"Something might be wrong!\")\nmessage(\"Here's some information for you.\")"
   },
   {
-    "objectID": "slides/03-Quarto.html#question",
-    "href": "slides/03-Quarto.html#question",
-    "title": "Intro to Quarto",
-    "section": "Question",
-    "text": "Question\nWhat do you think happens if this is at the top of your document?\n---\ntitle: \"My Document\"\nexecute:\n  echo: false\n---"
+    "objectID": "slides/04-QuartoII.html#note",
+    "href": "slides/04-QuartoII.html#note",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Note",
+    "text": "Note\nSpacing is important here! (and it reads nicer)\n#| eval: false"
   },
   {
-    "objectID": "slides/03-Quarto.html#yaml",
-    "href": "slides/03-Quarto.html#yaml",
-    "title": "Intro to Quarto",
+    "objectID": "slides/04-QuartoII.html#yaml-1",
+    "href": "slides/04-QuartoII.html#yaml-1",
+    "title": "Quarto II & Objects/Vectors/Lists",
     "section": "YAML",
     "text": "YAML\nWe have mappings and keys!\nYou can think of the “map” as a YAML option. You can think of the “key” as the value the option takes on.\n---\ntitle: \"My Document\"\n---\ntitle is the “map” and “My Document” is the key!\nNote: When we are working with a simple string, the quotes are optional. When you are working with things likes numbers that you want to be treated as text, quotes are necessary.\nOptions"
   },
   {
-    "objectID": "slides/03-Quarto.html#yaml-1",
-    "href": "slides/03-Quarto.html#yaml-1",
-    "title": "Intro to Quarto",
+    "objectID": "slides/04-QuartoII.html#yaml-2",
+    "href": "slides/04-QuartoII.html#yaml-2",
+    "title": "Quarto II & Objects/Vectors/Lists",
     "section": "YAML",
     "text": "YAML\nWhat’s the difference?\n\n\nExample 1\n---\ntitle: \"Test Document\"\nauthor:\nname: Elijah Meyer\naffiliation: NC State University\n---\nExample 2\n---\ntitle: \"Test Document\"\nauthor:\n- name: Elijah Meyer\naffiliation: NC State University\n---\n\nExample 3\n---\ntitle: \"Test Document\"\nauthor:\n  - name: Elijah Meyer\n    affiliation: NC State University\n---"
   },
   {
-    "objectID": "slides/03-Quarto.html#yaml-2",
-    "href": "slides/03-Quarto.html#yaml-2",
-    "title": "Intro to Quarto",
+    "objectID": "slides/04-QuartoII.html#yaml-3",
+    "href": "slides/04-QuartoII.html#yaml-3",
+    "title": "Quarto II & Objects/Vectors/Lists",
     "section": "YAML",
     "text": "YAML\nThe - is necessary when we have a list item (an item that we could have multiple of)\nauthor\n  └── list item\n        ├── name\n        └── affiliation\nMost (not all) YAML headings require indentation. This is a good habit to get into early."
   },
   {
-    "objectID": "slides/03-Quarto.html#section-headers",
-    "href": "slides/03-Quarto.html#section-headers",
-    "title": "Intro to Quarto",
-    "section": "Section Headers",
-    "text": "Section Headers\n# Main Section/First Level heading\n## Subsection/Second Level heading\n### Sub-subsection/Third level heading\n#### Sub-sub-sub…? Fourth-level heading"
-  },
-  {
-    "objectID": "slides/03-Quarto.html#common-errors",
-    "href": "slides/03-Quarto.html#common-errors",
-    "title": "Intro to Quarto",
+    "objectID": "slides/04-QuartoII.html#common-errors",
+    "href": "slides/04-QuartoII.html#common-errors",
+    "title": "Quarto II & Objects/Vectors/Lists",
     "section": "Common Errors",
-    "text": "Common Errors\n– Code chunks not closed\n– Incorrect code preventing rendering\nLet’s demo this together!"
+    "text": "Common Errors\nDownload the CommonErrors.qmd from Moodle, and open it up on your computer!\nTry and fix the code so it renders a document."
   },
   {
-    "objectID": "slides/03-Quarto.html#challenge-question-if-time",
-    "href": "slides/03-Quarto.html#challenge-question-if-time",
-    "title": "Intro to Quarto",
+    "objectID": "slides/04-QuartoII.html#common-errors-1",
+    "href": "slides/04-QuartoII.html#common-errors-1",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Common Errors",
+    "text": "Common Errors\n– Code chunks not closed\n– Incorrect code preventing rendering\n– YAML"
+  },
+  {
+    "objectID": "slides/04-QuartoII.html#challenge-question-if-time",
+    "href": "slides/04-QuartoII.html#challenge-question-if-time",
+    "title": "Quarto II & Objects/Vectors/Lists",
     "section": "Challenge Question (if time)",
-    "text": "Challenge Question (if time)\n– Make a new quarto document\n– Title is “Iris-Practice” and put yourself as the author\n– Pull up the help file for the iris data set (and discuss if we should include the help file in the Quarto document or not)\n– Make a level-2 section header and title it “Description”\n– Copy the description text into your Quarto file\n– Answer the question: “Which species had the larger median petal length?”. Use code to justify your answer."
+    "text": "Challenge Question (if time)\n– Make a new quarto document\n– Title is “Iris-Practice” and put yourself as the author\n– Pull up the help file for the iris data set (and discuss if we should include the help file in the Quarto document or not)\n– Make a level-2 section header and title it “Description”\n– Copy the description text into your Quarto file\n– Answer the question: What is larger, the mean or median Petal Width?"
   },
   {
-    "objectID": "slides/03-Quarto.html#in-lab",
-    "href": "slides/03-Quarto.html#in-lab",
-    "title": "Intro to Quarto",
-    "section": "In Lab",
-    "text": "In Lab\n– Review topics from today’s class\n– Install the necessary software to Render to a PDF"
+    "objectID": "slides/04-QuartoII.html#r-objects",
+    "href": "slides/04-QuartoII.html#r-objects",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "R Objects",
+    "text": "R Objects\nWhen we create something in R, such as a number, a word, or a collection of values, R stores it as an object.\nx &lt;- 10\n\nx + 5"
   },
   {
-    "objectID": "slides/05-loops.html#checklist",
-    "href": "slides/05-loops.html#checklist",
-    "title": "Finish Lists and Loops",
-    "section": "Checklist",
-    "text": "Checklist\n– Did you engage with the prepare material?\n– We have a “Where is my file” resource. Check it out!\n– The attendance sheet will be passed around! Please sign-in.\n– Quiz released Tuesday (due Friday) on Moodle\n  --- lowest quiz-score dropped \n  --- no late policy on quizzes\n– Do you know how to get help in ST115?\n– Open up RStudio and have a .qmd file ready to go!\n– You have a proficiency test today! Let’s talk about it."
+    "objectID": "slides/04-QuartoII.html#vectors",
+    "href": "slides/04-QuartoII.html#vectors",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Vectors",
+    "text": "Vectors\nA vector is a collection of values.\nc stands for combine (you can think about this as collection if you would like!)\nscores &lt;- c(85, 92, 78, 90, 88)\n\n\n num [1:5] 85 92 78 90 88\n\n\nWhat type of vector is this? A numeric vector or a character vector?"
   },
   {
-    "objectID": "slides/05-loops.html#proficiency-test",
-    "href": "slides/05-loops.html#proficiency-test",
-    "title": "Finish Lists and Loops",
-    "section": "Proficiency test",
-    "text": "Proficiency test\nPlease see the Moodle announcement\n– Individual assessment\n– Allowed 8x11 note-sheet\n  --- examples; definitions; when to use functions; how they work; etc. \n– Drop the lowest (five total; four count)\n– loops are not on this test\nQuestions?"
+    "objectID": "slides/04-QuartoII.html#vectors-1",
+    "href": "slides/04-QuartoII.html#vectors-1",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Vectors",
+    "text": "Vectors\nWe will talk about character vs numeric now, and talk about more types of data types + data coercion later in the semester!\ncities &lt;- c(\"Raleigh\", \"Durham\", \"Chapel Hill\")\nWe can think about characters as Text data. These data will have ” ” around them.\n\n\n chr [1:3] \"Raleigh\" \"Durham\" \"Chapel Hill\""
   },
   {
-    "objectID": "slides/05-loops.html#quarto-tip-of-the-day",
-    "href": "slides/05-loops.html#quarto-tip-of-the-day",
-    "title": "Finish Lists and Loops",
-    "section": "Quarto tip of the day",
-    "text": "Quarto tip of the day\nLet’s go into Quarto and make a table!"
+    "objectID": "slides/04-QuartoII.html#indexing",
+    "href": "slides/04-QuartoII.html#indexing",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Indexing",
+    "text": "Indexing\nSometimes, we want to only look at a subset of our vector. On your own, please run the following code, and take note of what we discover.\ndata &lt;-  c(4,6,7,3,2,5,8)\n\na) data[2]\nb) data[3:6]\nc) data[c(1,4,6)]\nd) data[-5]\ne) data[-c(2,3,5,7)]"
   },
   {
-    "objectID": "slides/05-loops.html#warm-up",
-    "href": "slides/05-loops.html#warm-up",
-    "title": "Finish Lists and Loops",
-    "section": "Warm-up",
-    "text": "Warm-up\nDescribe characteristics of a data frame vs a list. How are they different?"
+    "objectID": "slides/04-QuartoII.html#lists",
+    "href": "slides/04-QuartoII.html#lists",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Lists",
+    "text": "Lists\nA list is an object that can contain different kinds of objects! So far, we have discussed character vectors and numeric vectors.\n\nstudent.temp &lt;- c(\"Alice\", 19, 92, 88, 95)\n  \nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)"
   },
   {
-    "objectID": "slides/05-loops.html#data-frame",
-    "href": "slides/05-loops.html#data-frame",
-    "title": "Finish Lists and Loops",
-    "section": "Data frame",
-    "text": "Data frame\nA data frame …\n– Has rows and columns\n– Each column can have a different data type\n– Every column must have the same number of rows"
+    "objectID": "slides/04-QuartoII.html#lists-1",
+    "href": "slides/04-QuartoII.html#lists-1",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Lists",
+    "text": "Lists\nLet’s play around with this list using the $. Run the following code and see what we learn.\n\nstudent$name\nstudent$gpa\nstudent$scores\nmean(student$scores)"
   },
   {
-    "objectID": "slides/05-loops.html#data-frame-1",
-    "href": "slides/05-loops.html#data-frame-1",
-    "title": "Finish Lists and Loops",
-    "section": "Data frame",
-    "text": "Data frame\n5 x 150\n\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa"
+    "objectID": "slides/04-QuartoII.html#lists-2",
+    "href": "slides/04-QuartoII.html#lists-2",
+    "title": "Quarto II & Objects/Vectors/Lists",
+    "section": "Lists",
+    "text": "Lists\nSo why are lists useful?\nLet’s compare our student list vs say the data frame iris\n\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa\n\n\nWhat’s the same? What’s different?"
   },
   {
-    "objectID": "slides/05-loops.html#list",
-    "href": "slides/05-loops.html#list",
-    "title": "Finish Lists and Loops",
-    "section": "List",
-    "text": "List\nA list is a more flexible way to store data:\n– lists have elements (names in the list)\n– elements do not have to be the same length"
-  },
-  {
-    "objectID": "slides/05-loops.html#example",
-    "href": "slides/05-loops.html#example",
-    "title": "Finish Lists and Loops",
-    "section": "Example",
-    "text": "Example\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "slides/05-loops.html#lists-vs-data-frames",
-    "href": "slides/05-loops.html#lists-vs-data-frames",
-    "title": "Finish Lists and Loops",
+    "objectID": "slides/04-QuartoII.html#lists-vs-data-frames",
+    "href": "slides/04-QuartoII.html#lists-vs-data-frames",
+    "title": "Quarto II & Objects/Vectors/Lists",
     "section": "Lists vs Data Frames",
-    "text": "Lists vs Data Frames\n\nstudent &lt;- data.frame(\n  name = \"Alice\",\n  age = 19,\n  major = \"Biology\",\n  score = c(92, 88, 95))\n\nstudent\n\n   name age   major score\n1 Alice  19 Biology    92\n2 Alice  19 Biology    88\n3 Alice  19 Biology    95"
+    "text": "Lists vs Data Frames\n\n\n   name age   major score\n1 Alice  19 Biology    92\n2 Alice  19 Biology    88\n3 Alice  19 Biology    95"
   },
   {
-    "objectID": "slides/05-loops.html#summary",
-    "href": "slides/05-loops.html#summary",
-    "title": "Finish Lists and Loops",
+    "objectID": "slides/04-QuartoII.html#summary",
+    "href": "slides/04-QuartoII.html#summary",
+    "title": "Quarto II & Objects/Vectors/Lists",
     "section": "Summary",
-    "text": "Summary\n– data analysis usually asks questions about rows and variables, and a data frame is specifically designed around that structure\n– lists are used a lot in coding behind a variety of functions\nlm()\nmodel\n├── coefficients\n├── residuals\n├── fitted values\n├── degrees of freedom\nand these are all stored in lists!"
+    "text": "Summary\nThe components (variables) of a data frame have to be the same length! Lists, they do not.\nA data frame is designed for: Many observations of the same set of variables.\nA list is designed for: Putting different kinds of information together.\nOr: A list organizes objects; a data frame organizes observations into rows and variables into columns."
   },
   {
-    "objectID": "slides/05-loops.html#loops",
-    "href": "slides/05-loops.html#loops",
-    "title": "Finish Lists and Loops",
-    "section": "Loops",
-    "text": "Loops\n– For\n– while"
+    "objectID": "slides/06-ifelse.html#check-list",
+    "href": "slides/06-ifelse.html#check-list",
+    "title": "Finish Loops and if else logic",
+    "section": "Check list",
+    "text": "Check list\n– Did you engage with the prepare material?\n– Quiz-2 due Friday at 11:59pm\n– Homework-1: assigned Friday (11-4); due Friday (11-11)\n– Proficiency test II (11-22)"
   },
   {
-    "objectID": "slides/05-loops.html#for-loop",
-    "href": "slides/05-loops.html#for-loop",
-    "title": "Finish Lists and Loops",
-    "section": "For Loop",
-    "text": "For Loop\nDefine each piece of the for loop below, to help us uncover the definition\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nfor -\nx -\nin -\n1:3 -\n{ } -\nprint(x) -"
+    "objectID": "slides/06-ifelse.html#quarto-tip-of-the-day",
+    "href": "slides/06-ifelse.html#quarto-tip-of-the-day",
+    "title": "Finish Loops and if else logic",
+    "section": "Quarto tip of the day!",
+    "text": "Quarto tip of the day!\nSometimes, you will use code to create data visualizations that are rendered in your document.\nOther times, you will want to display a still png or jpeg image in your .qmd file.\nThis is what we are going to learn today!"
   },
   {
-    "objectID": "slides/05-loops.html#for-loop-1",
-    "href": "slides/05-loops.html#for-loop-1",
-    "title": "Finish Lists and Loops",
-    "section": "For Loop",
-    "text": "For Loop\n\nfor (x in 1:3) {\n  print(x)\n}\n\nfor - tells R to repeat something\nx - the current number\nin - tells R where to get the numbers from\n1:3 - the numbers R goes through: 1, 2, 3\n{ } - contains what R should repeat\nprint(x) - prints the current number"
+    "objectID": "slides/06-ifelse.html#images",
+    "href": "slides/06-ifelse.html#images",
+    "title": "Finish Loops and if else logic",
+    "section": "Images",
+    "text": "Images\n![Caption](name-of-picture.png)\n– ! tells quarto that this is an image\n– [] allows us to put a caption on our figure\n– () allows us to specify the name of the .png AND the necessary file path to access the png"
   },
   {
-    "objectID": "slides/05-loops.html#for-loop-2",
-    "href": "slides/05-loops.html#for-loop-2",
-    "title": "Finish Lists and Loops",
-    "section": "For Loop",
-    "text": "For Loop\nChange x to something different and run the code. Does it work? What does this tell us?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "slides/06-ifelse.html#suggested-file-path",
+    "href": "slides/06-ifelse.html#suggested-file-path",
+    "title": "Finish Loops and if else logic",
+    "section": "Suggested File Path",
+    "text": "Suggested File Path"
   },
   {
-    "objectID": "slides/05-loops.html#for-loop-3",
-    "href": "slides/05-loops.html#for-loop-3",
-    "title": "Finish Lists and Loops",
-    "section": "For Loop",
-    "text": "For Loop\nx is just a placeholder!\n– Try to use something informative\n– Don’t use something that R already knows (ex. mean)"
+    "objectID": "slides/06-ifelse.html#suggested-file-path-1",
+    "href": "slides/06-ifelse.html#suggested-file-path-1",
+    "title": "Finish Loops and if else logic",
+    "section": "Suggested File Path",
+    "text": "Suggested File Path\n\nURL-style paths: use / to “move to the next level”\n![](images/my-picture.png)"
   },
   {
-    "objectID": "slides/05-loops.html#for-loops",
-    "href": "slides/05-loops.html#for-loops",
-    "title": "Finish Lists and Loops",
-    "section": "For loops",
-    "text": "For loops\nWhen might this be useful?"
+    "objectID": "slides/06-ifelse.html#on-your-own",
+    "href": "slides/06-ifelse.html#on-your-own",
+    "title": "Finish Loops and if else logic",
+    "section": "On your own",
+    "text": "On your own\n– Set up a file structure you are comfortable + confident in\n– Download the wolf png from Moodle\n– Embed it into your .qmd file\n– Render your document"
   },
   {
-    "objectID": "slides/05-loops.html#challenge-question",
-    "href": "slides/05-loops.html#challenge-question",
-    "title": "Finish Lists and Loops",
-    "section": "Challenge Question",
-    "text": "Challenge Question\nIn your own .qmd file, print out each element using a for loop!\n\nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)\n\nstudent[[1]] #here is a hint! \n\n## A for loop defaults to extract elements from a list as seen above"
+    "objectID": "slides/06-ifelse.html#customize-your-picture",
+    "href": "slides/06-ifelse.html#customize-your-picture",
+    "title": "Finish Loops and if else logic",
+    "section": "Customize your picture",
+    "text": "Customize your picture\nWe can customize the size and location of our image using {}\n![](images/my-picture.png){width = 300}\n![](images/my-picture.png){width = 80%}\n![](images/my-picture.png){width = 4in}\nThe default units for width and height are pixels. You can also specify sizes using a percentage or a conventional measurement like inches or millimetres.\nNote that if only width is specified then height is calculated automatically. If you need to modify the default behaviour just add an explicit height attribute."
   },
   {
-    "objectID": "slides/05-loops.html#solution",
-    "href": "slides/05-loops.html#solution",
-    "title": "Finish Lists and Loops",
-    "section": "Solution",
-    "text": "Solution\n\nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)\n\nfor (x in student) {\n  print(x)\n}\n\n[1] \"Alice\"\n[1] 19\n[1] 92 88 95"
+    "objectID": "slides/06-ifelse.html#customize-your-picture-1",
+    "href": "slides/06-ifelse.html#customize-your-picture-1",
+    "title": "Finish Loops and if else logic",
+    "section": "Customize your picture",
+    "text": "Customize your picture\nFigures are center aligned by default. Add the fig-align attribute to the image to use a different alignment. For example:\n![](images/my-picture.png){fig-align=\"left\"}\nWe can use “left”, “right” or “center”"
   },
   {
-    "objectID": "slides/05-loops.html#iris",
-    "href": "slides/05-loops.html#iris",
-    "title": "Finish Lists and Loops",
-    "section": "Iris",
-    "text": "Iris\nOn your own. Copy this code into your .qmd file.\nWhat is this code doing? Comment each line of code now.\n\niris2 &lt;- iris\n\nfor (i in 1:nrow(iris2)) {\n  iris2$Sepal.Length[i] &lt;- iris2$Sepal.Length[i] * 2\n}\n\niris2"
+    "objectID": "slides/06-ifelse.html#alt-text",
+    "href": "slides/06-ifelse.html#alt-text",
+    "title": "Finish Loops and if else logic",
+    "section": "Alt text",
+    "text": "Alt text\n![](images/my-picture.png){fig-alt=\"A drawing of something.\"}"
   },
   {
-    "objectID": "slides/05-loops.html#while-loop",
-    "href": "slides/05-loops.html#while-loop",
-    "title": "Finish Lists and Loops",
-    "section": "While Loop",
-    "text": "While Loop\nLet’s run this code, and try to make sense of the error.\nNext, let’s fix the code so it runs!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "slides/06-ifelse.html#all-together",
+    "href": "slides/06-ifelse.html#all-together",
+    "title": "Finish Loops and if else logic",
+    "section": "All together",
+    "text": "All together\nAttributes are separated by a space, not a comma:\n![Caption](images/my-picture.png){width=\"900\" fig-alt=\"A drawing of something.\" fig-align=\"right\"}"
   },
   {
-    "objectID": "slides/05-loops.html#while-loop-1",
-    "href": "slides/05-loops.html#while-loop-1",
-    "title": "Finish Lists and Loops",
-    "section": "While Loop",
-    "text": "While Loop\nrun and replace!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "slides/06-ifelse.html#on-your-own-1",
+    "href": "slides/06-ifelse.html#on-your-own-1",
+    "title": "Finish Loops and if else logic",
+    "section": "On your own",
+    "text": "On your own\nWith your image of a wolf…\n– Change the width\n– Add alt text (and understand the difference between alt text and caption)\n– align your figure a certain direction"
   },
   {
-    "objectID": "slides/05-loops.html#for-vs-while",
-    "href": "slides/05-loops.html#for-vs-while",
-    "title": "Finish Lists and Loops",
-    "section": "For vs While",
-    "text": "For vs While\n– What is the difference?\nNow, let’s practice on when we might use each!"
+    "objectID": "slides/06-ifelse.html#goals-for-today",
+    "href": "slides/06-ifelse.html#goals-for-today",
+    "title": "Finish Loops and if else logic",
+    "section": "Goals for today",
+    "text": "Goals for today\n– Practice with for loops\n– Practice with while loops\n– Understand if else logic in code"
   },
   {
-    "objectID": "slides/05-loops.html#questions-2",
-    "href": "slides/05-loops.html#questions-2",
-    "title": "Finish Lists and Loops",
+    "objectID": "slides/06-ifelse.html#warm-up",
+    "href": "slides/06-ifelse.html#warm-up",
+    "title": "Finish Loops and if else logic",
+    "section": "Warm-up",
+    "text": "Warm-up\nWhat happened last time? Why don’t I have values in my first for loop, but I do in my second (next slide)?\n\nstudent &lt;- list(\n  name = \"Alice\",\n  age = 19,\n  scores = c(92, 88, 95)\n)\n\nfor (x in student) {\n  print(x)\n}"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#warm-up-1",
+    "href": "slides/06-ifelse.html#warm-up-1",
+    "title": "Finish Loops and if else logic",
+    "section": "Warm up",
+    "text": "Warm up\n\niris2 &lt;- iris\n\nfor (i in 1:nrow(iris2)) {\n  iris2$Sepal.Length[i] &lt;- iris2$Sepal.Length[i] * 2\n}\n\niris2"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#types-of-iteration",
+    "href": "slides/06-ifelse.html#types-of-iteration",
+    "title": "Finish Loops and if else logic",
+    "section": "Types of iteration",
+    "text": "Types of iteration\nContainer or box iteration (collective)\n\nfor (x in student) {\n  print(x)\n}\n\nWe don’t care where the value is located. Just give me the value!"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#types-of-iteration-1",
+    "href": "slides/06-ifelse.html#types-of-iteration-1",
+    "title": "Finish Loops and if else logic",
+    "section": "Types of iteration",
+    "text": "Types of iteration\nIndexed iteration (position)\n\niris2 &lt;- iris\n\nfor (i in 1:nrow(iris2)) {\n  iris2$Sepal.Length[i] &lt;- iris2$Sepal.Length[i] * 2\n}\n\niris2 \n\nThe position matters! We need the i:nrow(iris2) to position us."
+  },
+  {
+    "objectID": "slides/06-ifelse.html#question",
+    "href": "slides/06-ifelse.html#question",
+    "title": "Finish Loops and if else logic",
+    "section": "Question",
+    "text": "Question\nWhat does the following code do?\n\nfor (x in iris) {\n  print(x)\n}"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#for-vs-while-warm-up",
+    "href": "slides/06-ifelse.html#for-vs-while-warm-up",
+    "title": "Finish Loops and if else logic",
+    "section": "For vs While (Warm up)",
+    "text": "For vs While (Warm up)\nWhat is the difference?"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#questions-1",
+    "href": "slides/06-ifelse.html#questions-1",
+    "title": "Finish Loops and if else logic",
     "section": "Questions",
-    "text": "Questions\nHint: You don’t need to just start with a loop! Write the first iteration without the loop to make sure you know what’s going on!\n\nUse a ___ loop to go through the first 10 rows of iris and print each flower’s Petal.Length.\nUse a ___ loop to start at the first row of iris and print Sepal.Length values until you reach a flower with a Sepal.Length greater than 7.\nUse a ___ loop to go through the rows of iris and count how many flowers you encounter before reaching the first Virginica.\nUse a ___ loop to start at row 1 and keep adding the Sepal.Width values together until the running total exceeds 20. Print the total when the loop stops."
+    "text": "Questions\nNow, let’s practice on when we might use each!\nHint: You don’t need to just start with a loop! Write the first iteration without the loop to make sure you know what’s going on!\n\nUse a ___ loop to go through the first 10 rows of iris and print each flower’s Petal.Length.\nUse a ___ loop to start at the first row of iris and print Sepal.Length values until you reach a flower with a Sepal.Length greater than 7.\nUse a ___ loop to go through the rows of iris and count how many flowers you encounter before reaching the first Virginica.\nUse a ___ loop to start at row 1 and keep adding the Sepal.Width values together until the running total exceeds 20. Print the total when the loop stops."
   },
   {
-    "objectID": "slides/05-loops.html#hint",
-    "href": "slides/05-loops.html#hint",
-    "title": "Finish Lists and Loops",
+    "objectID": "slides/06-ifelse.html#hint",
+    "href": "slides/06-ifelse.html#hint",
+    "title": "Finish Loops and if else logic",
     "section": "Hint",
     "text": "Hint\nMath operations\n\n\n\nOperator\nMeaning\n\n\n\n\n&lt;\nless than\n\n\n&lt;=\nless than or equal to\n\n\n&gt;\ngreater than\n\n\n&gt;=\ngreater than or equal to\n\n\n!=\nnot equal to\n\n\n==\nequal to"
   },
   {
-    "objectID": "slides/05-loops.html#reminders",
-    "href": "slides/05-loops.html#reminders",
-    "title": "Finish Lists and Loops",
-    "section": "Reminders",
-    "text": "Reminders\n– Proficiency test today\n– Quiz due Friday\n– See you Thursday!"
+    "objectID": "slides/06-ifelse.html#if-else-motivation",
+    "href": "slides/06-ifelse.html#if-else-motivation",
+    "title": "Finish Loops and if else logic",
+    "section": "if else motivation",
+    "text": "if else motivation\nBased on the wording, what do we think if else logic is?\nOr, what could if else statements help us accomplish?"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#if-else-motivation-1",
+    "href": "slides/06-ifelse.html#if-else-motivation-1",
+    "title": "Finish Loops and if else logic",
+    "section": "if else motivation",
+    "text": "if else motivation\nif/else statements let your code make decisions (decisions that you pre-code)\n“If this condition is true, do this. Otherwise, do that.”"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#if-statement",
+    "href": "slides/06-ifelse.html#if-statement",
+    "title": "Finish Loops and if else logic",
+    "section": "if statement",
+    "text": "if statement\nType this code into your .qmd file. Run it when your R object is equal to 10. What if it is less than 10?\n\nx &lt;- 10\n\nif (x &gt; 5) {\n  print(\"x is greater than 5\")\n}"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#if-else-statement",
+    "href": "slides/06-ifelse.html#if-else-statement",
+    "title": "Finish Loops and if else logic",
+    "section": "if else statement",
+    "text": "if else statement\nAdd to the code on the previous slide that will print the text “x is 5 or less” using an else statement.\nNote: an else statement opens and closes exactly like the if statement!"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#extension",
+    "href": "slides/06-ifelse.html#extension",
+    "title": "Finish Loops and if else logic",
+    "section": "Extension",
+    "text": "Extension\nWe can have multiple if else statements.\n– Create an R object called score and assign the value 71 to it for starters.\n– Create an if else statement that prints A if the score is at least 90\n– A B if the score is at least 80\n– A C if the score is at least 70\n– A F if the score is anything else"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#extension-1",
+    "href": "slides/06-ifelse.html#extension-1",
+    "title": "Finish Loops and if else logic",
+    "section": "Extension",
+    "text": "Extension\nLet’s go back to the iris data set. Suppose that a flower with a Petal Length larger than 4 is considered a large flow.\nHere, we are going to learn how to create a new variable in base R, and fill the new variable with values from the if else statement!\nAs a reminder, what does the following code do?\n\niris$Petal.Length"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#extension-2",
+    "href": "slides/06-ifelse.html#extension-2",
+    "title": "Finish Loops and if else logic",
+    "section": "Extension",
+    "text": "Extension\nRun the following code. What happens?\n\niris$Petal.Size &lt;- 5\n\niris$Petal.Size &lt;- NA"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#ive-got-this",
+    "href": "slides/06-ifelse.html#ive-got-this",
+    "title": "Finish Loops and if else logic",
+    "section": "I’ve got this",
+    "text": "I’ve got this\nRun this, it works… I promise…\n\niris$Petal.Size &lt;- if (iris$Petal.Length &gt; 4) {\n  \"Large\"\n} else {\n  \"Small\"\n}\n\nWhat is happening?\nWhat might we need to do?"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#extension-3",
+    "href": "slides/06-ifelse.html#extension-3",
+    "title": "Finish Loops and if else logic",
+    "section": "Extension",
+    "text": "Extension\nNow, use this logic, and a for loop, to create a Petal.Size variable that has the value of “Large” if the Petal Length is larger than 4, and “Small” if Petal Length is 4 or smaller."
+  },
+  {
+    "objectID": "slides/06-ifelse.html#solution",
+    "href": "slides/06-ifelse.html#solution",
+    "title": "Finish Loops and if else logic",
+    "section": "Solution",
+    "text": "Solution\n\niris$Petal.Size &lt;- NA\n\nfor (i in 1:nrow(iris)) {\n  if (iris$Petal.Length[i] &gt; 4) {\n    iris$Petal.Size[i] &lt;- \"Large\"\n  } else {\n    iris$Petal.Size[i] &lt;- \"Small\"\n  }\n}\n\niris"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#vectorized-operations",
+    "href": "slides/06-ifelse.html#vectorized-operations",
+    "title": "Finish Loops and if else logic",
+    "section": "Vectorized operations",
+    "text": "Vectorized operations\n– if / else - operate on one value (so we need to iterate with a for loop)\n– In R, vectorized means that a function can OPERATE on a whole vector of values at once, instead of requiring you to process each value individually with a loop (ifelse)"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#example",
+    "href": "slides/06-ifelse.html#example",
+    "title": "Finish Loops and if else logic",
+    "section": "Example",
+    "text": "Example\n– mean(): not vectorized. It takes a vector as an input and produces a value. It does not operate on the entire vector\n– round(): rounds each value in a vector. “Does something independently to each element”. This is consider vectorized!"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#test-yourself",
+    "href": "slides/06-ifelse.html#test-yourself",
+    "title": "Finish Loops and if else logic",
+    "section": "Test yourself",
+    "text": "Test yourself\nWhich functions are vectorized?\n\nx &lt;- c(2,4,6)\n\nlength(x)\n\nsqrt(x)\n\nunique(x)\n\nx &gt; 2"
+  },
+  {
+    "objectID": "slides/06-ifelse.html#ifelse",
+    "href": "slides/06-ifelse.html#ifelse",
+    "title": "Finish Loops and if else logic",
+    "section": "ifelse",
+    "text": "ifelse\nPull up the help file for ifelse\nNow, create a new variable in the iris data set for the Sepal.Size. Have it say “Large” if the value is above 5.5, and “Small” for anything else."
+  },
+  {
+    "objectID": "slides/06-ifelse.html#solution-1",
+    "href": "slides/06-ifelse.html#solution-1",
+    "title": "Finish Loops and if else logic",
+    "section": "Solution",
+    "text": "Solution\n\niris$Sepal.Size &lt;- ifelse(\n  iris$Sepal.Length &gt; 5.5,\n  \"Large\",\n  \"Small\"\n)"
   }
 ]

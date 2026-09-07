@@ -277,7 +277,7 @@ Note: an `else` statement opens and closes exactly like the if statement!
 
 ## Extension 
 
-We can have multiple `else` statements. 
+We can have multiple `if else` statements. 
 
 -- Create an R object called `score` and assign the value 71 to it for starters. 
 
