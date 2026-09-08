@@ -1129,7 +1129,7 @@
     "href": "hw1.html#question-1-10-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 1 (10-points)",
-    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
+    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture using fig-align: left in your YAML\n– Provide a caption (this does not need to be left aligned)\nWrite a couple sentences on why this is your favorite hobby!"
   },
   {
     "objectID": "hw1.html#question-2-15-points",

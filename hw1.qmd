@@ -29,7 +29,9 @@ Download a png file of your favorite hobby and embed it into your quarto documen
 
 -- Change the width to = 400
 
--- Provide a caption 
+-- Left align the picture using `fig-align: left` in your YAML
+
+-- Provide a caption (this does not need to be left aligned)
 
 Write a couple sentences on why this is your favorite hobby!
 
