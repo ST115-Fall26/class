@@ -1129,7 +1129,7 @@
     "href": "hw1.html#question-1-10-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 1 (10-points)",
-    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
+    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
   },
   {
     "objectID": "hw1.html#question-2-15-points",
@@ -1143,7 +1143,7 @@
     "href": "hw1.html#question-3-10-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 3 (10-points)",
-    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
+    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2 (from the mtcars data set using mtcars2 &lt;- mtcars) based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
   },
   {
     "objectID": "hw1.html#question-4-10-points",

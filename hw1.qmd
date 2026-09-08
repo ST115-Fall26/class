@@ -29,8 +29,6 @@ Download a png file of your favorite hobby and embed it into your quarto documen
 
 -- Change the width to = 400
 
--- Left align the picture
-
 -- Provide a caption 
 
 Write a couple sentences on why this is your favorite hobby!
@@ -60,7 +58,7 @@ Write the following setence: "The mean mpg for the Datsun 710 car in 194 was" an
 
 ## Question 3 (10-points)
 
-Create a new variable called mpg_category in a data set called `mtcars2`, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code `head(mtcars2)` to show that you have done this correctly.
+Create a new variable called mpg_category in a data set called `mtcars2` (from the `mtcars` data set using `mtcars2 <- mtcars`) based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code `head(mtcars2)` to show that you have done this correctly.
 
 \newpage
 
