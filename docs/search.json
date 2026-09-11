@@ -445,7 +445,7 @@
     "href": "slides/04-QuartoII.html#yaml-1",
     "title": "Quarto II & Objects/Vectors/Lists",
     "section": "YAML",
-    "text": "YAML\nWe have mappings and keys!\nYou can think of the “map” as a YAML option. You can think of the “key” as the value the option takes on.\n---\ntitle: \"My Document\"\n---\ntitle is the “map” and “My Document” is the key!\nNote: When we are working with a simple string, the quotes are optional. When you are working with things likes numbers that you want to be treated as text, quotes are necessary.\nOptions"
+    "text": "YAML\nWe have mappings and keys!\nYou can think of the “map” as a YAML option. You can think of the “key” as the value the option takes on.\n\n---\ntitle: \"My Document\"\n---\n\ntitle is the “map” and “My Document” is the key!\nNote: When we are working with a simple string, the quotes are optional. When you are working with things likes numbers that you want to be treated as text, quotes are necessary.\nOptions"
   },
   {
     "objectID": "slides/04-QuartoII.html#yaml-2",
