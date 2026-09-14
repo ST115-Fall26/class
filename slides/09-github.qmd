@@ -1,5 +1,5 @@
 ---
-title: "GitHub"
+title: "GitHub + Intro to Packages"
 subtitle: "Lecture 9"
 date: "September 15, 2026"
 format: 
