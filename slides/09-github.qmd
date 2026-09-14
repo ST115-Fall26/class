@@ -1,5 +1,5 @@
 ---
-title: "GitHub + Intro to Packages"
+title: "GitHub"
 subtitle: "Lecture 9"
 date: "September 15, 2026"
 format: 
@@ -14,28 +14,229 @@ editor:
 
 ## Checklist {.smaller}
 
--- Did you engage with the prepare material (none for today)?
+-- Did you engage with the prepare material
 
--- No quiz this week!
+-- Moodle quiz this week (due Friday at 11:59pm)
 
--- Homework-1: assigned Friday (11-4); due Friday (11-11) on Gradescope!
+-- Homework-1: assigned Friday (9-18); due Friday (9-25) on Gradescope!
 
-```         
-  > Please see the Moodle announcement if you haven't yet
-```
+-- Proficiency test II (9-22)
 
--- Proficiency test II (11-22)
+-- Go to the following website and favorite it: <https://github.com/orgs/ST115-Fall26/repositories>
 
--- I sent you a GitHub organization invite. Go to github.com and accept
-it (right hand corner)
+      > do you see a github-practice repo with your name attached?
+      > If yes, great!
+      > If not, please let me know after class
 
 -- I'm sure lab was hectic! Can you clone a repo?
 
-```         
-  > If yes, let me know on the GitHub excel sheet
-  > If no, please see announcements / plan to visit office hours / set up an appointment 
-  > Nick: Fri 9:00 - 10:00am
-  > Dr. Meyer: M 2:00 - 3:00pm 
-  > My goal for you is to be ready to roll for class Tuesday on how to use GitHub
-  
-```
+## Git and GitHub
+
+![](images/github-logo.png)
+
+Git is a version control system that intelligently tracks changes in files.
+
+GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
+
+Think of this as email (Git) vs Gmail (GitHub)
+
+## GitHub: Version control {.smaller}
+
+GitHub allows you to create, store, change, merge, and collaborate on files or code. Any member of a team can access the GitHub repository and see the most recent version in real-time. Then, they can make edits or changes that the other collaborators also see.
+
+GitHub also lets users make requests of one another and internally discuss the iterations along the way.
+
+[What is Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
+
+## GitHub: Version control
+
+Goal for today! 
+
+![](images/version.png)
+
+## Clone a repo (SSH Key)
+
+You created a SSH Key. What is that again exactly?
+
+SSH stands for "Secure Shell" and it helps prove authorization. 
+
+## SSH Key
+
+Your computer has a private key 🔑 (SSH key) — secret, kept only on your computer.
+
+GitHub has your public key — safe to share.
+
+GitHub can use the public key to verify that you possess the corresponding private key.
+
+## SSH Key
+
+Your computer                         GitHub
+
+private key 🔑  ── proves ownership ──> public key 🔓
+                                      |
+                                      v
+                              "Yep, that's you."
+                                      |
+                                      v
+                              Access repository
+                              
+                              
+## SSH Key 
+
+Imagine you used a password instead:
+
+If your GitHub password were stolen, guessed, etc...  
+
+...someone could potentially log into your GitHub account.
+
+Why might this be a bad thing?
+
+## SSH Key 
+
+-- Security ✔
+
+-- Convenience 
+
+If you use HTTPS, it will ask you to set up a personal access token, and you will have to prove you are authorized to access your GitHub repo by typing in your password every single time
+
+## SSH Key 
+
+![](images/ssh.png)
+
+# Questions 
+
+## Before we clone (~2-minutes)
+
+Make sure you have... 
+
+-- A file structure you are confident in (ex. have a Repos Folder)
+
+-- Make sure your new Folder has no spaces in the name (spaces can be seen as separators)
+
+## Clone a Repo 
+
+We are going to again do this together! I want to make sure we are all on the same page.
+
+All of your repos I create for you will be here: <https://github.com/orgs/ST115-Fall26/repositories>
+
+## GitHub Exercises 
+
+Click pull. What happens? Why?
+
+![](images/pull.png)
+
+## Terminal 
+
+The terminal is a program where you can control your computer by typing commands instead of clicking buttons.
+
+Think of it as a text-based way to talk to your computer.
+
+The terminal helps you understand what you're actually asking Git to do.
+
+The terminal is like talking directly to Git. 
+
+Try typing this: `git pull` 
+
+## Terminal 
+
+`git pull` 
+
+"Git, go to the repository I'm currently in, check GitHub for new changes, and bring those changes onto my computer."
+
+# Questions 
+
+## GitHub Exercise 
+
+-- Make a `.qmd` file 
+
+-- Save it 
+
+-- Check your Git tab and see what happens 
+
+-- Why do you think this happened? What's going on?
+
+## GitHub Exercise 
+
+![](images/git-tab.png)
+
+## GitHub Vocab 
+
+In Git, a commit is basically a saved snapshot of your project at a particular point in time.
+
+This is the point of version control! 
+
+Let's commit your .qmd file up to your GitHub repo! 
+
+## Git Commit 
+
+![](images/git-commit-tab.png)
+
+## Terminal 
+
+`git add -A`
+
+This will stage all of your changes! 
+
+In Git, “stage” means selecting the changes you want to include in your next commit.
+
+
+## GitHub Exercise 
+
+Let's put a message! 
+
+-- Make it short 
+
+-- Make it informative 
+
+-- ... plus I can see it ... 
+
+![](images/commit-message.png)
+
+Click Commit. What happens?
+
+## Branch 
+
+What does this mean?
+
+![](images/branch.png)
+
+## GitHub Exercise 
+
+-- Click Push 
+
+-- What happens? 
+
+-- Check your repo!
+
+![](images/push2.png)
+
+## Terminal 
+
+`git commit -m "Describe what you changed"`
+
+`git push`
+
+## Terminal Story 
+
+`git add -A`
+
+`git commit -m "Update data analysis"`
+
+`git push`
+
+# Questions 
+
+## On your own 
+
+-- Make a code chunk 
+
+-- Type in some equation 
+
+-- Render your document 
+
+-- Push your changes 
+
+# More GitHub Stuff
+
+## See these changes on GitHub 
+
