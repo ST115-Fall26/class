@@ -240,3 +240,29 @@ What does this mean?
 
 ## See these changes on GitHub 
 
+Go to your repo on GitHub and click your last commit message. What do you see?
+
+![](images/last-commit-message.png)
+
+## GitHub Exercise 
+
+![](images/demo-commit.png)
+
+
+## Go Back 
+
+`git restore filename` - This discards your uncommitted changes to that file.
+
+## Go Back 
+
+`git log --oneline` 
+
+Note: press q to return the terminal to a place where it allows you to type
+
+`git revert #####`
+
+## Example 
+
+![](images/oneline.png)
+
+`git revert 8c1aa2d`
