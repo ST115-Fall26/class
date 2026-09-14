@@ -70,9 +70,8 @@ GitHub can use the public key to verify that you possess the corresponding priva
 
 ## SSH Key
 
-Your computer                         GitHub
-
 private key 🔑  ── proves ownership ──> public key 🔓
+
                                       |
                                       v
                               "Yep, that's you."
@@ -266,3 +265,107 @@ Note: press q to return the terminal to a place where it allows you to type
 ![](images/oneline.png)
 
 `git revert 8c1aa2d`
+
+## Note 
+
+Git may have opened a text editor rather than the commit history itself. 
+
+This can happen because Git sometimes opens an editor when it needs you to enter or edit a commit message.
+
+Simply close the text editor and the change will take place. 
+
+Note: Because your file changed, it will close your file and you will have to re-open it on your computer. 
+
+# Questions 
+
+# Packages
+
+## Packages
+
+Think of R itself as a basic toolbox. Packages are like specialized toolkits that you can add when you need them.
+
+There are two steps you need to remember with packages: 
+
+-- `install.packages()`
+
+-- `library()` 
+
+## Packages 
+
+Most of the time, you install R packages from CRAN, which stands for the Comprehensive R Archive Network.
+
+You don't usually have to visit a website yourself. R can download the package for you.
+
+[CRAN](https://cran.r-project.org/)
+
+## Packages Exercise 
+
+Click on the Packages tab in RStudio... 
+
+... what do you notice? 
+
+## We want more packages 
+
+We are going to download the `dplyr` package from CRAN. Let's do it together! But first, let's try and run this code! I promise it works... 
+
+```{r}
+#| echo: true
+#| eval: false
+filter(iris, Petal.Length <= 1.1)
+```
+
+## Demo 
+
+Go to the Packages tab and un-check `dplyr`
+
+Next, run the following two sets of code, independently from each other. What do you notice?
+
+```{r}
+#| echo: true
+#| eval: false
+x <- c(10, 20, 30, 40, 50)
+
+filter(x, rep(1/3, 3))
+```
+
+```{r}
+#| echo: true
+#| eval: false
+library(dplyr)
+
+x <- c(10, 20, 30, 40, 50)
+
+filter(x, rep(1/3, 3))
+```
+
+## Demo 
+
+Does this work? What's going on?
+
+```{r}
+#| echo: true
+#| eval: false
+library(dplyr)
+
+x <- c(10, 20, 30, 40, 50)
+
+stats::filter(x, rep(1/3, 3))
+```
+
+
+## Takeaway 
+
+-- You only need to install the package once 
+
+-- You need to load the package every time you open a new session 
+
+-- If it's a one-off, you don't need to load the entire package! 
+
+-- Packages have help files! 
+
+Let's take a look at the help file for `dplyr`
+
+# Questions 
+
+# Create your own GitHub repo (if time)
+

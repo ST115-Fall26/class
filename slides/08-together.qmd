@@ -18,13 +18,13 @@ editor:
 
 -- No quiz this week!
 
--- Homework-1: assigned Friday (11-4); due Friday (11-11) on Gradescope!
+-- Homework-1: assigned Friday (9-4); due Friday (9-11) on Gradescope!
 
 ```         
   > Please see the Moodle announcement if you haven't yet
 ```
 
--- Proficiency test II (11-22)
+-- Proficiency test II (9-22)
 
 -- I sent you a GitHub organization invite. Go to github.com and accept
 it (right hand corner)
