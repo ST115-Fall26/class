@@ -1,0 +1,41 @@
+---
+title: "GitHub + Intro to Packages"
+subtitle: "Lecture 9"
+date: "September 15, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist {.smaller}
+
+-- Did you engage with the prepare material (none for today)?
+
+-- No quiz this week!
+
+-- Homework-1: assigned Friday (11-4); due Friday (11-11) on Gradescope!
+
+```         
+  > Please see the Moodle announcement if you haven't yet
+```
+
+-- Proficiency test II (11-22)
+
+-- I sent you a GitHub organization invite. Go to github.com and accept
+it (right hand corner)
+
+-- I'm sure lab was hectic! Can you clone a repo?
+
+```         
+  > If yes, let me know on the GitHub excel sheet
+  > If no, please see announcements / plan to visit office hours / set up an appointment 
+  > Nick: Fri 9:00 - 10:00am
+  > Dr. Meyer: M 2:00 - 3:00pm 
+  > My goal for you is to be ready to roll for class Tuesday on how to use GitHub
+  
+```
