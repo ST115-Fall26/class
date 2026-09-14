@@ -9,5 +9,3 @@ For Tuesday
 [19 Functions](https://r4ds.had.co.nz/functions.html)
 
 Note: You may not have all the tools to understand the code used in the functions the author is writing. The goal of this reading is to understand how you can write your own functions, and when you should consider doing so.
-
-

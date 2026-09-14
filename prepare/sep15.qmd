@@ -1,0 +1,10 @@
+---
+title: "Prepare"
+subtitle: "Due: September 15th"
+categories: "prepare"
+---
+
+For Tuesday
+
+[7 Understanding and Using R Packages](https://www.rprogramminginplainenglish.com/packages.html)
+
