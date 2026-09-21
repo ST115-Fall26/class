@@ -1,0 +1,10 @@
+---
+title: "Prepare"
+subtitle: "Due: September 24th"
+categories: "prepare"
+---
+
+
+Video from course that Dr. Çetinkaya-Rundel and I have taught to help introduce the `tidyverse` and work with data using `dplyr`
+
+--    [Working with a single data frame](https://www.youtube.com/watch?v=0229Uq2hkJo&t=178s)

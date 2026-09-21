@@ -1,0 +1,15 @@
+---
+title: "Prepare"
+subtitle: "Due: September 22nd"
+categories: "prepare"
+---
+
+We will not have class on Tuesday. I apologize that I am still not feeling well. This week is all about the `tidyverse` package (one of my favorites). To supplement class, and get us thinking about `tidyverse` tools, please watch the video [here](https://www.youtube.com/watch?v=xGWxtvweGac).
+
+In addition, please see the following reading: [Ch. 3 - Data transformation](https://r4ds.hadley.nz/data-transform.html)
+
+We will talk abou the `tidyverse` package, and get into the Grammer of Data Wrangling when I am (hopefully) better by Thursday. 
+
+
+
+
