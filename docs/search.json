@@ -1295,261 +1295,221 @@
     "text": "Create a GitHub account\nGo to https://github.com/, and create an account (unless you already have one).\nSome tips from Happy Git with R.\n– Incorporate your actual name!\n– Reuse your username from other contexts if you can, e. g., Twitter or Slack.\n– Pick a username you will be comfortable revealing to your future boss.\n– Be as unique as possible in as few characters as possible. Shorter is better than longer.\n– Avoid words with special meaning in programming (e.g. NA)."
   },
   {
-    "objectID": "prepare/sep24th.html",
-    "href": "prepare/sep24th.html",
+    "objectID": "prepare/sep8.html",
+    "href": "prepare/sep8.html",
     "title": "Prepare",
     "section": "",
-    "text": "Video from course that Dr. Çetinkaya-Rundel and I have taught to help introduce the tidyverse and work with data using dplyr\n– Working with a single data frame"
+    "text": "For Tuesday\n19 Functions\nNote: You may not have all the tools to understand the code used in the functions the author is writing. The goal of this reading is to understand how you can write your own functions, and when you should consider doing so."
   },
   {
-    "objectID": "prepare/sep15.html",
-    "href": "prepare/sep15.html",
+    "objectID": "prepare/sep22.html",
+    "href": "prepare/sep22.html",
     "title": "Prepare",
     "section": "",
-    "text": "For Tuesday\n7 Understanding and Using R Packages"
+    "text": "We will not have class on Tuesday. I apologize that I am still not feeling well. This week is all about the tidyverse package (one of my favorites). To supplement class, and get us thinking about tidyverse tools, please watch the video here.\nIn addition, please see the following reading: Ch. 3 - Data transformation\nWe will talk abou the tidyverse package, and get into the Grammer of Data Wrangling when I am (hopefully) better by Thursday."
   },
   {
-    "objectID": "prepare/oct-1.html",
-    "href": "prepare/oct-1.html",
+    "objectID": "prepare/sep1.html",
+    "href": "prepare/sep1.html",
     "title": "Prepare",
     "section": "",
-    "text": "📖 Read:\n\nR4DS: Chp 6 - Data tidying (Sections 6.3 and 6.4)\n\n⌨️ Watch:\n\nTidying data\n\n\n\n\n\n\n\n\nNote\n\n\n\nVideos use the “old school” pipe (%&gt;%) but we’ll be using the newer (|&gt;) pipe operator in class."
+    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
   },
   {
-    "objectID": "prepare/aug-25th.html",
-    "href": "prepare/aug-25th.html",
+    "objectID": "prepare/aug-27th.html",
+    "href": "prepare/aug-27th.html",
     "title": "Prepare",
     "section": "",
-    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nTo be able to compile PDFs, you will also need to download TinyTex. You can do so by running the following code in your Console.\ntinytex::install_tinytex()\nNote: If you are on a Mac, you already have this!"
+    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
   },
   {
-    "objectID": "labtest1_key.html",
-    "href": "labtest1_key.html",
-    "title": "Proficiency test - 1 (Solutions)",
+    "objectID": "prepare/aug-20th.html",
+    "href": "prepare/aug-20th.html",
+    "title": "Prepare",
     "section": "",
-    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
+    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nDr. Mine Çetinkaya-Rundel is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio)."
   },
   {
-    "objectID": "labtest1_key.html#iris-dataset",
-    "href": "labtest1_key.html#iris-dataset",
-    "title": "Proficiency test - 1 (Solutions)",
+    "objectID": "labs/slides/lab-1-slides.html#introduction",
+    "href": "labs/slides/lab-1-slides.html#introduction",
+    "title": "Welcome to ST115",
+    "section": "Introduction",
+    "text": "Introduction"
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
+    "href": "labs/slides/lab-1-slides.html#goals-for-today",
+    "title": "Welcome to ST115",
+    "section": "Goals for today",
+    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
+  },
+  {
+    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
+    "title": "Welcome to ST115",
+    "section": "What is R & RStudio",
+    "text": "What is R & RStudio"
+  },
+  {
+    "objectID": "hw/hw2.html",
+    "href": "hw/hw2.html",
+    "title": "HW 2 - R and GitHub",
     "section": "",
-    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
+    "text": "Important\n\n\n\nThis homework is due Friday, Sep 25 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
   },
   {
-    "objectID": "labtest1_key.html#flower",
-    "href": "labtest1_key.html#flower",
-    "title": "Proficiency test - 1 (Solutions)",
-    "section": "Flower",
-    "text": "Flower\n\nmean(iris$Petal.Length[1:50]) # setosa species \n\n[1] 1.462\n\nmean(iris$Petal.Length[51:100]) # versicolor \n\n[1] 4.26\n\nmean(iris$Petal.Length[101:150]) # virginica\n\n[1] 5.552\n\n\nBased on the results above, we can see that the virginica has the largest mean petal length.\n\nflower &lt;- list(\n  species = \"setosa\",\n  measurements = c(mean(iris$Petal.Length[1:50]), median(iris$Petal.Length[1:50]))\n)\n\nflower\n\n$species\n[1] \"setosa\"\n\n$measurements\n[1] 1.462 1.500"
+    "objectID": "hw/hw2.html#formatting",
+    "href": "hw/hw2.html#formatting",
+    "title": "HW 2 - R and GitHub",
+    "section": "Formatting",
+    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
+    "objectID": "hw/hw2.html#version-control",
+    "href": "hw/hw2.html#version-control",
+    "title": "HW 2 - R and GitHub",
+    "section": "Version Control",
+    "text": "Version Control\n\n\n\n\n\n\nNote\n\n\n\nPart of your grade comes from demonstrating proper use of version control.\nYou must have 4 meaningful commits to earn full credit.\nEach commit should be after you answer a specific task."
+  },
+  {
+    "objectID": "hw/hw2.html#set-up",
+    "href": "hw/hw2.html#set-up",
+    "title": "HW 2 - R and GitHub",
+    "section": "Set up",
+    "text": "Set up\nSetup-1. Create a new GitHub repo on GitHub. Name the Repo homework-2.\nNote: Make sure to add a README file when creating your GitHub repo.\nSetup-2. Clone this repo to your computer."
+  },
+  {
+    "objectID": "hw/hw2.html#question-1-10-points",
+    "href": "hw/hw2.html#question-1-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 1 (10-points)",
+    "text": "Question 1 (10-points)\nInstall the aRtsy package. Show the code used to install the aRtsy package, but turn off the code chunk so it doesn’t evaluate.\nExplain the difference between install.packages and library\n\nlibrary(aRtsy)\n\nWarning: package 'aRtsy' was built under R version 4.4.3\n\nset.seed(1)\n\ncanvas_collatz(\n  colors = c(\"blue\", \"purple\", \"orange\"),\n  n = 1:3\n)\n\n\n\n\n\n\ncanvas_collatz(\n  colors = \"blue\",\n  n = 1:20 # Can also be a vector of numbers to use as starting numbers.\n)"
+  },
+  {
+    "objectID": "hw/hw2.html#question-2-10-points",
+    "href": "hw/hw2.html#question-2-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 2 (10-points)",
+    "text": "Question 2 (10-points)\nCreate a level-1 section header at the top of your document at label it Packages. Next make a code chunk and library the aRtsy package. We are going to use a function in this package to plot the Collatz conjecture. On your own, research and explain what the Collatz conjecture is. Then, write the Collatz conjecture equation using in-line LaTex code."
+  },
+  {
+    "objectID": "hw/hw2.html#question-3-10-points",
+    "href": "hw/hw2.html#question-3-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 3 (10-points)",
+    "text": "Question 3 (10-points)"
+  },
+  {
+    "objectID": "hw/hw2.html#question-4-10-points",
+    "href": "hw/hw2.html#question-4-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 4 (10-points)",
+    "text": "Question 4 (10-points)"
+  },
+  {
+    "objectID": "hw2_sa.html",
+    "href": "hw2_sa.html",
+    "title": "HW 2 - R and GitHub",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz-1 assigned (due Friday)\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nFinish Quarto; Finish Objects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II + Intro to Packages\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nWelcome to Tidyverse\n\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nData types + Summary statistics\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00am) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
-    "crumbs": [
-      "Course information",
-      "Schedule"
-    ]
+    "text": "Important\n\n\n\nThis homework is due Friday, Sep 25 at 11:59pm."
   },
   {
-    "objectID": "hw/hw1.html",
-    "href": "hw/hw1.html",
+    "objectID": "hw2_sa.html#formatting",
+    "href": "hw2_sa.html#formatting",
+    "title": "HW 2 - R and GitHub",
+    "section": "Formatting",
+    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
+  },
+  {
+    "objectID": "hw2_sa.html#version-control",
+    "href": "hw2_sa.html#version-control",
+    "title": "HW 2 - R and GitHub",
+    "section": "Version Control",
+    "text": "Version Control\n\n\n\n\n\n\nNote\n\n\n\nPart of your grade comes from demonstrating proper use of version control.\nYou must have 4 meaningful commits to earn full credit.\nEach commit should be after you answer a specific task."
+  },
+  {
+    "objectID": "hw2_sa.html#set-up",
+    "href": "hw2_sa.html#set-up",
+    "title": "HW 2 - R and GitHub",
+    "section": "Set up",
+    "text": "Set up\nSetup-1. Create a new GitHub repo on GitHub. Name the Repo homework-2.\nNote: Make sure to add a README file when creating your GitHub repo.\nSetup-2. Clone this repo to your computer."
+  },
+  {
+    "objectID": "hw2_sa.html#question-1-10-points",
+    "href": "hw2_sa.html#question-1-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 1 (10-points)",
+    "text": "Question 1 (10-points)\nInstall the aRtsy package. Show the code used to install the aRtsy package, but turn off the code chunk so it doesn’t evaluate.\n\ninstall.packages(\"aRtsy\")\n\nwe can show code, but not evaluate it using code chunk arguments like eval and echo.\nNext, explain the difference between install.packages and library\ninstall.packages downloads the package to your local computer. library opens up (loads) the package so you can use the contents inside"
+  },
+  {
+    "objectID": "hw2_sa.html#question-2-10-points",
+    "href": "hw2_sa.html#question-2-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 2 (10-points)",
+    "text": "Question 2 (10-points)\nCreate a level-1 section header at the top of your document at label it Packages. Next, under a Question-2 level two section header, make a code chunk and library the aRtsy package. We are going to use a function in this package to plot the Collatz conjecture. On your own, research and explain what the Collatz conjecture is. Then, write the Collatz conjecture equation using in-line LaTex code.\n\\(f(n) = \\frac{n}{2} \\quad \\text{if } n \\text{ is even}\\)\n\\(f(n) = 3n + 1 \\quad \\text{if } n \\text{ is odd}\\)\nThe latex code looks like this:\n$f(n) = \\frac{n}{2} \\quad \\text{if } n \\text{ is even}$\n\n$f(n) = 3n + 1 \\quad \\text{if } n \\text{ is odd}$\nThis conjecture states that no matter what starting positive integer you choose, the sequence will always eventually reach 1 (and then loop infinitely in the cycle \\(4 \\to 2 \\to 1\\))."
+  },
+  {
+    "objectID": "hw2_sa.html#question-3-10-points",
+    "href": "hw2_sa.html#question-3-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 3 (10-points)",
+    "text": "Question 3 (10-points)\nPlease see the following function canvas_collatz() from the aRtsy package in R. In 2-3 sentences, describe what this function is doing.\n\nset.seed(3)\n\ncanvas_collatz(\n  colors = c(\"blue\"),\n  n = 10\n)\n\nThis code is picking 10 random numbers, and plotting their path with a blue line as it approaches 1, following the rules of the conjecture.\npart b\nWhen you run the above code multiple times, you get different output. With this information…\n– Explain why you get different out every time you run the code\n– Explain why this might be troublesome when trying to put this code into your .qmd file\n– Pull the help file up for set.seed(), and explain how this can be used to make sure we get the same result every time. Then, use the set.seed() function correctly with your favorite number, and include the code above in a code chunk.\nThe canvas_collatz() function uses a random process. The argument n = 10 is giving us 10 random numbers. Each time we run the code, a new random process takes place, giving us 10 new random numbers and thus a new picture.\nThis might be troublesome because the picture will change every time we Render are document. This means that it will be impossible to describe the picture in our .qmd!\nThe set.seed() function ensures that the random state is fixed every time some code is run. This helps statisticians with reproducibility in simulation studies. The process of picking the numbers in the canvas_collatz() is still random, but those 10 random numbers are now fixed with set.seed()."
+  },
+  {
+    "objectID": "hw2_sa.html#question-4-10-points",
+    "href": "hw2_sa.html#question-4-10-points",
+    "title": "HW 2 - R and GitHub",
+    "section": "Question 4 (10-points)",
+    "text": "Question 4 (10-points)\nContrast the code below with the code shown in question 3. What is this code doing differently than the previous chunk? That is, what’s different both in the code, and the corresponding result? Next, explain if it would be appropriate to include set.seed(1) with the code below.\n\ncanvas_collatz(\n  colors = c(\"blue\"),\n  n = 1:20\n)\n\nNow that you are passing a vector of values as the input to the argument n, the help file says that these become the starting integers that will pass through the conjecture. This is no longer a random process, and set.seed(1) is unnecessary, because there is not a random process assocciated with the code above."
+  },
+  {
+    "objectID": "hw1_sa.html",
+    "href": "hw1_sa.html",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "",
     "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
   },
   {
-    "objectID": "hw/hw1.html#formatting",
-    "href": "hw/hw1.html#formatting",
+    "objectID": "hw1_sa.html#formatting",
+    "href": "hw1_sa.html#formatting",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Formatting",
     "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
   },
   {
-    "objectID": "hw/hw1.html#question-1-10-points",
-    "href": "hw/hw1.html#question-1-10-points",
+    "objectID": "hw1_sa.html#question-1-10-points",
+    "href": "hw1_sa.html#question-1-10-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 1 (10-points)",
-    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
+    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture using fig-align: left in your YAML\n– Provide a caption (this does not need to be left aligned)\nWrite a couple sentences on why this is your favorite hobby!\nexample code would look like this\n![Stanley Cup Champions!](images/carolina-hurricanes.png){width=\"400\"}\n\nNote: We put fig-align left in our YAML to override the default centering that happens when we added a caption!\nI’ve always been extremely passionate about sports, and believe that hockey is the best sport to watch live! I’m excited that I get the opportunity to live/work so close to professional hockey, and it was an incredible memory of going to multiple stanley cup playoff games, including Game-1 and Game-2 of the Stanley cup finals last season."
   },
   {
-    "objectID": "hw/hw1.html#question-2-15-points",
-    "href": "hw/hw1.html#question-2-15-points",
+    "objectID": "hw1_sa.html#question-2-15-points",
+    "href": "hw1_sa.html#question-2-15-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 2 (15-points)",
-    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .Rmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
+    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\n\nwe pull up help files by putting ? next to the name of the function/data set in the Console.\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).\n\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\n\nvs is defined as follows in the help file: Engine (0 = V-shaped, 1 = straight). Yet, when we look at the following output:\n\nstr(mtcars)\n\n'data.frame':   32 obs. of  11 variables:\n $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...\n $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...\n $ disp: num  160 160 108 258 360 ...\n $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...\n $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...\n $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...\n $ qsec: num  16.5 17 18.6 19.4 17 ...\n $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...\n $ am  : num  1 1 1 0 0 0 0 0 0 0 ...\n $ gear: num  4 4 4 3 3 3 3 4 4 4 ...\n $ carb: num  4 4 1 1 2 1 4 2 2 4 ...\n\n\nWe see that vs is being treated as a number. I think that vs should be treated as a factor based on the definition of the variable.\n\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nDatsun &lt;- mtcars[3,]\n\nDatsun\n\n            mpg cyl disp hp drat   wt  qsec vs am gear carb\nDatsun 710 22.8   4  108 93 3.85 2.32 18.61  1  1    4    1\n\n\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .qmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!\nThe mean mpg for the Datsun 710 car in 194 was 22.8\nThe code should look like the following:\nThe mean mpg for the Datsun 710 car in 194 was r Datsun[,1] (with ` ` before the r and after the ])"
   },
   {
-    "objectID": "hw/hw1.html#question-3-10-points",
-    "href": "hw/hw1.html#question-3-10-points",
+    "objectID": "hw1_sa.html#question-3-10-points",
+    "href": "hw1_sa.html#question-3-10-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 3 (10-points)",
-    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
+    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2 (from the mtcars data set using mtcars2 &lt;- mtcars) based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly.\n\nmtcars2 &lt;- mtcars                                                # Creates a copy of mtcars named mtcars2\nmtcars2$mpg_category &lt;- ifelse(mtcars2$mpg &gt; 20, \"above\", \"below\") # Adds mpg_category as 'above' or 'below' based on 20 mpg\nhead(mtcars2)                                                    # Displays the first 6 rows of the updated mtcars2 dataset\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n                  mpg_category\nMazda RX4                above\nMazda RX4 Wag            above\nDatsun 710               above\nHornet 4 Drive           above\nHornet Sportabout        below\nValiant                  below"
   },
   {
-    "objectID": "hw/hw1.html#question-4-10-points",
-    "href": "hw/hw1.html#question-4-10-points",
+    "objectID": "hw1_sa.html#question-4-10-points",
+    "href": "hw1_sa.html#question-4-10-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 4 (10-points)",
-    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
+    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\n\nYes\n\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\nThe second loop is much easier to read. Some good rules for coding include…\n-- Do a hard return after {\n-- Having hanging indents after the initial \"for\"\n-- Do a hard return after a function has concluded/closed\nIf you have everything on a single line, things are going to run off the page!"
   },
   {
-    "objectID": "hw/hw1.html#question-5-15-points",
-    "href": "hw/hw1.html#question-5-15-points",
+    "objectID": "hw1_sa.html#question-5-15-points",
+    "href": "hw1_sa.html#question-5-15-points",
     "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 5 (15-points)",
-    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
-  },
-  {
-    "objectID": "hw1.html",
-    "href": "hw1.html",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "",
-    "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
-  },
-  {
-    "objectID": "hw1.html#formatting",
-    "href": "hw1.html#formatting",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Formatting",
-    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
-  },
-  {
-    "objectID": "hw1.html#question-1-10-points",
-    "href": "hw1.html#question-1-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 1 (10-points)",
-    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture using fig-align: left in your YAML\n– Provide a caption (this does not need to be left aligned)\nWrite a couple sentences on why this is your favorite hobby!"
-  },
-  {
-    "objectID": "hw1.html#question-2-15-points",
-    "href": "hw1.html#question-2-15-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 2 (15-points)",
-    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .qmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
-  },
-  {
-    "objectID": "hw1.html#question-3-10-points",
-    "href": "hw1.html#question-3-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 3 (10-points)",
-    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2 (from the mtcars data set using mtcars2 &lt;- mtcars) based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
-  },
-  {
-    "objectID": "hw1.html#question-4-10-points",
-    "href": "hw1.html#question-4-10-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 4 (10-points)",
-    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
-  },
-  {
-    "objectID": "hw1.html#question-5-15-points",
-    "href": "hw1.html#question-5-15-points",
-    "title": "HW 1 - Intro to R and Quarto",
-    "section": "Question 5 (15-points)",
-    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Instructor + course overview",
-    "section": "",
-    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#instructor-office-hours",
-    "href": "course-overview.html#instructor-office-hours",
-    "title": "Instructor + course overview",
-    "section": "Instructor Office Hours",
-    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta",
-    "href": "course-overview.html#ta",
-    "title": "Instructor + course overview",
-    "section": "TA",
-    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta-office-hours",
-    "href": "course-overview.html#ta-office-hours",
-    "title": "Instructor + course overview",
-    "section": "TA Office Hours",
-    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#videos",
-    "href": "course-overview.html#videos",
-    "title": "Instructor + course overview",
-    "section": "Videos",
-    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#course",
-    "href": "course-overview.html#course",
-    "title": "Instructor + course overview",
-    "section": "Course",
-    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "computing-cheatsheets.html",
-    "href": "computing-cheatsheets.html",
-    "title": "R cheatsheets",
-    "section": "",
-    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
-    "crumbs": [
-      "Computing",
-      "Cheatsheets"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html",
-    "href": "computing-troubleshooting.html",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
-    "href": "computing-troubleshooting.html#tips-for-not-rendering",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
+    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)\n\nSolutions\n– Code chunk a is missing commas to separate arguments within the c() function\n– fish also needs to be represented as a character string, hence we need ” ” around fish.\n\n– Code chunk b is trying to index the animals vector as if it is a data frame. When we are working with a single vector, we do not need to specify row x column when indexing. We simpley need animals[3]\n\n– We don’t need the [] around the 2:4. The c() function combines the integers. We need [] to index the animals vector! The code should look like animals[c(2:4)]."
   },
   {
     "objectID": "course-support.html",
@@ -1640,6 +1600,154 @@
     ]
   },
   {
+    "objectID": "computing-troubleshooting.html",
+    "href": "computing-troubleshooting.html",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
+    "href": "computing-troubleshooting.html#tips-for-not-rendering",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-cheatsheets.html",
+    "href": "computing-cheatsheets.html",
+    "title": "R cheatsheets",
+    "section": "",
+    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
+    "crumbs": [
+      "Computing",
+      "Cheatsheets"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Instructor + course overview",
+    "section": "",
+    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#instructor-office-hours",
+    "href": "course-overview.html#instructor-office-hours",
+    "title": "Instructor + course overview",
+    "section": "Instructor Office Hours",
+    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta",
+    "href": "course-overview.html#ta",
+    "title": "Instructor + course overview",
+    "section": "TA",
+    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta-office-hours",
+    "href": "course-overview.html#ta-office-hours",
+    "title": "Instructor + course overview",
+    "section": "TA Office Hours",
+    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#videos",
+    "href": "course-overview.html#videos",
+    "title": "Instructor + course overview",
+    "section": "Videos",
+    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#course",
+    "href": "course-overview.html#course",
+    "title": "Instructor + course overview",
+    "section": "Course",
+    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "hw1.html",
+    "href": "hw1.html",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "",
+    "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
+  },
+  {
+    "objectID": "hw1.html#formatting",
+    "href": "hw1.html#formatting",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Formatting",
+    "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
+  },
+  {
+    "objectID": "hw1.html#question-1-10-points",
+    "href": "hw1.html#question-1-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 1 (10-points)",
+    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture using fig-align: left in your YAML\n– Provide a caption (this does not need to be left aligned)\nWrite a couple sentences on why this is your favorite hobby!"
+  },
+  {
+    "objectID": "hw1.html#question-2-15-points",
+    "href": "hw1.html#question-2-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 2 (15-points)",
+    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .qmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
+  },
+  {
+    "objectID": "hw1.html#question-3-10-points",
+    "href": "hw1.html#question-3-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 3 (10-points)",
+    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2 (from the mtcars data set using mtcars2 &lt;- mtcars) based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
+  },
+  {
+    "objectID": "hw1.html#question-4-10-points",
+    "href": "hw1.html#question-4-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 4 (10-points)",
+    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
+  },
+  {
+    "objectID": "hw1.html#question-5-15-points",
+    "href": "hw1.html#question-5-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 5 (15-points)",
+    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
+  },
+  {
     "objectID": "hw2.html",
     "href": "hw2.html",
     "title": "HW 2 - R and GitHub",
@@ -1696,116 +1804,155 @@
     "text": "Question 4 (10-points)\nContrast the code below with the code shown in question 3. What is this code doing differently than the previous chunk? That is, what’s different both in the code, and the corresponding result? Next, explain if it would be appropriate to include set.seed(1) with the code below.\n\ncanvas_collatz(\n  colors = c(\"blue\"),\n  n = 1:20\n)"
   },
   {
-    "objectID": "hw/hw2.html",
-    "href": "hw/hw2.html",
-    "title": "HW 2 - R and GitHub",
+    "objectID": "hw/hw1.html",
+    "href": "hw/hw1.html",
+    "title": "HW 1 - Intro to R and Quarto",
     "section": "",
-    "text": "Important\n\n\n\nThis homework is due Friday, Sep 25 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
+    "text": "Important\n\n\n\nThis homework is due Friday, Sep 11 at 11:59pm.\nYou will turn in a PDF file (generated by Quarto) to Gradescope. It is important that you select pages correctly when turning in your assignment. Please watch the video: For Students: Submit Homework on the Gradescope Website on our Moodle page. Part of your grade is turning in your assignment correctly."
   },
   {
-    "objectID": "hw/hw2.html#formatting",
-    "href": "hw/hw2.html#formatting",
-    "title": "HW 2 - R and GitHub",
+    "objectID": "hw/hw1.html#formatting",
+    "href": "hw/hw1.html#formatting",
+    "title": "HW 1 - Intro to R and Quarto",
     "section": "Formatting",
     "text": "Formatting\n– Your pdf should be generated by Quarto. Do not Render to html and print to PDF.\n– Each question should be labeled with a level-2 section header\n– If the question has multiple parts, you should create a level-4 section header with the appropriate label (ex. a)\n– Each question should be on a new page. Type \\newpage to create a new page after each question\n– Your code should not run off the page. Check your document for any formatting issues before submitting."
   },
   {
-    "objectID": "hw/hw2.html#version-control",
-    "href": "hw/hw2.html#version-control",
-    "title": "HW 2 - R and GitHub",
-    "section": "Version Control",
-    "text": "Version Control\n\n\n\n\n\n\nNote\n\n\n\nPart of your grade comes from demonstrating proper use of version control.\nYou must have 4 meaningful commits to earn full credit.\nEach commit should be after you answer a specific task."
-  },
-  {
-    "objectID": "hw/hw2.html#set-up",
-    "href": "hw/hw2.html#set-up",
-    "title": "HW 2 - R and GitHub",
-    "section": "Set up",
-    "text": "Set up\nSetup-1. Create a new GitHub repo on GitHub. Name the Repo homework-2.\nNote: Make sure to add a README file when creating your GitHub repo.\nSetup-2. Clone this repo to your computer."
-  },
-  {
-    "objectID": "hw/hw2.html#question-1-10-points",
-    "href": "hw/hw2.html#question-1-10-points",
-    "title": "HW 2 - R and GitHub",
+    "objectID": "hw/hw1.html#question-1-10-points",
+    "href": "hw/hw1.html#question-1-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 1 (10-points)",
-    "text": "Question 1 (10-points)\nInstall the aRtsy package. Show the code used to install the aRtsy package, but turn off the code chunk so it doesn’t evaluate.\nExplain the difference between install.packages and library\n\nlibrary(aRtsy)\n\nWarning: package 'aRtsy' was built under R version 4.4.3\n\nset.seed(1)\n\ncanvas_collatz(\n  colors = c(\"blue\", \"purple\", \"orange\"),\n  n = 1:3\n)\n\n\n\n\n\n\ncanvas_collatz(\n  colors = \"blue\",\n  n = 1:20 # Can also be a vector of numbers to use as starting numbers.\n)"
+    "text": "Question 1 (10-points)\nDownload a png file of your favorite hobby and embed it into your quarto document with the following options.\n– Change the width to = 400\n– Left align the picture\n– Provide a caption\nWrite a couple sentences on why this is your favorite hobby!"
   },
   {
-    "objectID": "hw/hw2.html#question-2-10-points",
-    "href": "hw/hw2.html#question-2-10-points",
-    "title": "HW 2 - R and GitHub",
-    "section": "Question 2 (10-points)",
-    "text": "Question 2 (10-points)\nCreate a level-1 section header at the top of your document at label it Packages. Next make a code chunk and library the aRtsy package. We are going to use a function in this package to plot the Collatz conjecture. On your own, research and explain what the Collatz conjecture is. Then, write the Collatz conjecture equation using in-line LaTex code."
+    "objectID": "hw/hw1.html#question-2-15-points",
+    "href": "hw/hw1.html#question-2-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 2 (15-points)",
+    "text": "Question 2 (15-points)\nFor question 2, we are going to use the mtcars data set in base R.\n\nPull up the help file and copy the description of the data set into your document.\nUse code to define the data type that the vs variable is in the mtcars data set. Based on the description in the help file, do you think R should read this variable differently? Why or why not?\nIndex the mtcars data frame to pull out the mpg value of the Datsun 710 car. Name this R object Datsun\n\nHint:https://dereksonderegger.github.io/570L/5-matrices-data-frames-and-lists.html#data-frames-1\n\nIn this question we are going to learn how to write in-line R code! Read section 10.2 of the following book here\n\n\nIn short: Code results can be inserted directly into the text of a .Rmd file by enclosing the code with r.\nWrite the following setence: “The mean mpg for the Datsun 710 car in 194 was” and use in-line code with the R object you created in c to report the mean mpg for the Datsun 710 car. Note, this is not a formal code chunk! This is a quick way to report result in-line with your text!"
   },
   {
-    "objectID": "hw/hw2.html#question-3-10-points",
-    "href": "hw/hw2.html#question-3-10-points",
-    "title": "HW 2 - R and GitHub",
+    "objectID": "hw/hw1.html#question-3-10-points",
+    "href": "hw/hw1.html#question-3-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 3 (10-points)",
-    "text": "Question 3 (10-points)"
+    "text": "Question 3 (10-points)\nCreate a new variable called mpg_category in a data set called mtcars2, based on whether mpg is above or below 20. Comment each line of code and explain (in a few words for each line) what is happening. In the same code chunk, run the code head(mtcars2) to show that you have done this correctly."
   },
   {
-    "objectID": "hw/hw2.html#question-4-10-points",
-    "href": "hw/hw2.html#question-4-10-points",
-    "title": "HW 2 - R and GitHub",
+    "objectID": "hw/hw1.html#question-4-10-points",
+    "href": "hw/hw1.html#question-4-10-points",
+    "title": "HW 1 - Intro to R and Quarto",
     "section": "Question 4 (10-points)",
-    "text": "Question 4 (10-points)"
+    "text": "Question 4 (10-points)\nFor this question, I’m asking you to compare and contrast the two for loops.\n\nfor (i in 1:nrow(mtcars)) { if (mtcars$mpg[i]&gt;25) { print(mtcars$mpg[i]) } else { print(\"MPG is 25 or less\") } }\n\n# vs\n\nfor (i in 1:nrow(mtcars)) {\n  if (mtcars$mpg[i] &gt; 25) {\n    print(mtcars$mpg[i])\n  } else {\n    print(\"MPG is 25 or less\")\n  }\n}\n\n\nDo both run with no errors and give you output? Yes or no?\nWhy is the second for loop easier to read? Come up with at least three rules learned by comparing both sets of code, and list them below. Put two dashes -- before your comment to make a list. Ex.\n\n-- I see that...\n--\n--"
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#introduction",
-    "href": "labs/slides/lab-1-slides.html#introduction",
-    "title": "Welcome to ST115",
-    "section": "Introduction",
-    "text": "Introduction"
+    "objectID": "hw/hw1.html#question-5-15-points",
+    "href": "hw/hw1.html#question-5-15-points",
+    "title": "HW 1 - Intro to R and Quarto",
+    "section": "Question 5 (15-points)",
+    "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)"
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#goals-for-today",
-    "href": "labs/slides/lab-1-slides.html#goals-for-today",
-    "title": "Welcome to ST115",
-    "section": "Goals for today",
-    "text": "Goals for today\n– Install R & RStudio\n– Brief Tour (if time)"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz-1 assigned (due Friday)\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nFinish Quarto; Finish Objects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II + Intro to Packages\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nWelcome to Tidyverse\n\n\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nData types + Summary statistics\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00am) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
   },
   {
-    "objectID": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "href": "labs/slides/lab-1-slides.html#what-is-r-rstudio",
-    "title": "Welcome to ST115",
-    "section": "What is R & RStudio",
-    "text": "What is R & RStudio"
+    "objectID": "labtest1_key.html",
+    "href": "labtest1_key.html",
+    "title": "Proficiency test - 1 (Solutions)",
+    "section": "",
+    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
   },
   {
-    "objectID": "prepare/aug-20th.html",
-    "href": "prepare/aug-20th.html",
+    "objectID": "labtest1_key.html#iris-dataset",
+    "href": "labtest1_key.html#iris-dataset",
+    "title": "Proficiency test - 1 (Solutions)",
+    "section": "",
+    "text": "This famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\nWe pull up a help file for a function/dataset that is in base R using the ?name in our console\nWe make section headers using ##"
+  },
+  {
+    "objectID": "labtest1_key.html#flower",
+    "href": "labtest1_key.html#flower",
+    "title": "Proficiency test - 1 (Solutions)",
+    "section": "Flower",
+    "text": "Flower\n\nmean(iris$Petal.Length[1:50]) # setosa species \n\n[1] 1.462\n\nmean(iris$Petal.Length[51:100]) # versicolor \n\n[1] 4.26\n\nmean(iris$Petal.Length[101:150]) # virginica\n\n[1] 5.552\n\n\nBased on the results above, we can see that the virginica has the largest mean petal length.\n\nflower &lt;- list(\n  species = \"setosa\",\n  measurements = c(mean(iris$Petal.Length[1:50]), median(iris$Petal.Length[1:50]))\n)\n\nflower\n\n$species\n[1] \"setosa\"\n\n$measurements\n[1] 1.462 1.500"
+  },
+  {
+    "objectID": "prepare/aug-25th.html",
+    "href": "prepare/aug-25th.html",
     "title": "Prepare",
     "section": "",
-    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nDr. Mine Çetinkaya-Rundel is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science and an affiliated faculty in the Computational Media, Arts, and Cultures program at Duke University. I am also the Director of the First-Year Experience in Trinity College of Arts & Sciences. She also works at Posit (RStudio)."
+    "text": "Video from Coursera course I and Dr. Çetinkaya-Rundel created to help teach Quarto (fancy R-markdown)!\nNote: The mp4 was to large to embed onto our GitHub website.\nPlease see the Moodle link here\nTo be able to compile PDFs, you will also need to download TinyTex. You can do so by running the following code in your Console.\ntinytex::install_tinytex()\nNote: If you are on a Mac, you already have this!"
   },
   {
-    "objectID": "prepare/aug-27th.html",
-    "href": "prepare/aug-27th.html",
+    "objectID": "prepare/oct-1.html",
+    "href": "prepare/oct-1.html",
     "title": "Prepare",
     "section": "",
-    "text": "For Thursday\n1.2 Assignment\n2 Vectors\n5.2 Data Frames"
+    "text": "📖 Read:\n\nR4DS: Chp 6 - Data tidying (Sections 6.3 and 6.4)\n\n⌨️ Watch:\n\nTidying data\n\n\n\n\n\n\n\n\nNote\n\n\n\nVideos use the “old school” pipe (%&gt;%) but we’ll be using the newer (|&gt;) pipe operator in class."
   },
   {
-    "objectID": "prepare/sep1.html",
-    "href": "prepare/sep1.html",
+    "objectID": "prepare/sep15.html",
+    "href": "prepare/sep15.html",
     "title": "Prepare",
     "section": "",
-    "text": "For Tuesday/Thursday\n11.1 - 11.2 Statements & Loops"
+    "text": "For Tuesday\n7 Understanding and Using R Packages"
   },
   {
-    "objectID": "prepare/sep22.html",
-    "href": "prepare/sep22.html",
+    "objectID": "prepare/sep24th.html",
+    "href": "prepare/sep24th.html",
     "title": "Prepare",
     "section": "",
-    "text": "We will not have class on Tuesday. I apologize that I am still not feeling well. This week is all about the tidyverse package (one of my favorites). To supplement class, and get us thinking about tidyverse tools, please watch the video here.\nIn addition, please see the following reading: Ch. 3 - Data transformation\nWe will talk abou the tidyverse package, and get into the Grammer of Data Wrangling when I am (hopefully) better by Thursday."
+    "text": "Video from course that Dr. Çetinkaya-Rundel and I have taught to help introduce the tidyverse and work with data using dplyr\n– Working with a single data frame"
   },
   {
-    "objectID": "prepare/sep8.html",
-    "href": "prepare/sep8.html",
-    "title": "Prepare",
+    "objectID": "prof_II_sa.html",
+    "href": "prof_II_sa.html",
+    "title": "Proficiency Test II",
     "section": "",
-    "text": "For Tuesday\n19 Functions\nNote: You may not have all the tools to understand the code used in the functions the author is writing. The goal of this reading is to understand how you can write your own functions, and when you should consider doing so."
+    "text": "Put your name at the top of this document in the YAML. You are asked to clone the proficiency-test-II repo from GitHub. This repo has been made for you.\nIf you can not clone the repo, please still create a .qmd file and complete the tasks for partial credit.\nIf you can not get your code the run, please use the appropriate code chunks to stop your code from evaluating (but still make sure we can see your code) to earn partial credit.\n\n\n\n\n\n\nNote\n\n\n\nPart of your grade comes from demonstrating proper use of version control.\nYou must have 4 meaningful commits to earn full credit.\nEach commit should be after you answer a specific task.\n\n\nPlease answer each task below. Render after each question"
+  },
+  {
+    "objectID": "prof_II_sa.html#instructions",
+    "href": "prof_II_sa.html#instructions",
+    "title": "Proficiency Test II",
+    "section": "",
+    "text": "Put your name at the top of this document in the YAML. You are asked to clone the proficiency-test-II repo from GitHub. This repo has been made for you.\nIf you can not clone the repo, please still create a .qmd file and complete the tasks for partial credit.\nIf you can not get your code the run, please use the appropriate code chunks to stop your code from evaluating (but still make sure we can see your code) to earn partial credit.\n\n\n\n\n\n\nNote\n\n\n\nPart of your grade comes from demonstrating proper use of version control.\nYou must have 4 meaningful commits to earn full credit.\nEach commit should be after you answer a specific task.\n\n\nPlease answer each task below. Render after each question"
+  },
+  {
+    "objectID": "prof_II_sa.html#task-1-5-points",
+    "href": "prof_II_sa.html#task-1-5-points",
+    "title": "Proficiency Test II",
+    "section": "Task-1 (5-points)",
+    "text": "Task-1 (5-points)\nUsing a for loop, use print() to print the miles per gallon (mpg) for each of the first 3 cars in the mtcars dataset.\n\nfor (i in 1:3) {\n  print(mtcars$mpg[i])\n}\n\n[1] 21\n[1] 21\n[1] 22.8"
+  },
+  {
+    "objectID": "prof_II_sa.html#task-2-10-points",
+    "href": "prof_II_sa.html#task-2-10-points",
+    "title": "Proficiency Test II",
+    "section": "Task-2 (10-points)",
+    "text": "Task-2 (10-points)\nWrite a function called count_above() that takes a numeric vector and a cutoff value and returns the number of observations greater than the cutoff. Fill in the ___ with the appropriate code to define the function accordingly. Next to each line, make a comment of what the code is doing. You do not have to comment lines with just parentheses. Don’t forget to change the code chunk option so your rendered document executes your function!\n\ncount_above &lt;- function(vec, cutoff) {  # Defines the function and arguments\n  count &lt;- 0                             # Initializes a counter variable at 0 \n\n  for (i in 1:length(vec)) {             # Loops through every index position\n    if (vec[i] &gt; cutoff) {               # Check/condition\n      count &lt;- count + 1                 # Increments the counter by 1 if met\n    }\n  }\n\n  return(count)                          # Returns final count\n}\n\nNext, make a new code chunk to count the following:\n– How many flowers have a sepal length greater than 6 cm in the iris dataset?\n\ncount_above(iris$Sepal.Length, 6)\n\n[1] 61\n\n\n61 flowers have a sepal length larger than 6cm.\n– How many cars have a value greater than or equal to 150 disp in the mtcars dataset?\n\ncount_above &lt;- function(vec, cutoff) {  # Defines the function and arguments\n  count &lt;- 0                             # Initializes a counter variable at 0 \n\n  for (i in 1:length(vec)) {             # Loops through every index position\n    if (vec[i] &gt;= cutoff) {               # Check/condition (changed to be &gt;=)\n      count &lt;- count + 1                 # Increments the counter by 1 if met\n    }\n  }\n\n  return(count)                          # Returns final count\n}\ncount_above(mtcars$disp, 150)\n\n[1] 20\n\n\n20 cars have a value greater than or equal to 150 cu.in."
+  },
+  {
+    "objectID": "prof_II_sa.html#task-3-5-points",
+    "href": "prof_II_sa.html#task-3-5-points",
+    "title": "Proficiency Test II",
+    "section": "Task-3 (5-points)",
+    "text": "Task-3 (5-points)\nIn 1-3 sentences, explain the concept of masking functions.\nmasking is a term used when the function name of a loaded package is exactly the same as a function name of a pre-exsisting function. This is an issue, as pre-written code may function differently if certain functions are masked to take on different functionality."
+  },
+  {
+    "objectID": "prof_II_sa.html#task-4-5-points",
+    "href": "prof_II_sa.html#task-4-5-points",
+    "title": "Proficiency Test II",
+    "section": "Task-4 (5-points)",
+    "text": "Task-4 (5-points)\nCreate a code chunk with the following code: iris$Sepal.Length[1]. In 1-sentence, explain what it returns.\n\niris$Sepal.Length[1]\n\n[1] 5.1\n\n\nThis code returns the first element in the vector Sepal.Length from the iris dataset.\nNext, in the same code chunk, index just the iris data set (don’t use the $) to match the output from iris$Sepal.Length[1].\n\niris[1,1]\n\n[1] 5.1\n\n\nBecause iris is a data frame, and not an individual vector, we need to index both the row and column in order to match the first code chunk in Task 4."
   },
   {
     "objectID": "slides/02-toolkit.html#checklist",
