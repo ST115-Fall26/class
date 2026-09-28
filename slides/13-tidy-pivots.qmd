@@ -1,0 +1,163 @@
+---
+title: "Tidyverse + Pivots"
+subtitle: "Grammar of data wrangling II"
+date: "September 24, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist{.smaller} 
+
+-- Quiz released Monday (due Friday at 11:59pm)
+
+-- Solutions for everything are posted. Please see the website (on our schedule page)
+
+-- Please open up your `wrangling` project. You can also clone your `pivot-practice` repo created for you
+
+-- Proficiency Test III (October 6th)
+
+-- Midterm-1 (October 13th in-class)
+
+## Proficiency Test III 
+
+Same story as the first two 
+
+-- You will have a created repo for you to clone 
+
+-- 50-minutes to complete 3/4 tasks 
+
+-- Full sheet of notes 
+
+-- Cumulative with emphasis on material after proficiency test II 
+
+-- I'll continue to make a Moodle announcement outlining exactly what to expect 
+
+## Midterm-I 
+
+You will NOT do any live coding during Midterm-1
+
+My goal is to test your conceptual understanding around R/RStudio, Quarto, GitHub
+
+You will NOT have to write lines and lines of code (you may have to write a line or two of code to answer a specific question)
+
+## Example Question 
+
+-- Define pull/stage/commit/push as they are related to the GitHub workflow process
+
+-- Explain why `View()` should not go in a .qmd file 
+
+-- Explain the difference between `library()` and `install.packages()`
+
+## Example Question 
+
+Don't assume any other code has been run when answering this question. There are four errrors below using the `mtcars` data set, preventing the code from running. Identify them. 
+
+```{r}
+#| eval: false 
+#| echo: true 
+
+Mtcars |> 
+  filter(mpg > 20)
+  select(mpg cyl disp)
+```
+
+# Questions 
+
+## Warm-up 
+
+-- What is the `tidyverse`? 
+
+-- What is the |> ? 
+
+## tidyverse 
+
+::: columns
+::: {.column width="40%"}
+![](images/tidyverse.png){width="400" height="300" fig-align="left"}
+:::
+
+::: {.column width="60%"}
+-- The **tidyverse** is a collection of R packages designed for data science.
+
+-- All packages share an underlying philosophy and a common grammar.
+:::
+:::
+
+## tidyverse pipe 
+
+`|>` is called a pipe operator 
+
+This is used to emphasize a sequence of coding actions
+
+"and then"
+
+## The tidyverse pipe
+
+![](images/pipe.png)
+
+## Last time 
+
+Introduced the `flights` data set in the `nycflights13` pacakge.
+
+Worked up through `select()`
+
+Open the project + load the packages. Re-familiarize yourself with the data set, and we will pick back up with `slice()`! 
+
+# Questions 
+
+# Forms of Data
+
+## Data Format (Wide vs Long)
+
+-- **Wide** data contains values that do not repeat in the first column
+
+-- **Long** data contains values that do repeat in the first column
+
+![](images/wide_and_long.png){width="950" height="450" fig-align="center"}
+
+## Data Format (Wide vs Long)
+
+Let's open the `pivot-practice` project for some motivation on which we might prefer to work with! 
+
+![](images/wide_and_long.png){width="950" height="450" fig-align="center"}
+
+## Tidy Data
+
+There are three interrelated rules that make a dataset tidy:
+
+-   **Each variable is a column; each column is a variable.**
+
+-   **Each observation is row; each row is an observation.**
+
+-   Each value is a cell; each cell is a single value.
+
+## Motivation
+
+-- Sometimes, data are not in this format...
+
+## pivots
+
+-- `pivot_longer`
+
+-- `pivot_wider`
+
+# pivot_wider
+
+## pivot_wider{.smaller}
+
+-- Making tables for quick comparison / display purposes
+
+-- `names_from`
+
+-- `values_from`
+
+![](images/pivot-wider.png){width="950" height="500" fig-align="center"}
+
+# pivot-practice
+

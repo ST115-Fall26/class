@@ -33,7 +33,7 @@ Where to make vs not make repos!
 
 ::: columns
 ::: {.column width="40%"}
-![](images/02-Meeting-the-toolkit/tidyverse.png){width="400" height="300" fig-align="left"}
+![](images/tidyverse.png){width="400" height="300" fig-align="left"}
 :::
 
 ::: {.column width="60%"}
