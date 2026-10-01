@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.9.37">
 
-  <meta name="dcterms.date" content="2026-09-24">
+  <meta name="dcterms.date" content="2026-10-01">
   <title>ST 115 – Tidyverse + Pivots</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -205,7 +205,7 @@
 <div class="quarto-title-authors">
 </div>
 
-  <p class="date">2026-09-24</p>
+  <p class="date">2026-10-01</p>
 </section>
 <section id="checklist" class="slide level2 smaller">
 <h2>Checklist</h2>
@@ -214,6 +214,13 @@
 <p>– Please open up your <code>wrangling</code> project. You can also clone your <code>pivot-practice</code> repo created for you</p>
 <p>– Proficiency Test III (October 6th)</p>
 <p>– Midterm-1 (October 13th in-class)</p>
+</section>
+<section id="proficiency-test-ii" class="slide level2">
+<h2>Proficiency Test II</h2>
+<p>Extra Credit Opportunity</p>
+<p>– The commit criteria has been turned into EC because of the GitHub error in repo creation</p>
+<p>– + 2 if you followed a decent GitHub workflow</p>
+<p>– + 0 if you did not</p>
 </section>
 <section id="proficiency-test-iii" class="slide level2">
 <h2>Proficiency Test III</h2>
@@ -295,17 +302,22 @@
 <h1>Forms of Data</h1>
 
 </section>
-<section id="data-format-wide-vs-long" class="slide level2">
+<section id="data-format-wide-vs-long" class="slide level2 smaller">
 <h2>Data Format (Wide vs Long)</h2>
-<p>– <strong>Wide</strong> data contains values that do not repeat in the first column</p>
-<p>– <strong>Long</strong> data contains values that do repeat in the first column</p>
+<p><strong>Wide</strong> data contains values that do not repeat in the first column (short-cut definition for most situations)</p>
+<p>Wide data are data in which multiple values of a variable (often measurements taken under different conditions or at different times) are stored in separate columns rather than in separate rows.</p>
+<p><strong>Long</strong> data contains values that do repeat in the first column (short-cut definition for most situations)</p>
+<p>Long data are data in which multiple measurements of the same observational unit are stored in separate rows, with one or more columns identifying the measurement or condition associated with each row.</p>
+</section>
+<section id="data-format-wide-vs-long-1" class="slide level2">
+<h2>Data Format (Wide vs Long)</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/wide_and_long.png" class="quarto-figure quarto-figure-center" width="950" height="450"></p>
 </figure>
 </div>
 </section>
-<section id="data-format-wide-vs-long-1" class="slide level2">
+<section id="data-format-wide-vs-long-2" class="slide level2">
 <h2>Data Format (Wide vs Long)</h2>
 <p>Let’s open the <code>pivot-practice</code> project for some motivation on which we might prefer to work with!</p>
 <div class="quarto-figure quarto-figure-center">
@@ -323,9 +335,214 @@
 <li><p>Each value is a cell; each cell is a single value.</p></li>
 </ul>
 </section>
-<section id="motivation" class="slide level2">
-<h2>Motivation</h2>
-<p>– Sometimes, data are not in this format…</p>
+<section id="data-example" class="slide level2 smaller">
+<h2>Data Example</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Student</th>
+<th>Math_2025</th>
+<th>Math_2026</th>
+<th>Science_2025</th>
+<th>Science_2026</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>85</td>
+<td>90</td>
+<td>88</td>
+<td>92</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>78</td>
+<td>82</td>
+<td>91</td>
+<td>89</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>92</td>
+<td>95</td>
+<td>85</td>
+<td>87</td>
+</tr>
+</tbody>
+</table>
+<p>– Wide or Long?</p>
+<p>– Tidy?</p>
+</section>
+<section id="data-example-1" class="slide level2">
+<h2>Data Example</h2>
+<p>This is wide data because each student occupies one row, with separate columns for each measurement.</p>
+<p>It is not tidy if the variables of interest are Student, Subject, Year, and Score, because Subject and Year are combined in the column names.</p>
+</section>
+<section id="data-example-2" class="slide level2 smaller">
+<h2>Data Example</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Student</th>
+<th>Measurement</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Math_2025</td>
+<td>85</td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>Math_2026</td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td>A</td>
+<td>Science_2025</td>
+<td>88</td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>Science_2026</td>
+<td>92</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>Math_2025</td>
+<td>78</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Math_2026</td>
+<td>82</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>Science_2025</td>
+<td>91</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Science_2026</td>
+<td>89</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>Math_2025</td>
+<td>92</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>Math_2026</td>
+<td>95</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>Science_2025</td>
+<td>85</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>Science_2026</td>
+<td>87</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-example-3" class="slide level2 smaller">
+<h2>Data Example</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Student</th>
+<th>Subject</th>
+<th>Year</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Math</td>
+<td>2025</td>
+<td>85</td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>Math</td>
+<td>2026</td>
+<td>90</td>
+</tr>
+<tr class="odd">
+<td>A</td>
+<td>Science</td>
+<td>2025</td>
+<td>88</td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>Science</td>
+<td>2026</td>
+<td>92</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>Math</td>
+<td>2025</td>
+<td>78</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Math</td>
+<td>2026</td>
+<td>82</td>
+</tr>
+<tr class="odd">
+<td>B</td>
+<td>Science</td>
+<td>2025</td>
+<td>91</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Science</td>
+<td>2026</td>
+<td>89</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>Math</td>
+<td>2025</td>
+<td>92</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>Math</td>
+<td>2026</td>
+<td>95</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>Science</td>
+<td>2025</td>
+<td>85</td>
+</tr>
+<tr class="even">
+<td>C</td>
+<td>Science</td>
+<td>2026</td>
+<td>87</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="more-motivation" class="slide level2">
+<h2>More Motivation</h2>
+<p>Let’s jump into the pivot practice and see what type of data we are working with!</p>
 </section>
 <section id="pivots" class="slide level2">
 <h2>pivots</h2>
@@ -348,11 +565,29 @@
 </figure>
 </div>
 </section></section>
+<section>
 <section id="pivot-practice" class="title-slide slide level1 center">
 <h1>pivot-practice</h1>
 
-
 </section>
+<section id="pivot-practice-1" class="slide level2 smaller">
+<h2>pivot-practice</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>     N.Amer Europe Asia S.Amer Oceania Africa Mid.Amer
+1951  45939  21574 2876   1815    1646     89      555
+1956  60423  29990 4708   2568    2366   1411      733
+1957  64721  32510 5230   2695    2526   1546      773
+1958  68484  35218 6662   2845    2691   1663      836
+1959  71799  37598 6856   3000    2868   1769      911
+1960  76036  40341 8220   3145    3054   1905     1008
+1961  79831  43173 9053   3338    3224   2005     1076</code></pre>
+</div>
+</div>
+<p>This is wide data because each year occupies one row, and each continent has its own column containing its measurement.</p>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

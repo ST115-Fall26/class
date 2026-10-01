@@ -1,7 +1,7 @@
 ---
 title: "Tidyverse + Pivots"
 subtitle: "Grammar of data wrangling II"
-date: "September 24, 2026"
+date: "October 1, 2026"
 format: 
   revealjs:
     theme: [dark, slides.scss]
@@ -23,6 +23,16 @@ editor:
 -- Proficiency Test III (October 6th)
 
 -- Midterm-1 (October 13th in-class)
+
+## Proficiency Test II 
+
+Extra Credit Opportunity 
+
+-- The commit criteria has been turned into EC because of the GitHub error in repo creation
+
+-- + 2 if you followed a decent GitHub workflow 
+
+-- + 0 if you did not
 
 ## Proficiency Test III 
 
@@ -113,11 +123,17 @@ Open the project + load the packages. Re-familiarize yourself with the data set,
 
 # Forms of Data
 
+## Data Format (Wide vs Long){.smaller}
+
+**Wide** data contains values that do not repeat in the first column (short-cut definition for most situations)
+
+Wide data are data in which multiple values of a variable (often measurements taken under different conditions or at different times) are stored in separate columns rather than in separate rows.
+
+**Long** data contains values that do repeat in the first column (short-cut definition for most situations)
+
+Long data are data in which multiple measurements of the same observational unit are stored in separate rows, with one or more columns identifying the measurement or condition associated with each row.
+
 ## Data Format (Wide vs Long)
-
--- **Wide** data contains values that do not repeat in the first column
-
--- **Long** data contains values that do repeat in the first column
 
 ![](images/wide_and_long.png){width="950" height="450" fig-align="center"}
 
@@ -137,9 +153,61 @@ There are three interrelated rules that make a dataset tidy:
 
 -   Each value is a cell; each cell is a single value.
 
-## Motivation
+## Data Example{.smaller} 
 
--- Sometimes, data are not in this format...
+| Student | Math_2025 | Math_2026 | Science_2025 | Science_2026 |
+|---------|-----------|-----------|--------------|--------------|
+| A       | 85        | 90        | 88           | 92           |
+| B       | 78        | 82        | 91           | 89           |
+| C       | 92        | 95        | 85           | 87           |
+
+-- Wide or Long?
+
+-- Tidy?
+
+## Data Example 
+
+This is wide data because each student occupies one row, with separate columns for each measurement.
+
+It is not tidy if the variables of interest are Student, Subject, Year, and Score, because Subject and Year are combined in the column names.
+
+## Data Example{.smaller} 
+
+| Student | Measurement | Value |
+|---------|-------------|-------|
+| A       | Math_2025   | 85    |
+| A       | Math_2026   | 90    |
+| A       | Science_2025| 88    |
+| A       | Science_2026| 92    |
+| B       | Math_2025   | 78    |
+| B       | Math_2026   | 82    |
+| B       | Science_2025| 91    |
+| B       | Science_2026| 89    |
+| C       | Math_2025   | 92    |
+| C       | Math_2026   | 95    |
+| C       | Science_2025| 85    |
+| C       | Science_2026| 87    |
+
+## Data Example{.smaller}
+
+| Student | Subject | Year | Score |
+|---------|---------|------|-------|
+| A       | Math    | 2025 | 85    |
+| A       | Math    | 2026 | 90    |
+| A       | Science | 2025 | 88    |
+| A       | Science | 2026 | 92    |
+| B       | Math    | 2025 | 78    |
+| B       | Math    | 2026 | 82    |
+| B       | Science | 2025 | 91    |
+| B       | Science | 2026 | 89    |
+| C       | Math    | 2025 | 92    |
+| C       | Math    | 2026 | 95    |
+| C       | Science | 2025 | 85    |
+| C       | Science | 2026 | 87    |
+
+## More Motivation
+
+Let's jump into the pivot practice and see what type of data we are working with!
 
 ## pivots
 
@@ -160,4 +228,13 @@ There are three interrelated rules that make a dataset tidy:
 ![](images/pivot-wider.png){width="950" height="500" fig-align="center"}
 
 # pivot-practice
+
+## pivot-practice{.smaller}
+
+```{r}
+WorldPhones
+```
+
+
+This is wide data because each year occupies one row, and each continent has its own column containing its measurement.
 
