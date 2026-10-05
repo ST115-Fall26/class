@@ -96,21 +96,22 @@ Watch an episode of [Coding Out Loud](https://dukecct.github.io/coding-out-loud/
 
 ### Category 8: Connecting courses (ST120 Content)
 
-In ST-120, you are learning the fundementals on statistical inference. The goal of this category is to have you connect topics in ST-120 with the code you have learned in ST-115. For this experience, you will need to: 
+**Note: You must get the 120 topic approved by me**. 
 
--   Make a GitHub repo 
+In ST-120, you are learning the fundamentals on statistical inference. The goal of this category is to have you connect topics in ST-120 with the code you have learned in ST-115. For this experience, you will need to:
+
+-   Make a GitHub repo
 
 -   Ask a research question using **real** data you are interested in
 
--   Create a professional report that includes the following sections: 
+-   Create a professional report that includes the following sections:
 
-    - Introduction of your data 
-    - Why you are interested in your research question 
-    - Appropriate exploratory data analysis 
-    - Appropriate statistical analysis 
-    
+    -   Introduction of your data
+    -   Why you are interested in your research question
+    -   Appropriate exploratory data analysis
+    -   Appropriate statistical analysis
+
 On your professional poster, you must include your GitHub link that has your finalized .qmd file and PDF file. Your GitHub repo should include an appropriate README.
-
 
 ### Category 9: Choose your own adventure!
 

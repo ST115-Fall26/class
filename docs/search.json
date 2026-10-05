@@ -1512,6 +1512,154 @@
     "text": "Question 5 (15-points)\nBelow, I present you three different code chunks. Your task is to:\nFix each code chunk, report both the code and the output (if any), AND discuss the error(s) you fixed. Be as detailed as possible. Do not just point out the error. Why was it an error and why did your fix work?\n\n# a\nanimals &lt;- c(\"cat\" \"dog\", \"rabbit\", \"hamster\", fish)\n\n\n#b\nthird_animal &lt;- animals[3,]\nprint(third_animal)\n\n\n#c\nselected_animals &lt;- animals(c([2:4])\nprint(selected_animals)\n\nSolutions\n– Code chunk a is missing commas to separate arguments within the c() function\n– fish also needs to be represented as a character string, hence we need ” ” around fish.\n\n– Code chunk b is trying to index the animals vector as if it is a data frame. When we are working with a single vector, we do not need to specify row x column when indexing. We simpley need animals[3]\n\n– We don’t need the [] around the 2:4. The c() function combines the integers. We need [] to index the animals vector! The code should look like animals[c(2:4)]."
   },
   {
+    "objectID": "hw-stats-experience.html",
+    "href": "hw-stats-experience.html",
+    "title": "Statistics Experience",
+    "section": "",
+    "text": "Important\n\n\n\nThis assignment is due on Tuesday, December 1st at 11:59pm.\nThe world of statistics and data science is vast and continually growing! The goal of the statistics experience assignments is to help you engage with the statistics and data science communities outside of the classroom.\nYou may submit the statistics experience assignment anytime between now and the deadline.\nEach experience has three parts:\n1️⃣ Have a statistics experience.\n2️⃣ Make a slide reflecting on your experience.\nYou must complete all parts to receive credit."
+  },
+  {
+    "objectID": "hw-stats-experience.html#part-1-experience-statistics-outside-of-the-classroom",
+    "href": "hw-stats-experience.html#part-1-experience-statistics-outside-of-the-classroom",
+    "title": "Statistics Experience",
+    "section": "Part 1: Experience statistics outside of the classroom",
+    "text": "Part 1: Experience statistics outside of the classroom\nComplete an activity in one of the categories below. Under each category are suggested activities. If you do not see something you’d like to do in Categories 1 - 8, you may do Category 9: Choose your own adventure! If there is an activity you’d like to do but you’re not sure if it qualifies for the statistics experience, just ask!\n\nCategory 1: Attend a talk or conference\nAttend a talk, panel, or conference related to statistics or data science. If you are attending a single talk or panel, it must be at least 30 minutes to count towards the statistics experience. The event can be in-person or online. If it’s close to 30 minutes, but you are very interested in the talk, please reach out and confirm with me.\n\n\nCategory 2: Talk with a statistician/ data scientist\nTalk with someone who uses statistics in their daily work. This could include a professor, professional working in industry, graduate student, etc. This can not be me, although I’m happy to always chat about anything you would like!\n\n\nCategory 3: Listen to a podcast / watch a video\nListen to a podcast or watch a video about statistics and data science. The podcasts / videos must be (1) one podcast or video that is at least 30 minutes or (2) multiple podcasts and/or videos that are at least 30 minutes combined.\nA few data science podcasts are below:\n\nStats + Stories Podcast\nCausal Inference Podcast\nThe Test Set by Posit\nData Skeptic\nposit::conf talks (formally called rstudio::conf)\n\n2025 conference\n2024 conference\n2023 conference\n\n\nThis list is not exhaustive. You may listen to other podcasts or watch other statistics/data science videos not included on this list. Ask Professor Meyer if you are unsure whether a particular podcast or video will count towards the statistics experience.\n\n\nCategory 4: Participate in a data science competition or challenge\nParticipate in a statistics or data science competition. You can participate individually or with a team.\n\n\nCategory 5: Read a book about statistics/data science\nThere are a lot of books about statistics, data science, and related topics. A few suggestions are below. If you decide to read a book that isn’t on this list, you can ask Professor Meyer if you’re unsure whether it will count for the statistics experience. Many of these books are available through NC State library.\n\nData-Driven Hollywood: The New Data Professionals in the Age of Streaming by Violaine Roussel\nData Empire: The Power of Information to Organize, Control, and Dominate by Roopika Risam\nCHART: Designing Creative Data Visualizations from Charts to Art by Nadieh Bremer\nW. E. B. Du Bois’s Data Portraits: Visualizing Black America by Britt Rusert and Whitney Battle-Baptiste\nHow Charts Lie: Getting Smarter about Visual Information by Alberto Cairo\nThe Theory that Would Not Die by Sharon Bertsch McGrayne\nThe Lady Tasting Tea by David Salsburg\nList of books about data science ethics\n\nThis list is not exhaustive.\n\n\nCategory 6: TidyTuesday\nAnother option is participating in a TidyTuesday challenge. New data sets are announced on Monday afternoons. You can find more information about TidyTuesday and see the data in the TidyTuesday GitHub repo. This may be a good option if you are familiar with coding!\nA few guidelines:\n✅Go to the GitHub link above, and find a 2026 data set to explore.\n\nAsk an interesting question about the data\nCreate data visualization(s) to help address this question\nSummarize where the data come from/how the data are collected, why you found your question interesting, and your descriptive answer to your question.\n\n✅ Include the link to your GitHub repo in the slide summarizing your experience.\n\n\nCategory 7: Coding Out Loud\nWatch an episode of Coding Out Loud and work through the project. A few guidelines:\n\nCreate a .R, RMarkdown, or Quarto file with all the code needed to reproduce your visualization.\n\n✅ The final product (visualization, table, etc.) should include features or customization that are beyond what is achieved in the Coding Out Loud episode.\n✅ Make sure to include why you were interested in this episode, what you learned, etc.\n\n\nCategory 8: Connecting courses (ST120 Content)\nNote: You must get the 120 topic approved by me.\nIn ST-120, you are learning the fundamentals on statistical inference. The goal of this category is to have you connect topics in ST-120 with the code you have learned in ST-115. For this experience, you will need to:\n\nMake a GitHub repo\nAsk a research question using real data you are interested in\nCreate a professional report that includes the following sections:\n\nIntroduction of your data\nWhy you are interested in your research question\nAppropriate exploratory data analysis\nAppropriate statistical analysis\n\n\nOn your professional poster, you must include your GitHub link that has your finalized .qmd file and PDF file. Your GitHub repo should include an appropriate README.\n\n\nCategory 9: Choose your own adventure!\nPerhaps you’re interested in a Statistics Experience doesn’t seem to fit in one of the previous categories. If so, you can create your own experience! Please share your idea with Professor Meyer to get it approved for this assignment."
+  },
+  {
+    "objectID": "hw-stats-experience.html#part-2-reflect-on-your-experience",
+    "href": "hw-stats-experience.html#part-2-reflect-on-your-experience",
+    "title": "Statistics Experience",
+    "section": "Part 2: Reflect on your experience",
+    "text": "Part 2: Reflect on your experience\nMake one slide summarizing and reflecting on your experience. Post an image of the slide in the Statistics experience discussion thread on Canvas.\nInclude the following on your poster-slide:\n\nDescription of the experience\n\nName and brief description of the event/podcast/competition/etc.\n\nSomething you learned\n\nWrite 2 - 4 sentences about something you learned or found particularly interesting or unexpected.\n\nConnection to STA 115\n\nWrite 2 - 4 sentences about how the experience connects to what we’ve done in the course.\n\nCitation or link to web page for event/competition/etc.\n\nNo citation needed if you do an interview.\n\n\nMake sure the slide includes the information mentioned above and is easily readable (i.e. use a reasonable font size!). Creativity on the experience and slide design is encouraged!"
+  },
+  {
+    "objectID": "hw-stats-experience.html#submission",
+    "href": "hw-stats-experience.html#submission",
+    "title": "Statistics Experience",
+    "section": "Submission",
+    "text": "Submission\nThis assignment is due on Tuesday, December 1st at 11:59pm. To be considered on time, the image of the slide must be uploaded to Gradescope. There is no late policy for the statistics experience."
+  },
+  {
+    "objectID": "hw-stats-experience.html#examples",
+    "href": "hw-stats-experience.html#examples",
+    "title": "Statistics Experience",
+    "section": "Examples",
+    "text": "Examples\nPlease see the slides from day 1 here!"
+  },
+  {
+    "objectID": "hw-stats-experience.html#template",
+    "href": "hw-stats-experience.html#template",
+    "title": "Statistics Experience",
+    "section": "Template",
+    "text": "Template\nYou are highly encouraged to be as creative as possible. I also want you to practice being professional. You can use a NCSU template here or create your own!"
+  },
+  {
+    "objectID": "hw-stats-experience.html#grading",
+    "href": "hw-stats-experience.html#grading",
+    "title": "Statistics Experience",
+    "section": "Grading",
+    "text": "Grading\nThis assignment will be graded out of 50 points based on:\n– the quality and depth of your writing/slide\n– creativity\n– description of the experience\n– connection to ST-115"
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Instructor + course overview",
+    "section": "",
+    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#instructor-office-hours",
+    "href": "course-overview.html#instructor-office-hours",
+    "title": "Instructor + course overview",
+    "section": "Instructor Office Hours",
+    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta",
+    "href": "course-overview.html#ta",
+    "title": "Instructor + course overview",
+    "section": "TA",
+    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#ta-office-hours",
+    "href": "course-overview.html#ta-office-hours",
+    "title": "Instructor + course overview",
+    "section": "TA Office Hours",
+    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#videos",
+    "href": "course-overview.html#videos",
+    "title": "Instructor + course overview",
+    "section": "Videos",
+    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "course-overview.html#course",
+    "href": "course-overview.html#course",
+    "title": "Instructor + course overview",
+    "section": "Course",
+    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "computing-cheatsheets.html",
+    "href": "computing-cheatsheets.html",
+    "title": "R cheatsheets",
+    "section": "",
+    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
+    "crumbs": [
+      "Computing",
+      "Cheatsheets"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html",
+    "href": "computing-troubleshooting.html",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
+    "href": "computing-troubleshooting.html#tips-for-not-rendering",
+    "title": "Error Making PDFs / Trouble Rendering",
+    "section": "",
+    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
+    "crumbs": [
+      "Computing",
+      "Error making PDFs or Trouble Rendering"
+    ]
+  },
+  {
     "objectID": "course-support.html",
     "href": "course-support.html",
     "title": "Course support",
@@ -1597,105 +1745,6 @@
     "crumbs": [
       "Course information",
       "Support"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html",
-    "href": "computing-troubleshooting.html",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
-  },
-  {
-    "objectID": "computing-troubleshooting.html#tips-for-not-rendering",
-    "href": "computing-troubleshooting.html#tips-for-not-rendering",
-    "title": "Error Making PDFs / Trouble Rendering",
-    "section": "",
-    "text": "These are questions to ask yourself / check if you are having trouble rendering your document.\n– Do you have TinyTex installed? In order to render PDF documents, you need to install the PDF compiler. You can do this by running tinytex::install_tinytex() in your Console.\n– Are my code chunk labels weird? To create a code chunk label, you need the following #| label: at the start of your code chunk. If you have spaces in the name you put, or if you are using special characters, you may not be able to render your document.\n– Does your code run? If you have errors in your code, you will also have errors when rendering the document.\n– Did you put View() in a code chunk? We don’t use View often, but we need to be aware that any function that calls for an external viewer will break the render.",
-    "crumbs": [
-      "Computing",
-      "Error making PDFs or Trouble Rendering"
-    ]
-  },
-  {
-    "objectID": "computing-cheatsheets.html",
-    "href": "computing-cheatsheets.html",
-    "title": "R cheatsheets",
-    "section": "",
-    "text": "The following cheatsheets come from https://www.rstudio.com/resources/cheatsheets. It is highly suggested to practice with the ggplot, dplyr and tidyr cheat sheets as we learn more about the functions early in the semester. The other sheets will be equally as useful, or an extension of the course.",
-    "crumbs": [
-      "Computing",
-      "Cheatsheets"
-    ]
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Instructor + course overview",
-    "section": "",
-    "text": "Dr. Elijah Meyer - Hello! I’m very excited to work with you all this semester. I’ve earned a Master’s degree in statistics and a Ph.D. in statistics with a focus in education from Montana State University, and completed a teaching post-doc position at Duke University. My early research is in sports statistics, with an emphasis on spatial data visualizations to enhance sports strategy. My current work is in statistics/data science education. My focus is on improving the educational experience for both instructors and students. Current projects include creating a dynamic interactive shiny application in R to better students’ understanding of statistics and data science; exploring interest-driven assessment, and creating an national data science assessment around reasoning.\nMy student led projects include: 3D Printed Geometric Structures with Liquid Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.\nPrior to my time at NC State, I’ve taught multiple sections of Introductory Data Science at Duke University, and Introductory and Intermediate Statistics at Montana State. At Montana State, I developed their Intermediate Statistics online course, and helped integrate R into the Introductory Statistics curricula.\nI prioritize community, communication, and respect in my classroom. I want to provide a space where we can freely talk about the material, embrace mistakes, and learn together throughout the semester.\nWhen I’m not in the books, I enjoy playing disc golf, tennis, basketball, and anything else that gets me outside and active. I’m looking forward to meeting you all and having a great semester!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#instructor-office-hours",
-    "href": "course-overview.html#instructor-office-hours",
-    "title": "Instructor + course overview",
-    "section": "Instructor Office Hours",
-    "text": "Instructor Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nM 2:00 - 3:00pm\nSAS Hall 5228 / Zoom\n\n\nThur 1:30 - 2:30pm\nSAS Hall 5228 / Zoom\n\n\n\nNote: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.\n** or by appointment",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta",
-    "href": "course-overview.html#ta",
-    "title": "Instructor + course overview",
-    "section": "TA",
-    "text": "TA\n\nNick Mann - Hi I’m Nick and I’m a second year PhD student. I graduated from the University of North Carolina at Chapel Hill with a Bachelor’s degree in Applied Math and Statistics. In my free time, I like to play music, work out, and watch TV. I think statistical methods and programming are awesome, so I’m excited to work with you guys!",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#ta-office-hours",
-    "href": "course-overview.html#ta-office-hours",
-    "title": "Instructor + course overview",
-    "section": "TA Office Hours",
-    "text": "TA Office Hours\n\n\n\nTime\nLocation\n\n\n\n\nTue 3:15 - 4:15pm\nSAS-1101\n\n\nFri 9:00 - 10:00am\nSAS-1101",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#videos",
-    "href": "course-overview.html#videos",
-    "title": "Instructor + course overview",
-    "section": "Videos",
-    "text": "Videos\nYou will see that some prepare videos will largely feature Dr. Mine Çetinkaya-Rundel. Mine is a Professor of the Practice and the Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine is the creator and maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works with Posit as a Developer Educator with the Tidyverse and Quarto teams.\nDr. Çetinkaya-Rundel and I continue to work on many educational projects together, including developing a Data Science with R Coursera course, and developing a national data science assessment for introductory students.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "course-overview.html#course",
-    "href": "course-overview.html#course",
-    "title": "Instructor + course overview",
-    "section": "Course",
-    "text": "Course\nThe course will focus on the R statistical computing language. No statistical or computing background is necessary.\nGain experience in data wrangling, exploratory data analysis, data visualization, tests of significance, modeling techniques, and effective communication of results, all in a reproducible format.\n\n\n\nClass meeting\nLocation\nTime\n\n\n\n\nLecture\n00110 Cox Hall\nT & Th 8:30 - 9:45 pm",
-    "crumbs": [
-      "Course information",
-      "Overview"
     ]
   },
   {
@@ -1857,7 +1906,7 @@
     "href": "index.html",
     "title": "ST 115: Introduction to a Data Science Toolkit with R and GitHub",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz-1 assigned (due Friday)\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nFinish Quarto; Finish Objects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II + Intro to Packages\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nWelcome to Tidyverse\n\n\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nData types + Summary statistics\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00am) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweek\ndow\ndate\ntopic\nprepare\nslides\nlab\nlab_slides\nae_sa\nhw\nhw_sa\nexam\nnotes\n\n\n\n1\nM\n17 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n18 August\nWelcome to 115! Why are you here?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n19 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n20 August\nMeet the toolkit (R, RStudio, GitHub)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n21 August\n\n\n\n\n\n\n\n\n\n\n\n\n2\nM\n24 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n25 August\nQuarto (being professional)\n\n\n\n\n\n\n\n\n\n\n\n\nQuiz-1 assigned (due Friday)\n\n\n\nW\n26 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n27 August\nFinish Quarto; Finish Objects + Vectors + Lists\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n28 August\n\n\n\n\n\n\n\n\n\n\n\n\n3\nM\n31 August\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 September\nIntroduction to for-loops\n\n\n\n\n\n\n\n\n\n\n\nProficiency test I\n\n\n\nW\n2 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 September\nif/else logic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4\nM\n7 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 September\nWriting functions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n10 September\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n11 September\n\n\n\n\n\n\n\n\n\n\n\n\n5\nM\n14 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n15 September\nGitHub I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n16 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n17 September\nGitHub II + Intro to Packages\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n18 September\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n6\nM\n21 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n22 September\nWelcome to Tidyverse\n\n\n\n\n\n\n\n\n\n\nProficiency test II\n\n\n\nW\n23 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n24 September\nGrammar of data wrangling I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n25 September\n\n\n\n\n\n\n\n\n\n\n\n\n7\nM\n28 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n29 September\nWellness Day (No Class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n30 September\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n1 October\nGrammar of data wrangling II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n2 October\n\n\n\n\n\n\n\n\n\n\n\n\n8\nM\n5 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n6 October\nWorking with multiple data frames\n\n\n\n\n\n\n\n\nProficiency test III\n\n\n\nW\n7 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n8 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nF\n9 October\nData types + Summary statistics\n\n\n\n\n\n\n\n\n\n\n\n9\nM\n12 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n13 October\nMidterm-1\n\n\n\n\n\n\n\n\n\n\n\n\nW\n14 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n15 October\nImporting data\n\n\n\n\n\n\n\n\n\n\n\n\nF\n16 October\n\n\n\n\n\n\n\n\n\n\n\n\n10\nM\n19 October\nFall Break Begins (No class)\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n20 October\nFall Break Ends (No class)\n\n\n\n\n\n\n\n\nNo Lab\n\n\n\nW\n21 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n22 October\nVisualizing various types of data I (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n23 October\n\n\n\n\n\n\n\n\n\n\n\n\n11\nM\n26 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n27 October\nVisualizing various types of data II (Dos and Don'ts)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n28 October\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n29 October\nGitHub III (groups)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n30 October\n\n\n\n\n\n\n\n\n\n\n\n\n12\nM\n2 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n3 November\nGitHub IIII (groups)\n\n\n\n\n\n\n\n\nProficiency test IV\n\n\n\nW\n4 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n5 November\nPutting it all together\n\n\n\n\n\n\n\n\n\n\n\n\nF\n6 November\n\n\n\n\n\n\n\n\n\n\n\n\n13\nM\n9 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n10 November\nCorrelation + Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n11 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n12 November\nCorrelation + Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n13 November\n\n\n\n\n\n\n\n\n\n\n\n\n14\nM\n16 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n17 November\nInference for Simple Linear Regression I (aligns with ST 120)\n\n\n\n\n\n\n\n\nProficiency test V\n\n\n\nW\n18 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n19 November\nInference for Simple Linear Regression II (aligns with ST 120)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n20 November\n\n\n\n\n\n\n\n\n\n\n\n\n15\nM\n23 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n24 November\nExtension Day (RShiny, SAS, etc) (optional)\n\n\n\n\n\n\n\n\n\n\n\n\nW\n25 November\nThanksgiving Break Begins (No classes)\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n26 November\nThanksgiving Holiday (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n\nF\n27 November\nThanksgiving Break Ends (No classes; University closed)\n\n\n\n\n\n\n\n\n\n\n\n16\nM\n30 November\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n1 December\nLast Day of Classes (Review)\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n2 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTr\n3 December\nFinal Exam (8:30 - 11:00am) 00110 Cox Hall\n\n\n\n\n\n\n\n\n\n\n\n\nF\n4 December\n\n\n\n\n\n\n\n\n\n\n\n\n17\nM\n7 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nTu\n8 December\n\n\n\n\n\n\n\n\n\n\n\n\n\nW\n9 December",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -2935,39 +2984,18 @@
     "text": "Data Format (Wide vs Long)"
   },
   {
-    "objectID": "slides/13-tidy-pivots.html#tidy-data",
-    "href": "slides/13-tidy-pivots.html#tidy-data",
-    "title": "Tidyverse + Pivots",
-    "section": "Tidy Data",
-    "text": "Tidy Data\nThere are three interrelated rules that make a dataset tidy:\n\nEach variable is a column; each column is a variable.\nEach observation is row; each row is an observation.\nEach value is a cell; each cell is a single value."
-  },
-  {
-    "objectID": "slides/13-tidy-pivots.html#motivation",
-    "href": "slides/13-tidy-pivots.html#motivation",
-    "title": "Tidyverse + Pivots",
-    "section": "Motivation",
-    "text": "Motivation\n– Sometimes, data are not in this format…"
-  },
-  {
-    "objectID": "slides/13-tidy-pivots.html#pivots",
-    "href": "slides/13-tidy-pivots.html#pivots",
-    "title": "Tidyverse + Pivots",
-    "section": "pivots",
-    "text": "pivots\n– pivot_longer\n– pivot_wider"
-  },
-  {
-    "objectID": "slides/13-tidy-pivots.html#pivot_wider-1",
-    "href": "slides/13-tidy-pivots.html#pivot_wider-1",
-    "title": "Tidyverse + Pivots",
-    "section": "pivot_wider",
-    "text": "pivot_wider\n– Making tables for quick comparison / display purposes\n– names_from\n– values_from"
-  },
-  {
     "objectID": "slides/13-tidy-pivots.html#data-format-wide-vs-long-2",
     "href": "slides/13-tidy-pivots.html#data-format-wide-vs-long-2",
     "title": "Tidyverse + Pivots",
     "section": "Data Format (Wide vs Long)",
     "text": "Data Format (Wide vs Long)\nLet’s open the pivot-practice project for some motivation on which we might prefer to work with!"
+  },
+  {
+    "objectID": "slides/13-tidy-pivots.html#tidy-data",
+    "href": "slides/13-tidy-pivots.html#tidy-data",
+    "title": "Tidyverse + Pivots",
+    "section": "Tidy Data",
+    "text": "Tidy Data\nThere are three interrelated rules that make a dataset tidy:\n\nEach variable is a column; each column is a variable.\nEach observation is row; each row is an observation.\nEach value is a cell; each cell is a single value."
   },
   {
     "objectID": "slides/13-tidy-pivots.html#data-example",
@@ -3003,6 +3031,20 @@
     "title": "Tidyverse + Pivots",
     "section": "More Motivation",
     "text": "More Motivation\nLet’s jump into the pivot practice and see what type of data we are working with!"
+  },
+  {
+    "objectID": "slides/13-tidy-pivots.html#pivots",
+    "href": "slides/13-tidy-pivots.html#pivots",
+    "title": "Tidyverse + Pivots",
+    "section": "pivots",
+    "text": "pivots\n– pivot_longer\n– pivot_wider"
+  },
+  {
+    "objectID": "slides/13-tidy-pivots.html#pivot_wider-1",
+    "href": "slides/13-tidy-pivots.html#pivot_wider-1",
+    "title": "Tidyverse + Pivots",
+    "section": "pivot_wider",
+    "text": "pivot_wider\n– Making tables for quick comparison / display purposes\n– names_from\n– values_from"
   },
   {
     "objectID": "slides/13-tidy-pivots.html#pivot-practice-1",
