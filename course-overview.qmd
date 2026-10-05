@@ -19,11 +19,12 @@ strategy. My current work is in statistics/data science education. My
 focus is on improving the educational experience for both instructors
 and students. Current projects include creating a dynamic interactive
 shiny application in R to better students' understanding of statistics
-and data science; exploring interest-driven assessment, and
-creating an national data science assessment around reasoning. 
+and data science; exploring interest-driven assessment, and creating an
+national data science assessment around reasoning.
 
-My student led projects include: 3D Printed Geometric Structures with Liquid
-Metal as Flexible Sensors, & An assessment of wildlife use of rhododendron in western North Carolina.
+My student led projects include: 3D Printed Geometric Structures with
+Liquid Metal as Flexible Sensors, & An assessment of wildlife use of
+rhododendron in western North Carolina.
 
 Prior to my time at NC State, I've taught multiple sections of
 Introductory Data Science at Duke University, and Introductory and
@@ -41,12 +42,14 @@ looking forward to meeting you all and having a great semester!
 
 ## Instructor Office Hours
 
-| Time                     | Location                                                                                       |
-|-----------------|------------------------------------------------------|
-| M 2:00 - 3:00pm   | SAS Hall 5228 / [Zoom](https://ncsu.zoom.us/j/9304565996?pwd=cEcrZjVSSGV1dnFCb0NxUEUxMHBLdz09) |
+| Time               | Location                                                                                       |
+|------------------|------------------------------------------------------|
+| M 12:30 - 1:30pm   | SAS Hall 5228 / [Zoom](https://ncsu.zoom.us/j/9304565996?pwd=cEcrZjVSSGV1dnFCb0NxUEUxMHBLdz09) |
 | Thur 1:30 - 2:30pm | SAS Hall 5228 / [Zoom](https://ncsu.zoom.us/j/9304565996?pwd=cEcrZjVSSGV1dnFCb0NxUEUxMHBLdz09) |
 
-Note: It can be difficult to balance in-person and online office hours. If you attend office hours via Zoom and the room is not open, please do not hesitate to send an email.
+Note: It can be difficult to balance in-person and online office hours.
+If you attend office hours via Zoom and the room is not open, please do
+not hesitate to send an email.
 
 \*\* or by appointment
 
@@ -64,9 +67,9 @@ programming are awesome, so I'm excited to work with you guys!
 
 ## TA Office Hours
 
-| Time                | Location |
-|---------------------|----------|
-| Tue 3:15 - 4:15pm | SAS-1101 |
+| Time               | Location |
+|--------------------|----------|
+| Tue 3:15 - 4:15pm  | SAS-1101 |
 | Fri 9:00 - 10:00am | SAS-1101 |
 
 ## Videos
@@ -75,8 +78,9 @@ You will see that some *prepare* videos will largely feature [Dr. Mine
 Çetinkaya-Rundel](https://mine-cr.com/). Mine is a Professor of the
 Practice and the Director of Undergraduate Studies at the Department of
 Statistical Science at Duke University. Mine is the creator and
-maintainer of Data Science in a Box (a curricula we pull from in ST 115), and works
-with Posit as a Developer Educator with the Tidyverse and Quarto teams.
+maintainer of Data Science in a Box (a curricula we pull from in ST
+115), and works with Posit as a Developer Educator with the Tidyverse
+and Quarto teams.
 
 Dr. Çetinkaya-Rundel and I continue to work on many educational projects
 together, including developing a Data Science with R Coursera course,
@@ -92,6 +96,6 @@ Gain experience in data wrangling, exploratory data analysis, data
 visualization, tests of significance, modeling techniques, and effective
 communication of results, all in a reproducible format.
 
-| Class meeting | Location       | Time                 |
-|---------------|----------------|----------------------|
-| Lecture       | 00110  Cox Hall | T & Th 8:30 - 9:45 pm |
+| Class meeting | Location       | Time                  |
+|---------------|----------------|-----------------------|
+| Lecture       | 00110 Cox Hall | T & Th 8:30 - 9:45 pm |
