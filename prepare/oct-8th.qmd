@@ -1,0 +1,11 @@
+---
+title: "Prepare"
+subtitle: "Due: October 8th, 2026"
+categories: "prepare"
+---
+
+-   📖 Read:
+    
+    -  [R4DS: Chapter 19: Joins](https://r4ds.hadley.nz/joins.html)
+
+    -  [R4DS: Chapter 5: Data Tidying](https://r4ds.hadley.nz/data-tidy.html)

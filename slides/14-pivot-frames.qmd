@@ -194,8 +194,3 @@ This is wide data set because each year occupies one row, and each continent has
 
 -- Full Join
 
-## Joining datasets
-
-![](images/join.png){width="950" height="500" fig-align="center"}
-
-# AE
