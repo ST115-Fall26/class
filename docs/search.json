@@ -3266,154 +3266,154 @@
   {
     "objectID": "slides/15-joins-pivots-types.html#checklist",
     "href": "slides/15-joins-pivots-types.html#checklist",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Checklist",
     "text": "Checklist\n– Quiz released Monday (due Friday at 11:59pm)\n– Solutions for everything are posted. Please see the website (on our schedule page)\n– Please open up your pivot-practice project. You can also clone your joins repo created for you. We may even get to the data-types repo!\n– Midterm-1 (October 13th in-class)\n– Proficiency II is posted. Please see solutions. Re-grade requests are due by Friday at 5:00pm\n– The Statistics Experience is LIVE!"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#midterm-1",
     "href": "slides/15-joins-pivots-types.html#midterm-1",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Midterm-1",
     "text": "Midterm-1\nYou will NOT do any live coding during Midterm-1\nMy goal is to test your conceptual understanding around R/RStudio, Quarto, GitHub\nThere will be no additional resources used when taking the exam. The exam is designed to test your fundamental understanding of code/coding concepts, vs designed to have you look up / need additional resources to answer the questions.\nYou will NOT have to write lines and lines of code (you may have to write a line or two of code/fill in the blank to answer a specific question)"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#general-study-tips",
     "href": "slides/15-joins-pivots-types.html#general-study-tips",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "General Study Tips",
     "text": "General Study Tips\n– Do you understand GitHub (not just the motions)?\n– Do you understand the fundamental pieces of RStudio?\n– Can you explain code? Can you catch errors?\n– Can you look at code and anticipate results?\n– Can you explain coding concepts (ex. packages; where to put code when; etc.)\n– Do you know common function definitions (ex. mutate, ifelse, etc.)?"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#general-study-tips-1",
     "href": "slides/15-joins-pivots-types.html#general-study-tips-1",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "General Study Tips",
-    "text": "General Study Tips\nGo back to our coding exercises and ask yourself why.\nRead/watch the prepare material to make sure that you fundementally understand the concepts"
+    "text": "General Study Tips\nGo back to our coding exercises and ask yourself why\nRead/watch the prepare material to make sure that you fundementally understand the concepts"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#last-time",
     "href": "slides/15-joins-pivots-types.html#last-time",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Last time",
     "text": "Last time\nWe talked about wide vs long data\n– What is wide data?\n– What is long data?"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#data-format-wide-vs-long",
     "href": "slides/15-joins-pivots-types.html#data-format-wide-vs-long",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Data Format (Wide vs Long)",
     "text": "Data Format (Wide vs Long)\nWide data contains values that do not repeat in the first column (short-cut definition for most situations)\nWide data are data in which multiple values of a variable (often measurements taken under different conditions or at different times) are stored in separate columns rather than in separate rows.\nLong data contains values that do repeat in the first column (short-cut definition for most situations)\nLong data are data in which multiple measurements of the same observational unit are stored in separate rows, with one or more columns identifying the measurement or condition associated with each row."
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#data-format-wide-vs-long-1",
     "href": "slides/15-joins-pivots-types.html#data-format-wide-vs-long-1",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Data Format (Wide vs Long)",
     "text": "Data Format (Wide vs Long)"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#pivots",
     "href": "slides/15-joins-pivots-types.html#pivots",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "pivots",
     "text": "pivots\nWhat do we think these functions do?\n– pivot_longer()\n– pivot_wider()"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#pivot_wider",
     "href": "slides/15-joins-pivots-types.html#pivot_wider",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "pivot_wider",
     "text": "pivot_wider\n– Making tables for quick comparison / display purposes\n– names_from\n– values_from"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#messy-data",
     "href": "slides/15-joins-pivots-types.html#messy-data",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Messy data",
     "text": "Messy data\n– The sheer volume of information is sometimes referred to as “messy” data, because it’s hard to make sense of it all."
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#messy-data-1",
     "href": "slides/15-joins-pivots-types.html#messy-data-1",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Messy data",
     "text": "Messy data"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#joining-datasets",
     "href": "slides/15-joins-pivots-types.html#joining-datasets",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Joining datasets",
     "text": "Joining datasets\nData merging is the process of combining two or more data sets into a single data set. Most often, this process is necessary when you have raw data stored in multiple files, worksheets, or data tables, that you want to analyze together."
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#joining-datasets-1",
     "href": "slides/15-joins-pivots-types.html#joining-datasets-1",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Joining datasets",
     "text": "Joining datasets\n– Left Join\n– Inner Join\n– Right Join\n– Full Join"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#joining-datasets-2",
     "href": "slides/15-joins-pivots-types.html#joining-datasets-2",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Joining datasets",
     "text": "Joining datasets\nAs you go through this exercise in the joins project, I want you to shade in the venn diagrams accordingly."
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#joining-datasets-3",
     "href": "slides/15-joins-pivots-types.html#joining-datasets-3",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Joining datasets",
     "text": "Joining datasets"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#data-types-1",
     "href": "slides/15-joins-pivots-types.html#data-types-1",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Data Types",
     "text": "Data Types\nLet’s now pull up the data-types project.\nWhy does understanding data types matter?"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#data-types-2",
     "href": "slides/15-joins-pivots-types.html#data-types-2",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Data Types",
     "text": "Data Types\ntypeof() — how is it stored?\nclass() — how should R treat it?\nWe will focus on class() for our activity!"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#data-types-3",
     "href": "slides/15-joins-pivots-types.html#data-types-3",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Data Types",
     "text": "Data Types\n\n\n\nClass\nWhat it represents\nExample\n\n\n\n\nnumeric\nNumbers\n10.5, 55\n\n\ninteger\nWhole numbers\n55L\n\n\ncharacter\nText\n\"hello\"\n\n\nlogical\nTRUE / FALSE\nTRUE\n\n\ncomplex\nComplex numbers\n3 + 2i\n\n\nfactor\nCategorical data\nfactor(c(\"A\", \"B\"))\n\n\nDate\nCalendar dates\nas.Date(\"2026-10-07\")\n\n\nPOSIXct\nDate + time\nSys.time()\n\n\ndata.frame\nTabular data\nmtcars\n\n\nmatrix\n2D array of one type\nmatrix(1:6, 2, 3)\n\n\nlist\nCollection of objects\nlist(1, \"hello\", TRUE)\n\n\n\nThe “basic” data types refer to the top 6"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#how-to-change-data-types",
     "href": "slides/15-joins-pivots-types.html#how-to-change-data-types",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "How to change data types",
     "text": "How to change data types\n\n\n\nDesired type\nTypical conversion\n\n\n\n\nnumeric\nas.numeric()\n\n\ninteger\nas.integer()\n\n\ncomplex\nas.complex()\n\n\ncharacter\nas.character()\n\n\nlogical\nas.logical()\n\n\nfactor\nfactor()\n\n\n\nNote: factor() is the more commonly used and more flexible approach because you can specify things like the levels, vs as.factor()"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#type-coercion",
     "href": "slides/15-joins-pivots-types.html#type-coercion",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Type coercion",
     "text": "Type coercion\nCan we have more than one data type in a list?\nCan we have more than one data type in a vector?"
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#type-coercion-1",
     "href": "slides/15-joins-pivots-types.html#type-coercion-1",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "Type coercion",
     "text": "Type coercion\nWhen you combine values into a vector with c(), R must make all elements the same type.\nType coercion is the automatic conversion of data types from one to another."
   },
   {
     "objectID": "slides/15-joins-pivots-types.html#general-rule",
     "href": "slides/15-joins-pivots-types.html#general-rule",
-    "title": "Finish dplyr",
+    "title": "Pivots + Multiple data frames",
     "section": "General Rule",
     "text": "General Rule\nR generally coerces toward a more flexible type\nlogical → integer → numeric → character\n… and sometimes, coercion isn’t always possible!"
   }
