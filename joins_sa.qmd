@@ -1,9 +1,5 @@
 ---
 title: "Joins Solutions"
-format: pdf
-execute:
-  eval: false
-editor: visual
 ---
 
 # Packages

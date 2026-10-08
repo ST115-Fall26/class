@@ -1,6 +1,5 @@
 ---
 title: "Pivot Practice Solutions"
-format: pdf
 ---
 
 ```{r}
@@ -9,10 +8,9 @@ format: pdf
 library(tidyverse)
 ```
 
+## Motivation
 
-## Motivation 
-
-For motivation, we are going to use the `World Phones` data set. Suppose I want to calculate the mean phone length for each year and country combination. Can I do that? 
+For motivation, we are going to use the `World Phones` data set. Suppose I want to calculate the mean phone length for each year and country combination. Can I do that?
 
 *No... or at least not easily using the tidyverse.*
 
@@ -22,7 +20,7 @@ WorldPhones
 
 Are these data considered wide or long? What did we learn from this exercise?
 
-*This is a wide data set! Multiple values of a variable (phone count) are stored in separate columns (region) rather than in separate rows. We only have one row per year for each region!* 
+*This is a wide data set! Multiple values of a variable (phone count) are stored in separate columns (region) rather than in separate rows. We only have one row per year for each region!*
 
 *This makes the data harder to work with.*
 
@@ -48,7 +46,6 @@ y <- x |>
   )
 ```
 
-
 Pivot the code back to its original form.
 
 ```{r}
@@ -60,7 +57,7 @@ y |>
   ) 
 ```
 
-## Extra Practice 
+## Extra Practice
 
 Let's go ahead and reshape the `WorldPhones` data set so we can answer the question. To help us answer the question, we are going to introduce a function called `rownames_to_column()`
 
@@ -82,4 +79,3 @@ WorldPhones_long |>
   summarise(mean_phones = mean(Phone_Count))
 
 ```
-
