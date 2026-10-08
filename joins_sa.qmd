@@ -1,0 +1,139 @@
+---
+title: "Joins Solutions"
+format: pdf
+execute:
+  eval: false
+editor: visual
+---
+
+# Packages
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+```
+
+## Working with multiple data frames
+
+Often instead of being provided the data you need for your analysis in a single data frame, you will need to bring information from multiple datasets together into a data frame yourself. These datasets will be linked to each other via a column (usually an identifier, something that links the two datasets together) that you can use to join them together.
+
+There are many possible types of joins. All have the format `something_join(x, y)`.
+
+```{r}
+x <- tibble(
+  value = c(1, 2, 3),
+  xcol = c("x1", "x2", "x3")
+  )
+
+y <- tibble(
+  value = c(1, 2, 4),
+  ycol = c("y1", "y2", "y4")
+  )
+
+x
+
+y
+```
+
+We will demonstrate each of the joins on these small, toy datasets.
+
+**Note: These functions below know to join `x` and `y` by `value` because each dataset has `value` as a column. See for yourself!**
+
+```{r}
+names(x)
+names(y)
+```
+
+### `inner_join()`
+
+only keeps observations from x that have a matching key in y.
+
+```{r}
+
+inner_join(x, y)
+```
+
+### `left_join()`
+
+A left_join() keeps all observations in x and includes what is matched with y
+
+```{r}
+
+left_join(x , y, by = "value")
+```
+
+### `right_join()`
+
+A right_join() keeps all observations in y and includes what is matched with x
+
+```{r}
+
+right_join(x, y) 
+```
+
+### `full_join()`
+
+full_join() keeps all observations from x and y
+
+```{r}
+
+full_join(x, y)
+```
+
+### `semi_join()`
+
+only shows x where key matches with x and y
+
+```{r}
+
+semi_join(x, y)
+```
+
+### `anti_join()`
+
+shows the non-matching data found in x
+
+```{r}
+
+anti_join(x, y)
+```
+
+## Joining by more than one variable
+
+```{r}
+
+x2 <- tibble(
+  value = c(1, 2, 3),
+  value2 = c(4,5,6),
+  xcol = c("x1", "x2", "x3")
+  )
+
+y2<- tibble(
+  value = c(1, 2, 4), 
+  value2 = c(4,5,7),
+  ycol = c("y1", "y2", "y4")
+  )
+
+x2
+
+y2
+```
+
+### `inner_join()`
+
+```{r}
+
+inner_join(x2, y2, by = c("value"))
+
+inner_join(x2, y2 , by = c("value" , "value2"))
+```
+
+### `left_join()`
+
+```{r}
+
+left_join(x2 , y2, by = c("value"))
+
+left_join(x2 , y2, by = c("value" , "value2"))
+```
