@@ -20,6 +20,30 @@ editor:
 
 ## Exam-1 announcements{.smaller} 
 
+<div class="big-clock" id="clock" style="margin-bottom: 50px;"></div>
+
+<script>
+function updateClock() {
+  document.getElementById("clock").textContent =
+    new Date().toLocaleTimeString();
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+
+<style>
+.big-clock {
+  font-size: 1em;
+  transform: scale(3);
+  font-weight: bold;
+  text-align: center;
+}
+</style>
+
+
+\vspace{2mm}
+
 -- Don't cheat. It's not worth it. It sucks for everyone
 
 -- Be concise and specific. 2 + 2 $\neq$ 4 and 5; demonstrate your entire understanding of the question (and only the question) being asked 

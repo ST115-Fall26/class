@@ -147,6 +147,26 @@
 </section>
 <section id="exam-1-announcements" class="slide level2 smaller">
 <h2>Exam-1 announcements</h2>
+<div id="clock" class="big-clock" style="margin-bottom: 50px;">
+
+</div>
+<script>
+function updateClock() {
+  document.getElementById("clock").textContent =
+    new Date().toLocaleTimeString();
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+<style>
+.big-clock {
+  font-size: 1em;
+  transform: scale(3);
+  font-weight: bold;
+  text-align: center;
+}
+</style>
 <p>– Don’t cheat. It’s not worth it. It sucks for everyone</p>
 <p>– Be concise and specific. 2 + 2 <span class="math inline">\(\neq\)</span> 4 and 5; demonstrate your entire understanding of the question (and only the question) being asked</p>
 <p>– I give you suggested number of sentences to answer questions. If you instead write paragraphs, you will not finish</p>
