@@ -237,7 +237,7 @@ b.  `#| eval: false` -
 
 \vspace{0.90in}
 
-Please see the following image. In 2-3 sentences, explain when these statuses appear in the Git tab. Be as detailed as possible (5-points).
+3. Please see the following image. In 2-3 sentences, explain when these statuses appear in the Git tab. Be as detailed as possible (5-points).
 
 ![](images/gitstage.png)
 
@@ -328,7 +328,7 @@ scores <- data.frame(
 scores
 ```
 
-First, justify if these data are wide or long format in 1-2 sentences. Next, rewrite the data above to be in the other format in the table provided below. Include appropriate column names and all values.
+First, justify if these data are wide or long format in 1-2 sentences. Next, rewrite the data above to be in the other format in the table provided below. Include appropriate column names and all values (10-points).
 
 \vspace{0.65in}
 
@@ -363,7 +363,7 @@ To do this, they write the following code.
 inner_join(scores, student_info)
 ```
 
-Fill in the table below to match the result of the code above. Note: There may be additional rows/columns in the template. If so, leave them blank/empty for the purpose of this problem. Include the appropriate column names.
+Fill in the table below to match the result of the code above. Note: There may be additional rows/columns in the template. If so, leave them blank/empty for the purpose of this problem. Include the appropriate column names (10-points).
 
 ```{=tex}
 \begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}

@@ -1,0 +1,33 @@
+---
+title: "Exam-1"
+subtitle: ""
+date: "October 13, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist 
+
+-- No lab this afternoon 
+
+-- No quiz this week 
+
+## Exam-1 announcements{.smaller} 
+
+-- Don't cheat. It's not worth it. It sucks for everyone
+
+-- Be concise and specific. 2 + 2 $\neq$ 4 and 5; demonstrate your entire understanding of the question (and only the question) being asked 
+
+-- I give you suggested number of sentences to answer questions. If you instead write paragraphs, you will not finish 
+
+-- Questions are labeled by topic. Answer the questions you are most comfortable with first, and then go back
+
+-- I will be around to answer clarification questions. I must turn into a robot during exam time. If the question gives you an advantage over another student, I must simply say "I can not answer this question." 
+
+-- Reminder: This exam is 15% of your total grade. Take it seriously, but also know that this does not dictate your entire grade for the course
