@@ -6,10 +6,8 @@ categories: "prepare"
 
 -   📖 Read:
     -   [R4DS: Chp 7 - Data import](https://r4ds.hadley.nz/data-import.html)
-
 -   ⌨️ Watch:
     -   [Importing data](https://youtu.be/tIMaRYiuEFA)
-
 
 ::: callout-note
 Videos use the "old school" pipe (`%>%`) but we'll be using the newer (`|>`) pipe operator in class.
