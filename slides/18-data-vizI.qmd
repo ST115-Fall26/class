@@ -19,11 +19,13 @@ I hope you all had a wonderful Fall Break!
 -- Please open up your `data-import` project. You can also clone your
 `data-viz` repo created for you.
 
--- Congrats on surviving Midterm-1! Grades by tonight/tomorrow
+-- Congrats on surviving Midterm-1! Grades by tonight/tomorrow (solutions are posted)
 
 -- The Statistics Experience is LIVE!
 
 -- Homework-3 next week
+
+-- Proficiency test IV next Tuesday!
 
 ## Last time
 
