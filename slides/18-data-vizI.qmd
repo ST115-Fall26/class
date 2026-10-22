@@ -136,6 +136,8 @@ A delimiter is a character or symbol used to separate pieces of data.
 
 ## Other data
 
+Please open up your `data-import` activity!
+
 Please visit the following website:
 <https://www4.stat.ncsu.edu/~online/datasets/bankData.txt>
 
@@ -247,7 +249,7 @@ ggplot(lillard, aes(x = ppg)) +
 
 ![](images/good1.png){width="400" height="400" fig-align="\"center"}
 
-## Examples
+## Example
 
 ![](images/bad1.png){width="400" height="400" fig-align="\"center"}
 
@@ -274,7 +276,7 @@ Part-2
 
 ## What types of plots can we make?
 
-**Golden Rule** We can only use certain plots depending on the type of data we are working with!
+**Golden Rule:** We can only use certain plots depending on the type of data we are working with!
 
 -   Quantitative
 
@@ -312,6 +314,8 @@ What plot is appropriate to graph the following scenarios
 
 ## Scatter plot
 
+## Scatter plot
+
 Two quantitative variables
 
 ```{r}
@@ -324,6 +328,8 @@ data |>
 ```
 
 ![](images/scatter-plot.png)
+
+## Histogram
 
 ## Histogram
 
@@ -342,6 +348,8 @@ data |>
 
 ## Bar plot
 
+## Bar plot
+
 One categorical variable
 
 ![](images/bar.png)
@@ -357,6 +365,8 @@ data |>
 
 ## Segmented bar plot
 
+## Segmented bar plot
+
 Two categorical variables
 
 ![](images/seg.png)
@@ -369,6 +379,8 @@ data |>
   ggplot() +
   geom_bar()
 ```
+
+## Boxplot
 
 ## Boxplot
 

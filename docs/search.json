@@ -3723,7 +3723,7 @@
     "href": "slides/18-data-vizI.html#other-data",
     "title": "Reading in data",
     "section": "Other data",
-    "text": "Other data\nPlease visit the following website: https://www4.stat.ncsu.edu/~online/datasets/bankData.txt\n– You can read in data stored on public facing websites (like GitHub) by using the url as the filepath\n  &gt; I'll make a short write up about this\nWhat is the delimiter for these data?"
+    "text": "Other data\nPlease open up your data-import activity!\nPlease visit the following website: https://www4.stat.ncsu.edu/~online/datasets/bankData.txt\n– You can read in data stored on public facing websites (like GitHub) by using the url as the filepath\n  &gt; I'll make a short write up about this\nWhat is the delimiter for these data?"
   },
   {
     "objectID": "slides/18-data-vizI.html#nobel-winners",
@@ -3782,15 +3782,15 @@
     "text": "Example\nWhat’s Going on in this Graph?"
   },
   {
-    "objectID": "slides/18-data-vizI.html#examples",
-    "href": "slides/18-data-vizI.html#examples",
+    "objectID": "slides/18-data-vizI.html#example-5",
+    "href": "slides/18-data-vizI.html#example-5",
     "title": "Reading in data",
-    "section": "Examples",
-    "text": "Examples"
+    "section": "Example",
+    "text": "Example"
   },
   {
-    "objectID": "slides/18-data-vizI.html#examples-1",
-    "href": "slides/18-data-vizI.html#examples-1",
+    "objectID": "slides/18-data-vizI.html#examples",
+    "href": "slides/18-data-vizI.html#examples",
     "title": "Reading in data",
     "section": "Examples",
     "text": "Examples\n\n\n\n\n\nA chart, concerning masks and COVID-19 cases used by Kansas Department of Health and Environment (KDHE) Secretary Dr. Lee Norman."
@@ -3807,7 +3807,7 @@
     "href": "slides/18-data-vizI.html#what-types-of-plots-can-we-make",
     "title": "Reading in data",
     "section": "What types of plots can we make?",
-    "text": "What types of plots can we make?\nGolden Rule We can only use certain plots depending on the type of data we are working with!\n\nQuantitative\nCategorical"
+    "text": "What types of plots can we make?\nGolden Rule: We can only use certain plots depending on the type of data we are working with!\n\nQuantitative\nCategorical"
   },
   {
     "objectID": "slides/18-data-vizI.html#pick-a-plot",
@@ -3821,11 +3821,25 @@
     "href": "slides/18-data-vizI.html#scatter-plot",
     "title": "Reading in data",
     "section": "Scatter plot",
+    "text": "Scatter plot"
+  },
+  {
+    "objectID": "slides/18-data-vizI.html#scatter-plot-1",
+    "href": "slides/18-data-vizI.html#scatter-plot-1",
+    "title": "Reading in data",
+    "section": "Scatter plot",
     "text": "Scatter plot\nTwo quantitative variables"
   },
   {
     "objectID": "slides/18-data-vizI.html#histogram",
     "href": "slides/18-data-vizI.html#histogram",
+    "title": "Reading in data",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "slides/18-data-vizI.html#histogram-1",
+    "href": "slides/18-data-vizI.html#histogram-1",
     "title": "Reading in data",
     "section": "Histogram",
     "text": "Histogram\nOne quantitative variable"
@@ -3835,6 +3849,13 @@
     "href": "slides/18-data-vizI.html#bar-plot",
     "title": "Reading in data",
     "section": "Bar plot",
+    "text": "Bar plot"
+  },
+  {
+    "objectID": "slides/18-data-vizI.html#bar-plot-1",
+    "href": "slides/18-data-vizI.html#bar-plot-1",
+    "title": "Reading in data",
+    "section": "Bar plot",
     "text": "Bar plot\nOne categorical variable"
   },
   {
@@ -3842,11 +3863,25 @@
     "href": "slides/18-data-vizI.html#segmented-bar-plot",
     "title": "Reading in data",
     "section": "Segmented bar plot",
+    "text": "Segmented bar plot"
+  },
+  {
+    "objectID": "slides/18-data-vizI.html#segmented-bar-plot-1",
+    "href": "slides/18-data-vizI.html#segmented-bar-plot-1",
+    "title": "Reading in data",
+    "section": "Segmented bar plot",
     "text": "Segmented bar plot\nTwo categorical variables"
   },
   {
     "objectID": "slides/18-data-vizI.html#boxplot",
     "href": "slides/18-data-vizI.html#boxplot",
+    "title": "Reading in data",
+    "section": "Boxplot",
+    "text": "Boxplot"
+  },
+  {
+    "objectID": "slides/18-data-vizI.html#boxplot-1",
+    "href": "slides/18-data-vizI.html#boxplot-1",
     "title": "Reading in data",
     "section": "Boxplot",
     "text": "Boxplot\nOne quantitative; One categorical"
