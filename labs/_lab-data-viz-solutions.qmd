@@ -217,4 +217,12 @@ durham_climate |>
   ) +
   theme_minimal() +
   theme(legend.position = "top")
+
+mtcars |>
+mutate(ind = ifelse(cyl > 6, "yes", "no")) |>
+group_by(ind) |>
+    summarize(
+    mean_mpg = mean(mpg),
+    n = n()
+  )
 ```
