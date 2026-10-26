@@ -4010,7 +4010,7 @@
     "href": "slides/19-dataviz2.html#checklist",
     "title": "Introduction to ggplot",
     "section": "Checklist",
-    "text": "Checklist\nI hope you all had a wonderful Fall Break!\n– Please open up your data-viz project.\n– Midterm-1 grades are posted! Please see the Moodle announcement\n  &gt; Regrade window opens up after class; due Friday 5:00pm\n– The Statistics Experience is LIVE!\n– Homework-3 next week is assigned\n– Quiz-5 is assigned\n– Proficiency test IV next Tuesday! Normal (fun) lab today!"
+    "text": "Checklist\nI hope you all had a wonderful Fall Break!\n– Please open up your data-viz project.\n– Midterm-1 grades are posted! Please see the Moodle announcement\n  &gt; Regrade window opens up after class; due Friday 5:00pm\n– The Statistics Experience is LIVE!\n– Homework-3 is assigned\n– Quiz-5 is assigned\n– Proficiency test IV next Tuesday! Normal (fun) lab today!"
   },
   {
     "objectID": "slides/19-dataviz2.html#road-map",
@@ -4179,6 +4179,13 @@
     "title": "Introduction to ggplot",
     "section": "factor",
     "text": "factor\ndata |&gt;\n  mutate(group = factor(group, levels = c(\"Control\", \"Treatment\", \"Placebo\")))\ndata |&gt;\n  mutate(group = fct_relevel(group, \"Control\", \"Treatment\", \"Placebo\"))\nYou can also save your factor levels as an R-object, and use that in the functions as well!\nOrdering matters! You will see that in lab!\nNote: factor() or fct_relevel() change your variable to a factor with levels, to be re-ordered!\nLet’s try it!"
+  },
+  {
+    "objectID": "slides/19-dataviz2.html#scales",
+    "href": "slides/19-dataviz2.html#scales",
+    "title": "Introduction to ggplot",
+    "section": "Scales",
+    "text": "Scales\n  scale_x_continuous(\n    limits = c(0, 100),\n    breaks = seq(0, 100, by = 20),\n    labels = c(\"0\", \"20\", \"40\", \"60\", \"80\", \"100\")\n  ) +\n  scale_y_continuous(\n    limits = c(0, 50),\n    breaks = seq(0, 50, by = 10)\n  )"
   },
   {
     "objectID": "slides/19-dataviz2.html#colors",

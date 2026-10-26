@@ -1,7 +1,7 @@
 ---
 title: "Introduction to ggplot"
 subtitle: ""
-date: "October 22, 2026"
+date: "October 27, 2026"
 format: 
   revealjs:
     theme: [dark, slides.scss]
@@ -24,7 +24,7 @@ I hope you all had a wonderful Fall Break!
 
 -- The Statistics Experience is LIVE!
 
--- Homework-3 next week is assigned
+-- Homework-3 is assigned
 
 -- Quiz-5 is assigned
 
@@ -230,7 +230,7 @@ When working with ggplot functions, we will add to our canvus using `+`
 
 # AE
 
-## factor 
+## factor{.smaller} 
 
 ```
 data |>
@@ -249,6 +249,20 @@ Ordering matters! You will see that in lab!
 Note: `factor()` or `fct_relevel()` change your variable to a factor with levels, to be re-ordered!
 
 Let's try it!
+
+## Scales 
+
+```
+  scale_x_continuous(
+    limits = c(0, 100),
+    breaks = seq(0, 100, by = 20),
+    labels = c("0", "20", "40", "60", "80", "100")
+  ) +
+  scale_y_continuous(
+    limits = c(0, 50),
+    breaks = seq(0, 50, by = 10)
+  )
+```
 
 
 ## colors 
