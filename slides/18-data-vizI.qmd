@@ -443,6 +443,51 @@ When working with ggplot functions, we will add to our canvus using `+`
 
 # AE
 
+## factor 
+
+```
+data |>
+  mutate(group = factor(group, levels = c("Control", "Treatment", "Placebo")))
+```
+```
+data |>
+  mutate(group = fct_relevel(group, "Control", "Treatment", "Placebo"))
+```
+
+You can also save your factor levels as an R-object, and use that in the functions as well! 
+
+
+Ordering matters! You will see that in lab!
+
+Note: `factor()` or `fct_relevel()` change your variable to a factor with levels, to be re-ordered!
+
+
+## colors 
+
+We can do a lot with color! 
+
+-- `scale_color_manual()`
+
+-- `scale_color_gradient()`
+
+-- `scale_color_viridis_()`
+
+## colors
+
+We can be very direct on where we want the color to go!
+
+```
+scale_fill_manual(
+    values = c(
+      "Adelie" = "lightskyblue1",
+      "Chinstrap" = "chartreuse3",
+      "Gentoo" = "gold2"
+    )
+  )
+```
+
+
+
 ## Recap of AE {.smaller}
 
 -- Construct plots with `ggplot()`.

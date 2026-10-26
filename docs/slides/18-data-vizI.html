@@ -650,6 +650,34 @@
 <h1>AE</h1>
 
 </section>
+<section id="factor" class="slide level2">
+<h2>factor</h2>
+<pre><code>data |&gt;
+  mutate(group = factor(group, levels = c("Control", "Treatment", "Placebo")))</code></pre>
+<pre><code>data |&gt;
+  mutate(group = fct_relevel(group, "Control", "Treatment", "Placebo"))</code></pre>
+<p>You can also save your factor levels as an R-object, and use that in the functions as well!</p>
+<p>Ordering matters! You will see that in lab!</p>
+<p>Note: <code>factor()</code> or <code>fct_relevel()</code> change your variable to a factor with levels, to be re-ordered!</p>
+</section>
+<section id="colors" class="slide level2">
+<h2>colors</h2>
+<p>We can do a lot with color!</p>
+<p>– <code>scale_color_manual()</code></p>
+<p>– <code>scale_color_gradient()</code></p>
+<p>– <code>scale_color_viridis_()</code></p>
+</section>
+<section id="colors-1" class="slide level2">
+<h2>colors</h2>
+<p>We can be very direct on where we want the color to go!</p>
+<pre><code>scale_fill_manual(
+    values = c(
+      "Adelie" = "lightskyblue1",
+      "Chinstrap" = "chartreuse3",
+      "Gentoo" = "gold2"
+    )
+  )</code></pre>
+</section>
 <section id="recap-of-ae" class="slide level2 smaller">
 <h2>Recap of AE</h2>
 <p>– Construct plots with <code>ggplot()</code>.</p>
