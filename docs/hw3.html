@@ -475,11 +475,19 @@ Note
 <p>Now, we are going to re-create his animation! Please note that when you render to a PDF, your plot will not animate. Animation only works on non-static documents like a HTML document.</p>
 <p>To do this, we are going to…</p>
 <p>– Copy your code from question-1 part c into a new code chunk here. Save your plot as a R object, p.</p>
-<p>– use the function transition_time() with the argument of your time variable you want your plot to animate through.</p>
+<p>– use the function <code><a href="https://gganimate.com/reference/transition_time.html">transition_time()</a></code> with the argument of your time variable you want your plot to animate through. This needs to be layered onto your <code><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot()</a></code> canvas.</p>
 <p>– Make sure you are using the entire data set, and not the filtered data set</p>
 <p>– Update the title of your plot to be “Year: {frame_time}”. This creates a dynamic title where frame_time is updated according to the transition_time() variable.</p>
 <p>– This will not be supported as a pdf. Make sure to set your code chunk to echo: true and eval: false so we can still see your code. You should be able to see / enjoy your animation in the Viewer pane!</p>
 <p>– You will see some warnings due to values being removed because they started to fall outside the limits set. This is okay for this assignment!</p>
+<p>Note: You need to use the function <code><a href="https://gganimate.com/reference/animate.html">animate()</a></code> to actually see your animated image. For example: <code>animate(p, fps = 10, duration = 10)</code>. Take a look at the help file for <code><a href="https://gganimate.com/reference/animate.html">animate()</a></code> for more information.</p>
+<p><strong>Mac users</strong></p>
+<p>Mac users need an additional two packages for their plot to run. Please run the following code:&nbsp;</p>
+<p><code>install.packages("gifski")</code></p>
+<p><code>install.packages("transformr")</code></p>
+<p>Make sure you also library each package.</p>
+<p>You need to run the following code to see your plot!</p>
+<p><code>animate(p, renderer = gifski_renderer())</code></p>
 
 
 </section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
