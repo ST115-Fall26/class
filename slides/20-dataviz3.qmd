@@ -1,0 +1,316 @@
+---
+title: "More ggplot!"
+subtitle: ""
+date: "October 29, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist {.smaller}
+
+-- Please open up your `data-viz` project.
+
+-- Midterm-1 grades are posted! Please see the Moodle announcement
+
+```         
+  > Regrade window opens up after class; due Friday 5:00pm
+```
+
+-- The Statistics Experience is LIVE!
+
+-- Homework-3 is assigned (due Sunday)
+
+-- Quiz-5 is assigned (due Friday)
+
+-- Lab assignment (due Friday)
+
+-- Proficiency test IV next Tuesday
+
+-- If time, we will play with the `trailblazer21.csv` data set. Go ahead and put it in the data folder of the data-viz project
+
+## ggplot rules!
+
+-- Think about your target audience
+
+-- Think about your axes
+
+-- Think about effective use of color
+
+-- Think about the complete story you are trying to tell
+
+-- Think about if the plot is appropriate for the data you have
+
+```{r}
+#| message: false
+#| warning: false 
+library(tidyverse)
+library(palmerpenguins)
+```
+
+## Warm-up
+
+What is the difference between the `|>` and the `+`?
+
+## Pipe
+
+The pipe operator ("and then") takes an object and puts it as the value
+of the first argument to the next function:
+
+```         
+data |>
+   glimpse()
+
+glimpse(data)
+```
+
+## +
+
+The `+` is when we want to "add" onto our canvas! Our canvas is
+`ggplot()`.
+
+## Warm-up{.smaller}
+
+What's gong on here?
+
+```{r}
+#| echo: true
+#| eval: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm, colour = "blue")
+) +
+  geom_point()
+```
+
+## Warm-up 
+
+```{r}
+#| echo: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm, colour = "blue")
+) +
+  geom_point()
+```
+
+
+## aes
+
+variables -- maps \> `ggplot()`
+
+```{r}
+#| echo: true
+#| eval: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm)
+) +
+  geom_point(colour = "blue")
+```
+
+## aes
+
+```{r}
+#| echo: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm)
+) +
+  geom_point(colour = "blue")
+```
+
+
+Any time we want to change "non-data" aspects on the graph, it goes
+outside the `aes()`
+
+## aes positioning
+
+```{r}
+#| echo: true
+#| eval: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm)
+) +
+  geom_point(colour = "blue")
+```
+
+is the same as
+
+```{r}
+#| echo: true
+#| eval: false
+ggplot(penguins) +
+  geom_point(aes(x = bill_length_mm, 
+                 y = bill_depth_mm),
+                 colour = "blue")
+```
+
+## aes positioning
+
+We ask ourselves whether we want an aesthetic mapping to apply to the
+entire plot or only to a specific geometric layer.
+
+## demonstration
+
+What do you think this code is going to do?
+
+```{r}
+#| echo: true
+#| eval: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm)
+) +
+  geom_point(aes(color = species)) +
+  geom_smooth(se = F)
+```
+
+## demonstration
+
+```{r}
+#| echo: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm)
+) +
+  geom_point(aes(color = species)) +
+  geom_smooth(se = F)
+```
+
+## demonstration
+
+What do you think this code is going to do?
+
+```{r}
+#| echo: true
+#| eval: false
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm, color = species)
+) +
+  geom_point() +
+  geom_smooth(se = F)
+```
+
+## demonstration
+
+```{r}
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm, color = species)
+) +
+  geom_point() +
+  geom_smooth(se = F)
+```
+
+## demonstration
+
+What could we improve on this plot?
+
+```{r}
+ggplot(
+  penguins,
+  aes(x = bill_length_mm, y = bill_depth_mm, color = species)
+) +
+  geom_point() +
+  geom_smooth(se = F)
+```
+
+## color
+
+A common form of color blindness is red-green color blindness....
+
+We can do a lot with color!
+
+-- `scale_color_manual()`
+
+-- `scale_color_gradient()`
+
+-- `scale_color_viridis_()`
+
+## colors
+
+We can be very direct on where we want the color to go!
+
+```         
+scale_fill_manual(
+    values = c(
+      "Adelie" = "lightskyblue1",
+      "Chinstrap" = "chartreuse3",
+      "Gentoo" = "gold2"
+    )
+  )
+```
+
+Let's try it!
+
+Pull up our data-viz project
+
+## 
+
+## Extension Questions{.smaller}
+
+The Portland Trailblazers are a National Basketball Association (NBA)
+sports team. These data reflect the points scored by 9 Portland
+Trailblazers players across the first 10 games of the 2021-2022 NBA
+season.
+
+Download the `trailblazer.csv` roster. Add this to your data folder in
+the data-viz project, and upload these data into R. Our goal is to
+re-create the following image (see next slide)
+
+## 
+
+```{r}
+#| echo: false 
+trailblazer <- read_csv("data/trailblazer21.csv")
+
+new.blazer <- trailblazer |>  # save object as new.blazer
+  pivot_longer( #make data longer
+    cols = -Player, #bring all cols but Player down
+    names_to = "Game", #name the col Game
+    values_to = "Points", #name the values col Points
+  ) |> 
+  separate_wider_delim(Game , delim = "_", names = c("Game" , "Location"))
+
+ggplot(
+  new.blazer,
+  aes(x = Game, y = Points, color = Location, group = 1)
+) +
+  geom_line(color = "gray70") +
+  geom_point(size = 3) +
+  facet_wrap(~ Player) +
+  scale_color_manual(
+    values = c(
+      "Home" = "steelblue",
+      "Away" = "darkorange"
+    )
+  ) +
+  labs(
+    title = "Trail Blazers Player Performance Across Games",
+    x = "Game",
+    y = "Points Scored",
+    color = "Location"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+## New Functions 
+
+-- separate_wider_delim()
+
+-- More with theme()
+
+## How to get started
+
+-- Explore your data 
+
+-- What do our data need to look like to recreate the plot?

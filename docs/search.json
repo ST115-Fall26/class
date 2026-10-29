@@ -4207,5 +4207,124 @@
     "title": "Introduction to ggplot",
     "section": "Recap of AE",
     "text": "Recap of AE\n– Construct plots with ggplot().\n– Layers of ggplots are separated by +s.\n– Aesthetic attributes of a geometries (color, size, transparency, etc.) can be mapped to variables in the data or set by the user.\n– Use facet_wrap() when faceting (creating small multiples) by one variable and facet_grid() when faceting by two variables."
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#checklist",
+    "href": "slides/20-dataviz3.html#checklist",
+    "title": "More ggplot!",
+    "section": "Checklist",
+    "text": "Checklist\n– Please open up your data-viz project.\n– Midterm-1 grades are posted! Please see the Moodle announcement\n  &gt; Regrade window opens up after class; due Friday 5:00pm\n– The Statistics Experience is LIVE!\n– Homework-3 is assigned (due Sunday)\n– Quiz-5 is assigned (due Friday)\n– Lab assignment (due Friday)\n– Proficiency test IV next Tuesday"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#ggplot-rules",
+    "href": "slides/20-dataviz3.html#ggplot-rules",
+    "title": "More ggplot!",
+    "section": "ggplot rules!",
+    "text": "ggplot rules!\n– Think about your target audience\n– Think about your axes\n– Think about effective use of color\n– Think about the complete story you are trying to tell\n– Think about if the plot is appropriate for the data you have"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#warm-up",
+    "href": "slides/20-dataviz3.html#warm-up",
+    "title": "More ggplot!",
+    "section": "Warm-up",
+    "text": "Warm-up\nWhat is the difference between the |&gt; and the +?"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#pipe",
+    "href": "slides/20-dataviz3.html#pipe",
+    "title": "More ggplot!",
+    "section": "Pipe",
+    "text": "Pipe\nThe pipe operator (“and then”) takes an object and puts it as the value of the first argument to the next function:\ndata |&gt;\n   glimpse()\n\nglimpse(data)"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#section",
+    "href": "slides/20-dataviz3.html#section",
+    "title": "More ggplot!",
+    "section": "+",
+    "text": "+\nThe + is when we want to “add” onto our canvas! Our canvas is ggplot()."
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#warm-up-1",
+    "href": "slides/20-dataviz3.html#warm-up-1",
+    "title": "More ggplot!",
+    "section": "Warm-up",
+    "text": "Warm-up\nWhat’s gong on here?\n\nggplot(\n  penguins,\n  aes(x = bill_length_mm, y = bill_depth_mm, colour = \"blue\")\n) +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#aes",
+    "href": "slides/20-dataviz3.html#aes",
+    "title": "More ggplot!",
+    "section": "aes",
+    "text": "aes\nvariables – maps &gt; ggplot()\n\nggplot(\n  penguins,\n  aes(x = bill_length_mm, y = bill_depth_mm)\n) +\n  geom_point(colour = \"blue\")\n\n\nAny time we want to change “non-data” aspects on the graph, it goes outside the aes()"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#aes-positioning",
+    "href": "slides/20-dataviz3.html#aes-positioning",
+    "title": "More ggplot!",
+    "section": "aes positioning",
+    "text": "aes positioning\n\n\n\n\n\n\n\n\n\nis the same as"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#aes-positioning-1",
+    "href": "slides/20-dataviz3.html#aes-positioning-1",
+    "title": "More ggplot!",
+    "section": "aes positioning",
+    "text": "aes positioning\nWe ask ourselves whether we want an aesthetic mapping to apply to the entire plot or only to a specific geometric layer."
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#demonstration",
+    "href": "slides/20-dataviz3.html#demonstration",
+    "title": "More ggplot!",
+    "section": "demonstration",
+    "text": "demonstration\nWhat do you think this code is going to do?\n\nggplot(\n  penguins,\n  aes(x = bill_length_mm, y = bill_depth_mm)\n) +\n  geom_point(aes(color = species)) +\n  geom_smooth(se = F)"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#demonstration-1",
+    "href": "slides/20-dataviz3.html#demonstration-1",
+    "title": "More ggplot!",
+    "section": "demonstration",
+    "text": "demonstration"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#demonstration-2",
+    "href": "slides/20-dataviz3.html#demonstration-2",
+    "title": "More ggplot!",
+    "section": "demonstration",
+    "text": "demonstration\nWhat do you think this code is going to do?\n\nggplot(\n  penguins,\n  aes(x = bill_length_mm, y = bill_depth_mm, color = species)\n) +\n  geom_point() +\n  geom_smooth(se = F)"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#demonstration-3",
+    "href": "slides/20-dataviz3.html#demonstration-3",
+    "title": "More ggplot!",
+    "section": "demonstration",
+    "text": "demonstration"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#demonstration-4",
+    "href": "slides/20-dataviz3.html#demonstration-4",
+    "title": "More ggplot!",
+    "section": "demonstration",
+    "text": "demonstration\nWhat could we improve on this plot?"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#color",
+    "href": "slides/20-dataviz3.html#color",
+    "title": "More ggplot!",
+    "section": "color",
+    "text": "color\nA common form of color blindness is red-green color blindness….\nWe can do a lot with color!\n– scale_color_manual()\n– scale_color_gradient()\n– scale_color_viridis_()"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#colors",
+    "href": "slides/20-dataviz3.html#colors",
+    "title": "More ggplot!",
+    "section": "colors",
+    "text": "colors\nWe can be very direct on where we want the color to go!\nscale_fill_manual(\n    values = c(\n      \"Adelie\" = \"lightskyblue1\",\n      \"Chinstrap\" = \"chartreuse3\",\n      \"Gentoo\" = \"gold2\"\n    )\n  )\nLet’s try it!"
+  },
+  {
+    "objectID": "slides/20-dataviz3.html#extension-questions",
+    "href": "slides/20-dataviz3.html#extension-questions",
+    "title": "More ggplot!",
+    "section": "Extension Questions",
+    "text": "Extension Questions\nThe Portland Trailblazers are a National Basketball Association (NBA) sports team. These data reflect the points scored by 9 Portland Trailblazers players across the first 10 games of the 2021-2022 NBA season.\nDownload the trailblazer.csv roster. Add this to your data folder in the data-viz project, and upload these data into R. Our goal is to re-create the following image (see next slide)"
   }
 ]
