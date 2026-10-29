@@ -216,6 +216,7 @@
 <p>– Quiz-5 is assigned (due Friday)</p>
 <p>– Lab assignment (due Friday)</p>
 <p>– Proficiency test IV next Tuesday</p>
+<p>– If time, we will play with the <code>trailblazer21.csv</code> data set. Go ahead and put it in the data folder of the data-viz project</p>
 </section>
 <section id="ggplot-rules" class="slide level2">
 <h2>ggplot rules!</h2>
@@ -241,7 +242,7 @@ glimpse(data)</code></pre>
 <h2>+</h2>
 <p>The <code>+</code> is when we want to “add” onto our canvas! Our canvas is <code>ggplot()</code>.</p>
 </section>
-<section id="warm-up-1" class="slide level2">
+<section id="warm-up-1" class="slide level2 smaller">
 <h2>Warm-up</h2>
 <p>What’s gong on here?</p>
 <div class="cell">
@@ -250,9 +251,12 @@ glimpse(data)</code></pre>
 <span id="cb3-3"><a></a>  <span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, <span class="at">y =</span> bill_depth_mm, <span class="at">colour =</span> <span class="st">"blue"</span>)</span>
 <span id="cb3-4"><a></a>) <span class="sc">+</span></span>
 <span id="cb3-5"><a></a>  <span class="fu">geom_point</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-
 </div>
-<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
+</section>
+<section id="warm-up-2" class="slide level2">
+<h2>Warm-up</h2>
+
+<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
 <section id="aes" class="slide level2">
 <h2>aes</h2>
 <p>variables – maps &gt; <code>ggplot()</code></p>
@@ -262,30 +266,28 @@ glimpse(data)</code></pre>
 <span id="cb4-3"><a></a>  <span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, <span class="at">y =</span> bill_depth_mm)</span>
 <span id="cb4-4"><a></a>) <span class="sc">+</span></span>
 <span id="cb4-5"><a></a>  <span class="fu">geom_point</span>(<span class="at">colour =</span> <span class="st">"blue"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-
 </div>
-<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"><p>Any time we want to change “non-data” aspects on the graph, it goes outside the <code>aes()</code></p>
+</section>
+<section id="aes-1" class="slide level2">
+<h2>aes</h2>
+
+<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"><p>Any time we want to change “non-data” aspects on the graph, it goes outside the <code>aes()</code></p>
 </section>
 <section id="aes-positioning" class="slide level2">
 <h2>aes positioning</h2>
 <div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
-</figure>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">ggplot</span>(</span>
+<span id="cb5-2"><a></a>  penguins,</span>
+<span id="cb5-3"><a></a>  <span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, <span class="at">y =</span> bill_depth_mm)</span>
+<span id="cb5-4"><a></a>) <span class="sc">+</span></span>
+<span id="cb5-5"><a></a>  <span class="fu">geom_point</span>(<span class="at">colour =</span> <span class="st">"blue"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>is the same as</p>
 <div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
-</figure>
-</div>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">ggplot</span>(penguins) <span class="sc">+</span></span>
+<span id="cb6-2"><a></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, </span>
+<span id="cb6-3"><a></a>                 <span class="at">y =</span> bill_depth_mm),</span>
+<span id="cb6-4"><a></a>                 <span class="at">colour =</span> <span class="st">"blue"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="aes-positioning-1" class="slide level2">
@@ -296,39 +298,39 @@ glimpse(data)</code></pre>
 <h2>demonstration</h2>
 <p>What do you think this code is going to do?</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb5-2"><a></a>  penguins,</span>
-<span id="cb5-3"><a></a>  <span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, <span class="at">y =</span> bill_depth_mm)</span>
-<span id="cb5-4"><a></a>) <span class="sc">+</span></span>
-<span id="cb5-5"><a></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species)) <span class="sc">+</span></span>
-<span id="cb5-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">se =</span> F)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">ggplot</span>(</span>
+<span id="cb7-2"><a></a>  penguins,</span>
+<span id="cb7-3"><a></a>  <span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, <span class="at">y =</span> bill_depth_mm)</span>
+<span id="cb7-4"><a></a>) <span class="sc">+</span></span>
+<span id="cb7-5"><a></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">color =</span> species)) <span class="sc">+</span></span>
+<span id="cb7-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">se =</span> F)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="demonstration-1" class="slide level2">
 <h2>demonstration</h2>
 
-<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
+<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
 <section id="demonstration-2" class="slide level2">
 <h2>demonstration</h2>
 <p>What do you think this code is going to do?</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">ggplot</span>(</span>
-<span id="cb6-2"><a></a>  penguins,</span>
-<span id="cb6-3"><a></a>  <span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, <span class="at">y =</span> bill_depth_mm, <span class="at">color =</span> species)</span>
-<span id="cb6-4"><a></a>) <span class="sc">+</span></span>
-<span id="cb6-5"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb6-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">se =</span> F)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">ggplot</span>(</span>
+<span id="cb8-2"><a></a>  penguins,</span>
+<span id="cb8-3"><a></a>  <span class="fu">aes</span>(<span class="at">x =</span> bill_length_mm, <span class="at">y =</span> bill_depth_mm, <span class="at">color =</span> species)</span>
+<span id="cb8-4"><a></a>) <span class="sc">+</span></span>
+<span id="cb8-5"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb8-6"><a></a>  <span class="fu">geom_smooth</span>(<span class="at">se =</span> F)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="demonstration-3" class="slide level2">
 <h2>demonstration</h2>
 
-<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
+<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
 <section id="demonstration-4" class="slide level2">
 <h2>demonstration</h2>
 <p>What could we improve on this plot?</p>
 
-<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
+<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
 <section id="color" class="slide level2">
 <h2>color</h2>
 <p>A common form of color blindness is red-green color blindness….</p>
@@ -348,11 +350,12 @@ glimpse(data)</code></pre>
     )
   )</code></pre>
 <p>Let’s try it!</p>
+<p>Pull up our data-viz project</p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
 </section>
-<section id="extension-questions" class="slide level2">
+<section id="extension-questions" class="slide level2 smaller">
 <h2>Extension Questions</h2>
 <p>The Portland Trailblazers are a National Basketball Association (NBA) sports team. These data reflect the points scored by 9 Portland Trailblazers players across the first 10 games of the 2021-2022 NBA season.</p>
 <p>Download the <code>trailblazer.csv</code> roster. Add this to your data folder in the data-viz project, and upload these data into R. Our goal is to re-create the following image (see next slide)</p>
@@ -360,9 +363,19 @@ glimpse(data)</code></pre>
 <section id="section-2" class="slide level2">
 <h2></h2>
 
+<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-13-1.png" width="960" class="r-stretch"></section>
+<section id="new-functions" class="slide level2">
+<h2>New Functions</h2>
+<p>– separate_wider_delim()</p>
+<p>– More with theme()</p>
+</section>
+<section id="how-to-get-started" class="slide level2">
+<h2>How to get started</h2>
+<p>– Explore your data</p>
+<p>– What do our data need to look like to recreate the plot?</p>
 
 
-<img data-src="20-dataviz3_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
