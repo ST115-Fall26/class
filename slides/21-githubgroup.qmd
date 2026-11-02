@@ -1,0 +1,169 @@
+---
+title: "GitHub Group Work"
+subtitle: ""
+date: "November 2, 2026"
+format: 
+  revealjs:
+    theme: [dark, slides.scss]
+filters: 
+- webr
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Checklist{.smaller}
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+```
+
+
+-- Please open up your `merge-conflict-repo` project.
+
+-- The Statistics Experience is LIVE!
+
+-- Quiz-6 comes out today (due Friday)
+
+-- Proficiency test IV is today!
+
+-- GitHub groups are assigned! Let's talk more about the project
+
+-- If you are not sitting with your group mates, I'm going to ask you to in a little bit for today's activity! 
+
+## GitHub group project 
+
+I want you to leave with a fundamental understanding on how GitHub is used in the real-world
+
+-- Individual use
+
+-- Collaborative tool 
+
+## GitHub group project 
+
+In this project, you will 
+
+-- combine the skills you've learned thus far to explore data 
+
+-- assign tasks to each other via GitHub Issues (we will learn today)
+
+-- really understand the purpose of *pull*; work with merge conflicts; etc.
+
+-- ... and doing all of this in a reproducible/transparent way (GitHub; GitHub Issues)
+
+## GitHub Issues 
+
+GitHub Issues are a way to track tasks, questions, problems, and ideas within a GitHub repository.
+
+Think of them as a built-in task management and discussion system for a project.
+
+## GitHub Issues{.smaller} 
+
+| Use | Example |
+|---|---|
+| Report a problem (bug) | "The code in Exercise 3 produces an error." |
+| Suggest an improvement | "Add another example of a `group_by()` operation." |
+| Ask a question | "Why are we using `pivot_longer()` here?" |
+| Track a task | "Complete the data visualization section." |
+| Collaborate | "Review the analysis of missing data." |
+
+Let's demonstrate!
+
+Note: You will receive a GitHub notification if you are assigned an issue.
+
+## Merge Conflicts 
+
+A merge conflict occurs when a version control system, like Git, is unable to automatically combine changes from different branches during a merge operation because they have conflicting edits to the same part of a file..
+
+.. in short: If you make changes to your document + pull changes from your repo that impact the changes you made… you will get a merge conflict
+
+## Class demonstration
+
+Grayson and I are going to demonstrate merge conflicts, and then we will do a hands on activity so you can get practice as well!
+
+## In-class activity 
+
+I want you to now practice working with merge conflicts with your group (see link [here](https://docs.google.com/spreadsheets/d/1Z9854WEl3lJ8AtHcGBy-IL2EgjxqppCVGzZ1xgeBST0/edit?gid=1410312928#gid=1410312928) for your group)
+
+All of you should should have a team project repo. Clone this, and we will get started! 
+
+The instructions can be found [here](https://st115-fall26.github.io/class/instructions.html) (also found as a link for your prepare material)
+
+## If time 
+
+## Extension Questions{.smaller}
+
+The Portland Trailblazers are a National Basketball Association (NBA)
+sports team. These data reflect the points scored by 9 Portland
+Trailblazers players across the first 10 games of the 2021-2022 NBA
+season.
+
+Download the `trailblazer.csv` roster. Add this to your data folder in
+the data-viz project, and upload these data into R. Our goal is to
+re-create the following image (see next slide)
+
+## Question 
+
+I want to explore these data, and make a data visualization that: 
+
+-- Shows the points scored for each player
+
+-- Shows if they did this on the road or at home 
+
+-- I want to be able to also compare how they are doing over time
+
+## 
+
+```{r}
+#| echo: false 
+trailblazer <- read_csv("data/trailblazer21.csv")
+
+new.blazer <- trailblazer |>  # save object as new.blazer
+  pivot_longer( #make data longer
+    cols = -Player, #bring all cols but Player down
+    names_to = "Game", #name the col Game
+    values_to = "Points", #name the values col Points
+  ) |> 
+  separate_wider_delim(Game , delim = "_", names = c("Game" , "Location"))
+
+ggplot(
+  new.blazer,
+  aes(x = Game, y = Points, color = Location, group = 1)
+) +
+  geom_line(color = "gray70") +
+  geom_point(size = 3) +
+  facet_wrap(~ Player) +
+  scale_color_manual(
+    values = c(
+      "Home" = "steelblue",
+      "Away" = "darkorange"
+    )
+  ) +
+  labs(
+    title = "Trail Blazers Player Performance Across Games",
+    x = "Game",
+    y = "Points Scored",
+    color = "Location"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+## New Functions 
+
+-- separate_wider_delim()
+
+-- More with theme()
+
+## How to get started
+
+-- Explore your data 
+
+-- What do our data need to look like to recreate the plot?
+
+
+
