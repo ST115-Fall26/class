@@ -1,0 +1,141 @@
+---
+title: "Proficiency Test IV"
+format: pdf
+author: ""
+---
+
+## Instructions
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+Put your name at the top of this document in the YAML. You are asked to clone the `proficiency-test-IV` repo from GitHub. This repo has been made for you.
+
+If you can not clone the repo, please still create a .qmd file and complete the tasks for partial credit.
+
+If you can not get your code the run, please use the appropriate code chunks to stop your code from evaluating (but still make sure we can see your code) to earn partial credit.
+
+::: callout-note
+Part of your grade comes from demonstrating proper use of version control.
+
+You must have 2-4 meaningful commits to earn full credit.
+
+Each commit should be after you answer a specific task.
+:::
+
+Please answer each task below. **Render after each question**
+
+Please put `\newpage` after each question.
+
+\newpage
+
+## Question 1
+
+
+```{r}
+students <- data.frame(
+  Student = c("A", "B", "C", "D", "E", "F"),
+  Exam_Score = c("85", "92", "78", "NA", "88", "95"),
+  Study_Hours = c("5", "8", "3", "6", "NA", "10")
+)
+```
+
+```{r}
+#| echo: false
+#| eval: false
+s2 <- students |>
+  mutate(Study_Hours = as.numeric(Study_Hours))
+
+str(s2)
+```
+
+-- Use `str()` to examine the data class of each variable. Report the class below. 
+
+-- Next, write code that would change the variable `Study_Hours` to a numeric variable using `as.numeric()` in a new data set named `s2`.
+
+-- When you do this, a warning message should be produced. In 2-3 sentences, explain why you are getting this warning message, and what the warning message means. Use the output from `str(s2)` to help answer the question.
+
+\newpage
+
+## Question 2
+
+Run the code below. You can see the relationship between Flipper Length, Body Mass, and Species. There is something misleading / incorrect with this graph. In 2-3 sentences, identify the issue and explain why it is incorrect/misleading.
+
+Note: You do not need to fix the issue or change any of the code.
+
+Note: In this scenario, the truncated y-axis is not considered misleading.
+
+```{r}
+#| echo: false
+#| eval: true
+penguins |>
+  drop_na(flipper_length_mm, body_mass_g, species) |>
+  ggplot(
+    aes(
+      x = flipper_length_mm,
+      y = body_mass_g,
+      color = as.numeric(species)
+    )
+  ) +
+  geom_point(size = 3, alpha = 0.8) +
+  scale_color_gradient(
+    low = "yellow",
+    high = "red",
+    breaks = 1:3,
+    labels = c("Adelie", "Chinstrap", "Gentoo")
+  ) +
+  labs(
+    title = "Penguin Body Mass relationship with Flipper Length, by Species",
+    x = "Flipper Length (mm)",
+    y = "Body Mass (g)",
+    color = "Species"
+  ) +
+  theme_minimal()
+```
+
+\newpage
+
+## Question 3 
+
+Questions 3 and 4 use the `diamonds` dataset from the `ggplot2` package. For more information on the dataset, and the variables used. 
+
+Run the code below. Based on the rules/discussions we have had around data visualizations in class, there are > 3 issues with the way these data are being displayed. Make a bulleted list that identified **three** issues. Next, make a new code chunk and copy the code used to create this plot into your new code chunk. In your new code chunk, fix the issues you identified to make this plot more effective. 
+
+```{r}
+#| echo: false 
+#| eval: true
+diamonds |>
+  ggplot(
+    aes(
+      x = carat,
+      y = price,
+      color = cut
+    )
+  ) +
+  geom_point(
+    size = 4,
+    alpha = 1
+  ) +
+  labs(
+    title = "Diamonds",
+    x = "Carat",
+    y = "Price (US dollars)",
+    color = "Cut"
+  ) +
+  scale_color_manual(
+    values = c("red", "blue", "green", "purple", "orange")
+  ) 
+```
+
+
+## Question 4 
+
+I am interested in knowing more about the relationship between the cut of the diamond and the price of the diamond. Specifically, I am interested in if we see differences in the price, based on the cut. 
+
+Below, create appropriate summary statistics and an appropriate data visualization to answer the question. Next, in 1-3 sentences, comment on your results. 

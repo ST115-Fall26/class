@@ -1,0 +1,12 @@
+---
+title: Meet the team
+---
+
+
+This project was developed by **(team name)** For [STA 115: Introduction to a Data Science Toolkit with R and GitHub](https://st115-fall26.github.io/class/) at NC State University.
+
+
+
+-   Team member 1: One sentence description of Team member 1 (e.g., hobbies, why you are interested in statistics, etc.). 
+-   Team member 2: One sentence description of Team member 2 (e.g., hobbies, why you are interested in statistics, etc.). 
+-   Team member 3: One sentence description of Team member 3 (e.g., hobbies, why you are interested in statistics, etc.). 
