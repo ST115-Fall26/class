@@ -4440,6 +4440,13 @@
     "text": "In-class activity\nI want you to now practice working with merge conflicts with your group (see link here for your group)\nAll of you should should have a team project repo. Clone this, and we will get started!\nThe instructions can be found here (also found as a link for your prepare material)"
   },
   {
+    "objectID": "slides/21-githubgroup.html#burn-it-down-method",
+    "href": "slides/21-githubgroup.html#burn-it-down-method",
+    "title": "GitHub Group Work",
+    "section": "Burn it down method",
+    "text": "Burn it down method\nSometimes, merge conflicts get complicated and “lock” you out of your repo\n– IF you don’t have anything on your computer worth saving\n– Delete your personal repo folder (NOT the one on GitHub)\n– re-clone your repo on GitHub back to your computer"
+  },
+  {
     "objectID": "slides/21-githubgroup.html#if-time",
     "href": "slides/21-githubgroup.html#if-time",
     "title": "GitHub Group Work",

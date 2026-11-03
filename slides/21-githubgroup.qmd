@@ -93,6 +93,16 @@ All of you should should have a team project repo. Clone this, and we will get s
 
 The instructions can be found [here](https://st115-fall26.github.io/class/instructions.html) (also found as a link for your prepare material)
 
+## Burn it down method
+
+Sometimes, merge conflicts get complicated and "lock" you out of your repo
+
+--    IF you don't have anything on your computer worth saving 
+
+--    Delete your personal repo folder (NOT the one on GitHub)
+
+--    re-clone your repo on GitHub back to your computer
+
 ## If time 
 
 ## Extension Questions{.smaller}
