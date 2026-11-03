@@ -103,8 +103,7 @@ Trailblazers players across the first 10 games of the 2021-2022 NBA
 season.
 
 Download the `trailblazer.csv` roster. Add this to your data folder in
-the data-viz project, and upload these data into R. Our goal is to
-re-create the following image (see next slide)
+the data-viz project, and upload these data into R.
 
 ## Question 
 
