@@ -92,10 +92,10 @@ website:
             text: Error making PDFs or Trouble Rendering
           - href: computing-cheatsheets.qmd
             text: Cheatsheets
-  #    - section: "Project"
-  #      contents:
-  #        - href: project-description-f24.qmd
-  #          text: Description
+      - section: "Project"
+        contents:
+          - href: project-instructions.qmd
+            text: "Project Instructions"
 
 
 

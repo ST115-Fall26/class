@@ -1,0 +1,181 @@
+---
+title: "115 Project Instructions"
+---
+
+::: {.callout-tip}
+## Due Date
+Your project is due on 11/27 as a PDF on Gradescope.
+
+There is no late window for the project. 
+:::
+
+## Purpose
+
+The main purpose of the project is to put your ST-115 skills to the test in a context that is interesting, exciting, and mimics real-world exploratory research.
+
+## Task
+
+You are tasked to 
+
+-- Find some data 
+
+-- Clean data / create new variables 
+
+-- Come up with an interesting meaningful research question 
+
+-- Explore that research question with summary statistics/appropriate data visualizations
+
+Your professional document should have the following headers: 
+
+## Introduction 
+
+-- Write about where you found your data 
+
+-- Write about how your data were collected by the original source 
+
+-- Share your research question, and why you are interested in it
+
+## Data cleaning 
+
+-- Talk about any data cleaning / data manipulation procedures you performed to get the data ready for an exploratory analysis
+
+-- You are required to perform *at least* one data cleaning / data manipulation technique to your data set
+
+## Results 
+
+-- Summary statistics related to your research question
+
+-- Plots related to your research question 
+
+-- Interpretation of what the statistics/plots mean, and how they address your research question
+
+**Note**: Part of your project grade has to do with you executing a proper GitHub workflow, using GitHub issues, and formatting.
+
+## Citations 
+
+-- I'm going to have you learn something called bibtex for our project! It's EXTREMELY useful, and is going to help you cite your sources.
+
+-- You will need to cite where your data come from, as well as any additional resources used when completing the project.
+
+-- If you use additional resources to create data visualizations for your project, you must cite your resource(s). If you do not cite your sources, and use code well beyond the scope of this course, you will not earn credit for those parts of the project.
+
+For more information on how to cite your sources, please click the link [here](https://quarto.org/docs/authoring/citations.html)
+
+
+#### Find a more detailed breakdown of your project below.
+
+### Data (Start Here) 
+
+Find some data! If you’re unsure where to find data, you can use the list of potential data sources in the Resources for data sets section
+as a starting point. It may also help to think of topics you’re interested in investigating and find data sets on those topics.
+
+**Note: Your data must be real. Websites often contain fake data, or simulated data sets for hackathons. These are not allowed. If you can not verify that your data are real, do not use it for this project. 
+
+### Criteria for datasets 
+
+The data sets should meet the following criteria:
+
+-- At least 100 observations (or approved by your instructor)
+
+-- At least 5 unique columns that are actual variables (or approved)
+
+      > Identifier variables such as “name”, “social security number”, etc. are not useful
+      explanatory variables.
+
+      > If you have multiple columns with the same information (e.g., “state abbreviation” and “state name”), then they are not unique explanatory variables.
+
+-- Data must be real (if you are unsure, do not choose these data)
+
+-- Data sets must have a mix of quantitative and categorical variables
+
+## Resources for data 
+
+You can find data wherever you like, but here are some recommendations to get you started.
+You shouldn’t feel constrained to data sets that are already in a tidy format, you can start
+with data that needs cleaning and tidying.
+
+1. The UCI machine learning repository: <https://archive.ics.uci.edu/>
+
+2. Kaggle: <https://www.kaggle.com> (Note: There are many fake data sets on Kaggle. Do
+not choose these.)
+
+3. [data.gov](data.gov)
+
+4. [data.europa.eu](data.europa.eu)
+
+Again, please make sure that these data are real, and you are interested in analyzing them. Note: The data can not be from an
+R package/already built into SAS. You need to be able to download the data and read the data in appropriately.
+
+## Research question 
+
+You are tasked to write **ONE** research question.
+
+Before writing your research questions, please see the following resource [here](https://twp.duke.edu/sites/twp.duke.edu/files/file-attachments/research-questions.original.pdf).
+
+Your research questions should contain AT LEAST 3 variables. For example: What is the
+relationship between a penguin’s bill length and their flipper length for each of the species in our data set?
+
+Your research question should be clear and easily understood by a general audience. Again, when writing a research question, please think about the following:
+
+-- What is your target audience?
+
+-- Can the question be answered?
+
+After you come up with your research question, you need to answer it!
+
+Using `tidyverse()` functions and code related to making numerical sumamries, make an appropriate data visualization(s) and numerical summaries that help address your research question. These visualizations should be appropriate based on the variables in your research question. Your visualization should have appropriate labels. As a reminder, if your labels have a _ in them, they are not appropriate. Create as many visualizations AND
+numerical summaries you feel necessary to fully address your research question.
+
+Next, in 3-5 sentences, answer your research question.
+
+Note: This is just exploratory. Refrain from using words such as “caused” or “proves”. Instead, practice using phrasing such as “evidence for” or “evidence against”.
+
+
+## GitHub Requirements 
+
+Besides the requirements around your data, please be aware of the following...
+
+-- Make sure you assign at least 2 GitHub Issues to yourself/team members. 
+
+-- Make sure you respond to/comment on at least 2 GitHub Issues.
+
+-- Your GitHub repo is tidy and organized (ex. data folder; no random unnecessary .qmd files)
+
+
+## Grading 
+
+#### GitHub Issues (10-points)
+
+--  Did you assign at least 2 GitHub Issues, meaningfully?
+
+--  Did you respond to/comment on at least 2 GitHub Issues, meaningfully?
+
+      > Note: This needs to be EACH team member.
+
+#### Proper GitHub Workflow (10-points)
+
+--  Do you have at least 3 meaningful commits on your project repo?
+
+      > Note: This needs to be EACH team member.
+
+
+#### Formatting (5-points)
+
+--  Do you have a clean, polished and professional document. This includes making sure you have code that doesn't run off the page, appropriate headers, code that is styled, etc. As a reminder, you can find the rules for styling your code [here](https://style.tidyverse.org/ggplot2.html).
+
+      > Note: You may hide messages/warnings (ex. from packages), but you must show all code used in the document. 
+
+#### Introduction (15-points)
+
+--  In your introduction, do you address where you found your data, how the data were originally collected, and why you are interested in these data?
+
+--  Do you state your research question, and does it meet the requirements?
+
+#### Exploration (20-points)
+
+--  Did you calculate appropriate summary statistics to answer your research question?
+
+--  Did you create appropriate data visualizations to answer your research question?
+
+--  Did you interpret your results, and actually answer your research question?
+
