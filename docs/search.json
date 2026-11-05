@@ -4628,14 +4628,14 @@
     "href": "slides/22-together.html#warm-up-1",
     "title": "Putting it together!",
     "section": "Warm-up",
-    "text": "Warm-up\nWhat is this called? What caused this?\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD \n\nSee also: [dplyr documentation](https://dplyr.tidyverse.org/)   \n\n======= \n\nSee also [ggplot2 documentation](https://ggplot2.tidyverse.org/)"
+    "text": "Warm-up\nWhat is this called? What caused this?\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD \n\nSee also: [dplyr documentation](https://dplyr.tidyverse.org/)   \n\n======= \n\nSee also [ggplot2 documentation](https://ggplot2.tidyverse.org/)\n\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; some1alpha2numeric3string4"
   },
   {
     "objectID": "slides/22-together.html#warm-up-2",
     "href": "slides/22-together.html#warm-up-2",
     "title": "Putting it together!",
     "section": "Warm-up",
-    "text": "Warm-up\nHow do I resolve this?\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD \n\nSee also: [dplyr documentation](https://dplyr.tidyverse.org/)   \n\n======= \n\nSee also [ggplot2 documentation](https://ggplot2.tidyverse.org/)\n\n\n\n\n\n\n\nsome1alpha2numeric3string4"
+    "text": "Warm-up\nHow do I resolve this?\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD \n\nSee also: [dplyr documentation](https://dplyr.tidyverse.org/)   \n\n======= \n\nSee also [ggplot2 documentation](https://ggplot2.tidyverse.org/)\n\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; some1alpha2numeric3string4"
   },
   {
     "objectID": "slides/22-together.html#things-to-note",
@@ -4663,7 +4663,7 @@
     "href": "slides/22-together.html#rule-2",
     "title": "Putting it together!",
     "section": "Rule 2",
-    "text": "Rule 2\nFollow this workflow!\nA good group-work workflow looks like:\n\nStage and commit your local changes.\nPull the latest changes from GitHub.\nResolve any merge conflicts if necessary.\nPush your changes to GitHub.\nCommitting saves a snapshot of your local work in Git’s history. This means Git has a clear record of your changes when it tries to merge incoming changes."
+    "text": "Rule 2\nFollow this workflow!\nA good group-work workflow looks like:\n\nStage and commit your local changes.\nPull the latest changes from GitHub.\nResolve any merge conflicts if necessary.\nPush your changes to GitHub."
   },
   {
     "objectID": "slides/22-together.html#project",

@@ -46,7 +46,7 @@ Sometimes (especially Mac users), you need to tell Git to *merge* rather than *r
 
 -- When will GitHub auto-merge changes? 
 
-## Warm-up 
+## Warm-up{.smaller} 
 
 What is this called? What caused this? 
 
@@ -58,9 +58,11 @@ See also: [dplyr documentation](https://dplyr.tidyverse.org/)
 ======= 
 
 See also [ggplot2 documentation](https://ggplot2.tidyverse.org/)
+
+>>>>>>> some1alpha2numeric3string4
 ```
 
-## Warm-up 
+## Warm-up{.smaller} 
 
 How do I resolve this? 
 
@@ -72,9 +74,9 @@ See also: [dplyr documentation](https://dplyr.tidyverse.org/)
 ======= 
 
 See also [ggplot2 documentation](https://ggplot2.tidyverse.org/)
-```
 
 >>>>>>> some1alpha2numeric3string4
+```
 
 ## Things to note
 
@@ -96,7 +98,7 @@ Commit everything!
 
 ![](images/commitall.png)
 
-## Rule 2
+## Rule 2{.smaller}
 
 Follow this workflow!
 
@@ -109,6 +111,8 @@ A good group-work workflow looks like:
 3. Resolve any merge conflicts if necessary.
 
 4. Push your changes to GitHub.
+
+---
 
 2. Committing saves a snapshot of your local work in Git's history. This means Git has a clear record of your changes when it tries to merge incoming changes.
 
