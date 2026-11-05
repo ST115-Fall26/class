@@ -4,7 +4,7 @@ format: pdf
 author: "Solutions"
 ---
 
-## Instructions 
+## Instructions
 
 ```{r}
 #| echo: false
@@ -14,19 +14,18 @@ author: "Solutions"
 library(tidyverse)
 ```
 
+Put your name at the top of this document in the YAML. You are asked to clone the `proficiency-test-III` repo from GitHub. This repo has been made for you.
 
-Put your name at the top of this document in the YAML. You are asked to clone the `proficiency-test-III` repo from GitHub. This repo has been made for you. 
-
-If you can not clone the repo, please still create a .qmd file and complete the tasks for partial credit. 
+If you can not clone the repo, please still create a .qmd file and complete the tasks for partial credit.
 
 If you can not get your code the run, please use the appropriate code chunks to stop your code from evaluating (but still make sure we can see your code) to earn partial credit.
 
-:::{.callout-note}
-Part of your grade comes from demonstrating proper use of version control. 
+::: callout-note
+Part of your grade comes from demonstrating proper use of version control.
 
-You must have 3-4 meaningful commits to earn full credit. 
+You must have 3-4 meaningful commits to earn full credit.
 
-Each commit should be after you answer a specific task. 
+Each commit should be after you answer a specific task.
 :::
 
 Please answer each task below. **Render after each question**
@@ -39,24 +38,22 @@ Change the README of your GitHub repo to have a level-2 header that says **mtcar
 
 ## Task-packages (5-points)
 
-Include a code-chunk that libraries the `tidyverse` package at the top of your document. In this code chunk, turn off all messages and warnings that result from opening `tidyverse`.  
+Include a code-chunk that libraries the `tidyverse` package at the top of your document. In this code chunk, turn off all messages and warnings that result from opening `tidyverse`.
 
 ## Packages
 
 Don't forget to put the following at the top of your code chunk!
 
-```
+```         
 #| message: false
 #| warning: false
 ```
-
 
 ```{r}
 #| message: false
 #| warning: false
 library(tidyverse)
 ```
-
 
 ## Task-1 (5-points)
 
@@ -76,7 +73,7 @@ mtcars |>
 
 In your .qmd file, write the correct code in your code chunk that fixes/changes the code chunk above to answer the question.
 
-*Fix below. A lot of unnecessary code that does not pertain to the research question. There is not reason to filter mpg > 20, and nothing in the problem tells us to select only 2 columns. slice_head() is also used incorrectly, and should be set to 1 instead of 5.*
+*Fix below. A lot of unnecessary code that does not pertain to the research question. There is not reason to filter mpg \> 20, and nothing in the problem tells us to select only 2 columns. slice_head() is also used incorrectly, and should be set to 1 instead of 5.*
 
 ```{r}
 #| eval: true
@@ -89,7 +86,7 @@ mtcars |>
 
 ## Task-2 (5-points)
 
-In 2-3 sentences, explain why this code won't work and instead returns an error. Note: You do not have to fix the code, just articulate **why** this code will not run. 
+In 2-3 sentences, explain why this code won't work and instead returns an error. Note: You do not have to fix the code, just articulate **why** this code will not run.
 
 ```{r}
 #| eval: false
@@ -100,7 +97,6 @@ mtcars |>
   arrange(desc(hp)) |>
   slice_head(n = 5)
 ```
-
 
 *The code will not work because we are using `filter()` on a column that no longer exsists in our mtcars data set. Order matters, and we are piping a data set with only mpg and cyl into filter.*
 
@@ -130,7 +126,7 @@ The result is a smoothed version of the original data. Values at the boundaries 
 
 The function needs to be called from the `stats` package. Type the code below into your .qmd file, and then add to the code below to make the code function as intended. Note, do **not** library the stats package to answer this question.
 
-Reminder: If you can not get this code to work, your document will not render unless you stop the code chunk from evaluating. 
+Reminder: If you can not get this code to work, your document will not render unless you stop the code chunk from evaluating.
 
 *Package masking is when two different packages share a common name. Because we `library(tidyverse)` at the top of the document, the `filter()` function comes from tidyverse, and not the stats package. We can specify a package by the package name and :: next to the function name, as seen below.*
 
@@ -142,4 +138,3 @@ stats::filter(
   sides = 2
 )
 ```
-

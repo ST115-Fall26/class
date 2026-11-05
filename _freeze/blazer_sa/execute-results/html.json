@@ -1,0 +1,17 @@
+{
+  "hash": "a24e23d944ea9acc6fb05905eaff9982",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Trialblazer Solutions\"\n---\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n\ntrailblazer <- read_csv(\"slides/data/trailblazer21.csv\")\n\ntrailblazer |>  \n  pivot_longer( #make data longer\n    cols = -Player, #bring all cols but Player down\n    names_to = \"Game\", #name the col Game\n    values_to = \"Points\", #name the values col Points\n  ) |> \n  separate_wider_delim(Game , delim = \"_\", names = c(\"Game\" , \"Location\")) |> \n  mutate(Game = fct_relevel(Game, \n    \"Game1\", \"Game2\", \"Game3\", \"Game4\", \"Game5\",\n    \"Game6\", \"Game7\", \"Game8\", \"Game9\", \"Game10\"\n  )) |>\n  ggplot(\n    aes(x = Game, y = Points, color = Location, group = 1)\n  ) + \n  geom_line(color = \"gray70\") + \n  geom_point(size = 3) + \n  facet_wrap(~Player) + \n  scale_color_manual(\n    values = c(\n      \"Home\" = \"steelblue\",\n      \"Away\" = \"darkorange\"\n    )\n  ) + \n  labs(title = \"TrailBlazers Player Performance Across Games\",\n       x = \"Game\",\n       y = \"Points Scored\",\n       color = \"Location\") +\n  theme_minimal() +\n  theme(axis.text.x = element_text(angle = 90, hjust = 1))\n```\n\n::: {.cell-output-display}\n![](blazer_sa_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n",
+    "supporting": [
+      "blazer_sa_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

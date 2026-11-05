@@ -1,0 +1,45 @@
+---
+title: "Trialblazer Solutions"
+---
+
+
+```{r}
+#| echo: true
+#| eval: true
+#| message: false
+#| warning: false
+library(tidyverse)
+
+trailblazer <- read_csv("slides/data/trailblazer21.csv")
+
+trailblazer |>  
+  pivot_longer( #make data longer
+    cols = -Player, #bring all cols but Player down
+    names_to = "Game", #name the col Game
+    values_to = "Points", #name the values col Points
+  ) |> 
+  separate_wider_delim(Game , delim = "_", names = c("Game" , "Location")) |> 
+  mutate(Game = fct_relevel(Game, 
+    "Game1", "Game2", "Game3", "Game4", "Game5",
+    "Game6", "Game7", "Game8", "Game9", "Game10"
+  )) |>
+  ggplot(
+    aes(x = Game, y = Points, color = Location, group = 1)
+  ) + 
+  geom_line(color = "gray70") + 
+  geom_point(size = 3) + 
+  facet_wrap(~Player) + 
+  scale_color_manual(
+    values = c(
+      "Home" = "steelblue",
+      "Away" = "darkorange"
+    )
+  ) + 
+  labs(title = "TrailBlazers Player Performance Across Games",
+       x = "Game",
+       y = "Points Scored",
+       color = "Location") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
