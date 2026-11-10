@@ -1,0 +1,16 @@
+---
+title: "Georgia-Lab"
+format: pdf
+---
+
+## Question-1 (5-points)
+
+\newpage
+
+## Question-2 (10-points)
+
+\newpage
+
+## Question-3 (5-points)
+
+\newpage

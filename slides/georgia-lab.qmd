@@ -21,6 +21,8 @@ editor:
 
 Clone your georgia-lab repo, and we will get started!
 
+This lab is due **Friday** at 11:59pm on Gradescope.
+
 ## Georgia
 
 Georgia Department of Public Health (DPH) temporarily published the
