@@ -274,64 +274,9 @@ bibliography: references.bib
 <section id="georgia-1" class="slide level2">
 <h2>Georgia</h2>
 
-<img data-src="images/georgia-covid.png" class="r-stretch"></section>
-<section id="georgia-2" class="slide level2">
-<h2>Georgia</h2>
-<p>The dates on the x-axis are not in chronological order.</p>
-<p>This is extremely misleading, and a general audience is going to assume a correct chronological order to the dates from left to right.</p>
-<p>Further, the order of the counties within date are sorted from highest to lowest, making cross date comparison more difficult for each county.</p>
-</section>
-<section id="activity" class="slide level2">
-<h2>Activity</h2>
-<p>The data, gathered from the New York Times, that are used to create the data visualization can, can be found in your data folder.</p>
-<p>Use the <code>georgia_covid</code> data frame above to recreate the visualization with the correct order on the x-axis and same order of counties for each date.</p>
-<p>– Explore the data</p>
-<p>– Come up with a plan</p>
-<p>– Re-create the plot!</p>
-</section>
-<section id="lets-go-further" class="slide level2">
-<h2>Let’s go further</h2>
-<ul>
-<li>Make the bars skinnier by adding a <code>width</code> argument with a value less than 1 to <code>geom_col()</code>.</li>
-<li>Use <code>scale_x_date()</code>to change the breaks and labels of the x-axis.</li>
-<li>Use <code>scale_fill_manual()</code> to match the colors in the original plot.</li>
-<li>Use <code>labs()</code> to modify a axis labels and the label of the legend as well as add a <code>title</code> and a <code>subtitle</code>.</li>
-<li>Use <code>theme_classic()</code> to remove the gridlines.</li>
-</ul>
-</section>
-<section id="theme-is-really-flexible" class="slide level2 smaller">
-<h2><code>theme()</code> is really flexible</h2>
-<ul>
-<li>Modify a bunch of <code>theme()</code> elements to match the colors and other features of the original plot.</li>
-</ul>
-<pre><code>  theme(
-    panel.background = element_rect(fill = "#182F4E"),
-    plot.background = element_rect(fill = "#182F4E"),
-    axis.line = element_line(color = "white"),
-    axis.text = element_text(color = "white"),
-    axis.title = element_text(color = "white"),
-    legend.background = element_rect(fill = "#182F4E"),
-    legend.position = "top",
-    legend.text = element_text(color = "white"),
-    legend.title = element_text(color = "white", hjust = 0.5),
-    legend.title.position = "top",
-    title = element_text(color = "white")
-  )</code></pre>
-</section>
-<section id="interpretation" class="slide level2">
-<h2>Interpretation</h2>
-<p>Using our new graph, what proper conclusion can we make about the trend of casses across the five counties?</p>
-</section>
-<section id="interpretation-1" class="slide level2">
-<h2>Interpretation</h2>
-<p>Based on the less misleading graph, we can see that the overall trend of cases across the five counties may have gone down, but the rate in which they went down depends on the county.</p>
-<p>Further, some counties (ex. Hall) show a more cyclic pattern than an overall downward trend.</p>
-</section></section>
-<section id="questions-2" class="title-slide slide level1 center">
-<h1>Questions</h1>
 
 
-</section>
+<img data-src="images/georgia-covid.png" class="r-stretch"></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
