@@ -32,7 +32,7 @@ library(tidyverse)
 
 -- Your GitHub project is LIVE! Let's talk about it
 
--- No Lab (9-24)
+-- No Lab (11-24)
 
 -- No Quiz or Homework this week (get started on your project!)
 
