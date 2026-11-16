@@ -1,7 +1,7 @@
 ---
 title: "Comparing Two Means"
 subtitle: "+ finishing the CLT"
-date: "November 12, 2026"
+date: "November 16, 2026"
 format: 
   revealjs:
     theme: [dark, slides.scss]
@@ -28,7 +28,7 @@ penguins_sub <- penguins |>
 
 -- Please clone your `t-test` project. We will work in this today!
 
--- We will finish our central limit theorm discussion in the `clt` repo.
+-- We will finish our central limit theorem discussion in the `clt` repo.
 
 -- I made an announcement about bibtex. Did you see it?
 
@@ -38,11 +38,11 @@ penguins_sub <- penguins |>
 
 -- Your GitHub project is LIVE!
 
+-- Proficiency test V (11-17)
+
 -- No Lab (11-24)
 
--- No Quiz or Homework this week (get started on your project!)
-
--- Proficiency test V (11-17)
+-- Quiz comes out today; Homework soon
 
 -- Final Exam (12-3)
 
@@ -165,6 +165,25 @@ ggplot(data.frame(x = c(-4, 4)), aes(x)) +
   )
 ```
 
+## t-distribution 
+
+```{r}
+#| echo: false
+#| eval: true
+
+ggplot(data.frame(x = c(-4, 4)), aes(x)) +
+  stat_function(
+    fun = dt,
+    args = list(df = 268) # args expects a list 
+  ) +
+  labs(
+    title = "t-Distribution (df = 268)",
+    x = "t",
+    y = "Density"
+  )
+```
+
+
 ## other distributions 
 
 ```{r}
@@ -177,4 +196,21 @@ ggplot(data.frame(x = c(0, 5)), aes(x)) +
   stat_function(fun = function(x) exp(x))
 ```
 
+## normal 
+
+```{r}
+#| echo: false
+
+ggplot(data.frame(x = c(-4, 4)), aes(x)) +
+  stat_function(fun = function(x) dnorm(x, 0, 1))
+```
+
+
+## exponential 
+
+```{r}
+#| echo: false
+ggplot(data.frame(x = c(0, 5)), aes(x)) +
+  stat_function(fun = function(x) exp(x))
+```
 
