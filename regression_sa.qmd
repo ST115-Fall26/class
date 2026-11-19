@@ -1,0 +1,152 @@
+---
+title: "Regression - Solutions"
+format: html
+editor: visual
+---
+
+## Packages
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+## Motivating Question
+
+I want to investigate the relationship between flipper length (y), and bill length (x) (penguins data set)
+
+-- Create summary statistics
+
+```{r}
+penguins |>
+  filter(!is.na(flipper_length_mm), # this is the more intentional way of 
+         !is.na(bill_length_mm)) # filtering for NA values
+
+penguins <- penguins |> # this way is more dangerous
+  drop_na() # and removes all rows where one col has a NA
+  
+
+penguins |>
+  summarise(mean_fl = mean(flipper_length_mm , na.rm = T),
+            mean_bl = mean(bill_length_mm, na.rm = T),
+            cor = cor(flipper_length_mm, bill_length_mm, use = "complete"))
+
+# cor does not have a na.rm = argument; that is the var function!
+# we need to use "complete" to remove NA values (if our data set has NA values)
+```
+
+r = 0.653
+
+-- Strength (Moderate/Strong)
+
+-- Direction (Positive)
+
+... of some **linear** relationship
+
+-- Create a plot to investigate our research question
+
+```{r}
+penguins |>
+  ggplot(
+    aes(y = flipper_length_mm, x = bill_length_mm)
+  ) +
+  geom_point() + 
+  geom_smooth(method = "lm", se = F)
+```
+
+## Regression
+
+```{r}
+m1 <- lm(flipper_length_mm ~ bill_length_mm, data = penguins)
+summary(m1)
+
+residuals(m1) |> 
+  as_tibble() |>
+  mutate(id = 1:nrow(penguins)) |>
+  arrange(desc(value)) |>
+  slice(1,nrow(penguins))
+# Goal: report the largset positive and largest negative residual with the obs
+```
+
+$\hat{\text{flipper length}} = 127.33 + 1.67*\text{bill length}$
+
+For a 1 mm increase in bill length, we estimate **the mean** of flipper length to increase by 1.67mm.
+
+```{r}
+#| echo: true
+a <- predict(m1, newdata = data.frame(bill_length_mm = 40))
+```
+
+$\hat{\text{flipper length}} = 127.33 + 1.67*\text{40}$
+
+The estimated mean flipper length when bill length is 40mm is equal to `r round(a, 2)`.
+
+## Statistical Inference
+
+$Ho: \beta_1 = 0$
+
+$Ha: \beta_1 \neq 0$
+
+#### Assumptions
+
+-- independence
+
+Comes down to how we sample! Collect data through a simple random sample.
+
+```{r}
+plot(m1, which = 1)
+
+plot(m1, which = 2)
+```
+
+Note: From our residual vs fitted plot, we don't have strong evidence to reject, the equal variance assumption. Further, we don't see a non-obvious linear trend in our residuals vs fitted (checking for linearity).
+
+Note: We do see some evidence that our assumption of normality is violated, as our Normal Q-Q plot has heavy tails that deviate from the line. However, our sample size is very large, and we are robust to this assumption.
+
+#### The test
+
+```{r}
+summary(m1)
+```
+
+With a t-statistic of 15.69 and a p-value of \< 0.001 from a t-distribution with 331 degrees of freedom, we reject the null hypothesis that there is no population linear relationship between bill length and flipper length.
+
+## Confidence Intervals
+
+We make confidence intervals to estimate plausible values of our population parameter! In fact, we can create three different confidence intervals depending on our research question:
+
+-- One for $\beta_1$ - population slope
+
+-- $\mu_\text{Y|X}$ - population mean
+
+-- $y$ - individual observation
+
+## Population Slope
+
+```{r}
+confint(m1, level = 0.95)
+```
+
+## Population Mean
+
+```{r}
+predict(
+  m1,
+  newdata = data.frame(bill_length_mm = 40),
+  interval = "confidence",
+  level = 0.95
+)
+```
+
+## Individual Observation
+
+```{r}
+predict(
+  m1,
+  newdata = data.frame(bill_length_mm = 40),
+  interval = "prediction",
+  level = 0.95
+)
+```
+
+Notice how our prediction interval is wider! You knew this mathematically [here](https://st115-fall26.github.io/class/slides/25-reg.html#/prediction-interval-vs-confidence-interval-1)

@@ -1,0 +1,103 @@
+---
+title: "Comparing Means Solutions"
+author: "Elijah Meyer"
+format: pdf
+---
+
+## Packages
+
+```{r}
+#| message: false
+#| warning: false
+
+library(palmerpenguins)
+library(tidyverse)
+```
+
+## Motivating Question 
+
+I want you to compare the mean flipper length between Adelie penguins and Gentoo penguins from the palmerpenguins package. Specifically, I want to investigate if the mean flipper length is different between these two species.
+
+## EDA
+
+```{r}
+peng_sub <- penguins |> 
+  filter(species %in% c("Adelie", "Gentoo"))
+
+peng_sub |>
+  group_by(species) |>
+  summarise(mean_fl = mean(flipper_length_mm, na.rm = T),
+            sd_fl = sd(flipper_length_mm, na.rm = T))
+
+peng_sub |>
+  ggplot(
+    aes(x = species, y = flipper_length_mm)
+  ) + 
+  geom_boxplot()
+```
+
+But we can't claim that the population mean flipper length of Gentoo penguins is larger than Adelie because sampling variability is thing. 
+
+## Hypothesis Test 
+
+$H_o: \mu_a - \mu_g = 0$
+
+$H_a: \mu_a - \mu_g \neq 0$
+
+$\bar{x}_a - \bar{x}_g = -27$
+
+
+## Check our assumptions 
+
+-- independence 
+
+Comes down to how we sample! Collect data through a simple random sample.
+
+-- normality 
+
+Check our sample size! Are the counts $n \ge$ 30.
+
+```{r}
+peng_sub |>
+  group_by(species) |>
+  count()
+```
+
+
+Plot our raw data
+
+```{r}
+peng_sub |>
+  ggplot(
+    aes(x = flipper_length_mm)
+  ) + 
+  geom_histogram() +
+  facet_wrap(~species)
+```
+
+
+Normal q-q plot
+
+```{r}
+m1 <- lm(flipper_length_mm ~ species, data = peng_sub)
+plot(m1 , which = 2)
+```
+
+## t-test
+
+```{r}
+t.test(flipper_length_mm ~ species,
+       data = peng_sub,
+       var.equal = TRUE) # this argument looks at our equal variance assumption!
+```
+
+
+Assume $\alpha$ is 0.05!
+
+P-value < $\alpha$ = Reject the null hypothesis
+
+P-value = Probability of observing -27 (t = -34.445), or something "more extreme" given the population mean flipper length for Adelie penguins is the same as Gentoo penguins is < 2.2e-16. 
+
+
+
+

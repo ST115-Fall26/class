@@ -1,0 +1,17 @@
+{
+  "hash": "8638ed3c9997d1bc7cc27aca8554bdf2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Central Limit Theorem Exploration\"\nformat: html\nbibliography: references.bib\n---\n\n## Central Limit Theorem (Quantitative Data)\n\n\n::: {.cell}\n\n```{.r .cell-code}\nset.seed(123) # because we want to reproduce our randomness\n\npop <- rexp(n = 100000) # exponential distribution\n\n# look up sample()\n\nsimulate_clt <- function(population, n, num_sim, stat){\n results <- NA\n \n for (i in 1:num_sim){\n   sample_data <- sample(population, n)\n   results[i] <- stat(sample_data)\n }\n   return(results)\n}\n\nmean_values <- simulate_clt(pop, 30, 5000, mean)\n\nhist(pop)\n```\n\n::: {.cell-output-display}\n![](clt_sa_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n\n```{.r .cell-code}\nhist(mean_values)\n```\n\n::: {.cell-output-display}\n![](clt_sa_files/figure-html/unnamed-chunk-1-2.png){width=672}\n:::\n:::\n\n\n#### Simulated Discovery \n\nYOU discovered that the CLT doesn't work with ordered statistics (like the max, min, etc) via simulation!\n\n\n::: {.cell}\n\n```{.r .cell-code}\nmax_values <- simulate_clt(pop, 30, 5000, max)\n\nhist(pop)\n```\n\n::: {.cell-output-display}\n![](clt_sa_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n\n```{.r .cell-code}\nhist(max_values)\n```\n\n::: {.cell-output-display}\n![](clt_sa_files/figure-html/unnamed-chunk-2-2.png){width=672}\n:::\n:::\n\n\n\n## Central Limit Theorem (Categorical Data)\n\n\n::: {.cell}\n\n```{.r .cell-code}\npop <- c(rep(0, 3000), rep(1, 7000))\n\nmean_values <- simulate_clt(pop, 30, 5000, mean)\n\nhist(pop)\n```\n\n::: {.cell-output-display}\n![](clt_sa_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n\n```{.r .cell-code}\nhist(mean_values)\n```\n\n::: {.cell-output-display}\n![](clt_sa_files/figure-html/unnamed-chunk-3-2.png){width=672}\n:::\n:::\n\n\nThe CLT does work with proportions when we do have enough successes and failures!",
+    "supporting": [
+      "clt_sa_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

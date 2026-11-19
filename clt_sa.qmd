@@ -1,0 +1,58 @@
+---
+title: "Central Limit Theorem Exploration"
+format: html
+bibliography: references.bib
+---
+
+## Central Limit Theorem (Quantitative Data)
+
+```{r}
+set.seed(123) # because we want to reproduce our randomness
+
+pop <- rexp(n = 100000) # exponential distribution
+
+# look up sample()
+
+simulate_clt <- function(population, n, num_sim, stat){
+ results <- NA
+ 
+ for (i in 1:num_sim){
+   sample_data <- sample(population, n)
+   results[i] <- stat(sample_data)
+ }
+   return(results)
+}
+
+mean_values <- simulate_clt(pop, 30, 5000, mean)
+
+hist(pop)
+
+hist(mean_values)
+```
+
+#### Simulated Discovery 
+
+YOU discovered that the CLT doesn't work with ordered statistics (like the max, min, etc) via simulation!
+
+```{r}
+max_values <- simulate_clt(pop, 30, 5000, max)
+
+hist(pop)
+
+hist(max_values)
+```
+
+
+## Central Limit Theorem (Categorical Data)
+
+```{r}
+pop <- c(rep(0, 3000), rep(1, 7000))
+
+mean_values <- simulate_clt(pop, 30, 5000, mean)
+
+hist(pop)
+
+hist(mean_values)
+```
+
+The CLT does work with proportions when we do have enough successes and failures!
