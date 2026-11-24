@@ -98,6 +98,13 @@
     "text": "Checklist\n– Please clone your r-shiny-demo project. We will work in this today!\n– The Statistics Experience is LIVE!\n– Your GitHub project is LIVE!\n– No Lab (11-24)\n– I posted the tickets data set to Moodle.\n– If you didn’t do course evaluations, please do so!\n– Final Exam (12-3)\n– install.packages(\"shiny\") &lt;- you will need this for today’s activity"
   },
   {
+    "objectID": "slides/26-shiny.html#github-project",
+    "href": "slides/26-shiny.html#github-project",
+    "title": "R-Shiny",
+    "section": "GitHub Project",
+    "text": "GitHub Project\n– Make sure to have your group-number somewhere next to your names\n– One submission per group; group submission enabled\n– Select all pages for all “questions”\n– Submit PDF on Gradescope (this has now been created for you)"
+  },
+  {
     "objectID": "slides/26-shiny.html#r-shiny",
     "href": "slides/26-shiny.html#r-shiny",
     "title": "R-Shiny",

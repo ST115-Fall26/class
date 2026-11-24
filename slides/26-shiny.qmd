@@ -40,6 +40,19 @@ library(tidymodels)
 
 -- `install.packages("shiny")` <- you will need this for today's activity
 
+## GitHub Project 
+
+-- Make sure to have your group-number somewhere next to your names
+
+-- One submission per group; group submission enabled
+
+-- Select all pages for all "questions"
+
+-- Submit PDF on Gradescope (this has now been created for you)
+
+# Questions
+
+
 ## R-Shiny 
 
 [Shiny apps](https://shiny.posit.co/) let users interact with your data and your analysis!
