@@ -110,7 +110,7 @@ In Shiny, a widget is an interactive user-interface element that allows someone 
 
 ## Connecting inputs and outputs 
 
-I would emphasize that the UI and server have to communicate through matching IDs.
+The UI and server have to communicate through matching IDs.
 
 | UI | Server |
 |:---|:---|

@@ -158,7 +158,7 @@
     "href": "slides/26-shiny.html#connecting-inputs-and-outputs",
     "title": "R-Shiny",
     "section": "Connecting inputs and outputs",
-    "text": "Connecting inputs and outputs\nI would emphasize that the UI and server have to communicate through matching IDs.\n\n\n\nUI\nServer\n\n\n\n\nselectInput(\"city\", ...)\ninput$city"
+    "text": "Connecting inputs and outputs\nThe UI and server have to communicate through matching IDs.\n\n\n\nUI\nServer\n\n\n\n\nselectInput(\"city\", ...)\ninput$city"
   },
   {
     "objectID": "slides/26-shiny.html#reactivity",
