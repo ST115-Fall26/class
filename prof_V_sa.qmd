@@ -1,0 +1,140 @@
+---
+title: "Proficiency Test V - Solutions"
+format: pdf
+author: ""
+---
+
+## Instructions
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+Put your name at the top of this document in the YAML. You are asked to clone the `proficiency-test-V` repo from GitHub. This repo has been made for you.
+
+If you can not clone the repo, please still create a .qmd file and complete the tasks for partial credit.
+
+If you can not get your code the run, please use the appropriate code chunks to stop your code from evaluating (but still make sure we can see your code) to earn partial credit.
+
+
+::: callout-note
+Part of your grade comes from demonstrating proper use of version control.
+
+You must have 2-4 meaningful commits to earn full credit.
+
+Each commit should be after you answer a specific task.
+:::
+
+Please answer each task below. **Render after each question**
+
+Please put `\newpage` after each question.
+
+\newpage
+
+## Question 1 (5 points)
+
+Explain what a merge conflict is in Git and why it can occur when multiple people collaborate on the same repository. To answer this question, describe how the local repository and remote GitHub repository become out of sync, and explain how pull, resolving conflicts, stage, commit, and push fit into the process of managing changes collaboratively.
+
+**A merge conflict occurs when multiple people make changes to the same part of a file in a shared Git repository, and Git cannot automatically combine those changes. Each collaborator works on their own local copy of the repository, while GitHub stores the shared remote version. When one person pushes their changes to GitHub, the other collaborators' local repositories become out of sync with the remote repository because they do not yet contain those updates. Before pushing their own changes, a collaborator must pull the latest version from GitHub. Git attempts to combine the changes, but if it encounters conflicting edits, the collaborator must manually resolve the conflict by deciding which changes to keep or how to combine them.**
+
+\newpage
+
+## Question 2 (5 points)
+
+Please see the following merge conflict:
+
+```
+# Calculate summary statistics
+
+data <- c(12, 15, 18, 20, 25)
+
+<<<<<<< HEAD
+mean_value <- mean(data)
+mean_value
+=======
+median_value <- median(data)
+median_value
+>>>>>>> origin/main
+```
+
+Resolve the example merge conflict so that you are correctly storing, and reporting the median value for the R object `data`.
+
+```
+# Calculate summary statistics
+
+data <- c(12, 15, 18, 20, 25)
+
+median_value <- median(data)
+median_value
+```
+
+\newpage
+
+## Question 3 (10 points)
+
+Before answering this question, create a code chunk only for your packages. Library the `tidyverse` package, and turn off the messages/warnings using the proper code chunk arguments. Next, answer the question below.
+
+For this question, we are going to use the `Toothgrowth` data set in base R. If you would like more information about the `Toothgrowth` data set, please open up the help file. 
+
+I want you to make a side-by-side boxplots with `Dose` on the y-axis, and `length` on the x-axis. Next, comment on the relationship between `Dose` and `length`. 
+
+Note: Make sure that your boxplots are appropriately labeled with a title, x-axis, y-axis, and a caption that says *ToothGrowth from the datasets package*. 
+
+Note: I want you to answer the coding part of this question **in a single pipeline**. 
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+library(tidyverse)
+
+ToothGrowth |> 
+  mutate(dose = factor(dose)) |>
+  ggplot(
+    aes(x = len, y = dose)
+  ) + 
+  geom_boxplot() + 
+  labs(title = "Length vs Dosage in 60 guinea pigs",
+       x = "Length of Tooth",
+       y = "Dose",
+       caption = "ToothGrowth from the datasets package")
+  
+```
+
+
+\newpage
+
+## Question 4 (5 points)
+
+Your plot for *Question 3* should look something like this: 
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+ToothGrowth |> 
+  mutate(dose = factor(dose)) |>
+  ggplot(
+    aes(x = len, y = dose, fill = dose)
+  ) + 
+  geom_boxplot() + 
+  labs(title = "Length vs Dosage in 60 guinea pigs",
+       x = "Length of Tooth",
+       y = "Dose",
+       caption = "ToothGrowth from the datasets package")
+  
+```
+
+However, there is something about this plot, as it was created, that is misleading/inappropriate/unnecessary. 
+
+Identify what is misleading/inappropriate/unnecessary about this plot, and describe why. 
+
+**AWV**
+
+**Should comment on the redundant information that the legend gives**. **Will also accept that response variable is not on the y-axis, or that color is not being used correctly/appropriatly here**.
